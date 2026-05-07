@@ -28,8 +28,55 @@ body {
 .lineup-container {
     display: grid;
     place-items: center;
+    gap: 14px;
     min-height: 50vh;
     padding: clamp(12px, 2vw, 24px);
+}
+
+.lineup-header {
+    width: min(850px, 75%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-inline: 4px;
+}
+
+.lineup-label {
+    margin: 0;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(2, 2, 0, 0.62);
+}
+
+.team-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px 10px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10px);
+}
+
+.country-flag {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
+}
+
+.team-name {
+    margin: 0;
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+    font-weight: 800;
+    line-height: 1;
+    color: #102116;
 }
 
 .line-up {
@@ -105,8 +152,9 @@ body {
     height: 100%;
     padding: clamp(12px, 1.5vw, 22px);
     display: grid;
-    grid-template-rows: auto auto auto auto;
-    gap: none;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    min-height: 0;
 }
 
 .line {
@@ -115,6 +163,7 @@ body {
     justify-content: center;
     gap: clamp(10px, 1.6vw, 20px);
     min-width: 0;
+    min-height: 0;
 }
 
 .line--gk {
@@ -192,6 +241,11 @@ body {
 }
 
 @media (max-width: 900px) {
+    .lineup-header {
+        width: min(850px, 100%);
+        justify-content: center;
+    }
+
     .line-up {
         aspect-ratio: 16 / 10;
         min-height: 0;
@@ -220,10 +274,30 @@ body {
         padding: 0;
     }
 
+    .lineup-header {
+        width: 100%;
+        padding-inline: 12px;
+        align-items: center;
+    }
+
+    .lineup-label {
+        font-size: 0.72rem;
+    }
+
+    .team-badge {
+        gap: 10px;
+        padding: 9px 12px 9px 9px;
+    }
+
+    .country-flag {
+        width: 36px;
+        height: 36px;
+    }
+
     .line-up {
         border-radius: 0;
         width: 100%;
-        aspect-ratio: 16 / 12;
+        aspect-ratio: 16 / 14;
         min-height: auto;
         background:
             linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
