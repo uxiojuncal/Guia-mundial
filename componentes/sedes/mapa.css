@@ -1,6 +1,6 @@
 :root {
-    --field-green: #7d342f;
-    --field-green-deep: #5a2121;
+    --field-green: #5c7d2f;
+    --field-green-deep: #245a21;
     --line-white: rgba(255, 255, 255, 0.9);
     --text: #020200;
     --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
@@ -8,6 +8,22 @@
     --marker-ring-strong: rgba(125, 61, 47, 0.4);
     --marker-ring-weak: rgba(125, 73, 47, 0.1);
     --marker-ring-hover: rgba(125, 70, 47, 0.15);
+    
+    /* Country-specific shadow colors */
+    --shadow-color-canada: rgba(128, 13, 7, 0.25);
+    --shadow-ring-canada: rgba(128, 13, 7, 0.4);
+    --shadow-ring-canada-weak: rgba(128, 13, 7, 0.1);
+    --shadow-ring-canada-hover: rgba(128, 13, 7, 0.15);
+    
+    --shadow-color-usa: rgba(7, 56, 128, 0.25);
+    --shadow-ring-usa: rgba(7, 56, 128, 0.4);
+    --shadow-ring-usa-weak: rgba(7, 56, 128, 0.1);
+    --shadow-ring-usa-hover: rgba(7, 56, 128, 0.15);
+    
+    --shadow-color-mexico: rgba(31, 91, 8, 0.25);
+    --shadow-ring-mexico: rgba(31, 91, 8, 0.4);
+    --shadow-ring-mexico-weak: rgba(31, 91, 8, 0.1);
+    --shadow-ring-mexico-hover: rgba(31, 91, 8, 0.15);
 }
 
 * {
@@ -80,11 +96,33 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0;
-    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+    pointer-events: auto;
+}
+
+.stadium-marker-frame {
+    position: relative;
+    display: inline-flex;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
     transform: scale(1);
+    will-change: transform;
+}
+
+.stadium-marker-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--marker-ring-strong);
+    animation: pulse-marker 2s ease-in-out infinite;
+    pointer-events: none;
 }
 
 .stadium-marker-img {
+    position: relative;
+    z-index: 1;
     width: 52px;
     height: 52px;
     border-radius: 50%;
@@ -93,15 +131,59 @@ body {
     filter: drop-shadow(0 6px 12px var(--marker-shadow-color));
     object-fit: cover;
     background-color: rgba(43, 98, 218, 0.1);
-    animation: pulse-marker 2s ease-in-out infinite;
-    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
-    transform: scale(1);
+    display: block;
+    pointer-events: none;
 }
 
-.stadium-marker:hover .stadium-marker-img:hover {
-    animation: pulse-marker 2s ease-in-out infinite, pulse-marker-hover 0.6s ease-in-out forwards;
-    transform: scale(1.2);
+.stadium-marker:hover .stadium-marker-frame {
+    transform: scale(1.18);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.stadium-marker:hover .stadium-marker-frame::before {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 0 12px var(--marker-ring-hover);
+}
+
+/* Canada marker styles */
+.stadium-marker--canada .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-canada);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-canada));
+}
+
+.stadium-marker--canada .stadium-marker-frame::before {
+    animation: pulse-marker-canada 2s ease-in-out infinite;
+}
+
+.stadium-marker--canada:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px rgba(128, 13, 7, 0.35), 0 0 0 12px var(--shadow-ring-canada-hover);
+}
+
+/* USA marker styles */
+.stadium-marker--usa .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-usa);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-usa));
+}
+
+.stadium-marker--usa .stadium-marker-frame::before {
+    animation: pulse-marker-usa 2s ease-in-out infinite;
+}
+
+.stadium-marker--usa:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px rgba(7, 56, 128, 0.35), 0 0 0 12px var(--shadow-ring-usa-hover);
+}
+
+/* Mexico marker styles */
+.stadium-marker--mexico .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-mexico);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-mexico));
+}
+
+.stadium-marker--mexico .stadium-marker-frame::before {
+    animation: pulse-marker-mexico 2s ease-in-out infinite;
+}
+
+.stadium-marker--mexico:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px rgba(31, 91, 8, 0.35), 0 0 0 12px var(--shadow-ring-mexico-hover);
 }
 
 @keyframes pulse-marker {
@@ -113,44 +195,93 @@ body {
     }
 }
 
-@keyframes pulse-marker-hover {
+@keyframes pulse-marker-canada {
     0%, 100% {
-        transform: scale(1);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-canada);
     }
-    100% {
-        transform: scale(1.2);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 0 12px var(--marker-ring-hover);
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-canada-weak);
+    }
+}
+
+@keyframes pulse-marker-usa {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-usa);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-usa-weak);
+    }
+}
+
+@keyframes pulse-marker-mexico {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-mexico);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-mexico-weak);
     }
 }
 
 .stadium-popup .leaflet-popup-content {
-    padding: 12px !important;
-    border-radius: 8px;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: min(260px, 70vw);
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.98) !important;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
 }
 
 .stadium-popup .leaflet-popup-content-wrapper {
-    border-radius: 8px !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+    overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.stadium-popup-card {
+    width: 100%;
+}
+
+.stadium-popup-img {
+    display: block;
+    width: 100%;
+    height: 136px;
+    object-fit: cover;
+}
+
+.stadium-popup-details {
+    padding: 8px 10px 10px;
 }
 
 .stadium-popup-header {
     margin: 0 0 6px 0;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     font-weight: 700;
-    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stadium-popup-header.Canada {
+    color: rgb(128, 13, 7);
+}
+
+.stadium-popup-header.Mexico {
+    color: rgb(31, 91, 8);
+}
+
+.stadium-popup-header.USA{
+    color: rgb(7, 56, 128);
 }
 
 .stadium-popup-info {
     margin: 4px 0;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     color: rgba(2, 2, 0, 0.7);
 }
 
 .stadium-popup-info strong {
-    color: var(--text);
+    color: rgb(3, 3, 3);
 }
 
 /* Leaflet controls styling */
@@ -193,6 +324,11 @@ body {
         height: 44px;
         border-width: 2px;
     }
+
+    .stadium-marker-frame {
+        width: 44px;
+        height: 44px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -223,16 +359,33 @@ body {
         border-width: 2px;
     }
 
+    .stadium-marker-frame {
+        width: 40px;
+        height: 40px;
+    }
+
     .stadium-popup .leaflet-popup-content {
-        padding: 10px !important;
-        font-size: 0.85rem;
+        font-size: 0.66rem;
+        width: min(200px, 70vw);
+    }
+
+    .stadium-popup-img {
+        height: 104px;
+    }
+
+    .stadium-popup-details {
+        padding: 6px 8px 8px;
     }
 
     .stadium-popup-header {
-        font-size: 0.85rem;
+        font-size: 0.74rem;
     }
 
     .stadium-popup-info {
-        font-size: 0.75rem;
+        font-size: 0.58rem;
+    }
+
+    span {
+        color: white;
     }
 }
