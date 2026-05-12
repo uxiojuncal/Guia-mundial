@@ -148,6 +148,7 @@ body {
 .stadium-marker--canada .stadium-marker-img {
     box-shadow: 0 6px 16px var(--shadow-color-canada);
     filter: drop-shadow(0 6px 12px var(--shadow-color-canada));
+    border: 3px solid var(--shadow-color-canada);
 }
 
 .stadium-marker--canada .stadium-marker-frame::before {
@@ -162,6 +163,7 @@ body {
 .stadium-marker--usa .stadium-marker-img {
     box-shadow: 0 6px 16px var(--shadow-color-usa);
     filter: drop-shadow(0 6px 12px var(--shadow-color-usa));
+    border: 3px solid var(--shadow-color-usa);
 }
 
 .stadium-marker--usa .stadium-marker-frame::before {
@@ -176,6 +178,7 @@ body {
 .stadium-marker--mexico .stadium-marker-img {
     box-shadow: 0 6px 16px var(--shadow-color-mexico);
     filter: drop-shadow(0 6px 12px var(--shadow-color-mexico));
+    border: 3px solid var(--shadow-color-mexico);
 }
 
 .stadium-marker--mexico .stadium-marker-frame::before {
@@ -386,6 +389,10 @@ body {
     }
 
     span {
-        color: white;
+        color: black;
     }
+}
+
+span {
+    color: black;
 }
