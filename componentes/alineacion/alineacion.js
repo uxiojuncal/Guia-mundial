@@ -14,81 +14,161 @@ const placeholderSvg = `
 
 const fallbackImage = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(placeholderSvg)}`;
 
-const players = [
-	{
-		row: 'gk',
-		name: 'A. Tchouameni',
-		image: './img/goalie.jpg',
-		role: 'goalkeeper'
-	},
-	{
-		row: 'defense',
-		name: 'Goat. Martín',
-		image: './img/defender.jpg',
-		role: 'defender'
-	},
-	{
-		row: 'defense',
-		name: 'Goat. Martín',
-		image: './img/defender.jpg',
-		role: 'defender'
-	},
-	{
-		row: 'defense',
-		name: 'Goat. Martín',
-		image: './img/defender.jpg',
-		role: 'defender'
-	},
-	{
-		row: 'defense',
-		name: 'Goat. Martín',
-		image: './img/defender.jpg',
-		role: 'defender'
-	},
-	{
-		row: 'midfield',
-		name: 'Ndombele',
-		image: './img/midfielder.jpg',
-		role: 'midfielder'
-	},
-	{
-		row: 'midfield',
-		name: 'Ndombele',
-		image: './img/midfielder.jpg',
-		role: 'midfielder'
-	},
-	{
-		row: 'midfield',
-		name: 'Ndombele',
-		image: './img/midfielder.jpg',
-		role: 'midfielder'
-	},
-	{
-		row: 'attack',
-		name: 'Martinelli',
-		image: './img/left-wg.jpg',
-		role: 'attacker'
-	},
-	{
-		row: 'attack',
-		name: 'Darwin Núñez',
-		image: './img/striker.jpg',
-		role: 'attacker'
-	},
-	{
-		row: 'attack',
-		name: 'Mudryk',
-		image: './img/right-wg.jpg',
-		role: 'attacker'
-	}
-];
-
-const rowCounts = {
-	gk: 1,
-	defense: 4,
-	midfield: 3,
-	attack: 3
+lineup =  {    
+    "rows": ["attack", "midfield", "defense", "gk"],
+    "players": [
+        {
+            "row": "gk",
+            "name": "A. Tchouameni",
+            "image": "./img/goalie.jpg",
+            "role": "goalkeeper"
+	    },
+	    {
+			"row": "defense",
+			"name": "Goat. Martín",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+	    },
+	    {
+			"row": "defense",
+			"name": "Goat. Martín",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+	    },
+	    {
+			"row": "defense",
+			"name": "Goat. Martín",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+	    },
+	    {
+			"row": "defense",
+			"name": "Goat. Martín",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+	    },
+	    {
+			"row": "midfield",
+			"name": "Ndombele",
+			"image": "./img/midfielder.jpg",
+			"role": "midfielder"
+	    },
+	    {
+		"row": "midfield",
+		"name": "Ndombele",
+		"image": "./img/midfielder.jpg",
+		"role": "midfielder"
+	    },
+	    {
+		"row": "midfield",
+		"name": "Ndombele",
+		"image": "./img/midfielder.jpg",
+		"role": "midfielder"
+	    },
+	    {
+		"row": "attack",
+		"name": "Martinelli",
+		"image": "./img/left-wg.jpg",
+		"role": "attacker"
+	    },
+	    {
+		"row": "attack",
+		"name": "Darwin Núñez",
+		"image": "./img/striker.jpg",
+		"role": "attacker"
+	    },
+	    {
+		"row": "attack",
+		"name": "Mudryk",
+		"image": "./img/right-wg.jpg",
+		"role": "attacker"
+	    }
+    ]
 };
+
+// Example of 4-2-3-1 formation (5 rows + gk)
+const lineup421 = {
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Ederson",
+			"image": "./img/goalie.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Walker",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Stones",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Dias",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Akanji",
+			"image": "./img/defender.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Rodri",
+			"image": "./img/midfielder.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Gundogan",
+			"image": "./img/midfielder.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Mahrez",
+			"image": "./img/left-wg.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "De Bruyne",
+			"image": "./img/midfielder.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Foden",
+			"image": "./img/right-wg.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Haaland",
+			"image": "./img/striker.jpg",
+			"role": "attacker"
+		}
+	]
+};
+
+async function loadLineup(filePath = './formations/lineup1.json') {
+	try {
+		const response = await fetch(filePath);
+		if (!response.ok) throw new Error(`Failed to load ${filePath}`);
+		return await response.json();
+	} catch (error) {
+		console.error('Error loading lineup:', error);
+		return {};
+	}
+}
 
 function buildPlayerCard(player) {
 	const card = document.createElement('article');
@@ -117,12 +197,57 @@ function buildPlayerCard(player) {
 
 const rows = document.querySelectorAll('[data-row]');
 
-rows.forEach((row) => {
-	const rowName = row.dataset.row;
-	const count = rowCounts[rowName] || 0;
-	const rowPlayers = players.filter((player) => player.row === rowName).slice(0, count);
-
-	rowPlayers.forEach((player) => {
-		row.appendChild(buildPlayerCard(player));
+function initializeLineup(lineupData) {
+	const formation = document.querySelector('.formation');
+	
+	// Clear existing rows
+	formation.innerHTML = '';
+	
+	// Set data attribute for row count (useful for CSS/JS reference)
+	formation.setAttribute('data-row-count', lineupData.rows.length);
+	
+	// Create rows based on lineup data
+	lineupData.rows.forEach((rowType) => {
+		const rowDiv = document.createElement('div');
+		rowDiv.className = `line line--${rowType}`;
+		rowDiv.setAttribute('data-row', rowType);
+		formation.appendChild(rowDiv);
 	});
-});
+	
+	// Populate players in each row
+	const updatedRows = document.querySelectorAll('[data-row]');
+	updatedRows.forEach((row) => {
+		const rowName = row.dataset.row;
+		const rowPlayers = lineupData.players.filter((player) => player.row === rowName);
+		
+		rowPlayers.forEach((player) => {
+			row.appendChild(buildPlayerCard(player));
+		});
+	});
+}
+
+// Initialize with current lineup
+initializeLineup(lineup);
+
+// Helper function to switch formations (useful for testing)
+function switchFormation(formationObj) {
+	initializeLineup(formationObj);
+}
+
+// Toggle button behavior
+const toggleBtn = document.getElementById('toggle-4231');
+let showing421 = false;
+if (toggleBtn) {
+	toggleBtn.addEventListener('click', () => {
+		if (!showing421) {
+			switchFormation(lineup421);
+			toggleBtn.textContent = 'Mostrar 4-3-3';
+			toggleBtn.setAttribute('aria-pressed', 'true');
+		} else {
+			switchFormation(lineup);
+			toggleBtn.textContent = 'Cambiar a 4231';
+			toggleBtn.setAttribute('aria-pressed', 'false');
+		}
+		showing421 = !showing421;
+	});
+}

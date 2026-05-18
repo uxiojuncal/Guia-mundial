@@ -10,20 +10,20 @@
     --marker-ring-hover: rgba(125, 70, 47, 0.15);
     
     /* Country-specific shadow colors */
-    --shadow-color-canada: rgba(128, 13, 7, 0.25);
-    --shadow-ring-canada: rgba(128, 13, 7, 0.4);
-    --shadow-ring-canada-weak: rgba(128, 13, 7, 0.1);
-    --shadow-ring-canada-hover: rgba(128, 13, 7, 0.15);
+    --shadow-color-canada: hsla(3, 90%, 40%, 0.25);
+    --shadow-ring-canada: hsla(3, 90%, 40%, 0.4);
+    --shadow-ring-canada-weak: hsla(3, 90%, 40%, 0.1);
+    --shadow-ring-canada-hover: hsla(3, 90%, 40%, 0.15);
     
-    --shadow-color-usa: rgba(7, 56, 128, 0.25);
-    --shadow-ring-usa: rgba(7, 56, 128, 0.4);
-    --shadow-ring-usa-weak: rgba(7, 56, 128, 0.1);
-    --shadow-ring-usa-hover: rgba(7, 56, 128, 0.15);
+    --shadow-color-usa: hsla(217, 89%, 45%, 0.25);
+    --shadow-ring-usa: hsla(217, 89%, 45%, 0.4);
+    --shadow-ring-usa-weak: hsla(217, 89%, 45%, 0.1);
+    --shadow-ring-usa-hover: hsla(217, 89%, 45%, 0.15);
     
-    --shadow-color-mexico: rgba(31, 91, 8, 0.25);
-    --shadow-ring-mexico: rgba(31, 91, 8, 0.4);
-    --shadow-ring-mexico-weak: rgba(31, 91, 8, 0.1);
-    --shadow-ring-mexico-hover: rgba(31, 91, 8, 0.15);
+    --shadow-color-mexico: hsla(103, 83%, 32%, 0.25);
+    --shadow-ring-mexico: hsla(103, 83%, 32%, 0.4);
+    --shadow-ring-mexico-weak: hsla(103, 83%, 32%, 0.1);
+    --shadow-ring-mexico-hover: hsla(103, 83%, 32%, 0.15);
 }
 
 * {
@@ -92,22 +92,35 @@ body {
 }
 
 .stadium-marker {
+    --stadium-marker-size: 52px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0;
+    width: var(--stadium-marker-size);
+    height: var(--stadium-marker-size);
+    border-radius: 50%;
     pointer-events: auto;
 }
 
 .stadium-marker-frame {
     position: relative;
-    display: inline-flex;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
     transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
     transform: scale(1);
     will-change: transform;
+}
+
+.stadium-marker-image-wrap {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: inherit;
 }
 
 .stadium-marker-frame::before {
@@ -121,15 +134,17 @@ body {
 }
 
 .stadium-marker-img {
-    position: relative;
+    position: absolute;
+    inset: 0;
     z-index: 1;
-    width: 52px;
-    height: 52px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
     border: 3px solid rgba(255, 255, 255, 0.95);
     box-shadow: 0 6px 16px var(--marker-shadow-color);
     filter: drop-shadow(0 6px 12px var(--marker-shadow-color));
     object-fit: cover;
+    object-position: center center;
     background-color: rgba(43, 98, 218, 0.1);
     display: block;
     pointer-events: none;
@@ -156,7 +171,7 @@ body {
 }
 
 .stadium-marker--canada:hover .stadium-marker-frame::before {
-    box-shadow: 0 8px 20px rgba(128, 13, 7, 0.35), 0 0 0 12px var(--shadow-ring-canada-hover);
+    box-shadow: 0 8px 20px hsla(3, 90%, 40%, 0.35), 0 0 0 12px var(--shadow-ring-canada-hover);
 }
 
 /* USA marker styles */
@@ -171,7 +186,7 @@ body {
 }
 
 .stadium-marker--usa:hover .stadium-marker-frame::before {
-    box-shadow: 0 8px 20px rgba(7, 56, 128, 0.35), 0 0 0 12px var(--shadow-ring-usa-hover);
+    box-shadow: 0 8px 20px hsla(217, 89%, 45%, 0.35), 0 0 0 12px var(--shadow-ring-usa-hover);
 }
 
 /* Mexico marker styles */
@@ -186,7 +201,7 @@ body {
 }
 
 .stadium-marker--mexico:hover .stadium-marker-frame::before {
-    box-shadow: 0 8px 20px rgba(31, 91, 8, 0.35), 0 0 0 12px var(--shadow-ring-mexico-hover);
+    box-shadow: 0 8px 20px hsla(103, 83%, 32%, 0.35), 0 0 0 12px var(--shadow-ring-mexico-hover);
 }
 
 @keyframes pulse-marker {
@@ -266,15 +281,15 @@ body {
 }
 
 .stadium-popup-header.Canada {
-    color: rgb(128, 13, 7);
+    color: hsla(3, 90%, 40%, 1);
 }
 
 .stadium-popup-header.Mexico {
-    color: rgb(31, 91, 8);
+    color: hsla(103, 83%, 32%, 1);
 }
 
 .stadium-popup-header.USA{
-    color: rgb(7, 56, 128);
+    color: hsla(217, 89%, 45%, 1);
 }
 
 .stadium-popup-info {
@@ -323,14 +338,13 @@ body {
     }
 
     .stadium-marker-img {
-        width: 44px;
-        height: 44px;
+        width: 100%;
+        height: 100%;
         border-width: 2px;
     }
 
     .stadium-marker-frame {
-        width: 44px;
-        height: 44px;
+        --stadium-marker-size: 44px;
     }
 }
 
@@ -357,14 +371,13 @@ body {
     }
 
     .stadium-marker-img {
-        width: 40px;
-        height: 40px;
+        width: 100%;
+        height: 100%;
         border-width: 2px;
     }
 
     .stadium-marker-frame {
-        width: 40px;
-        height: 40px;
+        --stadium-marker-size: 40px;
     }
 
     .stadium-popup .leaflet-popup-content {

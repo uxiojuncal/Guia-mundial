@@ -20,7 +20,9 @@ function createStadiumMarker(feature, latlng) {
     const markerMarkup = `
         <div class="stadium-marker ${countryClass}">
             <div class="stadium-marker-frame">
-                <img class="stadium-marker-img" alt="${safeName}" src="${imageUrl}" onerror="this.onerror=null;this.src='${fallbackImage}'">
+                <span class="stadium-marker-image-wrap">
+                    <img class="stadium-marker-img" alt="${safeName}" src="${imageUrl}" onerror="this.onerror=null;this.src='${fallbackImage}'">
+                </span>
             </div>
         </div>
     `;

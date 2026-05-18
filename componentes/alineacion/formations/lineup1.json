@@ -1,0 +1,76 @@
+{    
+    "players": [
+        {
+            "row": "gk",
+            "name": "A. Tchouameni",
+            "image": "./img/goalie.jpg",
+            "role": "goalkeeper"
+	    },
+	    {
+		"row": "defense",
+		"name": "Goat. Martín",
+		"image": "./img/defender.jpg",
+		"role": "defender"
+	    },
+	    {
+		"row": "defense",
+		"name": "Goat. Martín",
+		"image": "./img/defender.jpg",
+		"role": "defender"
+	    },
+	    {
+		"row": "defense",
+		"name": "Goat. Martín",
+		"image": "./img/defender.jpg",
+		"role": "defender"
+	    },
+	    {
+		"row": "defense",
+		"name": "Goat. Martín",
+		"image": "./img/defender.jpg",
+		"role": "defender"
+	    },
+	    {
+		"row": "midfield",
+		"name": "Ndombele",
+		"image": "./img/midfielder.jpg",
+		"role": "midfielder"
+	    },
+	    {
+		"row": "midfield",
+		"name": "Ndombele",
+		"image": "./img/midfielder.jpg",
+		"role": "midfielder"
+	    },
+	    {
+		"row": "midfield",
+		"name": "Ndombele",
+		"image": "./img/midfielder.jpg",
+		"role": "midfielder"
+	    },
+	    {
+		"row": "attack",
+		"name": "Martinelli",
+		"image": "./img/left-wg.jpg",
+		"role": "attacker"
+	    },
+	    {
+		"row": "attack",
+		"name": "Darwin Núñez",
+		"image": "./img/striker.jpg",
+		"role": "attacker"
+	    },
+	    {
+		"row": "attack",
+		"name": "Mudryk",
+		"image": "./img/right-wg.jpg",
+		"role": "attacker"
+	    }
+    ],
+    "rowCounts": {
+		"gk": 1,
+		"defense": 4,
+		"midfield": 3,
+		"attack": 3
+	}
+}
