@@ -1,5 +1,4 @@
 :root {
-    color-scheme: dark;
     --field-green: #2f7d32;
     --field-green-deep: #215a24;
     --line-white: rgba(255, 255, 255, 0.9);
@@ -8,10 +7,6 @@
     --text: #020200;
     --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
     --title-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html,
@@ -23,21 +18,12 @@ h1 {
     font-family: var(--title-font);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #f5f5f5;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .lineup-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    place-items: center;
     gap: 14px;
     min-height: 50vh;
     padding: clamp(12px, 2vw, 24px);
-    border-radius: 20px;
 }
 
 .lineup-header {
@@ -145,7 +131,6 @@ body {
         radial-gradient(circle at 50% 50%, transparent 0 32%, rgba(255, 255, 255, 0.12) 32.2% 32.7%, transparent 32.9%),
         repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.045) 0 10px, transparent 10px 20px);
     pointer-events: none;
-    border-radius: 20px;
 }
 
 .field-overlay {

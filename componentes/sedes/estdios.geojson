@@ -6,7 +6,7 @@
         "geometry": { "type": "Point", "coordinates": [-80.238807, 25.957874] },
         "properties": {
             "id": "stadium-miami",
-            "name": "Hard Rock Stadium",
+            "name": "Hard Rock Stadium <br>(Estadio de Miami)",
             "city": "Miami",
             "country": "USA",
             "capacity": 67510,
@@ -18,7 +18,7 @@
         "geometry": { "type": "Point", "coordinates": [-84.4005959, 33.7553344] },
         "properties": {
             "id": "stadium-atlanta",
-            "name": "Mercedes-Benz Stadium",
+            "name": "Mercedes-Benz Stadium <br>(Estadio de Atlanta)",
             "city": "Atlanta",
             "country": "USA",
             "capacity": 75000,
@@ -30,7 +30,7 @@
         "geometry": { "type": "Point", "coordinates": [-99.1505277, 19.3028607] },
         "properties": {
             "id": "stadium-mexico-city",
-            "name": "Estadio Banorte",
+            "name": "Estadio Banorte <br>(Estadio de Ciudad de México)",
             "city": "Ciudad de México",
             "country": "Mexico",
             "capacity": 87520,
@@ -42,7 +42,7 @@
         "geometry": { "type": "Point", "coordinates": [-103.4626455, 20.6817764] },
         "properties": {
             "id": "stadium-guadalajara",
-            "name": "Estadio Akron",
+            "name": "Estadio Akron <br>(Estadio de Guadalajara)",
             "city": "Guadalajara",
             "country": "Mexico",
             "capacity": 48070,
@@ -54,7 +54,7 @@
         "geometry": { "type": "Point", "coordinates": [-100.2444429, 25.6691508] },
         "properties": {
             "id": "stadium-monterrey",
-            "name": "Estadio BBVA",
+            "name": "Estadio BBVA <br>(Estadio de Monterrey)",
             "city": "Monterrey",
             "country": "Mexico",
             "capacity": 53500,
@@ -66,7 +66,7 @@
         "geometry": { "type": "Point", "coordinates": [-95.4107074, 29.6847219] },
         "properties": {
             "id": "stadium-houston",
-            "name": "NRG Stadium",
+            "name": "NRG Stadium <br>(Estadio de Houston)",
             "city": "Houston",
             "country": "USA",
             "capacity": 72220,
@@ -78,7 +78,7 @@
         "geometry": { "type": "Point", "coordinates": [-75.1675992, 39.9014189] },
         "properties": {
             "id": "stadium-philadelphia",
-            "name": "Lincoln Financial Field",
+            "name": "Lincoln Financial Field <br>(Estadio de Philadelphia)",
             "city": "Philadelphia",
             "country": "USA",
             "capacity": 69320,
@@ -90,7 +90,7 @@
         "geometry": { "type": "Point", "coordinates": [-74.074457, 40.8135064] },
         "properties": {
             "id": "stadium-new-jersey",
-            "name": "Metlife Stadium",
+            "name": "Metlife Stadium <br>(Estadio de New Jersey)",
             "city": "New Jersey",
             "country": "USA",
             "capacity": 87150,
@@ -102,11 +102,11 @@
         "geometry": { "type": "Point", "coordinates": [-71.2643744, 42.0911455] },
         "properties": {
             "id": "stadium-new-england",
-            "name": "Gillete Stadium",
-            "city": "New England",
+            "name": "Gillete Stadium <br>(Estadio de Boston)",
+            "city": "Boston",
             "country": "USA",
             "capacity": 70000,
-            "image_url": "img/stadium-new-england.jpg"
+            "image_url": "img/stadium-boston.jpg"
         }
     },
     {
@@ -114,7 +114,7 @@
         "geometry": { "type": "Point", "coordinates": [-79.4176739, 43.6332693] },
         "properties": {
             "id": "stadium-toronto",
-            "name": "BMO Field",
+            "name": "BMO Field <br>(Estadio de Toronto)",
             "city": "Toronto",
             "country": "Canada",
             "capacity": 45730,
@@ -126,11 +126,11 @@
         "geometry": { "type": "Point", "coordinates": [-97.0928124, 32.7480281] },
         "properties": {
             "id": "stadium-arlington",
-            "name": "AT&T Stadium",
-            "city": "Arlington",
+            "name": "AT&T Stadium <br>(Estadio de Dallas)",
+            "city": "Dallas",
             "country": "USA",
             "capacity": 92960,
-            "image_url": "img/stadium-arlington.jpg"
+            "image_url": "img/stadium-dallas.jpg"
         }
     },
     {
@@ -138,7 +138,7 @@
         "geometry": { "type": "Point", "coordinates": [-94.4840141, 39.0489647] },
         "properties": {
             "id": "stadium-kansas-city",
-            "name": "GEHA Field at Arrowhead Stadium",
+            "name": "Arrowhead Stadium <br>(Estadio de Kansas City)",
             "city": "Kansas City",
             "country": "USA",
             "capacity": 76640,
@@ -150,7 +150,7 @@
         "geometry": { "type": "Point", "coordinates": [-118.3390235, 33.9534765] },
         "properties": {
             "id": "stadium-los-angeles",
-            "name": "SoFi Stadium",
+            "name": "SoFi Stadium <br>(Estadio de Los Angeles)",
             "city": "Los Angeles",
             "country": "USA",
             "capacity": 70240,
@@ -162,7 +162,7 @@
         "geometry": { "type": "Point", "coordinates": [-121.9693774, 37.4033165] },
         "properties": {
             "id": "stadium-san-francisco",
-            "name": "Levi's Stadium",
+            "name": "Levi's Stadium <br>(Estadio de San Francisco)",
             "city": "San Francisco",
             "country": "USA",
             "capacity": 70900,
@@ -174,7 +174,7 @@
         "geometry": { "type": "Point", "coordinates": [-122.3316394, 47.5951518] },
         "properties": {
             "id": "stadium-seattle",
-            "name": "Lumen Field",
+            "name": "Lumen Field <br>(Estadio de Seattle)",
             "city": "Seattle",
             "country": "USA",
             "capacity": 72000,

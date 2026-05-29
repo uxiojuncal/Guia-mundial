@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./alineacion.css">
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; min-height: 100vh; height: auto; overflow-y: auto; overflow-x: hidden; font-family: Arial, sans-serif;">
+    <header class="team-header" style="display: flex; flex-direction: row; width: 80%; justify-content: 
+    space-between; align-items: center; padding: 20px;">
+        <div class="title-wrapper" style=" width: 80%;">
+            <h1 class="team-title" style="margin-left: 5%;">México</h1>
+            <h2 class="team-subtitle" style="margin-left: 5%;">La esperanza del anfitrión</h2>
+        </div>
+        <div class="badge-wrapper" style="border: solid; width: 100px; height: 100px; margin-right: 5%;">
+            <img src="" alt="Escudo de México" class="badge-img">
+        </div>
+    </header>
+    <div class="team-content" style="width: 80%; display: flex; gap: 10%; margin-top: 20px; flex-direction: row; padding-bottom: 100px;">
+        <div class="team-coach-ratings-wrapper" style="height: 100%; width: 40%; display: flex; flex-direction: column; gap: 20px;">
+            <div class="team-coach" style="display:flex; flex-direction: column; align-items: center; background-color: #203572; color: white;   
+             text-align: justify; max-width: max-content;">
+                <img src="" alt="imagen del entrenador" style="margin: 5%; height: 10rem; width: 10rem; border: solid;" class="coach-img">
+                <h2 class="coach-title" style="margin: 3%;">EL ENTRENADOR</h2>
+                <div class="blue-divisor" style="height: 5px; width: 90%; background-color: #2265c5;"></div>
+                <h3 class="coach-name" style="margin: 3%;">Javier Aguirre</h3>
+                <p class="coach-desc" style="width: 90%;">
+                    Manda en el ‘Tri’ desde 2024, culminando una carrera dilatada y exitosa en España. 
+                    Pragmático y gran motivador, siempre consigue sacar el 110% de plantillas limitadas. 
+                </p>
+            </div>
+            <div class="team-ratings" style="display: flex; flex-direction: column; align-items:center; border: solid;">
+                <h3 class="ratings-title" style="height: 10px;"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list" style="width: 70%;">
+                    <li>Plantilla: /10</li>
+                    <li>Entrenador: /10</li>
+                    <li>Expectativas: Llegar a semifinales</li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description" style="  width: 60%; display: flex; flex-direction: column; gap: 20px; padding: 20px;">
+            <div class="highlighted-players">
+                <h3 class="section-title" style="padding: 2%; width: 60%; background-color:#203572;color: #3fc7df;">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" style="width: 70%;">
+                    <li>
+                        <p class="player-section-item">
+                        <b>Santiago Giménez (24, AC Milan):</b> Delantero alto, potente con gran definición que maravilló en Holanda. 
+                        Busca recuperar su olfato goleador tras estancarse en el Milan por culpa de las lesiones.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="player-section-item">
+                        <b>Raúl Jiménez (35, Fulham)</b>: La estrella del Tri. Ex del Atlético de Madrid, es un seguro de vida en el ataque. 
+                            Juega, crea, remata, pelea y se juega el tipo con tal de ayudar a su equipo. 
+                            Disputa su tercer Mundial tras otro buen año en Inglaterra.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title" style="padding: 2%; width: 60%; background-color:#203572;color: #3fc7df;">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" style="width: 70%;">
+                    <li>
+                        <p class="player-section-item">
+                        <b>Gilberto Mora (17, Tijuana):</b> La esperanza de un país, un talento generacional 
+                            que ha tirado la puerta abajo consolidándose como inamovible en los planes de Javier Aguirre. 
+                            Busca hacer del Mundial su trampolín, con el Bayern siguiéndole de cerca.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="player-section-item">
+                        <b>Obed Vargas (20, Atlético de Madrid):</b> Mediocampista todoterreno con mucha proyección.
+                        Ha conseguido dar el salto a un grande como el Atlético de Madrid, 
+                        donde confían que pueda convertirse en un fijo en el medio-plazo.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container" style="width: 100%; height: fit-content;">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer src="./scripts/alineacion.js"></script>
+</body>
+</html>
