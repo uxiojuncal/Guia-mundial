@@ -228,26 +228,3 @@ function initializeLineup(lineupData) {
 
 // Initialize with current lineup
 initializeLineup(lineup);
-
-// Helper function to switch formations (useful for testing)
-function switchFormation(formationObj) {
-	initializeLineup(formationObj);
-}
-
-// Toggle button behavior
-const toggleBtn = document.getElementById('toggle-4231');
-let showing421 = false;
-if (toggleBtn) {
-	toggleBtn.addEventListener('click', () => {
-		if (!showing421) {
-			switchFormation(lineup421);
-			toggleBtn.textContent = 'Mostrar 4-3-3';
-			toggleBtn.setAttribute('aria-pressed', 'true');
-		} else {
-			switchFormation(lineup);
-			toggleBtn.textContent = 'Cambiar a 4231';
-			toggleBtn.setAttribute('aria-pressed', 'false');
-		}
-		showing421 = !showing421;
-	});
-}

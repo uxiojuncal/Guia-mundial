@@ -1,0 +1,646 @@
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Local self-hosted font: TAN Buster (placed in ./fonts/TAN-Buster-Font/) */
+@font-face {
+    font-family: 'TAN Buster';
+    src: url('./fonts/TAN-Buster-Font/TAN-BUSTER-Regular.woff2') format('woff2'),
+             url('./fonts/TAN-Buster-Font/TAN-BUSTER-Regular.ttf') format('truetype'),
+             url('./fonts/TAN-Buster-Font/TAN-BUSTER-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --field-green: #2f7d32;
+    --field-green-deep: #215a24;
+    --line-white: rgba(255, 255, 255, 0.9);
+    --panel: rgba(8, 25, 12, 0.34);
+    --panel-border: rgba(255, 255, 255, 0.16);
+    --text: #020200;
+    --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    --body-font: "Lato", sans-serif;
+    --h1-font: "TAN Buster", sans-serif;
+    --h2-font: "Montserrat", sans-serif;
+    --h3-font: "Radio Canada", sans-serif;
+    --h4-font: "Lato", sans-serif;
+    --nav-font: "TAN Buster", sans-serif;
+    --nav-small-font: "Radio Canada", sans-serif;
+    --team-ratings-art-top: -5%;
+    --team-ratings-art-right: 0;
+    --team-ratings-art-width: 105%;
+    --team-ratings-art-height: 70%;
+}
+
+html {
+        font-size: clamp(15px, 0.45vw + 13px, 18px);
+}
+
+h1 {
+  font-family: var(--h1-font);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: clamp(1.8rem, 4.5vw, 3rem);
+    line-height: 0.95;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h2 {
+  font-family: var(--h2-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    font-size: clamp(1.45rem, 3vw, 2.2rem);
+    line-height: 1.05;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h3 {
+  font-family: var(--h3-font);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    font-size: clamp(1.05rem, 1.7vw, 1.5rem);
+    line-height: 1.1;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h4 {
+  font-family: var(--h4-font);
+  font-weight: 500;
+  font-style: normal;
+    font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+    line-height: 1.15;
+}
+
+p {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-style: normal;
+        font-size: clamp(0.95rem, 0.45vw + 0.85rem, 1.06rem);
+    line-height: 1.5;
+}
+
+nav, a {
+    font-family: var(--nav-font);
+    font-weight: 400;
+    color: var(--text);
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav a {
+        font-size: clamp(0.75rem, 1vw, 1.1rem);
+}
+
+.lineup-container {
+    display: grid;
+    place-items: center;
+    gap: 14px;
+    min-height: 50vh;
+    padding: clamp(12px, 2vw, 24px);
+}
+
+.line-up {
+    position: relative;
+    width: min(850px, 75%);
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
+        url(./img/field.png) center center / contain no-repeat;
+}
+
+.line-up::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(0, 0, 0, 0.2), transparent 18%, transparent 82%, rgba(0, 0, 0, 0.2)),
+        radial-gradient(circle at 50% 50%, transparent 0 32%, rgba(255, 255, 255, 0.12) 32.2% 32.7%, transparent 32.9%),
+        repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.045) 0 10px, transparent 10px 20px);
+    pointer-events: none;
+}
+
+.field-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.center-line,
+.center-circle,
+.field-arc {
+    position: absolute;
+    border: 2px solid var(--line-white);
+    opacity: 0.72;
+}
+
+.center-line {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    transform: translateX(-50%);
+    border-width: 0 1px 0 0;
+}
+
+.center-circle {
+    top: 50%;
+    left: 50%;
+    width: min(15vw, 130px);
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.field-arc {
+    top: 50%;
+    left: 50%;
+    width: min(7vw, 65px);
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border-color: transparent var(--line-white) transparent transparent;
+    border-width: 0 2px 0 0;
+}
+
+.formation {
+    position: relative;
+    z-index: 1;
+    height: auto;
+    padding: clamp(12px, 1.5vw, 22px);
+    display: grid;
+    grid-auto-rows: auto;
+    gap: clamp(10px, 1.4vw, 18px);
+    min-height: 0;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(10px, 1.6vw, 20px);
+    min-width: 0;
+    min-height: 0;
+}
+
+.line--gk {
+    align-items: center;
+}
+
+.line--defense,
+.line--midfield,
+.line--attack {
+    justify-content: space-between;
+    padding-inline: clamp(14px, 5vw, 88px);
+}
+
+.line--defense {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(4px, 0.8vw, 8px);
+    padding-inline: clamp(10px, 3vw, 50px);
+}
+
+.line--midfield {
+    align-items: center;
+    justify-content: center;
+}
+
+.line--attack {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(10px, 1.4vw, 20px);
+}
+
+.line--cdm {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(6px, 1vw, 12px);
+    padding-inline: clamp(10px, 3vw, 50px);
+}
+
+.line--cam_lm_rm {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(8px, 1.2vw, 16px);
+    padding-inline: clamp(12px, 4vw, 70px);
+}
+
+.line--striker {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(10px, 1.4vw, 20px);
+}
+
+.player {
+    width: clamp(72px, 9vw, 110px);
+    display: grid;
+    justify-items: center;
+    gap: 0.4rem;
+    color: var(--text);
+    text-align: center;
+    text-wrap: balance;
+    transition: transform 0.5s ease;
+}
+
+.player:hover {
+    transform: translateY(-4px);
+    transition: transform 0.5s ease;
+}
+
+.player-name:hover {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.72);
+}
+
+.player--placeholder .player-image {
+    background:
+        radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.55), transparent 26%),
+        linear-gradient(145deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.04));
+    object-fit: cover;
+}
+
+.player-name {
+    margin: 0;
+    font-size: clamp(0.65rem, 1.1vw, 0.85rem);
+    font-weight: 700;
+    line-height: 1.05;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.56);
+}
+
+.player-image {
+    width: clamp(48px, 5.5vw, 70px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 900px) {
+    nav {
+        width: 90% !important;
+        font-family: var(--nav-small-font);
+        padding-top: 12px;
+    }
+
+    .left-nav,
+    .center-nav,
+    .right-nav {
+        width: 100% !important;
+        padding: 1rem 1.1rem !important;
+        font-size: clamp(0.75rem, 1vw, 1.1rem);
+    }
+
+    .left-nav {
+        border-right: solid;
+    }
+
+    .center-nav {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+        border-radius: 8px;
+    }
+
+    .right-nav {
+        border-left: solid;
+    }
+
+    .team-content {
+        width: 90%;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .title-wrapper,
+    .team-coach-ratings-wrapper,
+    .team-description {
+        width: 100% !important;
+    }
+
+    .badge-wrapper {
+        margin-right: 0;
+    }
+
+    .line-up {
+        aspect-ratio: 16 / 10;
+        min-height: 0;
+        background:
+            linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
+            url(./img/field.png) center center / cover no-repeat;
+    }
+
+    .formation {
+        height: 100%;
+    }
+
+    .line--defense,
+    .line--midfield,
+    .line--attack,
+    .line--cdm,
+    .line--cam_lm_rm,
+    .line--striker {
+        padding-inline: clamp(10px, 3vw, 24px);
+    }
+
+    .player {
+        width: clamp(64px, 16vw, 100px);
+    }
+
+    .team-ratings {
+        aspect-ratio: 2803 / 2200;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 0;
+    }
+
+    .line-up {
+        border-radius: 0;
+        width: 100%;
+        aspect-ratio: 16 / 14;
+        min-height: auto;
+        background:
+            linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
+            url(./img/field.png) center center / cover no-repeat;
+    }
+
+    .formation {
+        padding: 12px 10px;
+        gap: 8px;
+    }
+
+    .line {
+        gap: 8px;
+    }
+
+    .line--defense,
+    .line--midfield,
+    .line--attack,
+    .line--cdm,
+    .line--cam_lm_rm,
+    .line--striker {
+        padding-inline: 0;
+    }
+
+    .player {
+        width: clamp(60px, 20vw, 85px);
+    }
+
+    .player-image {
+        width: clamp(42px, 14vw, 60px);
+    }
+
+    .team-header,
+    .team-content {
+        width: 94%;
+    }
+
+    .team-coach,
+    .team-ratings {
+        max-width: 100%;
+    }
+
+    .badge-wrapper,
+    .coach-img {
+        width: min(9rem, 42vw);
+        height: min(9rem, 42vw);
+    }
+
+    .team-ratings {
+        aspect-ratio: 2803 / 2100;
+        --team-ratings-art-width: 114%;
+        --team-ratings-art-top: -3%;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+}
+
+/* Inline styles extracted from dist/index.html (preserve existing rules, only additions) */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: var(--body-font);
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.group-nav,
+.team-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-nav,
+.center-nav,
+.right-nav {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    width: 25%;
+    padding: 2%;
+}
+
+.left-nav {
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.right-nav {
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.group-nav > .left-nav,
+.group-nav > .right-nav {
+    width: 15%;
+}
+
+.center-nav {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.team-nav > .left-nav,
+.team-nav > .right-nav {
+    width: 25%;
+}
+
+.team-nav > .center-nav {
+    width: 50%;
+}
+
+.team-header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-wrapper {
+    width: 80%;
+}
+
+.team-title,
+.team-subtitle {
+    margin-left: 5%;
+}
+
+.badge-wrapper {
+    border: solid;
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+    text-align: left;
+}
+
+.team-content {
+    width: 80%;
+    display: flex;
+    gap: 10%;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.team-coach-ratings-wrapper {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-coach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #203572;
+    color: white;
+    text-align: justify;
+    max-width: max-content;
+}
+
+.coach-img {
+    margin: 5%;
+    height: 10rem;
+    width: 10rem;
+    border: solid;
+}
+
+.coach-title {
+    margin: 3%;
+}
+
+.blue-divisor {
+    height: 5px;
+    width: 90%;
+    background-color: #2265c5;
+}
+
+.coach-name {
+    margin: 3%;
+}
+
+.coach-desc {
+    width: 90%;
+}
+
+.team-ratings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    isolation: isolate;
+    aspect-ratio: 2803 / 2955;
+    padding-top: 10px;
+}
+
+.team-ratings::after {
+    content: "";
+    position: absolute;
+    top: var(--team-ratings-art-top);
+    right: var(--team-ratings-art-right);
+    width: var(--team-ratings-art-width);
+    height: var(--team-ratings-art-height);
+    background: url(./img/team-ratings-bg.webp) center / contain no-repeat;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.team-ratings > * {
+    position: relative;
+    z-index: 1;
+}
+
+.ratings-title {
+    height: 10px;
+}
+
+.ratings-list {
+    width: 70%;
+}
+
+.team-description {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+}
+
+.section-title {
+    padding: 2%;
+    width: 60%;
+    background-color: #203572;
+    color: #3fc7df;
+}
+
+.players-list {
+    width: 90%;
+}
+
+.lineup-container {
+    width: 100%;
+    height: fit-content;
+}
