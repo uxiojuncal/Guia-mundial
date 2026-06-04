@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Content Form</title>
+</head>
+<body>
+    <main>
+        <h1>Team Content Form</h1>
+
+        <form id="team-content-form" action="/api/team-content" method="post">
+            <fieldset>
+                <legend>Información Básica</legend>
+
+                <label for="group">Grupo</label>
+                <input type="text" id="group" name="group" required>
+
+                <label for="name">País</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="subtitle">Subtítulo</label>
+                <input type="text" id="subtitle" name="subtitle">
+            </fieldset>
+
+            <fieldset>
+                <legend>Entrenador</legend>
+
+                <label for="coach-name">Nombre del entrenador</label>
+                <input type="text" id="coach-name" name="coach-name" required>
+
+                <label for="coach-desc">Descripción del entrenador</label>
+                <textarea id="coach-desc" name="coach-desc" rows="5"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Notas</legend>
+
+                <label for="players-rating">Nota de la plantilla</label>
+                <input type="number" id="players-rating" name="players-rating" min="0" max="10" step="1" required>
+
+                <label for="coach-rating">Nota del entrenador</label>
+                <input type="number" id="coach-rating" name="coach-rating" min="0" max="10" step="1" required>
+
+                <label for="expectations">Expectativas</label>
+                <input type="text" id="expectations" name="expectations" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Jugadores a Destacar</legend>
+
+                <div class="player-entry">
+                    <h2>Jugador 1</h2>
+                    <label for="hl-players-1-name">Nombre</label>
+                    <input type="text" id="hl-players-1-name" name="hl-players[0][name]" required>
+
+                    <label for="hl-players-1-age">Edad</label>
+                    <input type="number" id="hl-players-1-age" name="hl-players[0][age]" min="0" step="1">
+
+                    <label for="hl-players-1-club">Club</label>
+                    <input type="text" id="hl-players-1-club" name="hl-players[0][club]">
+
+                    <label for="hl-players-1-description">Descripción</label>
+                    <textarea id="hl-players-1-description" name="hl-players[0][description]" rows="4"></textarea>
+                </div>
+
+                <div class="player-entry">
+                    <h2>Jugador 2</h2>
+                    <label for="hl-players-2-name">Nombre</label>
+                    <input type="text" id="hl-players-2-name" name="hl-players[1][name]">
+
+                    <label for="hl-players-2-age">Edad</label>
+                    <input type="number" id="hl-players-2-age" name="hl-players[1][age]" min="0" step="1">
+
+                    <label for="hl-players-2-club">Club</label>
+                    <input type="text" id="hl-players-2-club" name="hl-players[1][club]">
+
+                    <label for="hl-players-2-description">Descripción</label>
+                    <textarea id="hl-players-2-description" name="hl-players[1][description]" rows="4"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Jóvenes Revelación</legend>
+
+                <div class="player-entry">
+                    <h2>Jugador 1</h2>
+                    <label for="prom-players-1-name">Nombre</label>
+                    <input type="text" id="prom-players-1-name" name="prom-players[0][name]" required>
+
+                    <label for="prom-players-1-age">Edad</label>
+                    <input type="number" id="prom-players-1-age" name="prom-players[0][age]" min="0" step="1">
+
+                    <label for="prom-players-1-club">Club</label>
+                    <input type="text" id="prom-players-1-club" name="prom-players[0][club]">
+
+                    <label for="prom-players-1-description">Descripción</label>
+                    <textarea id="prom-players-1-description" name="prom-players[0][description]" rows="4"></textarea>
+                </div>
+
+                <div class="player-entry">
+                    <h2>Jugador 2</h2>
+                    <label for="prom-players-2-name">Nombre</label>
+                    <input type="text" id="prom-players-2-name" name="prom-players[1][name]">
+
+                    <label for="prom-players-2-age">Edad</label>
+                    <input type="number" id="prom-players-2-age" name="prom-players[1][age]" min="0" step="1">
+
+                    <label for="prom-players-2-club">Club</label>
+                    <input type="text" id="prom-players-2-club" name="prom-players[1][club]">
+
+                    <label for="prom-players-2-description">Descripción</label>
+                    <textarea id="prom-players-2-description" name="prom-players[1][description]" rows="4"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Guardar</button>
+        </form>
+
+        <section aria-labelledby="json-preview-title">
+            <h2 id="json-preview-title">Vista previa JSON</h2>
+            <pre id="json-preview">{}</pre>
+        </section>
+    </main>
+
+    <script src="/form/script.js"></script>
+</body>
+</html>

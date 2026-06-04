@@ -1,0 +1,40 @@
+{
+  "group": "Grupo A",
+  "name": "México",
+  "subtitle": "La esperanza del anfitrión",
+  "coach-name": "Javier Aguirre",
+  "coach-desc": "Manda en el Tri desde 2024",
+  "players-rating": 7,
+  "coach-rating": 7,
+  "coach-image": "../assets/img/mexico-coach.webp",
+  "badge": "../assets/img/mexico-badge.webp",
+  "expectations": "Llegar a semifinales",
+  "hl-players": [
+    {
+      "name": "Santiago Giménez",
+      "age": 24,
+      "club": "AC Milan",
+      "description": "Delantero potente"
+    },
+    {
+      "name": "Raúl Jiménez",
+      "age": 35,
+      "club": "Fulham",
+      "description": "La estrella del Tri"
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Gilberto Mora",
+      "age": 17,
+      "club": "Tijuana",
+      "description": "Talento generacional"
+    },
+    {
+      "name": "Obed Vargas",
+      "age": 20,
+      "club": "Atlético de Madrid",
+      "description": "Mediocampista todoterreno"
+    }
+  ]
+}

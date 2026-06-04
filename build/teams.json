@@ -1,0 +1,45 @@
+{   
+    "groups": ["Grupo A", "Grupo B", "Grupo C", "Grupo D", "Grupo E", "Grupo F", "Grupo G", "Grupo H", "Grupo I", "Grupo J", "Grupo K", "Grupo L"],
+    "teams-content": [
+        {
+            "group": "Grupo A",
+            "name": "México",
+            "subtitle": "La esperanza del anfitrión",
+            "badge": "../assets/img/mexico-badge.webp",
+            "coach-name": "Javier Aguirre",
+            "coach-image": "../assets/img/mexico-coach.webp",
+            "coach-desc": "Manda en el ‘Tri’ desde 2024, culminando una carrera dilatada y exitosa en España. Pragmático y gran motivador, siempre consigue sacar el 110% de plantillas limitadas. ",
+            "players-rating": "7",
+            "coach-rating": "7",
+            "expectations": "Llegar a semifinales",
+            "hl-players": [
+                {
+                    "name": "Santiago Giménez",
+                    "age": "24",
+                    "club": "AC Milan",
+                    "description": "Delantero alto, potente con gran definición que maravilló en Holanda. Busca recuperar su olfato goleador tras estancarse en el Milan por culpa de las lesiones."
+                },
+                {
+                    "name": "Raúl Jiménez",
+                    "age": "35",
+                    "club": "Fulham",
+                    "description": "La estrella del Tri. Ex del Atlético de Madrid, es un seguro de vida en el ataque. Juega, crea, remata, pelea y se juega el tipo con tal de ayudar a su equipo. Disputa su tercer Mundial tras otro buen año en Inglaterra."
+                }
+            ],
+            "prom-players": [
+                {
+                    "name": "Gilberto Mora",
+                    "age": "17",
+                    "club": "Tijuana",
+                    "description": "La esperanza de un país, un talento generacional que ha tirado la puerta abajo consolidándose como inamovible en los planes de Javier Aguirre. Busca hacer del Mundial su trampolín, con el Bayern siguiéndole de cerca."
+                },
+                {
+                    "name": "Obed Vargas",
+                    "age": "20",
+                    "club": "Atlético de Madrid",
+                    "description": "Mediocampista todoterreno con mucha proyección. Ha conseguido dar el salto a un grande como el Atlético de Madrid, donde confían que pueda convertirse en un fijo en el medio-plazo."
+                }
+            ]
+        }
+    ]
+}

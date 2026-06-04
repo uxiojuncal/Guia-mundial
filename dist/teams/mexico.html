@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="grupo-l.html">Grupo L</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="#">Grupo A</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="grupo-b.html">Grupo B</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="mexico.html">México</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="mexico.html">México</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="mexico.html">México</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">México</h1>
+            <h2 class="team-subtitle" data-slot="team-subtitle"></h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Javier Aguirre</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Manda en el ‘Tri’ desde 2024, culminando una carrera dilatada y exitosa en España. Pragmático y gran motivador, siempre consigue sacar el 110% de plantillas limitadas. </h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">7</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Llegar a semifinales</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Santiago Giménez</b> (24, AC Milan): Delantero alto, potente con gran definición que maravilló en Holanda. Busca recuperar su olfato goleador tras estancarse en el Milan por culpa de las lesiones.</li><li><b>Raúl Jiménez</b> (35, Fulham): La estrella del Tri. Ex del Atlético de Madrid, es un seguro de vida en el ataque. Juega, crea, remata, pelea y se juega el tipo con tal de ayudar a su equipo. Disputa su tercer Mundial tras otro buen año en Inglaterra.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Gilberto Mora</b> (17, Tijuana): La esperanza de un país, un talento generacional que ha tirado la puerta abajo consolidándose como inamovible en los planes de Javier Aguirre. Busca hacer del Mundial su trampolín, con el Bayern siguiéndole de cerca.</li><li><b>Obed Vargas</b> (20, Atlético de Madrid): Mediocampista todoterreno con mucha proyección. Ha conseguido dar el salto a un grande como el Atlético de Madrid, donde confían que pueda convertirse en un fijo en el medio-plazo.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

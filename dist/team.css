@@ -22,6 +22,7 @@
     --panel: rgba(8, 25, 12, 0.34);
     --panel-border: rgba(255, 255, 255, 0.16);
     --text: #020200;
+    --light-text: hsla(0, 0%, 0%, 0.543);
     --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
     --body-font: "Lato", sans-serif;
     --h1-font: "TAN Buster", sans-serif;
@@ -45,7 +46,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    font-size: clamp(1.8rem, 4.5vw, 3rem);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     line-height: 0.95;
   font-variation-settings:
     "wdth" 100;
@@ -56,7 +57,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-    font-size: clamp(1.45rem, 3vw, 2.2rem);
+    font-size: clamp(1.45rem, 2.5vw, 2rem);
     line-height: 1.05;
   font-variation-settings:
     "wdth" 100;
@@ -482,12 +483,14 @@ nav {
     border-right: none;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    color: var(--text-light);
 }
 
 .right-nav {
     border-left: none;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    color: var(--text-light);
 }
 
 .group-nav > .left-nav,
