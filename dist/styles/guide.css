@@ -173,3 +173,12 @@ section {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px 2%;
 }
+
+@media (max-width: 900px) {
+    h2 {
+        text-align: center;
+    }
+    .groups {
+        grid-template-columns: 1fr;
+    }
+}
