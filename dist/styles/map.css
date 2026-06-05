@@ -1,0 +1,396 @@
+:root {
+    --field-green: #5c7d2f;
+    --field-green-deep: #245a21;
+    --line-white: rgba(255, 255, 255, 0.9);
+    --text: #020200;
+    --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+    --marker-shadow-color: rgba(6, 48, 58, 0.25);
+    --marker-ring-strong: rgba(125, 61, 47, 0.4);
+    --marker-ring-weak: rgba(125, 73, 47, 0.1);
+    --marker-ring-hover: rgba(125, 70, 47, 0.15);
+    
+    /* Country-specific shadow colors */
+    --shadow-color-canada: hsla(3, 90%, 40%, 0.25);
+    --shadow-ring-canada: hsla(3, 90%, 40%, 0.4);
+    --shadow-ring-canada-weak: hsla(3, 90%, 40%, 0.1);
+    --shadow-ring-canada-hover: hsla(3, 90%, 40%, 0.15);
+    
+    --shadow-color-usa: hsla(217, 89%, 45%, 0.25);
+    --shadow-ring-usa: hsla(217, 89%, 45%, 0.4);
+    --shadow-ring-usa-weak: hsla(217, 89%, 45%, 0.1);
+    --shadow-ring-usa-hover: hsla(217, 89%, 45%, 0.15);
+    
+    --shadow-color-mexico: hsla(103, 83%, 32%, 0.25);
+    --shadow-ring-mexico: hsla(103, 83%, 32%, 0.4);
+    --shadow-ring-mexico-weak: hsla(103, 83%, 32%, 0.1);
+    --shadow-ring-mexico-hover: hsla(103, 83%, 32%, 0.15);
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    min-height: 100vh;
+    padding: clamp(12px, 2vw, 24px);
+    width: 100%;
+}
+
+.map-header {
+    width: min(1200px, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-inline: 4px;
+}
+
+.map-label {
+    margin: 0;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(2, 2, 0, 0.62);
+}
+
+.map-title {
+    margin: 0;
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text);
+}
+
+.map {
+    width: min(1200px, 90%);
+    height: clamp(400px, 70vh, 700px);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    background: #e5e3df;
+}
+
+/* Leaflet marker customization */
+.leaflet-container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stadium-marker {
+    --stadium-marker-size: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: var(--stadium-marker-size);
+    height: var(--stadium-marker-size);
+    border-radius: 50%;
+    pointer-events: auto;
+}
+
+.stadium-marker-frame {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease;
+    transform: scale(1);
+    will-change: transform;
+}
+
+.stadium-marker-image-wrap {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.stadium-marker-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--marker-ring-strong);
+    animation: pulse-marker 2s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.stadium-marker-img {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 3px solid rgba(255, 255, 255, 0.95);
+    box-shadow: 0 6px 16px var(--marker-shadow-color);
+    filter: drop-shadow(0 6px 12px var(--marker-shadow-color));
+    object-fit: cover;
+    object-position: center center;
+    background-color: rgba(43, 98, 218, 0.1);
+    display: block;
+    pointer-events: none;
+}
+
+.stadium-marker:hover .stadium-marker-frame {
+    transform: scale(1.18);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.stadium-marker:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 0 12px var(--marker-ring-hover);
+}
+
+/* Canada marker styles */
+.stadium-marker--canada .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-canada);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-canada));
+    border: 3px solid var(--shadow-color-canada);
+}
+
+.stadium-marker--canada .stadium-marker-frame::before {
+    animation: pulse-marker-canada 2s ease-in-out infinite;
+}
+
+.stadium-marker--canada:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px hsla(3, 90%, 40%, 0.35), 0 0 0 12px var(--shadow-ring-canada-hover);
+}
+
+/* USA marker styles */
+.stadium-marker--usa .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-usa);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-usa));
+    border: 3px solid var(--shadow-color-usa);
+}
+
+.stadium-marker--usa .stadium-marker-frame::before {
+    animation: pulse-marker-usa 2s ease-in-out infinite;
+}
+
+.stadium-marker--usa:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px hsla(217, 89%, 45%, 0.35), 0 0 0 12px var(--shadow-ring-usa-hover);
+}
+
+/* Mexico marker styles */
+.stadium-marker--mexico .stadium-marker-img {
+    box-shadow: 0 6px 16px var(--shadow-color-mexico);
+    filter: drop-shadow(0 6px 12px var(--shadow-color-mexico));
+    border: 3px solid var(--shadow-color-mexico);
+}
+
+.stadium-marker--mexico .stadium-marker-frame::before {
+    animation: pulse-marker-mexico 2s ease-in-out infinite;
+}
+
+.stadium-marker--mexico:hover .stadium-marker-frame::before {
+    box-shadow: 0 8px 20px hsla(103, 83%, 32%, 0.35), 0 0 0 12px var(--shadow-ring-mexico-hover);
+}
+
+@keyframes pulse-marker {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--marker-ring-strong);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--marker-ring-weak);
+    }
+}
+
+@keyframes pulse-marker-canada {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-canada);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-canada-weak);
+    }
+}
+
+@keyframes pulse-marker-usa {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-usa);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-usa-weak);
+    }
+}
+
+@keyframes pulse-marker-mexico {
+    0%, 100% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 var(--shadow-ring-mexico);
+    }
+    50% {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 8px var(--shadow-ring-mexico-weak);
+    }
+}
+
+.stadium-popup .leaflet-popup-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: min(260px, 70vw);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.98) !important;
+}
+
+.stadium-popup .leaflet-popup-content-wrapper {
+    padding: 0 !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.stadium-popup-card {
+    width: 100%;
+}
+
+.stadium-popup-img {
+    display: block;
+    width: 100%;
+    height: 136px;
+    object-fit: cover;
+}
+
+.stadium-popup-details {
+    padding: 8px 10px 10px;
+}
+
+.stadium-popup-header {
+    margin: 0 0 6px 0;
+    font-size: 0.92rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stadium-popup-header.Canada {
+    color: hsla(3, 90%, 40%, 1);
+}
+
+.stadium-popup-header.Mexico {
+    color: hsla(103, 83%, 32%, 1);
+}
+
+.stadium-popup-header.USA{
+    color: hsla(217, 89%, 45%, 1);
+}
+
+.stadium-popup-info {
+    margin: 4px 0;
+    font-size: 0.72rem;
+    color: rgba(2, 2, 0, 0.7);
+}
+
+.stadium-popup-info strong {
+    color: rgb(3, 3, 3);
+}
+
+/* Leaflet controls styling */
+.leaflet-control-zoom,
+.leaflet-control-attribution {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 4px !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: var(--field-green) !important;
+    font-weight: bold !important;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+    background-color: white !important;
+}
+
+@media (max-width: 900px) {
+    .map-container {
+        gap: 12px;
+        padding: clamp(8px, 1.5vw, 16px);
+    }
+
+    .map {
+        width: 100%;
+        height: clamp(350px, 60vh, 600px);
+        border-radius: 12px;
+    }
+
+    .map-title {
+        font-size: clamp(1.4rem, 3.5vw, 2rem);
+    }
+
+    .stadium-marker-img {
+        width: 100%;
+        height: 100%;
+        border-width: 2px;
+    }
+
+    .stadium-marker-frame {
+        --stadium-marker-size: 44px;
+    }
+}
+
+@media (max-width: 640px) {
+    .map-container {
+        gap: 10px;
+        padding: 8px;
+        min-height: auto;
+    }
+
+    .map {
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+    }
+
+    .map-header {
+        width: 100%;
+        padding-inline: 8px;
+    }
+
+    .map-title {
+        font-size: 1.3rem;
+    }
+
+    .stadium-marker-img {
+        width: 100%;
+        height: 100%;
+        border-width: 2px;
+    }
+
+    .stadium-marker-frame {
+        --stadium-marker-size: 40px;
+    }
+
+    .stadium-popup .leaflet-popup-content {
+        font-size: 0.66rem;
+        width: min(200px, 70vw);
+    }
+
+    .stadium-popup-img {
+        height: 104px;
+    }
+
+    .stadium-popup-details {
+        padding: 6px 8px 8px;
+    }
+
+    .stadium-popup-header {
+        font-size: 0.74rem;
+    }
+
+    .stadium-popup-info {
+        font-size: 0.58rem;
+    }
+
+    span {
+        color: black;
+    }
+}
+
+span {
+    color: black;
+}
