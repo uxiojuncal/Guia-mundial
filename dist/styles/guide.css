@@ -13,6 +13,16 @@
     font-display: swap;
 }
 
+:root {
+    --border-radius: 25px;
+    --corner-top-outlayer: -5px;
+    --corner-bottom-outlayer: 5px;
+    --red: #c70f0f;
+    --blue: #2c3a7a;
+    --green: #13a15d;
+    --dark-green: #27600a;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -34,10 +44,40 @@ h2 {
     justify-content: center;
 }
 
+h3 {
+    font-family: "TAN Buster", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a.group-link {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.country-name {
+    text-align: center;
+}
+
 img.guide-title {
     width: 40%;
     height: fit-content;
     margin: 20px 0;
+}
+
+img.country-flag {
+    width: 100%;
+    padding: 10px 0;
+    border: solid 5px white;
+    height: fit-content;
+    border-radius: var(--border-radius);
+    background-color: white;
+    color: black;
 }
 
 section {
@@ -52,10 +92,84 @@ section {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-bottom: 20px;
+    color: white;
+    width: 80%;
 }
 
 .group {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: var(--border-radius);
+    background-color: white;
+}
+
+.group::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: var(--corner-bottom-outlayer);
+    left: var(--corner-bottom-outlayer);
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+    pointer-events: none;
+}
+
+.group::before {
+    z-index: -2;
+    content: "";
+    position: absolute;
+    top: var(--corner-top-outlayer);
+    left: var(--corner-top-outlayer);
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+    pointer-events: none;
+    background-color: black;
+}
+
+.group.green {
+    background-color: var(--green);
+}
+
+.group.green::after {
+    background-color: var(--red);
+}
+
+.group.green::before {
+    background-color: var(--blue);
+}
+
+.group.red {
+    background-color: var(--red);
+}
+
+.group.red::before {
+    background-color: var(--dark-green);
+}
+
+.group.red::after {
+    background-color: var(--blue);
+}
+
+.group.blue {
+    background-color: var(--blue);
+}
+
+.group.blue::before {
+    background-color: var(--red);
+}
+
+.group.blue::after {
+    background-color: var(--dark-green);
+}
+
+.groups {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 2%;
 }
