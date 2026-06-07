@@ -123,6 +123,12 @@ nav a {
         url(../assets/img/field.png) center center / contain no-repeat;
 }
 
+img.badge-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .line-up::before {
     content: "";
     position: absolute;
@@ -532,7 +538,6 @@ nav {
 }
 
 .badge-wrapper {
-    border: solid;
     width: 100px;
     height: 100px;
     margin-right: 5%;

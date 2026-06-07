@@ -38,8 +38,8 @@
       "description": "Mediocampista todoterreno con mucha proyección. Ha conseguido fichar por un grande como el Atlético de Madrid, donde tienen confianza en que pueda convertirse en un fijo en el medio-plazo."
     }
   ],
-  "coach-image": "../assets/img/mexico-coach.webp",
-  "badge": "../assets/img/mexico-badge.webp"
+  "coach-image": "../assets/img/Mexico/mexico-coach.webp",
+  "badge": "../assets/img/Mexico/mexico-badge.webp"
 },
 {
   "group": "Grupo A",
@@ -78,8 +78,8 @@
       "description": "Su 1,77 no le ha privado de ser un auténtico muro. Hábil y con gran capacidad para blocar disparos rivales, su compostura en defensa le convierte en una de las joyas escondidas del torneo."
     }
   ],
-  "coach-image": "../assets/img/sudafrica-coach.webp",
-  "badge": "../assets/img/sudafrica-badge.webp"
+  "coach-image": "../assets/img/Sudafrica/south-africa-coach.webp",
+  "badge": "../assets/img/Sudafrica/south-africa-badge.webp"
 },
 {
   "group": "Grupo A",
@@ -118,8 +118,8 @@
       "description": "El primer coreano nacionalizado en disputar un Mundial, sus cualidades y versatilidad le hacen un fijo en el esquema de la selección. Es toda una navaja multiusos: puede jugar de mediocentro,central, lateral o lo que haga falta.."
     }
   ],
-  "coach-image": "../assets/img/corea-del-sur-coach.webp",
-  "badge": "../assets/img/corea-del-sur-badge.webp"
+  "coach-image": "../assets/img/CoreaSur/south-korea-coach.webp",
+  "badge": "../assets/img/CoreaSur/south-korea-badge.webp"
 },
 {
   "group": "Grupo A",
@@ -158,8 +158,8 @@
       "description": "Considerado por muchos “el futuro de la República Checa”, su 1,93 y gran envergadura le hacen un seguro de vida en los balones aéreos, pero también en los uno contra uno gracias a su sangre fría."
     }
   ],
-  "coach-image": "../assets/img/republica-checa-coach.webp",
-  "badge": "../assets/img/republica-checa-badge.webp"
+  "coach-image": "../assets/img/RepublicaCheca/czech-republic-coach.webp",
+  "badge": "../assets/img/RepublicaCheca/czech-republic-badge.webp"
 },
 {
   "group": "Grupo B",
@@ -198,8 +198,8 @@
       "description": "Después de pasar por Malta, Croacia o Estonia, se ha conseguido consolidar en uno de los proyectos con más futuro de Bélgica, cuando todo apuntaba a lo contrario. Algo afectado por las lesiones, su altura y su zancada le hacen un delantero diferencial."
     }
   ],
-  "coach-image": "../assets/img/canada-coach.webp",
-  "badge": "../assets/img/canada-badge.webp"
+  "coach-image": "../assets/img/Canada/canada-coach.webp",
+  "badge": "../assets/img/Canada/canada-badge.webp"
 },
 {
   "group": "Grupo B",
@@ -238,8 +238,8 @@
       "description": "Una de las mayores promesas del torneo, media Europa estará pendiente de otra de las perlas que ha sacado la factoría Red Bull. Se ha consolidado en la selección a pesar de su temprana edad gracias a su calidad, talento y creatividad."
     }
   ],
-  "coach-image": "../assets/img/bosnia-coach.webp",
-  "badge": "../assets/img/bosnia-badge.webp"
+  "coach-image": "../assets/img/Bosnia/bosnia-coach.webp",
+  "badge": "../assets/img/Bosnia/bosnia-badge.webp"
 },
 {
   "group": "Grupo B",
@@ -278,8 +278,8 @@
       "description": "Se ha convertido en la primera opción en el lateral derecho gracias a su versatilidad e inteligencia defensiva. Puede jugar también de central y su gran estatura le aporta capacidades indispensables para el juego aéreo.."
     }
   ],
-  "coach-image": "../assets/img/catar-coach.webp",
-  "badge": "../assets/img/catar-badge.webp"
+  "coach-image": "../assets/img/Catar/catar-coach.webp",
+  "badge": "../assets/img/Catar/catar-badge.webp"
 },
 {
   "group": "Grupo B",
@@ -318,8 +318,8 @@
       "description": "Maravilló en el Young Boys, debutó en Catar 2022 y desde entonces se había estancado con dos malas temporadas. Ha conseguido rehacer su carrera gracias a un traspaso al Augsburgo beneficioso para todas las partes, que le ha otorgado el billete a su segundo Mundial."
     }
   ],
-  "coach-image": "../assets/img/suiza-coach.webp",
-  "badge": "../assets/img/suiza-badge.webp"
+  "coach-image": "../assets/img/Suiza/switzerland-coach.webp",
+  "badge": "../assets/img/Suiza/switzerland-badge.webp"
 },
 {
   "group": "Grupo C",
@@ -358,8 +358,8 @@
       "description": "Una de las sorpresas de la lista. A lo callado, el extremo del Bournemouth se ha ganado un puesto que parecía un imposible hace tan solo 6 meses. Es una gran opción para Ancelotti gracias a su desborde, potencia y mucho jogo bonito."
     }
   ],
-  "coach-image": "../assets/img/brasil-coach.webp",
-  "badge": "../assets/img/brasil-badge.webp"
+  "coach-image": "../assets/img/Brasil/brazil-coach.webp",
+  "badge": "../assets/img/Brasil/brazil-badge.webp"
 },
 {
   "group": "Grupo C",
@@ -398,8 +398,8 @@
       "description": "Ha estado esperando a Francia, pero al quedarse fuera de la convocatoria decide representar al país de sus padres, que compite a un nivel parecido a día de hoy. Es una de las perlas de la Ligue 1, los grandes del planeta se van a pelear por él gracias a su inconmensurable talento."
     }
   ],
-  "coach-image": "../assets/img/marruecos-coach.webp",
-  "badge": "../assets/img/marruecos-badge.webp"
+  "coach-image": "../assets/img/Marruecos/morocco-coach.webp",
+  "badge": "../assets/img/Marruecos/morocco-badge.webp"
 },
 {
   "group": "Grupo C",
@@ -438,8 +438,8 @@
       "description": "Apenas lleva un año en la selección y ya se ha vuelto una pieza clave, sinónimo de peligro en el ataque de Haití. Puede jugar tanto en banda como de mediocentro ofensivo gracias a su agilidad y velocidad."
     }
   ],
-  "coach-image": "../assets/img/haiti-coach.webp",
-  "badge": "../assets/img/haiti-badge.webp"
+  "coach-image": "../assets/img/Haiti/haiti-coach.webp",
+  "badge": "../assets/img/Haiti/haiti-badge.webp"
 },
 {
   "group": "Grupo C",
@@ -478,8 +478,8 @@
       "description": "Buen revulsivo en la Premier y dueño del carril derecho de la selección. Destaca por su capacidad de jugar con ambas piernas, lo que permite usarlo tanto en izquierda como en derecha, además de que aún le queda mucho que mostrar."
     }
   ],
-  "coach-image": "../assets/img/escocia-coach.webp",
-  "badge": "../assets/img/escocia-badge.webp"
+  "coach-image": "../assets/img/Escocia/scotland-coach.webp",
+  "badge": "../assets/img/Escocia/scotland-badge.webp"
 },
 {
   "group": "Grupo D",
@@ -518,8 +518,8 @@
       "description": "Delantero alto y habilidoso. Dio el salto a Europa muy joven, y quizá esa apuesta estancó su progreso durante una o dos temporadas, pero ha conseguido consolidarse como un ariete de garantías gracias a su gran capacidad de definir con ambas piernas y su buen remate de cabeza."
     }
   ],
-  "coach-image": "../assets/img/eeuu-coach.webp",
-  "badge": "../assets/img/eeuu-badge.webp"
+  "coach-image": "../assets/img/EstadosUnidos/usa-coach.webp",
+  "badge": "../assets/img/EstadosUnidos/usa-badge.webp"
 },
 {
   "group": "Grupo D",
@@ -558,8 +558,8 @@
       "description": "A su temprana edad ya ha demostrado su valía en hasta tres continentes diferentes. Tras una temporada de adaptación en Inglaterra, su versatilidad y capacidad para dominar ambas áreas le han hecho un titular indiscutible de plano derecho tanto en club como selección."
     }
   ],
-  "coach-image": "../assets/img/paraguay-coach.webp",
-  "badge": "../assets/img/paraguay-badge.webp"
+  "coach-image": "../assets/img/Paraguay/paraguay-coach.webp",
+  "badge": "../assets/img/Paraguay/paraguay-badge.webp"
 }, 
 {
   "group": "Grupo D",
@@ -598,8 +598,8 @@
       "description": "Central veloz con gran percepción de juego al que es muy difícil superar. Se ha consolidado como el pilar defensivo de un histórico como el Parma, y figura en la lista de jugadores de la Serie A con más disparos bloqueados esta temporada."
     }
   ],
-  "coach-image": "../assets/img/australia-coach.webp",
-  "badge": "../assets/img/australia-badge.webp"
+  "coach-image": "../assets/img/Australia/australia-coach.webp",
+  "badge": "../assets/img/Australia/australia-badge.webp"
 },
 {
   "group": "Grupo D",
@@ -638,8 +638,8 @@
       "description": "Mediocampista poco conocido que, si tiene oportunidades, dará que hablar. Gran driblador y generador de espacios, no duda en “arriesgar” en sus intentos de pases en contextos de alta presión. Tiene una enorme madurez y personalidad a pesar de su corta edad."
     }
   ],
-  "coach-image": "../assets/img/turquia-coach.webp",
-  "badge": "../assets/img/turquia-badge.webp"
+  "coach-image": "../assets/img/Turquia/turkey-coach.webp",
+  "badge": "../assets/img/Turquia/turkey-badge.webp"
 },
 {
   "group": "Grupo E",
@@ -678,8 +678,8 @@
       "description": "Se ha hecho con el puesto de pivote titular en el Bayern en tiempo récord, y pese a su corta experiencia ha dejado grandes actuaciones en Champions, exhibiendo madurez, determinación y actitud, cualidades que le hacen el jugador deseado para cualquier entrenador. Tiene un gran golpeo a balón parado."
     }
   ],
-  "coach-image": "../assets/img/alemania-coach.webp",
-  "badge": "../assets/img/alemania-badge.webp"
+  "coach-image": "../assets/img/Alemania/germany-coach.webp",
+  "badge": "../assets/img/Alemania/germany-badge.webp"
 },
 {
   "group": "Grupo E",
@@ -718,8 +718,8 @@
       "description": "Lateral al que aún le queda mucho por pulir, pero tiene una base bastante competente. Es un perfil más clásico, no se incorpora tanto al ataque. Su punto fuerte son las entradas en defensa, tiene un alto porcentaje de duelos ganados. "
     }
   ],
-  "coach-image": "../assets/img/curazao-coach.webp",
-  "badge": "../assets/img/curazao-badge.webp"
+  "coach-image": "../assets/img/Curazao/curazao-coach.webp",
+  "badge": "../assets/img/Curazao/curazao-badge.webp"
 },
 {
   "group": "Grupo E",
@@ -758,8 +758,8 @@
       "description": "Parecía que podía ofrecer más en el Leganés que bajó a segunda, y el Leipzig ha sacado gran rendimiento a su apuesta por él. Veloz, regateador y buen finalizador, es una de las promesas más codiciadas de Europa y todo parece indicar que su traspaso superará los 100 millones de euros, ese ha sido su crecimiento en un año..."
     }
   ],
-  "coach-image": "../assets/img/costa-de-marfil-coach.webp",
-  "badge": "../assets/img/costa-de-marfil-badge.webp"
+  "coach-image": "../assets/img/CostaMarfil/ivory-coast-coach.webp",
+  "badge": "../assets/img/CostaMarfil/ivory-coast-badge.webp"
 },
 {
   "group": "Grupo E",
@@ -798,8 +798,8 @@
       "description": "Uno de los mayores talentos “bajo el radar” de todo el Mundial. Se dio a conocer gracias a su excelente desempeño en Champions. Poderoso en el juego aéreo y veloz, destaca también por su gran salida de balón y compostura."
     }
   ],
-  "coach-image": "../assets/img/ecuador-coach.webp",
-  "badge": "../assets/img/ecuador-badge.webp"
+  "coach-image": "../assets/img/Ecuador/ecuador-coach.webp",
+  "badge": "../assets/img/Ecuador/ecuador-badge.webp"
 },
 {
   "group": "Grupo F",
@@ -838,8 +838,8 @@
       "description": "Central zurdo, suele jugar de lateral con frecuencia. Es una de las joyas de la nueva generación que, después de una temporada irregular en el Chelsea, busca asentarse y ganar enteros. Su capacidad para el pase lo convierte en un efectivo importante para la salida de balón. "
     }
   ],
-  "coach-image": "../assets/img/paises-bajos-coach.webp",
-  "badge": "../assets/img/paises-bajos-badge.webp"
+  "coach-image": "../assets/img/Holanda/netherlands-coach.webp",
+  "badge": "../assets/img/Holanda/netherlands-badge.webp"
 },
 {
   "group": "Grupo F",
@@ -878,8 +878,8 @@
       "description": "Pese a que no ha podido evitar el descenso de su club, sus 7 goles en 12 partidos en el primer tramo de año le hacen un revulsivo perfecto. Es una amenaza ofensiva capaz de ganar la espalda al rival con frecuencia, y tiene un gran olfato goleador."
     }
   ],
-  "coach-image": "../assets/img/japon-coach.webp",
-  "badge": "../assets/img/japon-badge.webp"
+  "coach-image": "../assets/img/Japon/japan-coach.webp",
+  "badge": "../assets/img/Japon/japan-badge.webp"
 }, 
 {
   "group": "Grupo F",
@@ -918,8 +918,8 @@
       "description": "Una de las mayores sorpresas de la Premier League esta temporada, jugador capaz de adaptarse a cada estilo y cada situación de juego. Su polivalencia, calidad y madurez le han establecido tanto en club como selección."
     }
   ],
-  "coach-image": "../assets/img/suecia-coach.webp",
-  "badge": "../assets/img/suecia-badge.webp"
+  "coach-image": "../assets/img/Suecia/sweden-coach.webp",
+  "badge": "../assets/img/Suecia/sweden-badge.webp"
 },
 {
   "group": "Grupo F",
@@ -958,8 +958,8 @@
       "description": "Apuntaba a ser uno de los talentos de esta generación, con España y Francia peleando por él. Se decantó por su país materno por la confianza que depositó la RFEF en él, pero la falta de oportunidades en inferiores le hicieron representar a Túnez, donde es un jugador diferencial."
     }
   ],
-  "coach-image": "../assets/img/tunez-coach.webp",
-  "badge": "../assets/img/tunez-badge.webp"
+  "coach-image": "../assets/img/Tunez/tunisia-coach.webp",
+  "badge": "../assets/img/Tunez/tunisia-badge.webp"
 },
 {
   "group": "Grupo G",
@@ -998,8 +998,8 @@
       "description": "Compañero de Tielemans en equipo y selección, es un perfil más “destructor”, mucho más físico y defensivo. Aprovecha sus privilegiadas condiciones para llegar con frecuencia al área rival y romper líneas de presión. "
     }
   ],
-  "coach-image": "../assets/img/belgica-coach.webp",
-  "badge": "../assets/img/belgica-badge.webp"
+  "coach-image": "../assets/img/Belgica/belgium-coach.webp",
+  "badge": "../assets/img/Belgica/belgium-badge.webp"
 },
 {
   "group": "Grupo G",
@@ -1038,8 +1038,8 @@
       "description": "Ha dado un buen nivel en su primer salto al fútbol europeo. También parte desde la banda izquierda, pero se puede reubicar a la mediapunta. Creativo y regateador, su inspiración en el último tercio de campo será determinante."
     }
   ],
-  "coach-image": "../assets/img/egipto-coach.webp",
-  "badge": "../assets/img/egipto-badge.webp"
+  "coach-image": "../assets/img/Egipto/egypt-coach.webp",
+  "badge": "../assets/img/Egipto/egypt-badge.webp"
 },
 {
   "group": "Grupo G",
@@ -1078,8 +1078,8 @@
       "description": "Con la importante baja de Azmoun, está ante la oportunidad de su carrera. Viene avalado con dos títulos ‘pichichi consecutivos’ en las últimas ligas iraníes. Se ha establecido como goleador en el Tractor después de un paso discreto por Bélgica."
     }
   ],
-  "coach-image": "../assets/img/iran-coach.webp",
-  "badge": "../assets/img/iran-badge.webp"
+  "coach-image": "../assets/img/Iran/iran-coach.webp",
+  "badge": "../assets/img/Iran/iran-badge.webp"
 },
 {
   "group": "Grupo G",
@@ -1118,8 +1118,8 @@
       "description": "Fichado, cómo no, del Nottingham Forest, ha tenido una temporada correcta como pivote. Su estilo es más de un marcador que un generador de juego, y de cara a jugar contra selecciones más potentes deberá mitigar la facilidad con la que le sacan tarjetas amarillas."
     }
   ],
-  "coach-image": "../assets/img/nueva-zelanda-coach.webp",
-  "badge": "../assets/img/nueva-zelanda-badge.webp"
+  "coach-image": "../assets/img/NuevaZelanda/new-zealand-coach.webp",
+  "badge": "../assets/img/NuevaZelanda/new-zealand-badge.webp"
 },
 {
   "group": "Grupo H",
@@ -1158,8 +1158,8 @@
       "description": "Pasó de lateral suplente a central titular en el Atlético de Madrid, ese es el mejor medidor de su temporada de irrupción. Oro olímpico en París 2024, muy inteligente en los duelos, su convocatoria aporta versatilidad y coraje a la defensa de La Roja. "
     }
   ],
-  "coach-image": "../assets/img/espana-coach.webp",
-  "badge": "../assets/img/espana-badge.webp"
+  "coach-image": "../assets/img/Espana/spain-coach.webp",
+  "badge": "../assets/img/Espana/spain-badge.webp"
 },
 {
   "group": "Grupo H",
@@ -1198,8 +1198,8 @@
       "description": "En Lisboa apostaron por él después de una etapa interesante en Estrela da Amadora, y ha conseguido doce participaciones de goles en tan solo 23 partidos de Liga, cifras que serían meritorias en un delantero, pero asombran al tratarse de un lateral."
     }
   ],
-  "coach-image": "../assets/img/cabo-verde-coach.webp",
-  "badge": "../assets/img/cabo-verde-badge.webp"
+  "coach-image": "../assets/img/CaboVerde/cabo-verde-coach.webp",
+  "badge": "../assets/img/CaboVerde/cabo-verde-badge.webp"
 },
 {
   "group": "Grupo H",
@@ -1238,8 +1238,8 @@
       "description": "Pese a que parta como titular, no ha estado cerca de igualar sus 17 goles en la temporada previa al desembarco masivo de estrellas internacionales. Compensa su eventual falta de pólvora con grandes indicadores que prueban su compromiso defensivo."
     }
   ],
-  "coach-image": "../assets/img/arabia-saudi-coach.webp",
-  "badge": "../assets/img/arabia-saudi-badge.webp"
+  "coach-image": "../assets/img/ArabiaSaudi/saudi-arabia-coach.webp",
+  "badge": "../assets/img/ArabiaSaudi/saudi-arabia-badge.webp"
 },
 {
   "group": "Grupo H",
@@ -1278,8 +1278,8 @@
       "description": "Tal es su aportación ofensiva como carrilero izquierdo que es probable que lo veamos como extremo en un “doble lateral”. Ha hecho de la banda izquierda del José Alvalade su jardín, y no son pocas las informaciones que lo vinculan con equipos de la Premier."
     }
   ],
-  "coach-image": "../assets/img/uruguay-coach.webp",
-  "badge": "../assets/img/uruguay-badge.webp"
+  "coach-image": "../assets/img/Uruguay/uruguay-coach.webp",
+  "badge": "../assets/img/Uruguay/uruguay-badge.webp"
 },
 {
   "group": "Grupo I",
@@ -1318,8 +1318,8 @@
       "description": "Consolidado como uno de los mejores centrales europeos en el sistema de Arteta, que aunque “feo” es muy efectivo, parecido en ciertas cosas a lo que propone Deschamps. Colosal en el juego aéreo, es corpulento y también rápido, mucho más estable que Upamecano."
     }
   ],
-  "coach-image": "../assets/img/francia-coach.webp",
-  "badge": "../assets/img/francia-badge.webp"
+  "coach-image": "../assets/img/Francia/france-coach.webp",
+  "badge": "../assets/img/Francia/france-badge.webp"
 },
 {
   "group": "Grupo I",
@@ -1358,8 +1358,8 @@
       "description": "Al igual que Pape Gueye, es un jugador sumamente versátil, ideal para contextos cambiantes desde el mediocampo. Es más ordenado y mejor pasador, pero no tiene tanta llegada al área rival. También tiene un gran golpeo de balón para jugadas ensayadas."
     }
   ],
-  "coach-image": "../assets/img/senegal-coach.webp",
-  "badge": "../assets/img/senegal-badge.webp"
+  "coach-image": "../assets/img/Senegal/senegal-coach.webp",
+  "badge": "../assets/img/Senegal/senegal-badge.webp"
 },
 {
   "group": "Grupo I",
@@ -1398,8 +1398,8 @@
       "description": "Nacido en Manchester, se curtió en las inferiores del United antes de salir a Holanda. Después de ser importante en la clasificación a Europa League, esta temporada no ha logrado tener continuidad al arrastrar una lesión de rodilla."
     }
   ],
-  "coach-image": "../assets/img/irak-coach.webp",
-  "badge": "../assets/img/irak-badge.webp"
+  "coach-image": "../assets/img/Iraq/irak-coach.webp",
+  "badge": "../assets/img/Iraq/irak-badge.webp"
 },
 {
   "group": "Grupo I",
@@ -1438,8 +1438,8 @@
       "description": "Presumiblemente, peleará con Schjelderup por un puesto titular en la banda izquierda. Es más regateador, pero le cuesta más tener pegada en el área. Ha despuntado en Alemania después de muy buenos años en el Brujas, con actuaciones destacadas en Champions."
     }
   ],
-  "coach-image": "../assets/img/noruega-coach.webp",
-  "badge": "../assets/img/noruega-badge.webp"
+  "coach-image": "../assets/img/Noruega/norway-coach.webp",
+  "badge": "../assets/img/Noruega/norway-badge.webp"
 },
 {
   "group": "Grupo J",
@@ -1478,8 +1478,8 @@
       "description": "Sus dos años en Italia han sido excelsos: ha ganado el premio de mejor mediocentro de la Serie A y consiguió que el Como entrase en Champions League con 19 participaciones de gol. Todo parece indicar que el Madrid activará su opción de recompra para asegurarse a uno de los jóvenes más prometedores del momento."
     }
   ],
-  "coach-image": "../assets/img/argentina-coach.webp",
-  "badge": "../assets/img/argentina-badge.webp"
+  "coach-image": "../assets/img/Argentina/argentina-coach.webp",
+  "badge": "../assets/img/Argentina/argentina-badge.webp"
 }, {
   "group": "Grupo J",
   "name": "Argelia",
@@ -1517,8 +1517,8 @@
       "description": "Un mediapunta más clásico, que también puede jugar por la banda izquierda. Destaca por su capacidad de regate y disparo lejano, aunque le cuesta ver puerta. Es un gran generador de oportunidades claras de gol, con buena velocidad y manejo de balón."
     }
   ],
-  "coach-image": "../assets/img/argelia-coach.webp",
-  "badge": "../assets/img/argelia-badge.webp"
+  "coach-image": "../assets/img/Argelia/argelia-coach.webp",
+  "badge": "../assets/img/Argelia/argelia-badge.webp"
 },
 {
   "group": "Grupo J",
@@ -1557,8 +1557,8 @@
       "description": "Contrastadísimo en la Bundesliga pese a su corta edad, podríamos definirlo como un pivote “de los de toda la vida”: preciso en pases cortos, su contribución ofensiva es más discreta. Además, tiene una gran predilección por las entradas y gana muchos duelos."
     }
   ],
-  "coach-image": "../assets/img/austria-coach.webp",
-  "badge": "../assets/img/austria-badge.webp"
+  "coach-image": "../assets/img/Austria/austria-coach.webp",
+  "badge": "../assets/img/Austria/austria-badge.webp"
 },
 {
   "group": "Grupo J",
@@ -1597,8 +1597,8 @@
       "description": "Tuvo un muy buen papel en Al Muharraq, y es un perfil especialmente interesante por su capacidad defensiva, que combina con su inteligencia para convertir goles: está en el momento adecuado en el lugar adecuado."
     }
   ],
-  "coach-image": "../assets/img/jordania-coach.webp",
-  "badge": "../assets/img/jordania-badge.webp"
+  "coach-image": "../assets/img/Jordania/jordan-coach.webp",
+  "badge": "../assets/img/Jordania/jordan-badge.webp"
 },
 {
   "group": "Grupo K",
@@ -1637,8 +1637,8 @@
       "description": "Otro jugador espectacular de un equipo que maravilla al mundo. Muy rápido en ataque, donde destaca Nuno Mendes es en la capacidad de secar a extremos tan desequilibrantes como Lamine Yamal. Parece que tiene cuatro pulmones por la resistencia que exhibe en los tramos finales de los partidos."
     }
   ],
-  "coach-image": "../assets/img/portugal-coach.webp",
-  "badge": "../assets/img/portugal-badge.webp"
+  "coach-image": "../assets/img/Portugal/portugal-coach.webp",
+  "badge": "../assets/img/Portugal/portugal-badge.webp"
 },
 {
   "group": "Grupo K",
@@ -1677,8 +1677,8 @@
       "description": "Ha encontrado estabilidad en Montpellier, después de encadenar cesiones. Es un extremo izquierdo que no juega a pierna cambiada, tiene muy buen pie para los libres directos y es efectivo con los regates: sin ser un “prestidigitador”, usa su cuerpo muy bien en las fintas."
     }
   ],
-  "coach-image": "../assets/img/rd-congo-coach.webp",
-  "badge": "../assets/img/rd-congo-badge.webp"
+  "coach-image": "../assets/img/RDCongo/congo-coach.webp",
+  "badge": "../assets/img/RDCongo/congo-badge.webp"
 },
 {
   "group": "Grupo K",
@@ -1717,8 +1717,8 @@
       "description": "Salió de su país y no tuvo una etapa fácil en Rusia primero y Bielorrusia después. Ha vuelto y logró 5 goles en apenas 10 partidos. Gracias a su metro noventa, puede ser una amenaza en los saques de esquina y jugadas a balón parado."
     }
   ],
-  "coach-image": "../assets/img/uzbekistan-coach.webp",
-  "badge": "../assets/img/uzbekistan-badge.webp"
+  "coach-image": "../assets/img/Uzbekistan/uzbekistan-coach.webp",
+  "badge": "../assets/img/Uzbekistan/uzbekistan-badge.webp"
 },
 {
   "group": "Grupo K",
@@ -1757,8 +1757,8 @@
       "description": "Fichaje de futuro del Leverkusen, se curtió en Nüremberg y Hull antes de llegar al Sardinero. Es uno de los jugadores más importantes en la plantilla que logró el ascenso, actúa como pivote y pese a ser un bregador, no “le quema el balón” cuando lo tiene, es inteligente para buscar salidas."
     }
   ],
-  "coach-image": "../assets/img/colombia-coach.webp",
-  "badge": "../assets/img/colombia-badge.webp"
+  "coach-image": "../assets/img/Colombia/colombia-coach.webp",
+  "badge": "../assets/img/Colombia/colombia-badge.webp"
 },
 {
   "group": "Grupo L",
@@ -1797,8 +1797,8 @@
       "description": "Fichaje multimillonario del Barça para reforzar la delantera. Esta temporada ha jugado en punta, y entre sus principales virtudes podemos destacar sus esfuerzos en la presión del equipo y un ritmo vertiginoso. No es tan prolífico a la hora de anotar como otras opciones."
     }
   ],
-  "coach-image": "../assets/img/inglaterra-coach.webp",
-  "badge": "../assets/img/inglaterra-badge.webp"
+  "coach-image": "../assets/img/Inglaterra/england-coach.webp",
+  "badge": "../assets/img/Inglaterra/england-badge.webp"
 },
 {
   "group": "Grupo L",
@@ -1837,8 +1837,8 @@
       "description": "Mediapunta con tendencia a caer en la banda izquierda, salió del Dinamo de Zagreb en 2025 y ya es uno de los nombres propios del equipo revelación en Italia. Tiene un muy buen disparo lejano, y domina el balón parado. Su capacidad de generar juego es mucho mayor de lo que las estadísticas indican."
     }
   ],
-  "coach-image": "../assets/img/croacia-coach.webp",
-  "badge": "../assets/img/croacia-badge.webp"
+  "coach-image": "../assets/img/Croacia/croatia-coach.webp",
+  "badge": "../assets/img/Croacia/croatia-badge.webp"
 },
 {
   "group": "Grupo L",
@@ -1877,8 +1877,8 @@
       "description": "“Descubierto” como Sulemana, es un mediocentro con capacidad para caer a la banda o jugar en el lateral, como en su selección. Es precisamente su versatilidad lo que lo convierte en un perfil tan interesante: llega al ataque con frecuencia, genera juego y es muy preciso en el pase."
     }
   ],
-  "coach-image": "../assets/img/ghana-coach.webp",
-  "badge": "../assets/img/ghana-badge.webp"
+  "coach-image": "../assets/img/Ghana/ghana-coach.webp",
+  "badge": "../assets/img/Ghana/ghana-badge.webp"
 },
 {
   "group": "Grupo L",
@@ -1917,8 +1917,8 @@
       "description": "Central diestro, el esquema de tres defensas le permite adelantarse más y asegurar una buena salida de balón con pases precisos. Ha tenido que sobreponerse a una lesión muscular y otra de rodilla en su camino hacia la convocatoria mundialista."
     }
     ],
-  "coach-image": "../assets/img/panama-coach.webp",
-  "badge": "../assets/img/panama-badge.webp"
+  "coach-image": "../assets/img/Panama/panama-coach.webp",
+  "badge": "../assets/img/Panama/panama-badge.webp"
     }
     ]
 }
