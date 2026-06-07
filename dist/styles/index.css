@@ -62,24 +62,30 @@ header h1 {
     }
 }
 
+header h1 img,
+header h2 img,
+header h3 img,
+header > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 header h1 img {
 	width: 70%;
-	height: fit-content;
 }
 
 header h2 img {
 	width: 60%;
-	height: fit-content;
 }
 
 header h3 img {
 	width: 40%;
-	height: fit-content;
 }
 
 header > img {
 	width: 40%;
-	height: fit-content;
 }
 
 p {
