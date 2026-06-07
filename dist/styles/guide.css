@@ -50,7 +50,7 @@ h3 {
     color: white;
 }
 
-a.group-link {
+a {
     text-decoration: none;
     color: inherit;
     font-family: "Montserrat", sans-serif;
@@ -73,7 +73,8 @@ p.country-name {
 
 img.guide-title {
     width: 40%;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     margin: 20px 0;
 }
 
@@ -185,16 +186,47 @@ section {
     gap: 20px 2%;
 }
 
+button {
+	border: none;
+	cursor: pointer;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.back-btn {
+	border-radius: 50px;
+	padding: 20px 5% 15px 5%;
+	color: white;
+	background-image: linear-gradient(315deg, #27600a, #2c3a7a, #c70f0f);
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn > a {
+    font-size: 1.2rem;
+}
+
 @media (max-width: 900px) {
     h2 {
         text-align: center;
         font-size: 2rem;
     }
+    img.guide-title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
     .groups {
         grid-template-columns: 1fr;
-    }
-    img.guide-title {
-        width: 80%;
     }
 }
 

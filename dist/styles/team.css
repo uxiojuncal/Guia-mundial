@@ -45,6 +45,12 @@ html {
         font-size: clamp(15px, 0.45vw + 13px, 18px);
 }
 
+.nav-item:hover {
+    filter: brightness(1.2);
+    transition: filter 0.3s ease;
+    cursor: pointer;
+}
+
 h1 {
   font-family: var(--h1-font);
   font-optical-sizing: auto;
