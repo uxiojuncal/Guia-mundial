@@ -14,7 +14,7 @@ const placeholderSvg = `
 
 const fallbackImage = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(placeholderSvg)}`;
 
-async function loadLineup(filePath = './lineups/Alemania.json') {
+async function loadLineup(filePath) {
 	try {
 		const response = await fetch(filePath);
 		if (!response.ok) throw new Error(`Failed to load ${filePath}`);
@@ -25,27 +25,19 @@ async function loadLineup(filePath = './lineups/Alemania.json') {
 	}
 }
 
-function getTeamName() {
-	return document.querySelector('.team-title')?.textContent?.trim() || '';
-}
-
-function slugifyFileName(name) {
-	return `${name
-		.toLowerCase()
-		.normalize('NFD')
-		.replace(/[\u0300-\u036f]/g, '')
-		.replace(/[^a-z0-9]+/g, '-')
-		.replace(/^-+|-+$/g, '')}.json`;
+function getCurrentPageBaseName() {
+	const fileName = window.location.pathname.split('/').pop() || '';
+	return fileName.replace(/\.html$/i, '');
 }
 
 async function loadTeamLineup() {
-	const teamName = getTeamName();
-	if (!teamName) {
-		console.error('Team title not found; lineup cannot be loaded.');
+	const pageBaseName = getCurrentPageBaseName();
+	if (!pageBaseName) {
+		console.error('Page filename not found; lineup cannot be loaded.');
 		return {};
 	}
 
-	const lineupFileName = slugifyFileName(teamName);
+	const lineupFileName = `${pageBaseName}.json`;
 	const lineupPaths = [
 		`../assets/data/lineups/${lineupFileName}`,
 		`../lineups/${lineupFileName}`,
