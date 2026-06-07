@@ -42,6 +42,8 @@ header h1,
 header h2,
 header h3 {
 	margin: 0;
+	display: flex;
+	justify-content: center;
 }
 
 header h1 {
@@ -52,9 +54,26 @@ header h1 {
     header h1 {
         padding-top: 175px;
     }
+
     p, h1, h2, h3, h4 {
         padding: 0 20px;
+		display: flex;
+		justify-content: center;
+		width: 100%;
     }
+
+	
+	header h1 img,
+	header h2 img,
+	header h3 img,
+	header > img {
+		display: block;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+
     .read-guide-btn {
 	    background-image: linear-gradient(315deg, #27600a, #2c3a7a, #c70f0f);
         margin-top: -30px !important;
