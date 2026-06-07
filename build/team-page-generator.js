@@ -84,21 +84,29 @@ function populateNavBars($, navData) {
     return;
   }
 
+  const currentGroupIndex = GROUPS.indexOf(navData.group);
+
   const teamNav = {
     prev: TEAMS_LIST[(currentIndex - 1 + TEAMS_LIST.length) % TEAMS_LIST.length],
     current: navData.name,
     next: TEAMS_LIST[(currentIndex + 1) % TEAMS_LIST.length],
   };
 
-  const groupNav = {
+  const groupNavRefs = {
     prev: TEAMS_LIST[(currentIndex - 4 + TEAMS_LIST.length) % TEAMS_LIST.length],
     current: navData.name,
     next: TEAMS_LIST[(currentIndex + 4) % TEAMS_LIST.length],
   };
 
+  const groupNavLabels = {
+    prev: GROUPS[(currentGroupIndex - 1 + GROUPS.length) % GROUPS.length],
+    current: navData.group,
+    next: GROUPS[(currentGroupIndex + 1) % GROUPS.length],
+  };
+
   const navMap = {
     team: teamNav,
-    group: groupNav,
+    group: groupNavRefs,
   };
 
   Object.entries(navMap).forEach(([navType, items]) => {
@@ -106,9 +114,11 @@ function populateNavBars($, navData) {
     const currentLink = $(`[data-link="${navType}"] a`);
     const nextLink = $(`[data-link="next-${navType}"] a`);
 
-    prevLink.attr('href', slugifyFileName(items.prev)).text(items.prev);
-    currentLink.attr('href', slugifyFileName(items.current)).text(items.current);
-    nextLink.attr('href', slugifyFileName(items.next)).text(items.next);
+    const labels = navType === 'group' ? groupNavLabels : items;
+
+    prevLink.attr('href', slugifyFileName(items.prev)).text(labels.prev);
+    currentLink.attr('href', slugifyFileName(items.current)).text(labels.current);
+    nextLink.attr('href', slugifyFileName(items.next)).text(labels.next);
   });
 }
 

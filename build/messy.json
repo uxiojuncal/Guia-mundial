@@ -1,0 +1,1919 @@
+{
+  "group": "Grupo A",
+  "name": "México",
+  "subtitle": "La esperanza del anfitrión",
+  "coach-name": "Javier Aguirre (67)",
+  "coach-desc": "Manda en el ‘Tri’ desde 2024, culminando una carrera dilatada y exitosa en España. Pragmático y gran motivador, siempre consigue sacar el 110% de plantillas limitadas.",
+  "players-rating": 5,
+  "coach-rating": 7,
+  "expectations": "Octavos/Cuartos de Final",
+  "hl-players": [
+    {
+      "name": "Raúl Jiménez",
+      "age": 35,
+      "club": "Fulham",
+      "description": "La estrella del Tri. Ex del Atlético de Madrid, es un seguro de vida en el ataque. Juega, crea, remata, pelea y se juega el tipo con tal de ayudar a su equipo. Disputa su tercer Mundial tras otro buen año en Inglaterra."
+    },
+    {
+      "name": "Álvaro Fidalgo",
+      "age": 29,
+      "club": "Real Betis",
+      "description": "Asturiano de nacimiento, pero mexicano de corazón. Tras pasar por la cantera del Madrid, el Rayo Majadahonda o el Castellón cruzó el charco para fichar por el América, donde se ha convertido en un talento generacional. Jugador técnico que apunta maneras en el Betis."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Gilberto Mora",
+      "age": 17,
+      "club": "Tijuana",
+      "description": "La esperanza de un país, un talento generacional que ha tirado la puerta abajo consolidándose como inamovible en los planes de Javier Aguirre. Busca hacer un buen Mundial para dar el gran salto, con el Bayern siguiéndole de cerca."
+    },
+    {
+      "name": "Obed Vargas",
+      "age": 20,
+      "club": "Atlético de Madrid",
+      "description": "Mediocampista todoterreno con mucha proyección. Ha conseguido fichar por un grande como el Atlético de Madrid, donde tienen confianza en que pueda convertirse en un fijo en el medio-plazo."
+    }
+  ],
+  "coach-image": "../assets/img/mexico-coach.webp",
+  "badge": "../assets/img/mexico-badge.webp"
+},
+{
+  "group": "Grupo A",
+  "name": "Sudáfrica",
+  "subtitle": "Espíritu Waka Waka",
+  "coach-name": "Hugo Bross (73)",
+  "coach-desc": "Inaugura el Mundial en el Azteca, como en 1986, esta vez desde el banquillo. Todo un trotamundos, consiguió la última Copa África de Camerún en 2017 cuando nadie lo esperaba.",
+  "players-rating": 4,
+  "coach-rating": 5,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Teboho Mokoena",
+      "age": 29,
+      "club": "Mamelodi Sundowns",
+      "description": "Mediocentro defensivo incansable y motor del juego de la selección. Destaca, en parte, por su capacidad de aparecer por sorpresa en el área rival y definir cuando nadie le espera.."
+    },
+    {
+      "name": "Ronwen Williams",
+      "age": 34,
+      "club": "Mamelodi Sundowns",
+      "description": "Líder indiscutible y capitán por excelencia, es uno de los mejores porteros del continente africano. Si Sudáfrica consigue dar la campanada y pasar a dieciseisavos, es todo un especialista en las tandas de penaltis."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Lyle Foster",
+      "age": 25,
+      "club": "Burnley",
+      "description": "Delantero luchador donde los haya, quizá su espíritu aguerrido y todos los esfuerzos que realiza durante los partidos son su aspecto más destacable. En Inglaterra le cuesta hacer goles, pero cuando se pone la camiseta de la selección se le caen de los bolsillos."
+    },
+    {
+      "name": "Mbekezeli Mbokazi",
+      "age": 20,
+      "club": "Chicago Fire",
+      "description": "Su 1,77 no le ha privado de ser un auténtico muro. Hábil y con gran capacidad para blocar disparos rivales, su compostura en defensa le convierte en una de las joyas escondidas del torneo."
+    }
+  ],
+  "coach-image": "../assets/img/sudafrica-coach.webp",
+  "badge": "../assets/img/sudafrica-badge.webp"
+},
+{
+  "group": "Grupo A",
+  "name": "Corea del Sur",
+  "subtitle": "Los Guerreros K-Pop",
+  "coach-name": "Hong Myun-Bo (57)",
+  "coach-desc": "Consiguió el bronce en Londres 2012 y volvió a la selección después de hacer doblete nacional de ligas. Aseguró la décima clasificación seguida al Mundial, todo un hito.",
+  "players-rating": 5,
+  "coach-rating": 6,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Heung Min-Son",
+      "age": 33,
+      "club": "LAFC",
+      "description": "El mayor talento de la historia de Corea, un fenómeno de masas que además exhibe grandes valores. Su marcha de la Premier League hace una temporada marcó el declive de su carrera, pero sigue manteniendo muchas de las habilidades que le hicieron uno de los futbolistas más diferenciales del planeta."
+    },
+    {
+      "name": "Kim Min-Jae",
+      "age": 29,
+      "club": "Bayern Munich",
+      "description": "Intimidante como él solo, busca recuperar el nivel que ofreció en Turquía e Italia antes de su paso al Bayern de Múnich, donde no ha conseguido consolidarse a pesar de las buenas expectativas generadas. Pese a ello, se mantiene como el estandarte de la defensa coreana, gracias a su mezcla perfecta de experiencia y calidad."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Kang In-Lee",
+      "age": 24,
+      "club": "PSG",
+      "description": "Canterano del Valencia, salió por la puerta de atrás en otra gestión nefasta de Peter Lim, maravilló a Europa con su talento en el Mallorca y se ha convertido en el revulsivo preferido de Luis Enrique en París gracias a su desborde y verticalidad."
+    },
+    {
+      "name": "Jens Castrop",
+      "age": 22,
+      "club": "Borussia Monchengladbach",
+      "description": "El primer coreano nacionalizado en disputar un Mundial, sus cualidades y versatilidad le hacen un fijo en el esquema de la selección. Es toda una navaja multiusos: puede jugar de mediocentro,central, lateral o lo que haga falta.."
+    }
+  ],
+  "coach-image": "../assets/img/corea-del-sur-coach.webp",
+  "badge": "../assets/img/corea-del-sur-badge.webp"
+},
+{
+  "group": "Grupo A",
+  "name": "República Checa",
+  "subtitle": "Por fin de vuelta",
+  "coach-name": "Miroslav Koubek (74)",
+  "coach-desc": "Tomó las riendas checas de emergencia después de una buena etapa con el Viktoria Plzen, justo antes de los playoffs. Después de una serie de infarto, consiguió el objetivo tras 20 años de ausencia.",
+  "players-rating": 5,
+  "coach-rating": 5,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Patrik Schick",
+      "age": 30,
+      "club": "Bayer Leverkusen",
+      "description": "Garantía absoluta de gol por tierra, mar o aire, su explosión se ha visto truncada por las lesiones, que nos privaron de ese gran traspaso a uno de los grandes de Europa que su calidad merecía. Es un líder y jugador de equipo, diferencial en los momentos claves."
+    },
+    {
+      "name": "Tomáš Souček ",
+      "age": 31,
+      "club": "West Ham",
+      "description": "Pivote goleador y con gran colocación, llegó a ser de los mejores centrocampistas de la Premier después de que nadie contase con él ni supiese pronunciar su apellido. Después de no poder evitar el descenso de un West Ham indigno, busca redimirse en el Mundial."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Lukas Hornicek",
+      "age": 23,
+      "club": "Braga",
+      "description": "Portero de garantías con un potencial enorme. Se ha hecho con la portería de un equipo en constante crecimiento como el Braga, y es uno de los principales culpables del gran desempeño del club portugués en la Europa League, llegando hasta semifinales."
+    },
+    {
+      "name": "Martin Vitik",
+      "age": 23,
+      "club": "Bologna",
+      "description": "Considerado por muchos “el futuro de la República Checa”, su 1,93 y gran envergadura le hacen un seguro de vida en los balones aéreos, pero también en los uno contra uno gracias a su sangre fría."
+    }
+  ],
+  "coach-image": "../assets/img/republica-checa-coach.webp",
+  "badge": "../assets/img/republica-checa-badge.webp"
+},
+{
+  "group": "Grupo B",
+  "name": "Canadá",
+  "subtitle": "La senda del arce",
+  "coach-name": "Jesse Marsch (52)",
+  "coach-desc": "Consiguió reinar en Austria con Red Bull, pero no pudo replicar sus éxitos en Bundesliga y Premier League. Debutó metiendo a Canadá en las semis de la Copa América, y los rumores sugieren que renovará.",
+  "players-rating": 4,
+  "coach-rating": 6,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Alphonso Davies",
+      "age": 25,
+      "club": "Bayern Munich",
+      "description": "Si bien es cierto que su rendimiento no es el mismo que el de hace tres o cuatro temporadas, en forma es uno de los mejores laterales de la élite europea, y el más rápido del mundo. Las esperanzas de Canadá dependen en gran medida de su resistencia, precisión y calidad defensiva."
+    },
+    {
+      "name": "Jonathan David",
+      "age": 26,
+      "club": "Juventus",
+      "description": "El pasado verano era uno de los delanteros más codiciados en toda Europa gracias a su velocidad y definición en el Lille. La Juventus consiguió pescarlo libre, pero su forma en Italia ha bajado de forma notable. Busca recuperar la continuidad y volver a su mejor nivel."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ismael Kone",
+      "age": 23,
+      "club": "Sassuolo",
+      "description": "Uno de los proyectos más ilusionantes, y a la vez desconocidos, de los Maple Leafs. Se ha consolidado en Europa gracias a su calidad, habilidad y regularidad. No es excesivamente brillante ni sale en las portadas, pero hace el trabajo sucio como pocos."
+    },
+    {
+      "name": "Promise David",
+      "age": 24,
+      "club": "Union Saint Gilloise",
+      "description": "Después de pasar por Malta, Croacia o Estonia, se ha conseguido consolidar en uno de los proyectos con más futuro de Bélgica, cuando todo apuntaba a lo contrario. Algo afectado por las lesiones, su altura y su zancada le hacen un delantero diferencial."
+    }
+  ],
+  "coach-image": "../assets/img/canada-coach.webp",
+  "badge": "../assets/img/canada-badge.webp"
+},
+{
+  "group": "Grupo B",
+  "name": "Bosnia",
+  "subtitle": "Soñadores y verdugos",
+  "coach-name": "Sergej Barbarez (54)",
+  "coach-desc": "Leyenda del Hamburgo, cambió el rumbo funesto de Bosnia en la Nations League para clasificarla al segundo Mundial en su historia de la forma más agónica posible, con dos tandas de penaltis.",
+  "players-rating": 4,
+  "coach-rating": 7,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Edin Džeko",
+      "age": 40,
+      "club": "Schalke 04",
+      "description": "El último gran servicio a Bosnia de su mayor leyenda. Da igual Manchester, Wolfsburgo, Milán o el patio de su casa, este veterano sigue garantizando goles. Gracias a su altura y gran capacidad técnica, parece que los años no han pasado por él."
+    },
+    {
+      "name": "Amar Dedic",
+      "age": 23,
+      "club": "Benfica",
+      "description": "El correcaminos bosnio, se ha convertido en una figura inamovible del Benfica de Mourinho. Es un buen centrador y muestra una gran capacidad para llegar al área, convirtiéndose en el complemento perfecto para Dzeko."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Esmir Bajraktarevic",
+      "age": 21,
+      "club": "PSV Eindhoven",
+      "description": "El héroe de todo un país, empezó en el fútbol internacional defendiendo los colores de Estados Unidos. A los pocos meses cambió de aires, la vida le regaló la oportunidad de tirar el penalti decisivo contra Italia… y el resto es historia. Destaca por su desborde y picardía."
+    },
+    {
+      "name": "Kerim Alajbegovic",
+      "age": 18,
+      "club": "RB Salzburgo",
+      "description": "Una de las mayores promesas del torneo, media Europa estará pendiente de otra de las perlas que ha sacado la factoría Red Bull. Se ha consolidado en la selección a pesar de su temprana edad gracias a su calidad, talento y creatividad."
+    }
+  ],
+  "coach-image": "../assets/img/bosnia-coach.webp",
+  "badge": "../assets/img/bosnia-badge.webp"
+},
+{
+  "group": "Grupo B",
+  "name": "Catar",
+  "subtitle": "Objetivo competir",
+  "coach-name": "Julen Lopetegui (59)",
+  "coach-desc": "Compensó una Copa Árabe desastrosa como anfitrión con una clasificación mundialista. Debutará en el torneo después de su súbita salida de España. Catar ha evolucionado, pero aún es un bloque endeble.",
+  "players-rating": 3,
+  "coach-rating": 7,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Akram Afif",
+      "age": 29,
+      "club": "Al-Sadd",
+      "description": "Leyenda del país, marcó un hat-trick para conquistar la última Copa Asiática. Veloz y habilidoso, es un verdadero quebradero de cabeza para los defensas rivales, y la mejor baza de su selección en el frente de ataque."
+    },
+    {
+      "name": "Edmílson Junior",
+      "age": 31,
+      "club": "Al-Duhail",
+      "description": "No pudo estar en 2022 debido a que todavía no había conseguido la nacionalidad catarí, por lo que debuta en 2026 con mucha hambre. Es un extremo con gran visión de juego e instinto goleador, puede jugar en ambas bandas."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Jassem Gaber",
+      "age": 24,
+      "club": "Al-Rayyan",
+      "description": "Pivote defensivo de contención, muy del gusto de Lopetegui para asegurar el control de los partidos desde el medio del campo. Tiene una gran proyección, pero ya es una certeza: se ha establecido como uno de los mejores nombres de la liga catarí."
+    },
+    {
+      "name": "Ayoub Al-Oui",
+      "age": 21,
+      "club": "Al-Gharafa",
+      "description": "Se ha convertido en la primera opción en el lateral derecho gracias a su versatilidad e inteligencia defensiva. Puede jugar también de central y su gran estatura le aporta capacidades indispensables para el juego aéreo.."
+    }
+  ],
+  "coach-image": "../assets/img/catar-coach.webp",
+  "badge": "../assets/img/catar-badge.webp"
+},
+{
+  "group": "Grupo B",
+  "name": "Suiza",
+  "subtitle": "Solidez certificada",
+  "coach-name": "Murat Yakin (51)",
+  "coach-desc": "A falta de grandes nombres, cada torneo que ha pasado con él al frente Suiza ha sido cada vez más difícil de ganar. Con un fútbol rápido y alegre, llegar lejos es un sueño, pero ninguna utopía.",
+  "players-rating": 6,
+  "coach-rating": 8,
+  "expectations": "Octavos/Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Granit Xhaka",
+      "age": 33,
+      "club": "Sunderland",
+      "description": "Pivote defensivo con un liderazgo inigualable, posee además una gran capacidad técnica que viene de los inicios de su carrera, cuando jugaba en un rol más adelantado. Tiene una gran personalidad, ha moderado su ira, y ha dejado marca allí por donde ha pasado. Llegó a tener la difícil papeleta de liderar al peor Arsenal."
+    },
+    {
+      "name": "Gregor Kobel",
+      "age": 28,
+      "club": "Borussia Dortmund",
+      "description": "El relevo generacional de Yann Sommer, lleva varios años llamando a la puerta de Murat Yakin para convertirse en el titular de la selección. Es un portero fiable, seguro y con buen juego de pies, y parte como número uno para este mundial."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Johan Manzambi",
+      "age": 20,
+      "club": "Friburgo",
+      "description": "Centrocampista todoterreno e incansable, se ha consolidado en Alemania como un talento generacional, y ha destacado ante el mundo entero gracias a su exuberancia en las eliminatorias ante Celta y Braga, que le pueden abrir muchas puertas en este mercado de verano.."
+    },
+    {
+      "name": "Fabian Rieder",
+      "age": 24,
+      "club": "Augsburgo",
+      "description": "Maravilló en el Young Boys, debutó en Catar 2022 y desde entonces se había estancado con dos malas temporadas. Ha conseguido rehacer su carrera gracias a un traspaso al Augsburgo beneficioso para todas las partes, que le ha otorgado el billete a su segundo Mundial."
+    }
+  ],
+  "coach-image": "../assets/img/suiza-coach.webp",
+  "badge": "../assets/img/suiza-badge.webp"
+},
+{
+  "group": "Grupo C",
+  "name": "Brasil",
+  "subtitle": "Una cuestión de identidad",
+  "coach-name": "Carlo Ancelotti (66)",
+  "coach-desc": "Solución de cinco estrellas para la ‘canarinha’ en grave crisis. Célebre por vencer y además convencer a sus vestuarios, ha tenido poco tiempo para encajar todas sus piezas en un sistema temible..",
+  "players-rating": 7,
+  "coach-rating": 9,
+  "expectations": "Semifinal/Final",
+  "hl-players": [
+    {
+      "name": "Neymar JR",
+      "age": 34,
+      "club": "Santos",
+      "description": "Vuelve a la ‘seleçao’ con un rol muy distinto. Considerado el líder natural de Brasil en la última década, su experiencia será valiosísima para un vestuario necesitado de referentes. No tiene el físico de su mejor momento, pero sigue teniendo la calidad de aquel jugador que peleó con Messi y Cristiano por ser el mejor del mundo."
+    },
+    {
+      "name": "Vinicius JR",
+      "age": 25,
+      "club": "Real Madrid",
+      "description": "Ojito derecho de Ancelotti, está ante su oportunidad para recoger el testigo brasileño y convertirse en el jugador para los próximos años, además de reivindicarse en clave Real Madrid en medio de muchas dudas sobre su compatibilidad con Mbappé."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Endrick",
+      "age": 19,
+      "club": "Real Madrid",
+      "description": "En el Bernabéu no tenía acceso a minutos que merecía por su calidad y rendimiento, por lo que la “mili” en el Lyon le ha venido muy bien a la espera de aclarar su futuro. Su potencia y ansia de gol han llegado a jugarle malas pasadas, pero es un diamante en bruto muy necesario ante la falta de efectivos en punta."
+    },
+    {
+      "name": "Rayan",
+      "age": 19,
+      "club": "Bournemouth",
+      "description": "Una de las sorpresas de la lista. A lo callado, el extremo del Bournemouth se ha ganado un puesto que parecía un imposible hace tan solo 6 meses. Es una gran opción para Ancelotti gracias a su desborde, potencia y mucho jogo bonito."
+    }
+  ],
+  "coach-image": "../assets/img/brasil-coach.webp",
+  "badge": "../assets/img/brasil-badge.webp"
+},
+{
+  "group": "Grupo C",
+  "name": "Marruecos",
+  "subtitle": "Agenda 2030",
+  "coach-name": "Mohamed Ouahbi (49)",
+  "coach-desc": "Ascendido de la sub-21 después de la derrota en la Copa África, estará obligado a hacer un papel parecido al del pasado Mundial. La exigencia marroquí es total: competir ya para ser favoritos en 2030.",
+  "players-rating": 7,
+  "coach-rating": 6,
+  "expectations": "Cuartos/Semifinales",
+  "hl-players": [
+    {
+      "name": "Yassine Bounou",
+      "age": 35,
+      "club": "Al-Hilal",
+      "description": "Canterano en el Atleti, maduró en Zaragoza y Girona antes de su explosión en el último gran Sevilla. Su último Mundial lo elevó como uno de los mejores porteros del mundo, y a sus 35 años sigue siendo un gato bajo los palos, seguro de vida en cualquier situación."
+    },
+    {
+      "name": "Achraf Hakimi",
+      "age": 27,
+      "club": "PSG",
+      "description": "Si no es el mejor lateral derecho del mundo, cerca está. Rápido y defensivamente excelso, tiene gran toque y llega a jugar de delantero en momentos del partido en el esquema de “posiciones fluctuantes” de Luis Enrique. Líder de la selección, es uno de los muchos pilares en los éxitos recientes del PSG."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Abde Ezzalzouli",
+      "age": 24,
+      "club": "Real Betis",
+      "description": "Regateador nato, aunque parece que pasa desapercibido es capaz de irse de hasta de su propia sombra en un parpadeo. Se ha vuelto la estrella de un Betis de Champions tras mejorar sus registros goleadores, es uno de los últimos jugadores “callejeros” que quedan en un fútbol cada vez más robotizado."
+    },
+    {
+      "name": "Ayyoub Bouaddi",
+      "age": 18,
+      "club": "Lille",
+      "description": "Ha estado esperando a Francia, pero al quedarse fuera de la convocatoria decide representar al país de sus padres, que compite a un nivel parecido a día de hoy. Es una de las perlas de la Ligue 1, los grandes del planeta se van a pelear por él gracias a su inconmensurable talento."
+    }
+  ],
+  "coach-image": "../assets/img/marruecos-coach.webp",
+  "badge": "../assets/img/marruecos-badge.webp"
+},
+{
+  "group": "Grupo C",
+  "name": "Haití",
+  "subtitle": "Un hito sin Estado",
+  "coach-name": "Sébastien Migné (53)",
+  "coach-desc": "Trotamundos de los banquillos africanos, abandonó Camerún por la excesiva injerencia de Eto'o en las convocatorias y ha logrado la machada con Haití: una histórica clasificación jugando en el exilio.",
+  "players-rating": 2,
+  "coach-rating": 7,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Frantzdy Pierrot",
+      "age": 31,
+      "club": "Rizespor",
+      "description": "Goleador por excelencia de la selección. Tras pasar por Francia y Bélgica, logró jugar competición europea y ganarse un traspaso al AEK Atenas. Aunque su cesión a Turquía no haya ido como se esperaba, su calidad sigue siendo extremadamente necesaria en una selección con muchísimas carencias."
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "age": 27,
+      "club": "Wolverhampton",
+      "description": "Mediocentro defensivo con buena llegada al área. Esta temporada, nefasta para un Wolves descendido en noviembre, ha sido aún peor para él por su pérdida de protagonismo. El Mundial llega como una oportunidad de hacer borrón y cuenta nueva."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Wilson Isidor",
+      "age": 25,
+      "club": "Sunderland",
+      "description": "Nacionalizado tras la clasificación al Mundial, es un delantero caído a banda que empezó genial en un Sunderland revelación de la Premier, pero con el tiempo su rendimiento se fue diluyendo. Con todo, ha sido de suma importancia en la clasificación a Europa League."
+    },
+    {
+      "name": "Josué Casimir",
+      "age": 24,
+      "club": "Auxerre",
+      "description": "Apenas lleva un año en la selección y ya se ha vuelto una pieza clave, sinónimo de peligro en el ataque de Haití. Puede jugar tanto en banda como de mediocentro ofensivo gracias a su agilidad y velocidad."
+    }
+  ],
+  "coach-image": "../assets/img/haiti-coach.webp",
+  "badge": "../assets/img/haiti-badge.webp"
+},
+{
+  "group": "Grupo C",
+  "name": "Escocia",
+  "subtitle": "La batalla es innegociable",
+  "coach-name": "Steve Clarke (62)",
+  "coach-desc": "Ha acabado con los años negros en Escocia y, de la mano de una generación mejor, es ya habitual en torneos internacionales. Sus equipos siempre compiten, con trabajo y sin muchas fantasías.",
+  "players-rating": 4,
+  "coach-rating": 7,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Scott McTominay",
+      "age": 29,
+      "club": "Napoli",
+      "description": "En el Manchester United era tan solo un pivote salido de la cantera que parecía tener un techo muy limitado. Fue irse traspasado a Nápoles y se convirtió en el MVP de la liga italiana en su primera temporada, clave en la victoria del scudetto. Antes podía jugar como central, ahora brilla como delantero. Lo que es un cambio en la vida."
+    },
+    {
+      "name": "Andrew Robertson",
+      "age": 31,
+      "club": "Liverpool",
+      "description": "Uno de los mejores laterales de la primera mitad de década, no ha conseguido mantener su nivel debido a las muchas lesiones que ha sufrido. Se ha despedido del Liverpool y continuará en la Premier tras disputar un Mundial como jerarca de la Tartan Army."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ben Gannon-Doak",
+      "age": 20,
+      "club": "Bournemouth",
+      "description": "Llega al Mundial entre algodones, muy justo tras haberse perdido prácticamente toda la temporada. Es una de las esperanzas tanto de su club como de su selección por su capacidad creadora y verticalidad."
+    },
+    {
+      "name": "Aaron Hickey",
+      "age": 23,
+      "club": "Brentford",
+      "description": "Buen revulsivo en la Premier y dueño del carril derecho de la selección. Destaca por su capacidad de jugar con ambas piernas, lo que permite usarlo tanto en izquierda como en derecha, además de que aún le queda mucho que mostrar."
+    }
+  ],
+  "coach-image": "../assets/img/escocia-coach.webp",
+  "badge": "../assets/img/escocia-badge.webp"
+},
+{
+  "group": "Grupo D",
+  "name": "EEUU",
+  "subtitle": "La presión está en el palco",
+  "coach-name": "Mauricio Pochettino (53)",
+  "coach-desc": "La apuesta del anfitrión para 'su' Mundial, debuta en el fútbol de selecciones después de no convencer en PSG y Chelsea. Confía mucho en el talento joven y suele potenciarlo al siguiente nivel.",
+  "players-rating": 5,
+  "coach-rating": 8,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Christian Pulisic",
+      "age": 27,
+      "club": "AC Milan",
+      "description": "Si bien es cierto que no es tan bueno como para que los aficionados locales le llamen el \"LeBron James del Soccer\", su talento es innegable. No se terminó de establecer en el Chelsea campeón de Europa y tuvo un gran inicio en Italia. Es un extremo vertiginoso, goleador y con amplia trayectoria en Europa, aunque algo irregular."
+    },
+    {
+      "name": "Antonee Robinson",
+      "age": 28,
+      "club": "Fulham",
+      "description": "Inglés de nacimiento, estadounidense de corazón. Robinson se ha convertido en uno de los estandartes defensivos de la Premier League. Rocoso y veloz, tiene una gran llegada al área, lo que le hace uno de los \"tapados\" de este torneo."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Malik Tillman",
+      "age": 24,
+      "club": "Bayer Leverkusen",
+      "description": "Uno de los mayores prodigios de la cantera del Bayern, ya ha protagonizado un gran traspaso. Formado en las categorías inferiores de la selección alemana, es un mediapunta muy talentoso con buena colocación y gran capacidad de caer a banda. Sus desmarques entre líneas son su mayor virtud."
+    },
+    {
+      "name": "Ricardo Pepi",
+      "age": 23,
+      "club": "PSV Eindhoven",
+      "description": "Delantero alto y habilidoso. Dio el salto a Europa muy joven, y quizá esa apuesta estancó su progreso durante una o dos temporadas, pero ha conseguido consolidarse como un ariete de garantías gracias a su gran capacidad de definir con ambas piernas y su buen remate de cabeza."
+    }
+  ],
+  "coach-image": "../assets/img/eeuu-coach.webp",
+  "badge": "../assets/img/eeuu-badge.webp"
+},
+{
+  "group": "Grupo D",
+  "name": "Paraguay",
+  "subtitle": "Fino, jugoso y dulce",
+  "coach-name": "Gustavo Alfaro (63)",
+  "coach-desc": "Aclamado en Ecuador, renunció por deudas a su staff tras clasificarlo al Mundial de Catar. No tuvo éxito en Costa Rica, y se ha podido reivindicar con una clasificación tan sólida como ilusionante.",
+  "players-rating": 4,
+  "coach-rating": 5,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Omar Alderete",
+      "age": 29,
+      "club": "Sunderland",
+      "description": "El guardián del Getafe de Bordalás, ha conseguido caer de pie en la Premier League gracias a su compostura defensiva y su sorprendente capacidad al atacar. Un auténtico pitbull que sigue fielmente el lema de “o pasa el hombre, o pasa el balón”, sin recibir demasiadas expulsiones a lo largo de la temporada."
+    },
+    {
+      "name": "Miguel Almirón",
+      "age": 31,
+      "club": "Atlanta United",
+      "description": "Puede ser un mediapunta o extremo creador. Sorprendió a todos en la MLS, y recibió como premio un billete a la Premier de la mano del Newcastle. Después de temporadas en las que tenía mucho empeño y poco más, tuvo un pico de nivel espectacular coincidiendo con la compra del club por Arabia Saudí, antes de volver a EEUU."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Julio Enciso",
+      "age": 22,
+      "club": "Estrasburgo",
+      "description": "Llegó a Brighton como una gran apuesta de futuro, pero la falta de confianza, las lesiones y un paso muy mediocre por el Ipswich forzaron su traspaso al Estrasburgo, club satélite del Chelsea y donde se ha reencontrado con el futbolista que parecía ser en su primera temporada en Europa.."
+    },
+    {
+      "name": "Diego Gómez",
+      "age": 23,
+      "club": "Brighton",
+      "description": "A su temprana edad ya ha demostrado su valía en hasta tres continentes diferentes. Tras una temporada de adaptación en Inglaterra, su versatilidad y capacidad para dominar ambas áreas le han hecho un titular indiscutible de plano derecho tanto en club como selección."
+    }
+  ],
+  "coach-image": "../assets/img/paraguay-coach.webp",
+  "badge": "../assets/img/paraguay-badge.webp"
+}, 
+{
+  "group": "Grupo D",
+  "name": "Australia",
+  "subtitle": "Llegan los cocodrilos Dundee",
+  "coach-name": "Tony Popovic (52)",
+  "coach-desc": "De ascendencia croata, llegó al banquillo de la selección nacional después de una buena etapa en Melbourne Victory. En su etapa en Grecia, fue “saboteado por la directiva” según su entrenador de porteros.",
+  "players-rating": 5,
+  "coach-rating": 6,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Matthew Ryan",
+      "age": 33,
+      "club": "Levante UD",
+      "description": "Quizá no es el futbolista más brillante o diferencial de la plantilla, pero su experiencia y calidad le hacen un seguro bajo palos. Es sin duda uno de los responsables de la milagrosa salvación del Levante, gracias a su capacidad para atajar disparos y realizar paradas imposibles."
+    },
+    {
+      "name": "Riley McGree",
+      "age": 27,
+      "club": "Middlesbrough",
+      "description": "Uno de esos futbolistas que no destaca pero cumple con creces su labor. Pasó de ocupar el fondo del banquillo a titular indiscutible en el Middlesbrough gracias a su creatividad y capacidad para definir llegando desde la segunda línea."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Nestory Irankunda",
+      "age": 20,
+      "club": "Watford",
+      "description": "El atacante por excelencia de una nueva oleada de talento socceroo. Maravilló a los clubes más grandes de Europa con su potencia, tanto al correr como al disparar, con un golpeo limpio y poderoso que, junto a su velocidad, le convierten en un quebradero de cabeza para las defensas rivales."
+    },
+    {
+      "name": "Alessandro Circati",
+      "age": 22,
+      "club": "Parma",
+      "description": "Central veloz con gran percepción de juego al que es muy difícil superar. Se ha consolidado como el pilar defensivo de un histórico como el Parma, y figura en la lista de jugadores de la Serie A con más disparos bloqueados esta temporada."
+    }
+  ],
+  "coach-image": "../assets/img/australia-coach.webp",
+  "badge": "../assets/img/australia-badge.webp"
+},
+{
+  "group": "Grupo D",
+  "name": "Turquía",
+  "subtitle": "Si estamos, que se note",
+  "coach-name": "Vincenzo Montella (51)",
+  "coach-desc": "Ha conseguido estabilizar a un equipo rodeado por lo anárquico. Los cuartos de la Euro 2024 son una carta de presentación que ilusiona para este Mundial, con una base de jóvenes aún más curtida.",
+  "players-rating": 6,
+  "coach-rating": 7,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Hakan Çalhanoglu",
+      "age": 31,
+      "club": "Inter Milan",
+      "description": "Cuando su carrera parecía estancada como un buen mediapunta sin ritmo, Simone Inzaghi lo reconvirtió a un centrocampista total, con gran inteligencia defensiva. Se ha convertido en todo un líder de la reaparición europea del Inter de Milán, con dos finales de Champions a sus espaldas."
+    },
+    {
+      "name": "Arda Güler",
+      "age": 20,
+      "club": "Real Madrid",
+      "description": "Ha conseguido establecerse como titular en Chamartín, aunque le falte pulirse en la élite ha tenido una temporada muy convincente, y es la estrella indiscutible de su selección pese a su corta edad. Habrá que ver si volverá con ritmo tras dos meses fuera por lesión."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Kenan Yildiz",
+      "age": 20,
+      "club": "Juventus",
+      "description": "El chico maravilla de la cantera del Bayern al que se agarra la Juventus en una carrera para volver a ser lo que fue. Vertiginoso, regateador y con gran golpeo, busca dar un paso al frente con la selección que le confirme como un jugador de élite en Europa."
+    },
+    {
+      "name": "Can Uzun",
+      "age": 20,
+      "club": "Eintracht Frankfurt",
+      "description": "Mediocampista poco conocido que, si tiene oportunidades, dará que hablar. Gran driblador y generador de espacios, no duda en “arriesgar” en sus intentos de pases en contextos de alta presión. Tiene una enorme madurez y personalidad a pesar de su corta edad."
+    }
+  ],
+  "coach-image": "../assets/img/turquia-coach.webp",
+  "badge": "../assets/img/turquia-badge.webp"
+},
+{
+  "group": "Grupo E",
+  "name": "Alemania",
+  "subtitle": "Grandeza a restaurar",
+  "coach-name": "Julian Nagelsmann (38)",
+  "coach-desc": "Hizo una muy buena Eurocopa hasta que llegó España. Los últimos meses han traído dudas sobre su futuro a medio plazo pese a tener contrato, con Klopp en el horizonte. Si gana, callará a los críticos.",
+  "players-rating": 8,
+  "coach-rating": 9,
+  "expectations": "Semifinales",
+  "hl-players": [
+    {
+      "name": "Manuel Neuer",
+      "age": 39,
+      "club": "Bayern Munich",
+      "description": "Uno de los mejores porteros de la historia, el mejor jugador del triunfo en 2014. Nagelsmann lo ha sacado del retiro para que juegue su último Mundial y lidere a la defensa germana. Aunque suele hacer buenos partidos, en los últimos años ha tenido errores de bulto propios de su edad."
+    },
+    {
+      "name": "Jamal Musiala",
+      "age": 22,
+      "club": "Bayern Munich",
+      "description": "Extremo habilidoso, creativo y con mucho olfato goleador, está llamado a rivalizar con talentos como Lamine Yamal, Vinícius y compañía en la próxima década. Llega al Mundial con poco rodaje debido a una durísima lesión del ligamento cruzado."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Angelo Stiller",
+      "age": 23,
+      "club": "Stuttgart",
+      "description": "Muchos le nombran el sucesor de Toni Kroos gracias a su creatividad, precisión en el pase e inteligencia con y sin balón. El mediocampista del Stuttgart ha sido relacionado con numerosos clubes punteros de Europa, entre ellos el Real Madrid."
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "age": 21,
+      "club": "Bayern Munich",
+      "description": "Se ha hecho con el puesto de pivote titular en el Bayern en tiempo récord, y pese a su corta experiencia ha dejado grandes actuaciones en Champions, exhibiendo madurez, determinación y actitud, cualidades que le hacen el jugador deseado para cualquier entrenador. Tiene un gran golpeo a balón parado."
+    }
+  ],
+  "coach-image": "../assets/img/alemania-coach.webp",
+  "badge": "../assets/img/alemania-badge.webp"
+},
+{
+  "group": "Grupo E",
+  "name": "Curazao",
+  "subtitle": "Lo importante es llegar",
+  "coach-name": "Dick Advocaat (78)",
+  "coach-desc": "Pulverizará el récord de edad mundialista, en su novena etapa como seleccionador. Clasificó a Curazao antes de dejar los banquillos por motivos familiares, pero ha vuelto por aclamación de sus jugadores.",
+  "players-rating": 3,
+  "coach-rating": 5,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Tahith Chong",
+      "age": 26,
+      "club": "Sheffield United",
+      "description": "Apuntaba a crack en sus inicios en el Manchester United, y se ha quedado ligeramente por el camino. No obstante, es un jugador de nivel óptimo para la segunda división inglesa gracias a su velocidad, habilidad regateadora y dotes de creación."
+    },
+    {
+      "name": "Armando Obispo",
+      "age": 27,
+      "club": "PSV Eindhoven",
+      "description": "Gran jugador de rotación en Holanda y comandante de la defensa de Curazao. Sin las cualidades para consolidarse como titular indiscutible, su trabajo en la sombra merece reconocimiento, no destaca pero siempre cumple."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Sontje Hansen",
+      "age": 24,
+      "club": "Middlesbrough",
+      "description": "Gran driblador y pasador, se le “hace de noche” cuando tiene que definir de cara a puerta. Sin embargo, su velocidad le ha convertido en un gran revulsivo para su club y en un pilar fundamental de la selección."
+    },
+    {
+      "name": "Shurandy Sambo",
+      "age": 24,
+      "club": "Sparta Rotterdam",
+      "description": "Lateral al que aún le queda mucho por pulir, pero tiene una base bastante competente. Es un perfil más clásico, no se incorpora tanto al ataque. Su punto fuerte son las entradas en defensa, tiene un alto porcentaje de duelos ganados. "
+    }
+  ],
+  "coach-image": "../assets/img/curazao-coach.webp",
+  "badge": "../assets/img/curazao-badge.webp"
+},
+{
+  "group": "Grupo E",
+  "name": "Costa de Marfil",
+  "subtitle": "Unión, disciplina, trabajo",
+  "coach-name": "Emerse Faé (42)",
+  "coach-desc": "Su debut en los banquillos fue como asistente de Jean-Louis Gasset, al que sucedió en el cargo. Desempeñó una buena Copa de África con un equipo que promete brotes verdes para el futuro.",
+  "players-rating": 5,
+  "coach-rating": 5,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Nicolas Pepé",
+      "age": 30,
+      "club": "Villarreal",
+      "description": "Encandiló a Europa y el Arsenal pagó 80 millones por un jugador que se intuía brutal, gracias a su desborde, inteligencia, velocidad y gran definición. Tras varias temporadas muy mejorables ha encontrado su mejor nivel en Villarreal, donde es titular consolidado y una de las estrellas del equipo."
+    },
+    {
+      "name": "Amad Diallo",
+      "age": 23,
+      "club": "Manchester United",
+      "description": "Si bien es cierto que aún no ha llegado a su máximo potencial, es uno de los extremos más regulares de toda la Premier League. Sostuvo al Manchester United en la temporada pasada y es uno de los culpables del su clasificación a Champions gracias a sus goles y asistencias."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ousmane Diomandé",
+      "age": 22,
+      "club": "Sporting CP",
+      "description": "Central poderoso de gran altura, a pesar de su corta edad es ya una certeza competitiva en el Sporting y está en la lista de varios de los clubes de la élite europea. Tiene una buena salida de balón y es especialmente efectivo en el juego aéreo."
+    },
+    {
+      "name": "Yan Diomandé",
+      "age": 19,
+      "club": "RB Leipzig",
+      "description": "Parecía que podía ofrecer más en el Leganés que bajó a segunda, y el Leipzig ha sacado gran rendimiento a su apuesta por él. Veloz, regateador y buen finalizador, es una de las promesas más codiciadas de Europa y todo parece indicar que su traspaso superará los 100 millones de euros, ese ha sido su crecimiento en un año..."
+    }
+  ],
+  "coach-image": "../assets/img/costa-de-marfil-coach.webp",
+  "badge": "../assets/img/costa-de-marfil-badge.webp"
+},
+{
+  "group": "Grupo E",
+  "name": "Ecuador",
+  "subtitle": "Un futuro muy presente",
+  "coach-name": "Sebastián Beccaccece (45)",
+  "coach-desc": "Ex del Elche, ha progresado en la línea ascendente que dejó Alfaro en un equipo que apunta muy alto. Segundos en la clasificatoria e invictos en casa, superaron a Brasil y sueñan con grandes cosas.",
+  "players-rating": 6,
+  "coach-rating": 5,
+  "expectations": "Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Willian Pacho",
+      "age": 24,
+      "club": "PSG",
+      "description": "Probablemente uno de los defensores más en forma de todo el planeta y un talento generacional. Ha tomado las riendas de la defensa del mejor club del mundo, acompañado por un brillante Marquinhos. Se ha convertido en la mayor pesadilla de todos los delanteros del viejo continente gracias a sus marcajes individuales."
+    },
+    {
+      "name": "Moisés Caicedo",
+      "age": 24,
+      "club": "Chelsea",
+      "description": "El pilar de la generación dorada y líder de la selección. Resistente como ninguno, su capacidad para robar balones y distribuir con facilidad le hacen un organizador de juego excelso. Es igualmente polivalente, tuvo un gran nivel en el Brighton jugando en la posición, a priori extraña, de lateral derecho."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Jeremy Arévalo",
+      "age": 20,
+      "club": "Stuttgart",
+      "description": "Producto de la cantera del Racing de Santander, dio el salto a la Bundesliga este invierno. Apenas ha encontrado continuidad en el Stuttgart, pero su capacidad goleadora nos permite esperar un buen rendimiento en un contexto más favorable. "
+    },
+    {
+      "name": "Joel Ordoñez",
+      "age": 21,
+      "club": "Brujas",
+      "description": "Uno de los mayores talentos “bajo el radar” de todo el Mundial. Se dio a conocer gracias a su excelente desempeño en Champions. Poderoso en el juego aéreo y veloz, destaca también por su gran salida de balón y compostura."
+    }
+  ],
+  "coach-image": "../assets/img/ecuador-coach.webp",
+  "badge": "../assets/img/ecuador-badge.webp"
+},
+{
+  "group": "Grupo F",
+  "name": "Países Bajos",
+  "subtitle": "El show de Koeman",
+  "coach-name": "Ronald Koeman (62)",
+  "coach-desc": "Se parece un poco a sus jugadores: con una base interesante, no ha terminado de dar ese paso adelante en atrevimiento para luchar por grandes trofeos. En el proceso ambos han crecido y mejorado.",
+  "players-rating": 7,
+  "coach-rating": 6,
+  "expectations": "Octavos/Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Virgil Van Dijk",
+      "age": 34,
+      "club": "Liverpool",
+      "description": "Uno de los mejores centrales de la historia. Poderío, liderazgo y una velocidad impropia para un futbolista de su tamaño. Busca devolver a Países Bajos a la cúspide del fútbol mundial en seguramente su última oportunidad competitiva."
+    },
+    {
+      "name": "Memphis Depay",
+      "age": 31,
+      "club": "Corinthians",
+      "description": "Podría haber sido mucho más por su talento. Con todo, sigue manteniendo ese talento diferencial y una capacidad de lidargazgo muy valorada por Ronald Koeman, su principal valedor en el Barça, que parece haber retrasado el anuncio de la convocatoria por él."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ryan Gravenberch",
+      "age": 23,
+      "club": "Liverpool",
+      "description": "Mediocampista de contención que tuvo un fugaz ascenso en el Ajax gracias a su toque y colocación. Parecía que su carrera se estancaba en Munich pero se ha convertido en uno de los estandartes del Liverpool de Arne Slot, en un contexto muy complicado por la falta de más pivotes: ha tenido que estar en todos lados, y lo ha hecho."
+    },
+    {
+      "name": "Jorrel Hato",
+      "age": 19,
+      "club": "Chelsea",
+      "description": "Central zurdo, suele jugar de lateral con frecuencia. Es una de las joyas de la nueva generación que, después de una temporada irregular en el Chelsea, busca asentarse y ganar enteros. Su capacidad para el pase lo convierte en un efectivo importante para la salida de balón. "
+    }
+  ],
+  "coach-image": "../assets/img/paises-bajos-coach.webp",
+  "badge": "../assets/img/paises-bajos-badge.webp"
+},
+{
+  "group": "Grupo F",
+  "name": "Japón",
+  "subtitle": "Sospechosos Habituales",
+  "coach-name": "Hajime Moriyasu (57)",
+  "coach-desc": "Ascendió de la sub-23 y, en su primer Mundial, ganó a España y Alemania. Bajo su tutela, Japón siempre ha sido un equipo competitivo, ordenado y reconocible, con un techo cada vez más alto.",
+  "players-rating": 6,
+  "coach-rating": 8,
+  "expectations": "Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Takefusa Kubo",
+      "age": 24,
+      "club": "Real Sociedad",
+      "description": "Se ha estancado en las dos últimas temporadas respecto de lo que parecía que iba a ser. Con todo, su calidad está ahí. Zurda privilegiada, gran capacidad de regate y veloz, busca llevar a Japón al próximo nivel tras varios buenos torneos."
+    },
+    {
+      "name": "Wataru Endo",
+      "age": 32,
+      "club": "Liverpool",
+      "description": "El líder de la sala de máquinas de Japón. Brilló en Alemania con el Stuttgart, y fue útil en su primer año en Liverpool como parche para el pivote, pero ha tenido muchos altibajos después. Gran pasador y defensor, no tiene mucha llegada al área."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Zion Suzuki",
+      "age": 23,
+      "club": "Parma",
+      "description": "Quizá el mayor proyecto de futuro de todo Japón. Guardameta hábil con buen juego de pies y excelentes reflejos que se ha consolidado como uno de las mayores promesas del fútbol mundial, con varios clubes muy pendientes de su primer gran torneo."
+    },
+    {
+      "name": "Kento Shiogai",
+      "age": 21,
+      "club": "Wolfsburgo",
+      "description": "Pese a que no ha podido evitar el descenso de su club, sus 7 goles en 12 partidos en el primer tramo de año le hacen un revulsivo perfecto. Es una amenaza ofensiva capaz de ganar la espalda al rival con frecuencia, y tiene un gran olfato goleador."
+    }
+  ],
+  "coach-image": "../assets/img/japon-coach.webp",
+  "badge": "../assets/img/japon-badge.webp"
+}, 
+{
+  "group": "Grupo F",
+  "name": "Suecia",
+  "subtitle": "Repescados, buscan pescar éxitos",
+  "coach-name": "Graham Potter (50)",
+  "coach-desc": "En Brighton parecía el proyecto de gran entrenador inglés, pero se cayó por completo en Chelsea y West Ham. Consiguió enderezar a una Suecia muy talentosa y clasificarse.",
+  "players-rating": 6,
+  "coach-rating": 7,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Viktor Gyökeres",
+      "age": 27,
+      "club": "Arsenal",
+      "description": "De suplente en el segunda inglesa a superestrella de la Premier League, Gyökeres ha respondido a las dudas con goles. Delantero alto y con gran envergadura, tremendamente explosivo y con un excelente golpeo y definición."
+    },
+    {
+      "name": "Alexander Isak",
+      "age": 26,
+      "club": "Liverpool",
+      "description": "Una de las mayores sensaciones de Europa estos últimos años al que el salto a un grande le ha costado. Pese a su mal momento de forma sigue siendo una garantía de gol, trabajo y calidad, justo lo que necesita su selección."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Lucas Bergvall",
+      "age": 20,
+      "club": "Tottenham",
+      "description": "A su temprana edad se ha convertido en un fijo en uno de los “big-six” de la Premier League. Su calidad y talento son indiscutibles, trabajo y creatividad a puñados. La única duda será ver cómo vuelve tras estar toda la temporada lesionado."
+    },
+    {
+      "name": "Yasin Ayari",
+      "age": 22,
+      "club": "Brighton",
+      "description": "Una de las mayores sorpresas de la Premier League esta temporada, jugador capaz de adaptarse a cada estilo y cada situación de juego. Su polivalencia, calidad y madurez le han establecido tanto en club como selección."
+    }
+  ],
+  "coach-image": "../assets/img/suecia-coach.webp",
+  "badge": "../assets/img/suecia-badge.webp"
+},
+{
+  "group": "Grupo F",
+  "name": "Túnez",
+  "subtitle": "Las mejores visitas son las más cortas",
+  "coach-name": "Sabri Lamouchi (54)",
+  "coach-desc": "Prometía mucho en Costa de Marfil y Rennes, pero perdió fuelle alternando la segunda inglesa y el fútbol saudí. Llegó a Túnez tras la Copa África con poco tiempo de preparación, dispuesto a sorprender.",
+  "players-rating": 3,
+  "coach-rating": 5,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Ellyes Shkiri",
+      "age": 30,
+      "club": "Eintracht Frankfurt",
+      "description": "Pivote defensivo de los de la vieja usanza. Apenas llega al área, pero lo compensa con su gran trabajo defensivo y su facilidad para dar salida al balón. Un líder en mayúsculas que ofrece equilibrio y estabilidad a cualquier mediocampo."
+    },
+    {
+      "name": "Montassar Talbi",
+      "age": 28,
+      "club": "Lorient",
+      "description": "Central inteligente al que no le gusta nada complicarse. Poderoso en el juego aéreo, destaca por su gran capacidad para estar en el sitio correcto en el momento correcto, lo que hace un gran interceptor de balones."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Hannibal Mejbri",
+      "age": 23,
+      "club": "Burnley",
+      "description": "Jugador de calidad indudable al que la cabeza le suele jugar una mala pasada. Pintaba bien en el United, tuvo un paso mediocre por el Sevilla y se ha reconvertido en uno de los pilares del Burnley. Gran calidad pero parece haberse estancado."
+    },
+    {
+      "name": "Ismaël Gharbi",
+      "age": 21,
+      "club": "Augsburgo",
+      "description": "Apuntaba a ser uno de los talentos de esta generación, con España y Francia peleando por él. Se decantó por su país materno por la confianza que depositó la RFEF en él, pero la falta de oportunidades en inferiores le hicieron representar a Túnez, donde es un jugador diferencial."
+    }
+  ],
+  "coach-image": "../assets/img/tunez-coach.webp",
+  "badge": "../assets/img/tunez-badge.webp"
+},
+{
+  "group": "Grupo G",
+  "name": "Bélgica",
+  "subtitle": "La sombra de lo que fue",
+  "coach-name": "Rudi Garcia (61)",
+  "coach-desc": "A priori, viene de capa caída después de no rendir en Al Nassr y fracasar con el Nápoles vigente campeón de Italia. Tiene el reto de recuperar la competitividad en un vestuario muy fragmentado.",
+  "players-rating": 6,
+  "coach-rating": 5,
+  "expectations": "Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Thibaut Courtois",
+      "age": 33,
+      "club": "Real Madrid",
+      "description": "Vuelve a la selección después de desavenencias con el ya exseleccionador Tedesco. Ha mantenido su nivel superlativo en una temporada muy difícil para el Real Madrid, y es el mayor argumento que tiene Bélgica para aspirar a algo."
+    },
+    {
+      "name": "Youri Tielemans",
+      "age": 28,
+      "club": "Aston Villa",
+      "description": "Uno de los mediocentros con mayor calidad de toda la Premier League. Es un perfil muy completo y equilibrado: a su buena base defensiva le suma una gran precisión en el pase y capacidad de dar asistencias. Además, es común verle marcar golazos de larga distancia."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Jérémy Doku",
+      "age": 23,
+      "club": "Manchester City",
+      "description": "Extremo velocísimo y muy creativo, es uno de los mejores regateadores de toda Europa. En las últimas temporadas ha experimentado una mejora considerable en su tiro, mucho más mediocre en comparación con sus otras cualidades. Es uno de esos jugadores que asegura “que pasen cosas”."
+    },
+    {
+      "name": "Amadou Onana",
+      "age": 24,
+      "club": "Aston Villa",
+      "description": "Compañero de Tielemans en equipo y selección, es un perfil más “destructor”, mucho más físico y defensivo. Aprovecha sus privilegiadas condiciones para llegar con frecuencia al área rival y romper líneas de presión. "
+    }
+  ],
+  "coach-image": "../assets/img/belgica-coach.webp",
+  "badge": "../assets/img/belgica-badge.webp"
+},
+{
+  "group": "Grupo G",
+  "name": "Egipto",
+  "subtitle": "Larga vida al faraón Salah",
+  "coach-name": "Hossam Hassan (59)",
+  "coach-desc": "Todavía el máximo goleador de la historia de Egipto (Salah tiene el récord a tiro), casi lleva a Jordania al Mundial de Brasil. Con su país, se clasificó cómodamente e hizo una Copa África muy sólida.",
+  "players-rating": 5,
+  "coach-rating": 4,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Mohamed Salah",
+      "age": 33,
+      "club": "Liverpool",
+      "description": "Su despedida del Liverpool ha sido mucho más agria que las siete temporadas en las que ha roto numerosísimos récords en la liga inglesa, convirtiéndose de paso en una leyenda ‘red’. Ya no tiene tanta velocidad punta, pero sigue siendo excelente en la finalización en cuanto llega a puerta."
+    },
+    {
+      "name": "Omar Marmoush",
+      "age": 27,
+      "club": "Manchester City",
+      "description": "Revolucionó el fútbol europeo con su etapa en el Eintracht, pero no ha conseguido consolidarse en el City como titular. Aunque su posición favorita es en la banda izquierda, es un punta más que apto para el ataque egipcio."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Hosam Abdelmaguid",
+      "age": 24,
+      "club": "Zamalek",
+      "description": "Un seguro de vida en los duelos aéreos gracias a su metro noventa y cuatro de altura. No es un central tan clásico: apenas va al suelo y en los duelos directos es algo más débil. Con todo, ha sido un puntal para el título de liga del Zamalek."
+    },
+    {
+      "name": "Ibrahim Adel",
+      "age": 25,
+      "club": "Nordsjælland",
+      "description": "Ha dado un buen nivel en su primer salto al fútbol europeo. También parte desde la banda izquierda, pero se puede reubicar a la mediapunta. Creativo y regateador, su inspiración en el último tercio de campo será determinante."
+    }
+  ],
+  "coach-image": "../assets/img/egipto-coach.webp",
+  "badge": "../assets/img/egipto-badge.webp"
+},
+{
+  "group": "Grupo G",
+  "name": "Irán",
+  "subtitle": "En tierra hostil",
+  "coach-name": "Amir Ghalenoei (62)",
+  "coach-desc": "Apodado “General” por su contundente liderazgo, ha tenido un gran impacto en su segunda etapa como seleccionador, al ganar 24 de sus primeros 30 partidos y lograr una cómoda clasificación.",
+  "players-rating": 4,
+  "coach-rating": 4,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Mehdi Taremi",
+      "age": 33,
+      "club": "Olympiacos",
+      "description": "Un viejo rockero al que se le siguen cayendo los goles en Grecia. Su rol en ataque y como líder será aún más importante con la expulsión del equipo de Azmoun, su compañero en punta, por “traición a la patria”. "
+    },
+    {
+      "name": "Saeid Ezatolahi",
+      "age": 29,
+      "club": "Shabab Al-Ahli",
+      "description": "Pivote con pasado breve en la cantera del Atlético de Madrid. Puede jugar como central, y pese a su inclinación eminentemente defensiva ha promediado 5 goles por temporada en sus últimas temporadas en Emiratos."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Amir Mohammad Razzaghinia",
+      "age": 19,
+      "club": "Esteghlal",
+      "description": "Su versatilidad es uno de los factores que explican su convocatoria, ya que puede ocupar todas las posiciones en el mediocampo. Con apenas 19 años ha sido un indiscutible en su llegada al Esteghlal, donde ganó el título de la mano de conocidos de LaLiga como Munir o Antonio Adán."
+    },
+    {
+      "name": "Amirhossein Hosseinzadeh",
+      "age": 25,
+      "club": "Tractor FC",
+      "description": "Con la importante baja de Azmoun, está ante la oportunidad de su carrera. Viene avalado con dos títulos ‘pichichi consecutivos’ en las últimas ligas iraníes. Se ha establecido como goleador en el Tractor después de un paso discreto por Bélgica."
+    }
+  ],
+  "coach-image": "../assets/img/iran-coach.webp",
+  "badge": "../assets/img/iran-badge.webp"
+},
+{
+  "group": "Grupo G",
+  "name": "Nueva Zelanda",
+  "subtitle": "Somos más de rugby...",
+  "coach-name": "Darren Bazeley (53)",
+  "coach-desc": "Curtido en el fútbol inglés, se fue a Nueva Zelanda para acabar su carrera y, como entrenador, ha estado en todas las categorías inferiores de los All Whites hasta llegar al banquillo principal.",
+  "players-rating": 3,
+  "coach-rating": 4,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Chris Wood",
+      "age": 34,
+      "club": "Nottingham Forest",
+      "description": "Goleador contrastadísimo en la Premier, ha alcanzado una segunda juventud en el estilo pragmático del Forest. Rematador de élite, es bastante más móvil y rápido de lo que cabría esperar teniendo en cuenta su edad y gran altura."
+    },
+    {
+      "name": "Tim Payne",
+      "age": 32,
+      "club": "Wellington Phoenix",
+      "description": "Antes de que Internet lo convirtiese en un jugador de culto por sus pocos seguidores en redes, ya era un fijo en el Wellington australiano. Se formó en las categorías inferiores del Blackburn Rovers inglés, y puede jugar tanto de lateral como central o incluso pivote."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Tyler Bindon",
+      "age": 22,
+      "club": "Sheffield United",
+      "description": "En su cesión a la Championship, ha conseguido curtirse como líder defensivo antes de volver al Nottingham Forest. Su concentración y capacidad para cortar balones sin irse al suelo lo hacen un acompañante óptimo para el veterano Boxall."
+    },
+    {
+      "name": "Marko Stamenić",
+      "age": 23,
+      "club": "Swansea",
+      "description": "Fichado, cómo no, del Nottingham Forest, ha tenido una temporada correcta como pivote. Su estilo es más de un marcador que un generador de juego, y de cara a jugar contra selecciones más potentes deberá mitigar la facilidad con la que le sacan tarjetas amarillas."
+    }
+  ],
+  "coach-image": "../assets/img/nueva-zelanda-coach.webp",
+  "badge": "../assets/img/nueva-zelanda-badge.webp"
+},
+{
+  "group": "Grupo H",
+  "name": "España",
+  "subtitle": "Este sueño está muy vivo",
+  "coach-name": "Luis de la Fuente (64)",
+  "coach-desc": "Ha sabido integrar a una nueva generación dorada en un gran equipo, de nuevo candidato a todo. Ganó la Nations League, llegó a la final de la siguiente y realizó una Eurocopa con pleno de victorias.",
+  "players-rating": 10,
+  "coach-rating": 8,
+  "expectations": "Final",
+  "hl-players": [
+    {
+      "name": "Lamine Yamal",
+      "age": 18,
+      "club": "FC Barcelona",
+      "description": "Si su físico se lo permite, España contará con un jugador de calibre Balón de Oro en sus filas. Además de su facilidad para marcar goles, su cualidad más determinante es la capacidad que tiene para generar ocasiones de la nada, tanto para sí mismo como para otros."
+    },
+    {
+      "name": "Pedri",
+      "age": 23,
+      "club": "FC Barcelona",
+      "description": "Consiguió minimizar la importancia de la baja de Lamine gracias a un pico de nivel excelso a mitad de temporada. De La Fuente ha conseguido integrarlo en su sistema con un rol más adelantado y libre de preocupaciones en defensa."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Nico Williams",
+      "age": 23,
+      "club": "Athletic Club",
+      "description": "Ha estado renqueante durante toda la temporada por una pubalgia que, aunque le permitía jugar, limitaba mucho su rendimiento. Como Lamine, si llega bien, España tendrá dos cuchillos por cada banda, rápidos, verticales y con gran capacidad de disparo."
+    },
+    {
+      "name": "Marc Pubill",
+      "age": 22,
+      "club": "Atlético de Madrid",
+      "description": "Pasó de lateral suplente a central titular en el Atlético de Madrid, ese es el mejor medidor de su temporada de irrupción. Oro olímpico en París 2024, muy inteligente en los duelos, su convocatoria aporta versatilidad y coraje a la defensa de La Roja. "
+    }
+  ],
+  "coach-image": "../assets/img/espana-coach.webp",
+  "badge": "../assets/img/espana-badge.webp"
+},
+{
+  "group": "Grupo H",
+  "name": "Cabo Verde",
+  "subtitle": "Al fin y al cabo, están verdes...",
+  "coach-name": "Bubista (56)",
+  "coach-desc": "Apodado en honor a la isla de Boa Vista, ha roto todas las expectativas con una hazaña difícil de cuantificar. Es ‘bielsista’ y reivindica el poder del fútbol como signo de identidad caboverdiana.",
+  "players-rating": 3,
+  "coach-rating": 4,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Vozinha",
+      "age": 40,
+      "club": "Chaves",
+      "description": "El veteranísimo arquero debuta en un Mundial como capitán y líder del vestuario gracias a su dilatada experiencia en Eslovaquia, Angola, Moldavia o Chipre, entre otros destinos. Ocupa desde 2012 la portería caboverdiana, que se verá amenazada en no pocas ocasiones."
+    },
+    {
+      "name": "Ryan Mendes",
+      "age": 36,
+      "club": "Igdir FK",
+      "description": "Es de justicia que Cabo Verde vaya a su primer Mundial guiada por el jugador con más partidos y goles en la historia de la selección. Extremo derecho versátil, puede jugar de delantero. Su última gran temporada fue en la 24-25, cuando ayudó a ascender al Kocaelispor a primera con doce goles."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Logan Costa",
+      "age": 24,
+      "club": "Villarreal",
+      "description": "Probablemente sea la mayor certeza en su selección si evaluamos su techo de nivel, de titular de un Villarreal clasificado a Champions. Ha vuelto a los terrenos de juego hace poco por una lesión terrible en el ligamento cruzado, que solo le ha permitido sumar 29 minutos en esta Liga."
+    },
+    {
+      "name": "Sidny Lopes Cabral",
+      "age": 23,
+      "club": "Benfica",
+      "description": "En Lisboa apostaron por él después de una etapa interesante en Estrela da Amadora, y ha conseguido doce participaciones de goles en tan solo 23 partidos de Liga, cifras que serían meritorias en un delantero, pero asombran al tratarse de un lateral."
+    }
+  ],
+  "coach-image": "../assets/img/cabo-verde-coach.webp",
+  "badge": "../assets/img/cabo-verde-badge.webp"
+},
+{
+  "group": "Grupo H",
+  "name": "Arabia Saudí",
+  "subtitle": "De armas tomar",
+  "coach-name": "Georgios Donis (56)",
+  "coach-desc": "Una leyenda del Panathinaikos, asumió el cargo a finales de abril en sustitución de Hervé Renard. Le avala su experiencia en múltiples clubes de la liga saudí con contextos bien diferentes.",
+  "players-rating": 5,
+  "coach-rating": 6,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Salem Al-Dawsari",
+      "age": 34,
+      "club": "Al-Hilal",
+      "description": "Es el jugador más vertiginoso de la plantilla. Sorprendió a la campeona Argentina en el pasado Mundial, y en la liga saudí ha mantenido su estatus de estrella después de la llegada de las estrellas internacionales, a las que ha llegado a superar en números con temporadas increíbles. "
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "age": 26,
+      "club": "RC Lens",
+      "description": "De todos los convocados es el único que juega fuera de Arabia. Cedido por la Roma, se consolidó como titular en la segunda vuelta de un Lens que soñó con pelearle la liga a todo un PSG. Su capacidad para dar asistencias lo convierte en una amenaza desde el lateral derecho."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Musab Al-Juwayr",
+      "age": 22,
+      "club": "Al-Qadsiah",
+      "description": "Mejor jugador joven de la liga saudí gracias a sus 11 asistencias, su talento está al nivel de dar el salto a Europa… o convertirse en la cara de la competición. Fijo en las listas, sus pases largos y golpeo de libre directo lo hacen un mediapunta muy apetecible de ver."
+    },
+    {
+      "name": "Firas Al-Buraikan",
+      "age": 25,
+      "club": "Al-Ahli SC",
+      "description": "Pese a que parta como titular, no ha estado cerca de igualar sus 17 goles en la temporada previa al desembarco masivo de estrellas internacionales. Compensa su eventual falta de pólvora con grandes indicadores que prueban su compromiso defensivo."
+    }
+  ],
+  "coach-image": "../assets/img/arabia-saudi-coach.webp",
+  "badge": "../assets/img/arabia-saudi-badge.webp"
+},
+{
+  "group": "Grupo H",
+  "name": "Uruguay",
+  "subtitle": "Garra y pizarra",
+  "coach-name": "Marcelo Bielsa (70)",
+  "coach-desc": "Líder radical de una manera de entender el fútbol con no pocos adeptos. Prioriza los perfiles a los nombres en equipos que proponen un fútbol tan vistoso como difícil de sostener a largo plazo.",
+  "players-rating": 6,
+  "coach-rating": 8,
+  "expectations": "Octavos/Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Fede Valverde",
+      "age": 27,
+      "club": "Real Madrid",
+      "description": "Ha tenido una temporada muy complicada como capitán madridista, que culminó en un enfrentamiento con Tchouaméni. Ha tenido roces con Bielsa, pero si este consigue sacar lo mejor de sus excelsas cualidades, el techo competitivo de Uruguay se eleva sustancialmente."
+    },
+    {
+      "name": "Darwin Núñez",
+      "age": 26,
+      "club": "Al-Hilal",
+      "description": "La falta crónica de nueves es un peso en la mochila de Darwin, que debe liderar. Ha tenido un año difícil en Arabia, necesita estar entonado para que además de velocidad, presión y agresividad pueda incorporar goles a su casillero."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Manuel Ugarte",
+      "age": 24,
+      "club": "Manchester United",
+      "description": "Bielsa ha confiado mucho en un jugador que maravilló en Portugal, pero no se ha acercado a ese momento de forma ni en el PSG primero ni en el United después. Como pivote ofrece un muy buen criterio a la hora de sacar el balón, pero a veces puede pecar de blando."
+    },
+    {
+      "name": "Maxi Araújo",
+      "age": 26,
+      "club": "Sporting CP",
+      "description": "Tal es su aportación ofensiva como carrilero izquierdo que es probable que lo veamos como extremo en un “doble lateral”. Ha hecho de la banda izquierda del José Alvalade su jardín, y no son pocas las informaciones que lo vinculan con equipos de la Premier."
+    }
+  ],
+  "coach-image": "../assets/img/uruguay-coach.webp",
+  "badge": "../assets/img/uruguay-badge.webp"
+},
+{
+  "group": "Grupo I",
+  "name": "Francia",
+  "subtitle": "El imperio contraataca",
+  "coach-name": "Didier Deschamps (57)",
+  "coach-desc": "Busca cerrar con un Mundial su etapa al frente de ‘les bleus’. Su estilo no es fantasioso, pero ahí está su trayectoria. Ha conseguido resultados incluso antes de la actual constelación de figuras.",
+  "players-rating": 9,
+  "coach-rating": 7,
+  "expectations": "Final",
+  "hl-players": [
+    {
+      "name": "Kylian Mbappé",
+      "age": 27,
+      "club": "Real Madrid",
+      "description": "No ha conseguido encandilar al Bernabéu a pesar de ser Pichichi en una temporada marcada por el ruido. Su rendimiento en Mundiales ha sido espectacular, tiene a tiro el récord de goles. Esta Copa puede ser su oportunidad de reivindicarse como el mejor del mundo."
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "age": 25,
+      "club": "PSG",
+      "description": "El vigente Balón de Oro ha revalidado la Champions como elemento diferencial del PSG, cuya fuerza está en el colectivo. Domina ambas piernas y puede ocupar todas las posiciones de ataque. Si se entiende con el resto de atacantes tan bien como con Kvara y Doué, poco podrán hacer las defensas rivales."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Michael Olise",
+      "age": 24,
+      "club": "Bayern Munich",
+      "description": "Máximo asistente de Europa, su temporada lo encaramaba a la pelea por el Balón de Oro, pero perdió en un duelo clave contra Dembélé y el PSG. Su manera de jugar es flotante, casi hipnótica. Con la ausencia de Griezmann, todo parece indicar que ocupará su lugar como conductor de los ataques bleus."
+    },
+    {
+      "name": "William Saliba",
+      "age": 24,
+      "club": "Arsenal",
+      "description": "Consolidado como uno de los mejores centrales europeos en el sistema de Arteta, que aunque “feo” es muy efectivo, parecido en ciertas cosas a lo que propone Deschamps. Colosal en el juego aéreo, es corpulento y también rápido, mucho más estable que Upamecano."
+    }
+  ],
+  "coach-image": "../assets/img/francia-coach.webp",
+  "badge": "../assets/img/francia-badge.webp"
+},
+{
+  "group": "Grupo I",
+  "name": "Senegal",
+  "subtitle": "Campeón africano en el campo",
+  "coach-name": "Pape Thiaw (44)",
+  "coach-desc": "Después de muchos años como asistente de Aliou Cissé, consiguió ganar la Copa África. Da mucha importancia a defender, ya sea en el terreno de juego o custodiando la propia copa en una base militar.",
+  "players-rating": 7,
+  "coach-rating": 6,
+  "expectations": "Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Sadio Mané",
+      "age": 33,
+      "club": "Al-Nassr",
+      "description": "Leyenda en Liverpool, ha conseguido mantener su estado de forma en Arabia, a la que quizá llegó “demasiado pronto”. Compensa su pérdida de velocidad con un don para la finalización. A nivel emocional, es un líder de altura para lo que Senegal necesita."
+    },
+    {
+      "name": "Pape Gueye",
+      "age": 27,
+      "club": "Villarreal",
+      "description": "Un pulmón para el mediocampo, suyo fue el histórico gol para ganar la Copa África. Tiene una gran presencia física y llega al Mundial como uno de los candidatos a la próxima gran venta del Villarreal en el mercado de verano."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Nicolas Jackson",
+      "age": 24,
+      "club": "Bayern Munich",
+      "description": "Apenas ha podido jugar debido al excepcional momento de forma de su compañero Harry Kane, bota de oro europea. Sin embargo, en sus años en Villarreal y Chelsea se destapó como un delantero muy apto, quizá dependiente de rachas, pero capaz de brillar en un contexto adecuado para ello."
+    },
+    {
+      "name": "Lamine Camara",
+      "age": 22,
+      "club": "Mónaco",
+      "description": "Al igual que Pape Gueye, es un jugador sumamente versátil, ideal para contextos cambiantes desde el mediocampo. Es más ordenado y mejor pasador, pero no tiene tanta llegada al área rival. También tiene un gran golpeo de balón para jugadas ensayadas."
+    }
+  ],
+  "coach-image": "../assets/img/senegal-coach.webp",
+  "badge": "../assets/img/senegal-badge.webp"
+},
+{
+  "group": "Grupo I",
+  "name": "Irak",
+  "subtitle": "Un re-debut americano",
+  "coach-name": "Graham Arnold (62)",
+  "coach-desc": "Consiguió meter a Australia en octavos del pasado Mundial, y fue el revulsivo que necesitaba Irak para regresar al torneo 40 años después, con su victoria frente a Bolivia en la repesca internacional.",
+  "players-rating": 4,
+  "coach-rating": 6,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Zaid Tahseen",
+      "age": 25,
+      "club": "Paktator Tashkent",
+      "description": "Con su metro noventa y tres, ha contribuido a establecer de nuevo al Paktator como un competidor solvente por la Liga. Su preciso desplazamiento en largo puede ser un arma muy valiosa para Irak a la hora de sacar el balón."
+    },
+    {
+      "name": "Aymen Hussein",
+      "age": 29,
+      "club": "Al-Karma",
+      "description": "Se ha convertido en todo un símbolo para el país: segundo máximo goleador de la historia y autor del goles decisivo para la clasificación a los Juegos Olímpicos 2016 y el Mundial 2026. Su historia de superación es representativa de un país amenazado por el horror de Al-Qaeda primero y el ISIS después, que ve en la selección una fuente de identidad."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ali Al-Hamadi",
+      "age": 23,
+      "club": "Luton Town",
+      "description": "Emigró con un año a Inglaterra por la guerra, y se formó en las categorías inferiores del Tranmere Rovers. Busca reencontrarse con el gol después de una temporada complicada en Luton, donde estuvo muy lejos de igualar sus 27 goles con el Wimbledon."
+    },
+    {
+      "name": "Zidane Iqbal",
+      "age": 22,
+      "club": "FC Utrecht",
+      "description": "Nacido en Manchester, se curtió en las inferiores del United antes de salir a Holanda. Después de ser importante en la clasificación a Europa League, esta temporada no ha logrado tener continuidad al arrastrar una lesión de rodilla."
+    }
+  ],
+  "coach-image": "../assets/img/irak-coach.webp",
+  "badge": "../assets/img/irak-badge.webp"
+},
+{
+  "group": "Grupo I",
+  "name": "Noruega",
+  "subtitle": "Oportunidad generacional",
+  "coach-name": "Ståle Solbakken (57)",
+  "coach-desc": "Su dinastía liguera en sus dos etapas con el Copenhague le valió el título de Mejor entrenador histórico de la liga danesa. Logró una clasificación necesaria para una generación de calidad inédita.",
+  "players-rating": 7,
+  "coach-rating": 7,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Erling Haaland",
+      "age": 25,
+      "club": "Manchester City",
+      "description": "Una auténtica máquina de marcar, dominante como pocos en el área. Tal es su nivel de exigencia que en sus dos últimos años “más flojos” ha anotado 34 y 38 goles. Como punto negativo, puede sufrir la falta de generadores de juego que le lleven balones al área."
+    },
+    {
+      "name": "Martin Ødegaard",
+      "age": 27,
+      "club": "Arsenal",
+      "description": "En él recaerá precisamente la generación de oportunidades para los de arriba. No tiene la brillantez de antaño en un Arsenal casi imbatible, pero mucho más feo de ver, quizá porque “necesita menos” la creatividad de Martintxo."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Andreas Schjelderup",
+      "age": 21,
+      "club": "Benfica",
+      "description": "Un puñal por la banda izquierda, ha tenido mucha importancia en el esquema de Mourinho, y algunas informaciones afirman que se lo quiere llevar a Madrid. Su desborde y capacidad de crear ocasiones de gol “por sí mismo” son sus principales activos."
+    },
+    {
+      "name": "Antonio Nusa",
+      "age": 21,
+      "club": "RB Leipzig",
+      "description": "Presumiblemente, peleará con Schjelderup por un puesto titular en la banda izquierda. Es más regateador, pero le cuesta más tener pegada en el área. Ha despuntado en Alemania después de muy buenos años en el Brujas, con actuaciones destacadas en Champions."
+    }
+  ],
+  "coach-image": "../assets/img/noruega-coach.webp",
+  "badge": "../assets/img/noruega-badge.webp"
+},
+{
+  "group": "Grupo J",
+  "name": "Argentina",
+  "subtitle": "La última y nos vamos, Leo",
+  "coach-name": "Lionel Scaloni (47)",
+  "coach-desc": "Después de años de finales perdidas e inestabilidad interna, el “inexperto y desconocido” trajo un Mundial y dos Copas Américas. Líder sereno, consiguió encajar todas sus piezas de forma brillante.",
+  "players-rating": 8,
+  "coach-rating": 9,
+  "expectations": "Final",
+  "hl-players": [
+    {
+      "name": "Lionel Messi",
+      "age": 38,
+      "club": "Inter Miami",
+      "description": "Ya consiguió el Mundial que le faltaba, por lo que su rol en la selección cambia: antes de retirarse busca repetir entorchado desde un liderazgo más espiritual que futbolístico. Ha mantenido números de élite en la MLS, pero está por ver su fondo físico en eliminatorias de 90 minutos."
+    },
+    {
+      "name": "Julián Álvarez",
+      "age": 25,
+      "club": "Atlético de Madrid",
+      "description": "A pesar de una temporada mala en lo individual y colectivo, se ha convertido en el jugador que parecía querer ser en 2022, cuando se asentó como delantero titular. Tiene una gran capacidad asociativa, y parece que va a ser el nombre del mercado de verano."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Enzo Fernández",
+      "age": 24,
+      "club": "Chelsea",
+      "description": "Comprometido por el contexto anárquico y cambiante de los londinenses, en la selección tiene a un técnico que sabe exprimir su 100%. Fundamental desde la base de la jugada, tiene la responsabilidad de sostener al equipo y proyectarlo en las jugadas de ataque."
+    },
+    {
+      "name": "Nico Paz",
+      "age": 21,
+      "club": "Como",
+      "description": "Sus dos años en Italia han sido excelsos: ha ganado el premio de mejor mediocentro de la Serie A y consiguió que el Como entrase en Champions League con 19 participaciones de gol. Todo parece indicar que el Madrid activará su opción de recompra para asegurarse a uno de los jóvenes más prometedores del momento."
+    }
+  ],
+  "coach-image": "../assets/img/argentina-coach.webp",
+  "badge": "../assets/img/argentina-badge.webp"
+}, {
+  "group": "Grupo J",
+  "name": "Argelia",
+  "subtitle": "Acechan los Zorros del Desierto",
+  "coach-name": "Vladimir Petkovic (62)",
+  "coach-desc": "Elevó el techo competitivo de Suiza, fija en todos los torneos internacionales bajo su mando. Con Argelia sus metas son más modestas, logró la clasificación y un buen papel en cuartos de Copa África.",
+  "players-rating": 5,
+  "coach-rating": 7,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Riyad Mahrez",
+      "age": 34,
+      "club": "Al-Ahli",
+      "description": "Talento puro del fútbol de la banlieue. Protagonista en la gesta del Leicester y las mayores alturas alcanzadas por el Manchester City de Guardiola, es capaz de sacarse mil trucos de la chistera. Se mantiene a buen nivel en el fútbol saudí, será líder por galones y calidad."
+    },
+    {
+      "name": "Ramy Bensebaini",
+      "age": 30,
+      "club": "Borussia Dortmund",
+      "description": "Titularísimo en el Dortmund, puede jugar tanto de lateral como de central zurdo. Viene condicionado por una última lesión en el tobillo, pero será titular si su cuerpo se lo permite. Muy experimentado, tiene buena salida de balón e interesantes cifras ofensivas como lateral."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Farès Chaïbi",
+      "age": 23,
+      "club": "Eintracht Frankfurt",
+      "description": "Despuntó en Toulouse, y está haciendo méritos en el Eintracht, equipo caracterizado por su gran detección de talento. Parte como un mediocentro más adelantado, tiene la capacidad de dar últimos pases de gran calidad pero es capaz también de arremangarse en defensa."
+    },
+    {
+      "name": "Ibrahim Maza",
+      "age": 20,
+      "club": "Bayer Leverkusen",
+      "description": "Un mediapunta más clásico, que también puede jugar por la banda izquierda. Destaca por su capacidad de regate y disparo lejano, aunque le cuesta ver puerta. Es un gran generador de oportunidades claras de gol, con buena velocidad y manejo de balón."
+    }
+  ],
+  "coach-image": "../assets/img/argelia-coach.webp",
+  "badge": "../assets/img/argelia-badge.webp"
+},
+{
+  "group": "Grupo J",
+  "name": "Austria",
+  "subtitle": "28 años de nada después",
+  "coach-name": "Ralf Ragnick (67)",
+  "coach-desc": "Líder de la escuela de Flick, Kopp o Tuchel, salió escaldado del enésimo proyecto fallido del Manchester United, pero logró enderezar su caché con una etapa de crecimiento al frente de Austria.",
+  "players-rating": 6,
+  "coach-rating": 8,
+  "expectations": "Octavos de final",
+  "hl-players": [
+    {
+      "name": "Marcel Sabitzer",
+      "age": 32,
+      "club": "Borussia Dortmund",
+      "description": "Excelente llegador, con Rangnick suele jugar más adelantado, incluso acompañando a Arnautovic en una doble punta más aguerrida que goleadora. Es especialista en “rapiñar” rechaces y segundas jugadas, será fundamental para el ataque como en campeonatos previos."
+    },
+    {
+      "name": "Konrad Laimer",
+      "age": 28,
+      "club": "Bayern Munich",
+      "description": "Con más importancia en defensa debido al bajón físico de Alaba, puede jugar en ambos laterales e incluso como pivote. Kompany lo ha utilizado en el Bayern jugando por dentro para romper líneas, una variante táctica muy interesante que podría replicar en la selección."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Carney Chukwuemeka",
+      "age": 22,
+      "club": "Borussia Dortmund",
+      "description": "Renunció de forma exprés a sus vínculos ingleses para ir con Austria al Mundial. No ha tenido una temporada espectacular con el Dortmund, pero puede tener una ventana de oportunidad con la lesión de Baumgartner desde la mediapunta o la banda derecha."
+    },
+    {
+      "name": "Nicolas Seiwald",
+      "age": 24,
+      "club": "RB Leipzig",
+      "description": "Contrastadísimo en la Bundesliga pese a su corta edad, podríamos definirlo como un pivote “de los de toda la vida”: preciso en pases cortos, su contribución ofensiva es más discreta. Además, tiene una gran predilección por las entradas y gana muchos duelos."
+    }
+  ],
+  "coach-image": "../assets/img/austria-coach.webp",
+  "badge": "../assets/img/austria-badge.webp"
+},
+{
+  "group": "Grupo J",
+  "name": "Jordania",
+  "subtitle": "Más que una primera vez",
+  "coach-name": "Jamal Sellami (55)",
+  "coach-desc": "Gran conocedor del fútbol marroquí, es su primera experiencia como entrenador en su país. Apodado “fuerza tranquila”, es conocido por usar en sus tácticas conocimientos de su formación científica.",
+  "players-rating": 4,
+  "coach-rating": 6,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Mousa Al-Tamari",
+      "age": 28,
+      "club": "Rennes",
+      "description": "Extremo derecho capaz de jugar por ambas bandas, ha logrado 15 contribuciones de gol en la Ligue 1. Le gusta bastante meterse hacia dentro y hacer jugadas “robbenianas”. Paradójicamente, sus índices de regate son bastante pobres. Además, es importante presionando arriba."
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "age": 30,
+      "club": "FC Seoul",
+      "description": "Muy importante para su selección actuando como último hombre. Ha dado un salto importante de nivel en Corea cuando parecía que entraba en el declive de su carrera. También destaca por su despeje y pases largos, especialmente importantes para sortear presiones altas."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Ibrahim Sabra",
+      "age": 20,
+      "club": "NK Lokomotiva",
+      "description": "Parte como suplente pero con potencial de tener oportunidades. Después de no jugar en la liga turca, su cesión al Lokomotiva ha sido fundamental para asegurar su puesto en la lista a pesar de su corta edad. Es veloz y utiliza muy bien su cuerpo para el regate."
+    },
+    {
+      "name": "Ibrahim Saadeh",
+      "age": 25,
+      "club": "Al Karma",
+      "description": "Tuvo un muy buen papel en Al Muharraq, y es un perfil especialmente interesante por su capacidad defensiva, que combina con su inteligencia para convertir goles: está en el momento adecuado en el lugar adecuado."
+    }
+  ],
+  "coach-image": "../assets/img/jordania-coach.webp",
+  "badge": "../assets/img/jordania-badge.webp"
+},
+{
+  "group": "Grupo K",
+  "name": "Portugal",
+  "subtitle": "Por un entorchado aún más histórico",
+  "coach-name": "Roberto Martínez (52)",
+  "coach-desc": "Guió el crecimiento de la generación dorada belga, pero se quedó en un “casi”. Con Portugal, sin embargo, tocó metal en la última Nations League, lo que le afianzó en el cargo frente a las dudas.",
+  "players-rating": 9,
+  "coach-rating": 8,
+  "expectations": "Semifinal/Final",
+  "hl-players": [
+    {
+      "name": "Cristiano Ronaldo",
+      "age": 41,
+      "club": "Al-Nassr",
+      "description": "Sigue teniendo el hambre por ganar que le encumbró como uno de los mejores de la historia. Campeón de liga en Arabia, el líder indiscutible de un vestuario muy joven. Roberto Martínez confía en su condición de rematador de élite, que compensa una falta de velocidad normal a su edad."
+    },
+    {
+      "name": "Vitinha",
+      "age": 25,
+      "club": "PSG",
+      "description": "Candidato al Balón de Oro y clave en la máquina de ganar que ha construido Luis Enrique, es el jugador capaz de mover los hilos en el mediocampo y dominar al rival a través de una circulación de balón con ritmo endiablado. Pelotero como pocos en el mundo, su calidad técnica es inigualable. "
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "João Neves",
+      "age": 21,
+      "club": "PSG",
+      "description": "Capaz de jugar de lateral, si destaca menos en el PSG es por el compendio de mediocampistas virtuosos que le rodea. Tiene mucho ímpetu y es más defensivo. El mejor ejemplo de que hace bien hasta lo más difícil es el número de veces que consigue rematar de cabeza pese a su corta estatura."
+    },
+    {
+      "name": "Nuno Mendes",
+      "age": 25,
+      "club": "PSG",
+      "description": "Otro jugador espectacular de un equipo que maravilla al mundo. Muy rápido en ataque, donde destaca Nuno Mendes es en la capacidad de secar a extremos tan desequilibrantes como Lamine Yamal. Parece que tiene cuatro pulmones por la resistencia que exhibe en los tramos finales de los partidos."
+    }
+  ],
+  "coach-image": "../assets/img/portugal-coach.webp",
+  "badge": "../assets/img/portugal-badge.webp"
+},
+{
+  "group": "Grupo K",
+  "name": "RD Congo",
+  "subtitle": "El poder de la diáspora",
+  "coach-name": "Sébastien Desabre (49)",
+  "coach-desc": "Logró una histórica final continental con Uganda en 2019. De la mano del talento joven congoleño y varias nacionalizaciones, firmó otras semis de Copa África e hizo realidad el sueño mundialista",
+  "players-rating": 5,
+  "coach-rating": 6,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Aaron Wan-Bissaka",
+      "age": 28,
+      "club": "West Ham",
+      "description": "Nacido en Inglaterra, tiró de antepasados para optar a jugar un Mundial. Está lejos de su mejor nivel, donde fue un complemento importante de un buen Manchester United gracias a su capacidad atlética y defensiva, destacando su predilección por la entrada."
+    },
+    {
+      "name": "Yoane Wissa",
+      "age": 29,
+      "club": "Newcastle United",
+      "description": "Fichaje récord de las urracas para reemplazar a Isak, ha tenido una temporada muy complicada por lesiones. Es un delantero rápido, móvil y con gran remate de cabeza. Cuando estaba en el Brentford inglés formó una dupla para la historia del club con el camerunés Mbeumo."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Noah Sadiki",
+      "age": 21,
+      "club": "Sunderland",
+      "description": "Gracias a su solvencia como mediocentro defensivo, ha asegurado que un recién ascendido como el Sunderland haya dado el salto a la clasificación europea. Tiene poca presencia ofensiva, en su caso podríamos definirlo como un “ancla” capaz de jugar de central o lateral en casos de urgencia."
+    },
+    {
+      "name": "Nathaniel Mbuku",
+      "age": 23,
+      "club": "Montpellier",
+      "description": "Ha encontrado estabilidad en Montpellier, después de encadenar cesiones. Es un extremo izquierdo que no juega a pierna cambiada, tiene muy buen pie para los libres directos y es efectivo con los regates: sin ser un “prestidigitador”, usa su cuerpo muy bien en las fintas."
+    }
+  ],
+  "coach-image": "../assets/img/rd-congo-coach.webp",
+  "badge": "../assets/img/rd-congo-badge.webp"
+},
+{
+  "group": "Grupo K",
+  "name": "Uzbekistán",
+  "subtitle": "¿La suerte del principiante?",
+  "coach-name": "Fabio Cannavaro (52)",
+  "coach-desc": "Símbolo de la última Italia campeona, no ha tenido el mismo renombre en su exótico periplo como entrenador. Llegó al banquillo uzbeko después de la clasificación, con poco tiempo para hacer ajustes.",
+  "players-rating": 3,
+  "coach-rating": 4,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Abdukodir Khusanov",
+      "age": 22,
+      "club": "Manchester City",
+      "description": "Pese a su corta edad, está obligado a ser el líder de la defensa debido a su diferencia de calidad, y con Cannavaro como mentor. Una de las “compras del pánico” del City tras un 2024 horrible, se ha asentado como potencial titular para el futuro gracias a su corpulencia y elegancia con el balón jugado."
+    },
+    {
+      "name": "Eldor Shomurodov",
+      "age": 30,
+      "club": "Istanbul Basaksehir",
+      "description": "Anotador prolífico, pasó por Roma y Cagliari y llega en un gran momento de forma tras terminar como ‘pichichi’ de la liga turca. Puede jugar como delantero más retrasado en una doble punta o incluso de extremo izquierdo, y es un gran finalizador."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Abduvokhid Nematov",
+      "age": 25,
+      "club": "Nasaf Qarshi",
+      "description": "Parte como favorito para la portería uzbeka después de jugarlo casi todo a nivel de clubes. Es todo un “gato” bajo los palos, tiene grandes reflejos y se estira con facilidad, logrando paradas muy plásticas."
+    },
+    {
+      "name": "Sherzov Esanov",
+      "age": 23,
+      "club": "FK Buxoro",
+      "description": "Salió de su país y no tuvo una etapa fácil en Rusia primero y Bielorrusia después. Ha vuelto y logró 5 goles en apenas 10 partidos. Gracias a su metro noventa, puede ser una amenaza en los saques de esquina y jugadas a balón parado."
+    }
+  ],
+  "coach-image": "../assets/img/uzbekistan-coach.webp",
+  "badge": "../assets/img/uzbekistan-badge.webp"
+},
+{
+  "group": "Grupo K",
+  "name": "Colombia",
+  "subtitle": "Realismo mágico",
+  "coach-name": "Néstor Lorenzo (57)",
+  "coach-desc": "Reclutado de la liga peruana, ha crecido en un proyecto de fútbol vistoso a largo plazo, que ha dado frutos como llegar a la final de la Copa América 2024 y una fase de clasificación muy convincente.",
+  "players-rating": 6,
+  "coach-rating": 7,
+  "expectations": "Octavos/Cuartos de final",
+  "hl-players": [
+    {
+      "name": "Luís Díaz",
+      "age": 29,
+      "club": "Bayern Munich",
+      "description": "Cuando parecía que su nivel se estancaba en Liverpool como un buen regateador, formó junto con Kane y Olise un ataque de récord y ofreció un nivel superlativo en su primer año en el Bayern. Creatividad y desborde a raudales para un jugador que liderará a Colombia por méritos propios."
+    },
+    {
+      "name": "Luis Suárez",
+      "age": 28,
+      "club": "Sporting CP",
+      "description": "Ni se ha notado en Lisboa la marcha de Gyökeres. El ex del Almería ha ofrecido un rendimiento espectacular, y es el siguiente candidato a un gran traspaso. Es un finalizador excelente, rápido y clínico en el área. Con la falta de Jhon Durán, aumenta su responsabilidad en la punta de ataque."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Richard Ríos",
+      "age": 25,
+      "club": "Benfica",
+      "description": "Un mediocentro muy completo, ha conseguido 9 participaciones de gol sin jugar excesivamente adelantado. Tiene gran calidad para el pase y regate, y puede jugar también en banda derecha. Ha tenido una óptima temporada en el Benfica procedente del fútbol brasileño."
+    },
+    {
+      "name": "Gustavo Puerta",
+      "age": 22,
+      "club": "Racing Santander",
+      "description": "Fichaje de futuro del Leverkusen, se curtió en Nüremberg y Hull antes de llegar al Sardinero. Es uno de los jugadores más importantes en la plantilla que logró el ascenso, actúa como pivote y pese a ser un bregador, no “le quema el balón” cuando lo tiene, es inteligente para buscar salidas."
+    }
+  ],
+  "coach-image": "../assets/img/colombia-coach.webp",
+  "badge": "../assets/img/colombia-badge.webp"
+},
+{
+  "group": "Grupo L",
+  "name": "Inglaterra",
+  "subtitle": "Tiene que ser ahora",
+  "coach-name": "Thomas Tuchel (52)",
+  "coach-desc": "Arquitecto del último gran Chelsea, sorprendió su mal paso en un Bayern que ahora ilusiona. Es garantía de rendimiento inmediato, razón que llevó a Inglaterra a contratarlo para ganar a la primera.",
+  "players-rating": 8,
+  "coach-rating": 9,
+  "expectations": "Final",
+  "hl-players": [
+    {
+      "name": "Karry Kane",
+      "age": 32,
+      "club": "Bayern Munich",
+      "description": "Delantero total, además de conquistar la Bota de Oro es alucinante por la cantidad de juego que genera sin salir en las estadísticas. Es capaz de transformarse y ser tanto un rematador letal dentro del área como un creador de juego fantástico a campo abierto. "
+    },
+    {
+      "name": "Jude Bellingham",
+      "age": 22,
+      "club": "Real Madrid",
+      "description": "Todo el mundo es consciente de su calidad, pero lleva tiempo sin demostrarla al completo. Con la llegada de Mbappé perdió ese rol adelantado que tuvo en su primer año en Madrid, necesita un buen papel en este Mundial para recordar su estatus de jugador estrella."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Morgan Rogers",
+      "age": 23,
+      "club": "Aston Villa",
+      "description": "Coronado como mejor jugador de la Europa League que conquistó, es un mediocampista de ida y vuelta, corpulento, rápido y con toque: parece hecho a medida para Tuchel. Su crecimiento de nivel ha sido exponencial, y lo ha llevado a ser un muy sólido candidato a titular después de dos temporadas excelentes."
+    },
+    {
+      "name": "Anthony Gordon",
+      "age": 24,
+      "club": "FC Barcelona",
+      "description": "Fichaje multimillonario del Barça para reforzar la delantera. Esta temporada ha jugado en punta, y entre sus principales virtudes podemos destacar sus esfuerzos en la presión del equipo y un ritmo vertiginoso. No es tan prolífico a la hora de anotar como otras opciones."
+    }
+  ],
+  "coach-image": "../assets/img/inglaterra-coach.webp",
+  "badge": "../assets/img/inglaterra-badge.webp"
+},
+{
+  "group": "Grupo L",
+  "name": "Croacia",
+  "subtitle": "Vamos a hacerlo como antes",
+  "coach-name": "Zlatko Dalić (59)",
+  "coach-desc": "Su decepcionante Eurocopa vino marcada por las expectativas de su espectacular Mundial, donde lograron el tercer puesto pese a ir muy cortos de talento. Compite siempre, también con poco.",
+  "players-rating": 7,
+  "coach-rating": 7,
+  "expectations": "Cuartos/Semifinal",
+  "hl-players": [
+    {
+      "name": "Luka Modrić",
+      "age": 40,
+      "club": "AC Milan",
+      "description": "Sigue siendo un virtuoso marcando el ritmo de los partidos y dando sentido a cada balón que pasa por sus botas. Se mantiene en Europa y ha sido titular indiscutible en club y selección, jugando en ambas como el hombre libre en un doble pivote que presumiblemente ocupará con Kovačić, su compañero en la sala de máquinas."
+    },
+    {
+      "name": "Josko Gvardiol",
+      "age": 24,
+      "club": "Manchester City",
+      "description": "Se ha pasado prácticamente todo el 2026 en el dique seco por una fractura de tibia, pero parece estar listo para el reto de liderar la defensa croata. Contundente en el cuerpo a cuerpo, es exquisito para sacar el balón, un central con el beneplácito de Guardiola que también puede rendir como lateral izquierdo."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Josip Stanišić",
+      "age": 26,
+      "club": "Bayern Munich",
+      "description": "La llegada de Kompany ha supuesto un revulsivo total para su carrera. Lateral con gran pie, fue pieza clave primero en el Leverkusen invicto de Xabi Alonso, y después ha experimentado un crecimiento sostenido como lateral en ambas bandas o incluso defensa central."
+    },
+    {
+      "name": "Martin Baturina",
+      "age": 23,
+      "club": "Como",
+      "description": "Mediapunta con tendencia a caer en la banda izquierda, salió del Dinamo de Zagreb en 2025 y ya es uno de los nombres propios del equipo revelación en Italia. Tiene un muy buen disparo lejano, y domina el balón parado. Su capacidad de generar juego es mucho mayor de lo que las estadísticas indican."
+    }
+  ],
+  "coach-image": "../assets/img/croacia-coach.webp",
+  "badge": "../assets/img/croacia-badge.webp"
+},
+{
+  "group": "Grupo L",
+  "name": "Ghana",
+  "subtitle": "Quien no arriesga no Ghana",
+  "coach-name": "Carlos Queiroz (73)",
+  "coach-desc": "Tras una larga etapa en Irán, no ha conseguido permanecer dos años en un banquillo. Asegura competitividad y orden en el corto plazo, pero en los últimos años no ha sido suficiente  para llegar lejos.",
+  "players-rating": 6,
+  "coach-rating": 5,
+  "expectations": "Pasar de ronda",
+  "hl-players": [
+    {
+      "name": "Antoine Semenyo",
+      "age": 25,
+      "club": "Manchester City",
+      "description": "Ha sumado 17 dianas en esta Premier League. Tras un fichaje astronómico desde el Bournemouth, recaló en el City por 80 millones. Puede jugar en todas las posiciones de ataque, es un gran finalizador y alterna entre el extremo izquierdo y la punta de ataque como sus lugares predilectos."
+    },
+    {
+      "name": "Iñaki Williams",
+      "age": 31,
+      "club": "Athletic Club",
+      "description": "Ha tenido una temporada muy complicada, en línea con el devenir del equipo. De ser el único delantero en los leones ha pasado al extremo derecho, aprovechando su punta de velocidad, que sigue siendo portentosa."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "Kamaldeen Sulemana",
+      "age": 24,
+      "club": "Atalanta",
+      "description": "Tiene todas las condiciones para ser un extremo top, destacando su polivalencia, velocidad y gran regate, pero no ha terminado de explotar en Rennes primero y Southampton después. Con la baja de Lookman ha tenido más importancia en la Atalanta, que ha hecho una inversión fuerte por él."
+    },
+    {
+      "name": "Caleb Yirenki",
+      "age": 20,
+      "club": "Nordsjælland",
+      "description": "“Descubierto” como Sulemana, es un mediocentro con capacidad para caer a la banda o jugar en el lateral, como en su selección. Es precisamente su versatilidad lo que lo convierte en un perfil tan interesante: llega al ataque con frecuencia, genera juego y es muy preciso en el pase."
+    }
+  ],
+  "coach-image": "../assets/img/ghana-coach.webp",
+  "badge": "../assets/img/ghana-badge.webp"
+},
+{
+  "group": "Grupo L",
+  "name": "Panamá",
+  "subtitle": "Les abriremos en canal",
+  "coach-name": "Thomas Christiansen (52)",
+  "coach-desc": "Internacional español, tuvo una carrera muy extensa en LaLiga y  logró ser pichichi de la Bundesliga en 2003. Como entrenador de Panamá, ha hecho grandes torneos además de lograr su fin último.",
+  "players-rating": 4,
+  "coach-rating": 6,
+  "expectations": "Pelear en fase de grupos",
+  "hl-players": [
+    {
+      "name": "Amir Murillo",
+      "age": 30,
+      "club": "Besiktas",
+      "description": "Lateral derecho de largo recorrido, capaz también de jugar como central y en banda izquierda. Fue importante en sus tres temporadas en el Olympique de Marsella antes de su paso por Turquía. Es uno de los jugadores más indispensables de la selección panameña."
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "age": 27,
+      "club": "Pumas",
+      "description": "Mediocentro que da claridad y sentido al juego del equipo. Capital para el sistema de juego de Christiansen, es duda por una lesión al final de temporada que va a mermar sus prestaciones físicas si consigue llegar sano."
+    }
+  ],
+  "prom-players": [
+    {
+      "name": "José Córdoba",
+      "age": 24,
+      "club": "Norwich City",
+      "description": "Ha completado una temporada solvente en Inglaterra. Participa mucho en el juego del equipo y tiene una salida de balón convincente, promedia más de cinco recuperaciones por partido y no hace demasiadas faltas."
+    },
+    {
+      "name": "Edgardo Fariña",
+      "age": 24,
+      "club": "Nizhniy Novgorod",
+      "description": "Central diestro, el esquema de tres defensas le permite adelantarse más y asegurar una buena salida de balón con pases precisos. Ha tenido que sobreponerse a una lesión muscular y otra de rodilla en su camino hacia la convocatoria mundialista."
+    }
+  ],
+  "coach-image": "../assets/img/panama-coach.webp",
+  "badge": "../assets/img/panama-badge.webp"
+}
