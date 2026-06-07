@@ -1,0 +1,71 @@
+{
+    "rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Mosquera",
+			"image": "../assets/img/Panama/POR-Mosquera.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Murillo",
+			"image":  "../assets/img/Panama/LD-Murillo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Blackman",
+			"image": "../assets/img/Panama/DFCD-Blackman.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Escobar",
+			"image": "../assets/img/Panama/DFC-Escobar.jpg",
+			"role": "defender"
+},
+		{
+			"row": "defense",
+			"name": "Córdoba",
+			"image": "../assets/img/Panama/DFCI-Cordoba.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Davis",
+			"image": "../assets/img/Panama/LI-Davis.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Bárcenas",
+			"image": "../assets/img/Panama/MD-Barcenas.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Carrasquilla",
+			"image": "../assets/img/Panama/MC-Carrasquilla.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Godoy",
+			"image": "../assets/img/Panama/MC-Godoy.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Díaz",
+			"image": "../assets/img/Panama/MI-Diaz.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Fajardo",
+			"image": "../assets/img/Panama/DC-Fajardo.jpg",
+			"role": "attacker"
+}
+	]
+}

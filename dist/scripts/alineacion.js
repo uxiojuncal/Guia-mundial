@@ -14,79 +14,6 @@ const placeholderSvg = `
 
 const fallbackImage = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(placeholderSvg)}`;
 
-// Example of 4-2-3-1 formation (5 rows + gk)
-const lineup421 = {
-	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
-	"players": [
-		{
-			"row": "gk",
-			"name": "Ederson",
-			"image": "./img/goalie.jpg",
-			"role": "goalkeeper"
-		},
-		{
-			"row": "defense",
-			"name": "Walker",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-		},
-		{
-			"row": "defense",
-			"name": "Stones",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-		},
-		{
-			"row": "defense",
-			"name": "Dias",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-		},
-		{
-			"row": "defense",
-			"name": "Akanji",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-		},
-		{
-			"row": "cdm",
-			"name": "Rodri",
-			"image": "./img/midfielder.jpg",
-			"role": "midfielder"
-		},
-		{
-			"row": "cdm",
-			"name": "Gundogan",
-			"image": "./img/midfielder.jpg",
-			"role": "midfielder"
-		},
-		{
-			"row": "cam_lm_rm",
-			"name": "Mahrez",
-			"image": "./img/left-wg.jpg",
-			"role": "attacker"
-		},
-		{
-			"row": "cam_lm_rm",
-			"name": "De Bruyne",
-			"image": "./img/midfielder.jpg",
-			"role": "attacker"
-		},
-		{
-			"row": "cam_lm_rm",
-			"name": "Foden",
-			"image": "./img/right-wg.jpg",
-			"role": "attacker"
-		},
-		{
-			"row": "striker",
-			"name": "Haaland",
-			"image": "./img/striker.jpg",
-			"role": "attacker"
-		}
-	]
-};
-
 async function loadLineup(filePath = './lineups/Alemania.json') {
 	try {
 		const response = await fetch(filePath);
@@ -120,7 +47,7 @@ async function loadTeamLineup() {
 
 	const lineupFileName = slugifyFileName(teamName);
 	const lineupPaths = [
-		`../../build/lineups/${lineupFileName}`,
+		`../assets/data/lineups/${lineupFileName}`,
 		`../lineups/${lineupFileName}`,
 		`./lineups/${lineupFileName}`,
 	];

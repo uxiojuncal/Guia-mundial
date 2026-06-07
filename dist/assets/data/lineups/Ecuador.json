@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Galíndez",
+			"image": "../assets/img/Ecuador/POR-Galindez.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Preciado",
+			"image": "../assets/img/Ecuador/LD-Preciado.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Pacho",
+			"image": "../assets/img/Ecuador/DFC-Pacho.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Hincapié",
+			"image": "../assets/img/Ecuador/DFC-Hincapie.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Estupiñán",
+			"image": "../assets/img/Ecuador/LI-Estupinan.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Caicedo",
+			"image": "../assets/img/Ecuador/CDM-Caicedo.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Franco",
+			"image": "../assets/img/Ecuador/CDM-Franco.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Plata",
+			"image": "../assets/img/Ecuador/MD-Plata.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Páez",
+			"image": "../assets/img/Ecuador/MCO-Paez.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Yeboah",
+			"image": "../assets/img/Ecuador/MI-Yeboah.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Valencia",
+			"image": "../assets/img/Ecuador/DC-Valencia.jpg",
+			"role": "attacker"
+}
+	]
+}

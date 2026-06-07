@@ -1,0 +1,71 @@
+{
+    "rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Johansson",
+			"image": "../assets/img/Suecia/POR-Johansson.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Gudmundsson",
+			"image":  "../assets/img/Suecia/LD-Gudmundsson.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lindelöf",
+			"image": "../assets/img/Suecia/DFC-Lindelof.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Hien",
+			"image": "../assets/img/Suecia/DFC-Hien.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Svensson",
+			"image": "../assets/img/Suecia/LI-Svensson.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Johansson",
+			"image": "../assets/img/Suecia/MD-Johansson.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Ayari",
+			"image": "../assets/img/Suecia/MC-Ayari.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Bergvall",
+			"image": "../assets/img/Suecia/MC-Bergvall.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Elanga",
+			"image": "../assets/img/Suecia/MI-Elanga.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Isak",
+			"image": "../assets/img/Suecia/DC-Isak.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Gyökeres",
+			"image": "../assets/img/Suecia/DC-Gyokeres.jpg",
+			"role": "attacker"
+        }
+	]
+}

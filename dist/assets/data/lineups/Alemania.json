@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Neuer",
+			"image": "../assets/img/Alemania/POR-Neuer.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Kimmich",
+			"image": "../assets/img/Alemania/LD-Kimmich.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Tah",
+			"image": "../assets/img/Alemania/DFC-Tah.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Schlotterbeck",
+			"image": "../assets/img/Alemania/DFC-Schlotterbeck.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Raum",
+			"image": "../assets/img/Alemania/LI-Raum.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Pavlovic",
+			"image": "../assets/img/Alemania/CDM-Pavlovic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Goretzka",
+			"image": "../assets/img/Alemania/CDM-Goretzka.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Sané",
+			"image": "../assets/img/Alemania/MD-Sane.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Musiala",
+			"image": "../assets/img/Alemania/MCO-Musiala.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Wirtz",
+			"image": "../assets/img/Alemania/MI-Wirtz.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Havertz",
+			"image": "../assets/img/Alemania/DC-Havertz.jpg",
+			"role": "attacker"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Crocombe",
+			"image": "../assets/img/NuevaZelanda/POR-Crocombe.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Tim Payne",
+			"image":  "../assets/img/NuevaZelanda/LD-Payne.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Bindon",
+			"image": "../assets/img/NuevaZelanda/DFC-Bindon.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Surman",
+			"image": "../assets/img/NuevaZelanda/DFC-Surman.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Cacace",
+			"image": "../assets/img/NuevaZelanda/LI-Cacace.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Bell",
+			"image": "../assets/img/NuevaZelanda/CDM-Bell.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Stamenic",
+			"image": "../assets/img/NuevaZelanda/CDM-Stamenic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Just",
+			"image": "../assets/img/NuevaZelanda/MD-Just.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Singh",
+			"image": "../assets/img/NuevaZelanda/MCO-Singh.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Randall",
+			"image": "../assets/img/NuevaZelanda/MI-Randall.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Wood",
+			"image": "../assets/img/NuevaZelanda/DC-Wood.jpg",
+			"role": "attacker"
+		}
+	]
+}

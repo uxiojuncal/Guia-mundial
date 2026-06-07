@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Beiranvand",
+			"image": "../assets/img/Iran/POR-Beiranvand.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Yousefi",
+			"image":  "../assets/img/Iran/LD-Yousefi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Kanaani",
+			"image": "../assets/img/Iran/DFC-Kanaani.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Khalilzadeh",
+			"image": "../assets/img/Iran/DFC-Khalilzadeh.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Hajisafi",
+			"image": "../assets/img/Iran/LI-Hajisafi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Ghaedi",
+			"image": "../assets/img/Iran/CDM-Ghaedi.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Ezatolahi",
+			"image": "../assets/img/Iran/CDM-Ezatolahi.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Jahanbaksh",
+			"image": "../assets/img/Iran/MD-Jahanbaksh.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Mohebi",
+			"image": "../assets/img/Iran/MCO-Mohebi.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Taremi",
+			"image": "../assets/img/Iran/MI-Taremi.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Ali Alipour",
+			"image": "../assets/img/Iran/DC-Alipour.jpg",
+			"role": "attacker"
+		}
+	]
+}

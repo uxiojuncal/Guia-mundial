@@ -1,0 +1,78 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Unai Simón",
+			"image": "../assets/img/España/POR-UnaiSimon.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Llorente",
+			"image":  "../assets/img/España/LD-Llorente.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Cubarsí",
+			"image": "../assets/img/España/DFC-Cubarsi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Laporte",
+			"image": "../assets/img/España/DFC-Laporte.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Cucurella",
+			"image": "../assets/img/España/LI-Cucurella.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Rodri",
+			"image": "../assets/img/España/CDM-Rodri.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Pedri",
+			"image": "../assets/img/España/MC-Pedri.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Fabián",
+			"image": "../assets/img/España/MC-Fabian.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Lamine Yamal",
+			"image": "../assets/img/España/ED-Yamal.jpg",
+			"role": "attacker"
+	},
+		{
+			"row": "attack",
+			"name": "Oyarzabal",
+			"image": "../assets/img/España/DC-Oyarzabal.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Nico Williams",
+			"image": "../assets/img/España/EI-Willams.jpg",
+			"role": "attacker"
+		}
+    ],
+    "rowCounts": {
+		"gk": 1,
+		"defense": 4,
+"cdm": 1,
+		"midfield": 2,
+		"attack": 3
+	}
+}

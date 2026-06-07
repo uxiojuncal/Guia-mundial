@@ -1,0 +1,72 @@
+
+{	
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Courtois",
+			"image": "../assets/img/Belgica/POR-Courtois.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Castagne",
+			"image":  "../assets/img/Belgica/LD-Castagne.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ngoy",
+			"image": "../assets/img/Belgica/DFC-Ngoy.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Theate",
+			"image": "../assets/img/Belgica/DFC-Theate.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "De Cuyper",
+			"image": "../assets/img/Belgica/LI-DeCuyper.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Onana",
+			"image": "../assets/img/Belgica/MCD-Onana.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Tielemans",
+			"image": "../assets/img/Belgica/MCD-Tielemans.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Doku",
+			"image": "../assets/img/Belgica/MD-Doku.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "De Bruyne",
+			"image": "../assets/img/Belgica/MCO-DeBruyne.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Trossard",
+			"image": "../assets/img/Belgica/MI-Trossard.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "De Ketelaere",
+			"image": "../assets/img/Belgica/DC-DeKetelaere.jpg",
+			"role": "attacker"
+		}
+	]
+}

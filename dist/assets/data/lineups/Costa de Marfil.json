@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Yahia Fofana",
+			"image": "../assets/img/CostaDeMarfil/POR-YahiaFofana.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Singo",
+			"image":  "../assets/img/CostaDeMarfil/LD-Singo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ndicka",
+			"image": "../assets/img/CostaDeMarfil/DFC-Ndicka.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Diomandé",
+			"image": "../assets/img/CostaDeMarfil/DFC-Diomande.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Konan",
+			"image": "../assets/img/CostaDeMarfil/LI-Konan.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Kessié",
+			"image": "../assets/img/CostaDeMarfil/MC-Kessie.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Sangaré",
+			"image": "../assets/img/CostaDeMarfil/MC-Sangare.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Seko Fofana",
+			"image": "../assets/img/CostaDeMarfil/MC-SekoFofana.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Pépé",
+			"image": "../assets/img/CostaDeMarfil/ED-Pepe.jpg",
+			"role": "attacker"
+	},
+		{
+			"row": "attack",
+			"name": "Guessand",
+			"image": "../assets/img/CostaDeMarfil/DC-Guessand.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Yan Diomandé",
+			"image": "../assets/img/CostaDeMarfil/EI-YanDiomande.jpg",
+			"role": "attacker"
+		}
+	]
+}

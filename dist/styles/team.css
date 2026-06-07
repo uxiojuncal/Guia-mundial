@@ -120,7 +120,7 @@ nav a {
     box-shadow: var(--shadow);
     background:
         linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
-        url(./img/field.png) center center / contain no-repeat;
+        url(../assets/img/field.png) center center / contain no-repeat;
 }
 
 .line-up::before {
@@ -342,7 +342,7 @@ nav a {
         min-height: 0;
         background:
             linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
-            url(./img/field.png) center center / cover no-repeat;
+            url(../assets/img/field.png) center center / cover no-repeat;
     }
 
     .formation {
@@ -379,7 +379,7 @@ nav a {
         min-height: auto;
         background:
             linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.14)),
-            url(./img/field.png) center center / cover no-repeat;
+            url(../assets/img/field.png) center center / cover no-repeat;
     }
 
     .formation {
@@ -477,6 +477,7 @@ nav {
     border: solid;
     width: 25%;
     padding: 2%;
+    flex-wrap: wrap;
 }
 
 .left-nav {
@@ -606,7 +607,7 @@ nav {
     right: var(--team-ratings-art-right);
     width: var(--team-ratings-art-width);
     height: var(--team-ratings-art-height);
-    background: url(./img/team-ratings-bg.webp) center / contain no-repeat;
+    background: url(../assets/img/team-ratings-bg.webp) center / contain no-repeat;
     pointer-events: none;
     z-index: 0;
 }

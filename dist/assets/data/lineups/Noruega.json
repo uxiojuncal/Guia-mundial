@@ -1,0 +1,77 @@
+{
+	"rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Martínez",
+			"image": "../assets/img/Argentina/POR-Martinez.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Molina",
+			"image":  "../assets/img/Argentina/LD-Molina.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Romero",
+			"image": "../assets/img/Argentina/DFC-Romero.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lisandro",
+			"image": "../assets/img/Argentina/DFC-Lisandro.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Tagliafico",
+			"image": "../assets/img/Argentina/LI-Tagliafico.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Enzo",
+			"image": "../assets/img/Argentina/MC-Enzo.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "De Paul",
+			"image": "../assets/img/Argentina/MC-DePaul.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Mac Allister",
+			"image": "../assets/img/Argentina/MC-MacAllister.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Messi",
+			"image": "../assets/img/Argentina/ED-Messi.jpg",
+			"role": "attacker"
+	},
+		{
+			"row": "attack",
+			"name": "Julián",
+			"image": "../assets/img/Argentina/DC-Julian.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Nico Paz",
+			"image": "../assets/img/Argentina/EI-NicoPaz.jpg",
+			"role": "attacker"
+		}
+    ],
+    "rowCounts": {
+		"gk": 1,
+		"defense": 4,
+		"midfield": 3,
+		"attack": 3
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Crépeau",
+			"image": "../assets/img/Canada/POR-Crepeau.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Johnston",
+			"image":  "../assets/img/Canada/LD-Johnston.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Bombito",
+			"image": "../assets/img/Canada/DFC-Bombito.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Cornelius",
+			"image": "../assets/img/Canada/DFC-Cornelius.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Davies",
+			"image": "../assets/img/Canada/LI-Davies.jpg",
+			"role": "defender"
+		},
+		{	
+		"row": "midfield",
+			"name": "Buchanan",
+			"image": "../assets/img/Canada/MD-Buchanan.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Koné",
+			"image": "../assets/img/Canada/MC-Kone.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Eustáquio",
+			"image": "../assets/img/Canada/MC-Eustaquio.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Ali Ahmed",
+			"image": "../assets/img/Canada/MI-AliAhmed.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "David",
+			"image": "../assets/img/Canada/DC-David.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Larin",
+			"image": "../assets/img/Canada/DC-Larin.jpg",
+			"role": "attacker"
+}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Schlager",
+			"image": "../assets/img/Austria/POR-Schlager.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Posch",
+			"image": "../assets/img/Austria/LD-Posch.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lienhart",
+			"image": "../assets/img/Austria/DFC-Lienhart.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Danso",
+			"image": "../assets/img/Austria/DFC-Danso.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Alaba",
+			"image": "../assets/img/Austria/LI-Alaba.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Seiwald",
+			"image": "../assets/img/Austria/CDM-Seiwald.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Laimer",
+			"image": "../assets/img/Austria/CDM-Laimer.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Schmid",
+			"image": "../assets/img/Austria/MD-Schmid.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Sabitzer",
+			"image": "../assets/img/Austria/MCO-Sabitzer.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Gregoritsch",
+			"image": "../assets/img/Austria/MI-Gregoritsch.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Arnautovic",
+			"image": "../assets/img/Austria/DC-Arnautovic.jpg",
+			"role": "attacker"
+}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Ati Zigi",
+			"image": "../assets/img/Ghana/POR-AtiZigi.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Senaya",
+			"image": "../assets/img/Ghana/LD-Senaya.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Adjetey",
+			"image": "../assets/img/Ghana/DFC-Adjetey.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Opoku",
+			"image": "../assets/img/Ghana/DFC-Opoku.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Baba",
+			"image": "../assets/img/Ghana/LI-Baba.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Thomas",
+			"image": "../assets/img/Ghana/CDM-Thomas.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Owusu",
+			"image": "../assets/img/Ghana/CDM-Owusu.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Fatawu",
+			"image": "../assets/img/Ghana/MD-Fatawu.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Ayew",
+			"image": "../assets/img/Ghana/MCO-Ayew.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Semenyo",
+			"image": "../assets/img/Ghana/MI-Semenyo.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Iñaki Williams",
+			"image": "../assets/img/Ghana/DC-Williams.jpg",
+			"role": "attacker"
+}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Vasilj",
+			"image": "../assets/img/Bosnia/POR-Vasilj.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Dedić",
+			"image":  "../assets/img/Bosnia/LD-Dedic.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Katić",
+			"image": "../assets/img/Bosnia/DFC-Katic.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Muharemović",
+			"image": "../assets/img/Bosnia/DFC-Muharemovic.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Kolašinac",
+			"image": "../assets/img/Bosnia/LI-Kolasinac.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Bajraktarević",
+			"image": "../assets/img/Bosnia/MD-Bajraktarevic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Šunjić",
+			"image": "../assets/img/Bosnia/MC-Sunjic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Tahirović",
+			"image": "../assets/img/Bosnia/MC-Tahirovic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Alajbegović",
+			"image": "../assets/img/Bosnia/MI-Alajbegovic.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Džeko",
+			"image": "../assets/img/Bosnia/DC-Dzeko.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Demirović",
+			"image": "../assets/img/Bosnia/DC-Demirovic.jpg",
+			"role": "attacker"
+		}
+	]
+}

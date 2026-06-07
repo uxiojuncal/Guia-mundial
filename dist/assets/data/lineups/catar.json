@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Barsham",
+			"image": "../assets/img/Catar/POR-Barsham.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Mendes",
+			"image":  "../assets/img/Catar/LD-Mendes.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Pedro Miguel",
+			"image": "../assets/img/Catar/DFC-PedroMiguel.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Khoukhi",
+			"image": "../assets/img/Catar/DFC-Khoukhi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Al-Brake",
+			"image": "../assets/img/Catar/LI-AlBrake.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Madibo",
+			"image": "../assets/img/Catar/MCD-Madibo.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Gaber",
+			"image": "../assets/img/Catar/MC-Gaber.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Hatem",
+			"image": "../assets/img/Catar/MC-Hatem.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Edmilson Jr.",
+			"image": "../assets/img/Catar/ED-EdmilsonJr.jpg",
+			"role": "attacker"
+	},
+		{
+			"row": "attack",
+			"name": "Ali",
+			"image": "../assets/img/Catar/DC-Ali.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Afif",
+			"image": "../assets/img/Catar/EI-Afif.jpg",
+			"role": "attacker"
+}
+	]
+}

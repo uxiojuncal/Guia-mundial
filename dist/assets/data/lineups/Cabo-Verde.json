@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Vozinha",
+			"image": "../assets/img/CaboVerde/POR-Vozinha.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Moreira",
+			"image":  "../assets/img/CaboVerde/LD-Moreira.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lopes",
+			"image": "../assets/img/CaboVerde/DFC-Lopes.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Logan Costa",
+			"image": "../assets/img/CaboVerde/DFC-LoganCosta.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lopes Cabral",
+			"image": "../assets/img/Cabo Verde/LI-LopesCabral.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Lenini",
+			"image": "../assets/img/CaboVerde/CDM-Lenini.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Monteiro",
+			"image": "../assets/img/Cabo Verde/CDM-Monteiro.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Mendes",
+			"image": "../assets/img/CaboVerde/MD-Mendes.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Arcanjo",
+			"image": "../assets/img/CaboVerde/MCO-Arcanjo.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Cabral",
+			"image": "../assets/img/CaboVerde/MI-Cabral.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Livramento",
+			"image": "../assets/img/CaboVerde/DC-Livramento.jpg",
+			"role": "attacker"
+		}
+	]
+}

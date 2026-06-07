@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Room",
+			"image": "../assets/img/Curazao/POR-Room.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Floranus",
+			"image":  "../assets/img/Curazao/LD-Floranus.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Gaari",
+			"image": "../assets/img/Curazao/DFCD-Gaari.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Obispo",
+			"image": "../assets/img/Curazao/DFC-Obispo.jpg",
+			"role": "defender"
+},
+		{
+			"row": "defense",
+			"name": "Bazoer",
+			"image": "../assets/img/Curazao/DFCI-Bazoer.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Fonville",
+			"image": "../assets/img/Curazao/LI-Fonville.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Chong",
+			"image": "../assets/img/Curazao/MD-Chong.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Leandro Bacuna",
+			"image": "../assets/img/Curazao/MC-LeandroBacuna.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Comenencia",
+			"image": "../assets/img/Curazao/MC-Comenencia.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Juninho Bacuna",
+			"image": "../assets/img/Curazao/MI-JuninhoBacuna.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Locadia",
+			"image": "../assets/img/Curazao/DC-Locadia.jpg",
+			"role": "attacker"
+		}
+	]
+}

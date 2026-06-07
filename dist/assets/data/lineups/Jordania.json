@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Abu Laila",
+			"image": "../assets/img/Jordania/POR-AbuLaila.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Haddad",
+			"image":  "../assets/img/Jordania/LD-Haddad.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Al-Arab",
+			"image": "../assets/img/Jordania/DFCD-AlArab.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Abualnadi",
+			"image": "../assets/img/Jordania/DFC-Abualnadi.jpg",
+			"role": "defender"
+},
+		{
+			"row": "defense",
+			"name": "Al-Rosan",
+			"image": "../assets/img/Jordania/DFCI-AlRosan.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Abu Taha",
+			"image": "../assets/img/Jordania/LI-AbuTaha.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Al-Rahsdan",
+			"image": "../assets/img/Jordania/MC-AlRahsdan.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Al-Mardi",
+			"image": "../assets/img/Jordania/MC-AlMardi.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Al-Rawabdeh",
+			"image": "../assets/img/Jordania/MC-AlRawabdeh.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Al-Tamari",
+			"image": "../assets/img/Jordania/DC-AlTamari.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Ali Olwan",
+			"image": "../assets/img/Jordania/DC-AliOlwan.jpg",
+			"role": "attacker"
+		}
+	]
+}

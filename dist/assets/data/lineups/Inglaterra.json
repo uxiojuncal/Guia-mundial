@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Pickford",
+			"image": "../assets/img/Inglaterra/POR-Pickford.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "James",
+			"image": "../assets/img/Inglaterra/LD-James.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Guehi",
+			"image": "../assets/img/Inglaterra/DFC-Guehi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Stones",
+			"image": "../assets/img/Inglaterra/DFC-Stones.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "O’Reilly",
+			"image": "../assets/img/Inglaterra/LI-OReilly.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Rice",
+			"image": "../assets/img/Inglaterra/CDM-Rice.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Bellingham",
+			"image": "../assets/img/Inglaterra/CDM-Bellingham.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Saka",
+			"image": "../assets/img/Inglaterra/MD-Saka.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Rogers",
+			"image": "../assets/img/Inglaterra/MCO-Rogers.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Gordon",
+			"image": "../assets/img/Inglaterra/MI-Gordon.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Kane",
+			"image": "../assets/img/Inglaterra/DC-Kane.jpg",
+			"role": "attacker"
+}
+	]
+}

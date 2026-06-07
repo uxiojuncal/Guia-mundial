@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Çakır",
+			"image": "../assets/img/Turquia/POR-Cakir.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Çelik",
+			"image": "../assets/img/Turquia/LD-Celik.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Demiral",
+			"image": "../assets/img/Turquia/DFC-Demiral.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Bardakci",
+			"image": "../assets/img/Turquia/DFC-Bardakci.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Kadıoğlu",
+			"image": "../assets/img/Turquia/LI-Kadioglu.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Kökçü",
+			"image": "../assets/img/Turquia/CDM-Kokcu.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Çalhanoğlu",
+			"image": "../assets/img/Turquia/CDM-Calhanoglu.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Aktürkoğlu",
+			"image": "../assets/img/Turquia/MD-Akturkoglu.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Arda Güler",
+			"image": "../assets/img/Turquia/MCO-ArdaGuler.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Yıldız",
+			"image": "../assets/img/Turquia/MI-Yildiz.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Yilmaz",
+			"image": "../assets/img/Turquia/DC-Yilmaz.jpg",
+			"role": "attacker"
+}
+	]
+}

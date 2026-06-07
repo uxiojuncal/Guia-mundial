@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Ryan",
+			"image": "../assets/img/Australia/POR-Ryan.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Italiano",
+			"image":  "../assets/img/Australia/LD-Italiano.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Circati",
+			"image": "../assets/img/Australia/DFCD-Circati.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Souttar",
+			"image": "../assets/img/Australia/DFC-Souttar.jpg",
+			"role": "defender"
+},
+		{
+			"row": "defense",
+			"name": "Burgess",
+			"image": "../assets/img/Australia/DFCI-Burgess.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Bos",
+			"image": "../assets/img/Australia/LI-Bos.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Volpato",
+			"image": "../assets/img/Australia/MD-Volpato.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "O’Neill",
+			"image": "../assets/img/Australia/MC-ONeill.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Irvine",
+			"image": "../assets/img/Australia/MC-Irvine.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Irankunda",
+			"image": "../assets/img/Australia/MI-Irankunda.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Touré",
+			"image": "../assets/img/Australia/DC-Toure.jpg",
+			"role": "attacker"
+}
+	]
+}

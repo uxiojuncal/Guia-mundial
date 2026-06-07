@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Gunn",
+			"image": "../assets/img/Escocia/POR-Gunn.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "Hickey",
+			"name": "NombreOnce",
+			"image":  "../assets/img/Escocia/LD-Hickey.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "Hendry",
+			"name": "NombreOnce",
+			"image": "../assets/img/Escocia/DFC-Hendry.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Tierney",
+			"image": "../assets/img/Escocia/DFC-Tierney.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Robertson",
+			"image": "../assets/img/Escocia/LI-Robertson.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Doak",
+			"image": "../assets/img/Escocia/MD-Doak.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "McTominay",
+			"image": "../assets/img/Escocia/MC-McTominay.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "McGinn",
+			"image": "../assets/img/Escocia/MC-McGinn.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Christie",
+			"image": "../assets/img/Escocia/MI-Christie.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Adams",
+			"image": "../assets/img/Escocia/DC-Adams.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Shankland",
+			"image": "../assets/img/Escocia/DC-Shankland.jpg",
+			"role": "attacker"
+}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Rangel",
+			"image": "../assets/img/Mexico/POR-Rangel.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Jorge Sánchez",
+			"image": "../assets/img/Mexico/LD-JorgeSanchez.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Montes",
+			"image": "../assets/img/Mexico/DFC-Montes.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Vásquez",
+			"image": "../assets/img/Mexico/DFC-Vasquez.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Gallardo",
+			"image": "../assets/img/Mexico/LI-Gallardo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Fidalgo",
+			"image": "../assets/img/Mexico/CDM-Fidalgo.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Álvarez",
+			"image": "../assets/img/Mexico/CDM-Alvarez.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Alvarado",
+			"image": "../assets/img/Mexico/MD-Alvarado.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Mora",
+			"image": "../assets/img/Mexico/MCO-Mora.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Quiñones",
+			"image": "../assets/img/Mexico/MI-Quinones.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Jiménez",
+			"image": "../assets/img/Mexico/DC-Jimenez.jpg",
+			"role": "attacker"
+		}
+	]
+}

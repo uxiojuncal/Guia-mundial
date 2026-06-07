@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Kobel",
+			"image": "../assets/img/Suiza/POR-Kobel.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Zakaria",
+			"image":  "../assets/img/Suiza/DFCD-Zakaria.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Akanji",
+			"image": "../assets/img/Suiza/DFC-Akanji.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Elvedi",
+			"image": "../assets/img/Suiza/DFCI-Elvedi.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Ndoye",
+			"image": "../assets/img/Suiza/MD-Ndoye.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "Xhaka",
+			"image": "../assets/img/Suiza/MC-Xhaka.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Freuler",
+			"image": "../assets/img/Suiza/MC-Freuler.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Rodríguez",
+			"image": "../assets/img/Suiza/MI-Rodriguez.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Rieder",
+			"image": "../assets/img/Suiza/MCOD-Rieder.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "midfield",
+			"name": "Vargas",
+			"image": "../assets/img/Suiza/MCOI-Vargas.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Embolo",
+			"image": "../assets/img/Suiza/DC-Embolo.jpg",
+			"role": "attacker"
+		}
+	]
+}

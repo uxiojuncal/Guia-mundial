@@ -1,0 +1,78 @@
+{
+"rows": ["attack", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Rochet",
+			"image": "../assets/img/Uruguay/POR-Rochet.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Varela",
+			"image":  "../assets/img/Uruguay/LD-Varela.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Giménez",
+			"image": "../assets/img/Uruguay/DFC-Gimenez.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Araújo",
+			"image": "../assets/img/Uruguay/DFC-Araujo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Olivera",
+			"image": "../assets/img/Uruguay/LI-Olivera.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Ugarte",
+			"image": "../assets/img/Uruguay/CDM-Ugarte.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "Bentancur",
+			"image": "../assets/img/Uruguay/CDM-Bentancur.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Pellistri",
+			"image": "../assets/img/Uruguay/MD-Pellistri.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Valverde",
+			"image": "../assets/img/Uruguay/MCO-Valverde.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Maxi Araújo",
+			"image": "../assets/img/Uruguay/MI-MaxiAraujo.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "D. Núñez",
+			"image": "../assets/img/Uruguay/DC-Nuñez.jpg",
+			"role": "attacker"
+		}
+	],
+  "rowCounts": {
+		"gk": 1,
+		"defense": 4,
+"cdm": 2,
+		"cam_lm_rm": 3,
+		"attack": 1
+	}
+}

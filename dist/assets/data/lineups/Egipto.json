@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "El Shenawy",
+			"image": "../assets/img/Egipto/POR-ElShenawy.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Hany",
+			"image":  "../assets/img/Egipto/LD-Hany.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Abdelmonem",
+			"image": "../assets/img/Egipto/DFC-Abdelmonem.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ibrahim",
+			"image": "../assets/img/Egipto/DFC-Ibrahim.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Fatouh",
+			"image": "../assets/img/Egipto/LI-Fatouh.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Attia",
+			"image": "../assets/img/Egipto/MCD-Attia.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Fathy",
+			"image": "../assets/img/Egipto/MCD-Fathy.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Salah",
+			"image": "../assets/img/Egipto/MD-Salah.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Ashour",
+			"image": "../assets/img/Egipto/MCO-Ashour.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Trezeguet",
+			"image": "../assets/img/Egipto/MI-Trezeguet.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Marmoush",
+			"image": "../assets/img/Egipto/DC-Marmoush.jpg",
+			"role": "attacker"
+		}
+	]
+}

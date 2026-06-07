@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Hornicek",
+			"image": "../assets/img/RepublicaCheca/POR-Hornicek.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Holeš",
+			"image":  "../assets/img/RepublicaCheca/DFCD-Holes.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Hranáč",
+			"image": "../assets/img/RepublicaCheca/DFC-Hranac.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Krejčí",
+			"image": "../assets/img/RepublicaCheca/DFCI-Krejci.jpg",
+			"role": "defender"
+		},
+		{	
+			"row": "cdm",
+			"name": "Coufal",
+			"image": "../assets/img/RepublicaCheca/MD-Coufal.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "Souček",
+			"image": "../assets/img/RepublicaCheca/MC-Soucek.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Darida",
+			"image": "../assets/img/RepublicaCheca/MC-Darida.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Jurásek",
+			"image": "../assets/img/RepublicaCheca/MI-Jurasek.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Provod",
+			"image": "../assets/img/RepublicaCheca/MCOD-Provod.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "midfield",
+			"name": "Šulc",
+			"image": "../assets/img/RepublicaCheca/MCOI-Sulc.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Schick",
+			"image": "../assets/img/RepublicaCheca/DC-Schick.jpg",
+			"role": "attacker"
+		}
+	]
+}

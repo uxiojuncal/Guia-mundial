@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Placide",
+			"image": "../assets/img/Haiti/POR-Placide.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Arcus",
+			"image":  "../assets/img/Haiti/LD-Arcus.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Adé",
+			"image": "../assets/img/Haiti/DFC-Ade.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Delcroix",
+			"image": "../assets/img/Haiti/DFC-Delcroix.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Expérience",
+			"image": "../assets/img/Haiti/LI-Experience.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Casimir",
+			"image": "../assets/img/Haiti/MD-Casimir.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Jacques",
+			"image": "../assets/img/Haiti/MC-Jacques.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Bellegarde",
+			"image": "../assets/img/Haiti/MC-Bellegarde.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Providence",
+			"image": "../assets/img/Haiti/MI-Providence.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Isidor",
+			"image": "../assets/img/Haiti/DC-Isidor.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Pierrot",
+			"image": "../assets/img/Haiti/DC-Pierrot.jpg",
+			"role": "attacker"
+}
+	]
+}

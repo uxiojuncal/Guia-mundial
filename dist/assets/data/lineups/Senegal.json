@@ -1,0 +1,72 @@
+{
+    "rows": ["striker", "midfield", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Mendy",
+			"image": "../assets/img/Senegal/POR-Mendy.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Diatta",
+			"image":  "../assets/img/Senegal/LD-Diatta.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Koulibaly",
+			"image": "../assets/img/Senegal/DFC-Koulibaly.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Niakhaté",
+			"image": "../assets/img/Senegal/DFC-Niakhate.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Jakobs",
+			"image": "../assets/img/Senegal/LI-Jakobs.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "midfield",
+			"name": "Idrissa  Gueye",
+			"image": "../assets/img/Senegal/MC-IGueye.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Pape M. Sarr",
+			"image": "../assets/img/Senegal/MC-PapeSarr.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Pape Gueye",
+			"image": "../assets/img/Senegal/MC-PapeGueye.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "I. Sarr",
+			"image": "../assets/img/Senegal/ED-ISarr.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Jackson",
+			"image": "../assets/img/Senegal/DC-Jackson.jpg",
+			"role": "attacker"
+    },
+		{
+			"row": "cam_lm_rm",
+			"name": "Mané",
+			"image": "../assets/img/Senegal/EI-Mane.jpg",
+			"role": "attacker"
+
+		}
+	]
+}

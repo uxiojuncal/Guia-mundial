@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Alisson",
+			"image": "../assets/img/Brasil/POR-Alisson.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Wesley",
+			"image": "../assets/img/Brasil/LD-Wesley.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Marquinhos",
+			"image": "../assets/img/Brasil/DFC-Marquinhos.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Gabriel",
+			"image": "../assets/img/Brasil/DFC-Gabriel.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Alex Sandro",
+			"image": "../assets/img/Brasil/LI-AlexSandro.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Guimarães",
+			"image": "../assets/img/Brasil/CDM-Guimaraes.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Casemiro",
+			"image": "../assets/img/Brasil/CDM-Casemiro.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Raphinha",
+			"image": "../assets/img/Brasil/MD-Raphinha.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Cunha",
+			"image": "../assets/img/Brasil/MCO-Cunha.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Vini Jr.",
+			"image": "../assets/img/Brasil/MI-ViniJR.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Endrick",
+			"image": "../assets/img/Brasil/DC-Endrick.jpg",
+			"role": "attacker"
+}
+	]
+}

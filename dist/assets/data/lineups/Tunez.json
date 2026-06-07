@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Dahmen",
+			"image": "../assets/img/Tunez/POR-Dahmen.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Valery",
+			"image": "../assets/img/Tunez/LD-Valery.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Bronn",
+			"image": "../assets/img/Tunez/DFC-Bronn.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Talbi",
+			"image": "../assets/img/Tunez/DFC-Talbi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ali Abdi",
+			"image": "../assets/img/Tunez/LI-AliAbdi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Skhiri",
+			"image": "../assets/img/Tunez/CDM-Skhiri.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Khedira",
+			"image": "../assets/img/Tunez/CDM-Khedira.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Gharbi",
+			"image": "../assets/img/Tunez/MD-Gharbi.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Hannibal",
+			"image": "../assets/img/Tunez/MCO-Hannibal.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Slimane",
+			"image": "../assets/img/Tunez/MI-Slimane.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Chaouat",
+			"image": "../assets/img/Tunez/DC-Chaouat.jpg",
+			"role": "attacker"
+		}
+	]
+}

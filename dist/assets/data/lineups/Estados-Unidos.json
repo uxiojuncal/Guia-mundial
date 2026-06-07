@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Turner",
+			"image": "../assets/img/EEUU/POR-Turner.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Freeman",
+			"image":  "../assets/img/EEUU/DFCD-Freeman.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ream",
+			"image": "../assets/img/EEUU/DFC-Ream.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Richards",
+			"image": "../assets/img/EEUU/DFCI-Richards.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Dest",
+			"image": "../assets/img/EEUU/MD-Dest.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "McKennie",
+			"image": "../assets/img/EEUU/MC-McKennie.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Adams",
+			"image": "../assets/img/EEUU/MC-Adams.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Robinson",
+			"image": "../assets/img/EEUU/MI-Robinson.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Reyna",
+			"image": "../assets/img/EEUU/MCOD-Reyna.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "midfield",
+			"name": "Pulisic",
+			"image": "../assets/img/EEUU/MCOI-Pulisic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "attack",
+			"name": "Balogun",
+			"image": "../assets/img/EEUU/DC-Balogun.jpg",
+			"role": "attacker"
+		}
+	]
+}

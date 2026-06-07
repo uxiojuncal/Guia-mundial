@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Williams",
+			"image": "../assets/img/Sudafrica/POR-Williams.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Mudau",
+			"image": "../assets/img/Sudafrica/LD-Mudau.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Ime Okon",
+			"image": "../assets/img/Sudafrica/DFC-ImeOkon.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Mbokazi",
+			"image": "../assets/img/Sudafrica/DFC-Mbokazi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Modiba",
+			"image": "../assets/img/Sudafrica/LI-Modiba.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Mokoena",
+			"image": "../assets/img/Sudafrica/CDM-Mokoena.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Adams",
+			"image": "../assets/img/Sudafrica/CDM-Adams.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Appollis",
+			"image": "../assets/img/Sudafrica/MD-Appollis.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Zwane",
+			"image": "../assets/img/Sudafrica/MCO-Zwane.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Mofokeng",
+			"image": "../assets/img/Sudafrica/MI-Mofokeng.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Foster",
+			"image": "../assets/img/Sudafrica/DC-Foster.jpg",
+			"role": "attacker"
+		}
+	]
+}

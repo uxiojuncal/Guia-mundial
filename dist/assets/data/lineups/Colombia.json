@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Vargas",
+			"image": "../assets/img/Colombia/POR-Vargas.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Muñóz",
+			"image": "../assets/img/Colombia/LD-Munoz.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Davinson",
+			"image": "../assets/img/Colombia/DFC-Davinson.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Lucumí",
+			"image": "../assets/img/Colombia/DFC-Lucumi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Mojíca",
+			"image": "../assets/img/Colombia/LI-Mojica.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Lerma",
+			"image": "../assets/img/Colombia/CDM-Lerma.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Ríos",
+			"image": "../assets/img/Colombia/CDM-Rios.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Jhon Arias",
+			"image": "../assets/img/Colombia/MD-JhonArias.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "James",
+			"image": "../assets/img/Colombia/MCO-James.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Luis Díaz",
+			"image": "../assets/img/Colombia/MI-LuisDiaz.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Luis Suárez",
+			"image": "../assets/img/Colombia/DC-LuisSuarez.jpg",
+			"role": "attacker"
+}
+	]
+}

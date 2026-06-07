@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Livaković",
+			"image": "../assets/img/Croacia/POR-Livakovic.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Šutalo",
+			"image":  "../assets/img/Croacia/DFCD-Sutalo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Vusković",
+			"image": "../assets/img/Croacia/DFC-Vuskovic.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Gvardiol",
+			"image": "../assets/img/Croacia/DFCI-Gvardiol.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Stanišić",
+			"image": "../assets/img/Croacia/MD-Stanisic.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "Modrić",
+			"image": "../assets/img/Croacia/MC-Modric.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Kovacić",
+			"image": "../assets/img/Croacia/MC-Kovacic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Perisić",
+			"image": "../assets/img/Croacia/MI-Perisic.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Sučić",
+			"image": "../assets/img/Croacia/MCOD-Sucic.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "midfield",
+			"name": "Kramarić",
+			"image": "../assets/img/Croacia/MCOI-Kramaric.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Budimir",
+			"image": "../assets/img/Croacia/DC-Budimir.jpg",
+			"role": "attacker"
+		}
+	]
+}

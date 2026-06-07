@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Maignan",
+			"image": "../assets/img/Francia/POR-Maignan.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Koundé",
+			"image":  "../assets/img/Francia/LD-Kounde.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Saliba",
+			"image": "../assets/img/Francia/DFC-Saliba.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Upamecano",
+			"image": "../assets/img/Francia/DFC-Upamecano.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Theo Hernández",
+			"image": "../assets/img/Francia/LI-Hernandez.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Rabiot",
+			"image": "../assets/img/Francia/CDM-Rabiot.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Tchouaméni",
+			"image": "../assets/img/Francia/CDM-Tchouameni.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Olise",
+			"image": "../assets/img/Francia/MD-Olise.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Cherki",
+			"image": "../assets/img/Francia/MCO-Cherki.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Dembélé",
+			"image": "../assets/img/Francia/MI-Dembele.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Mbappé",
+			"image": "../assets/img/Francia/DC-Mbappe.jpg",
+			"role": "attacker"
+		}
+	]
+}

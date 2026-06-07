@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Gill",
+			"image": "../assets/img/Paraguay/POR-Gill.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Cáceres",
+			"image":  "../assets/img/Paraguay/LD-Caceres.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Gómez",
+			"image": "../assets/img/Paraguay/DFC-Gomez.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Alderete",
+			"image": "../assets/img/Paraguay/DFC-Alderete.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Junior Alonso",
+			"image": "../assets/img/Paraguay/LI-JuniorAlonso.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "midfield",
+			"name": "Diego Gómez",
+			"image": "../assets/img/Paraguay/MD-DiegoGomez.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Bobadilla",
+			"image": "../assets/img/Paraguay/MC-Bobadilla.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Cubas",
+			"image": "../assets/img/Paraguay/MC-Cubas.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Almirón",
+			"image": "../assets/img/Paraguay/MI-Almiron.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Enciso",
+			"image": "../assets/img/Paraguay/DC-Enciso.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Sanabria",
+			"image": "../assets/img/Paraguay/DC-Sanabria.jpg",
+			"role": "attacker"
+}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Verbruggen",
+			"image": "../assets/img/PaisesBajos/POR-Verbruggen.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Dumfries",
+			"image":  "../assets/img/PaisesBajos/LD-Dumfries.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Timber",
+			"image": "../assets/img/PaisesBajos/DFC-Timber.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Van Dijk",
+			"image": "../assets/img/PaisesBajos/DFC-VanDijk.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Van De Ven",
+			"image": "../assets/img/PaisesBajos/LI-VanDeVen.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "De Jong",
+			"image": "../assets/img/PaisesBajos/MCD-DeJong.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Gravenberch",
+			"image": "../assets/img/PaisesBajos/MC-Gravenberch.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Reijnders",
+			"image": "../assets/img/PaisesBajos/MC-Reijnders.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Malen",
+			"image": "../assets/img/PaisesBajos/ED-Malen.jpg",
+			"role": "attacker"
+	},
+		{
+			"row": "attack",
+			"name": "Memphis",
+			"image": "../assets/img/PaisesBajos/DC-Memphis.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Gakpo",
+			"image": "../assets/img/PaisesBajos/EI-Gakpo.jpg",
+			"role": "attacker"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Bono",
+			"image": "../assets/img/Marruecos/POR-Bono.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Hakimi",
+			"image": "../assets/img/Marruecos/LD-Hakimi.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Diop",
+			"image": "../assets/img/Marruecos/DFC-Diop.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Chadi Riad",
+			"image": "../assets/img/Marruecos/DFC-ChadiRiad.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Mazraoui",
+			"image": "../assets/img/Marruecos/LI-Mazraoui.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Amrabat",
+			"image": "../assets/img/Marruecos/CDM-Amrabat.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "El Aynaoui",
+			"image": "../assets/img/Marruecos/CDM-ElAynaoui.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Brahim",
+			"image": "../assets/img/Marruecos/MD-Brahim.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Ounahi",
+			"image": "../assets/img/Marruecos/MCO-Ounahi.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Ez Abde",
+			"image": "../assets/img/Marruecos/MI-EzAbde.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "El Kaabi",
+			"image": "../assets/img/Marruecos/DC-ElKaabi.jpg",
+			"role": "attacker"
+}
+	]
+}

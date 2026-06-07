@@ -1,0 +1,71 @@
+{
+	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Suzuki",
+			"image": "../assets/img/Japon/POR-Suzuki.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Watanabe",
+			"image":  "../assets/img/Japon/DFCD-Watanabe.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Itakura",
+			"image": "../assets/img/Japon/DFC-Itakura.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Hiroki Ito",
+			"image": "../assets/img/Japon/DFCI-HirokiIto.jpg",
+			"role": "defender"
+		},
+		{	
+"row": "cdm",
+			"name": "Doan",
+			"image": "../assets/img/Japon/MD-Doan.jpg",
+			"role": "midfielder"
+				},
+		{
+			"row": "cdm",
+			"name": "Endo",
+			"image": "../assets/img/Japon/MC-Endo.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Kamada",
+			"image": "../assets/img/Japon/MC-Kamada.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Nakamura",
+			"image": "../assets/img/Japon/MI-Nakamura.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "midfield",
+			"name": "Kubo",
+			"image": "../assets/img/Japon/MCOD-Kubo.jpg",
+			"role": "midfielder"
+	},
+		{
+			"row": "attack",
+			"name": "Junya Ito",
+			"image": "../assets/img/Japon/MCOI-JunyaIto.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "attack",
+			"name": "Ueda",
+			"image": "../assets/img/Japon/DC-Ueda.jpg",
+			"role": "attacker"
+		}
+	]
+}

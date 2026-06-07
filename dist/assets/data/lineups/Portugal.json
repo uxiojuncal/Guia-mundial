@@ -1,0 +1,71 @@
+{
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"players": [
+		{
+			"row": "gk",
+			"name": "Diogo Costa",
+			"image": "../assets/img/Portugal/POR-DiogoCosta.jpg",
+			"role": "goalkeeper"
+		},
+		{
+			"row": "defense",
+			"name": "Cancelo",
+			"image": "../assets/img/Portugal/LD-Cancelo.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Rúben Dias",
+			"image": "../assets/img/Portugal/DFC-Dias.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Inácio",
+			"image": "../assets/img/Portugal/DFC-Inacio.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "defense",
+			"name": "Nuno Mendes",
+			"image": "../assets/img/Portugal/LI-NunoMendes.jpg",
+			"role": "defender"
+		},
+		{
+			"row": "cdm",
+			"name": "Vitinha",
+			"image": "../assets/img/Portugal/CDM-Vitinha.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "João Neves",
+			"image": "../assets/img/Portugal/CDM-JoaoNeves.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Bernardo Silva",
+			"image": "../assets/img/Portugal/MD-Bernardo.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "B. Fernandes",
+			"image": "../assets/img/Portugal/MCO-Fernandes.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Leão",
+			"image": "../assets/img/Portugal/MI-Leao.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Ronaldo",
+			"image": "../assets/img/Portugal/DC-Ronaldo.jpg",
+			"role": "attacker"
+}
+	]
+}
