@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="republica-checa.html">República Checa</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="suiza.html">Suiza</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="escocia.html">Escocia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="catar.html">Catar</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="suiza.html">Suiza</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="brasil.html">Brasil</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Suiza</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Solidez certificada</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/suiza-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/suiza-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Murat Yakin (51)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">A falta de grandes nombres, cada torneo que ha pasado con él al frente Suiza ha sido cada vez más difícil de ganar. Con un fútbol rápido y alegre, llegar lejos es un sueño, pero ninguna utopía.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">6</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">8</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Octavos/Cuartos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Granit Xhaka (33, Sunderland):</b> Pivote defensivo con un liderazgo inigualable, posee además una gran capacidad técnica que viene de los inicios de su carrera, cuando jugaba en un rol más adelantado. Tiene una gran personalidad, ha moderado su ira, y ha dejado marca allí por donde ha pasado. Llegó a tener la difícil papeleta de liderar al peor Arsenal.</li><li><b>Gregor Kobel (28, Borussia Dortmund):</b> El relevo generacional de Yann Sommer, lleva varios años llamando a la puerta de Murat Yakin para convertirse en el titular de la selección. Es un portero fiable, seguro y con buen juego de pies, y parte como número uno para este mundial.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Johan Manzambi (20, Friburgo):</b> Centrocampista todoterreno e incansable, se ha consolidado en Alemania como un talento generacional, y ha destacado ante el mundo entero gracias a su exuberancia en las eliminatorias ante Celta y Braga, que le pueden abrir muchas puertas en este mercado de verano..</li><li><b>Fabian Rieder (24, Augsburgo):</b> Maravilló en el Young Boys, debutó en Catar 2022 y desde entonces se había estancado con dos malas temporadas. Ha conseguido rehacer su carrera gracias a un traspaso al Augsburgo beneficioso para todas las partes, que le ha otorgado el billete a su segundo Mundial.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

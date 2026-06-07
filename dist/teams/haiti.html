@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="catar.html">Catar</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="haiti.html">Haití</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="australia.html">Australia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="marruecos.html">Marruecos</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="haiti.html">Haití</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="escocia.html">Escocia</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Haití</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Un hito sin Estado</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/haiti-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/haiti-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Sébastien Migné (53)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Trotamundos de los banquillos africanos, abandonó Camerún por la excesiva injerencia de Eto'o en las convocatorias y ha logrado la machada con Haití: una histórica clasificación jugando en el exilio.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">2</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pelear en fase de grupos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Frantzdy Pierrot (31, Rizespor):</b> Goleador por excelencia de la selección. Tras pasar por Francia y Bélgica, logró jugar competición europea y ganarse un traspaso al AEK Atenas. Aunque su cesión a Turquía no haya ido como se esperaba, su calidad sigue siendo extremadamente necesaria en una selección con muchísimas carencias.</li><li><b>Jean-Ricner Bellegarde (27, Wolverhampton):</b> Mediocentro defensivo con buena llegada al área. Esta temporada, nefasta para un Wolves descendido en noviembre, ha sido aún peor para él por su pérdida de protagonismo. El Mundial llega como una oportunidad de hacer borrón y cuenta nueva.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Wilson Isidor (25, Sunderland):</b> Nacionalizado tras la clasificación al Mundial, es un delantero caído a banda que empezó genial en un Sunderland revelación de la Premier, pero con el tiempo su rendimiento se fue diluyendo. Con todo, ha sido de suma importancia en la clasificación a Europa League.</li><li><b>Josué Casimir (24, Auxerre):</b> Apenas lleva un año en la selección y ya se ha vuelto una pieza clave, sinónimo de peligro en el ataque de Haití. Puede jugar tanto en banda como de mediocentro ofensivo gracias a su agilidad y velocidad.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

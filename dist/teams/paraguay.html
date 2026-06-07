@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="marruecos.html">Marruecos</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="paraguay.html">Paraguay</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="curazao.html">Curazao</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="eeuu.html">EEUU</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="paraguay.html">Paraguay</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="australia.html">Australia</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Paraguay</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Fino, jugoso y dulce</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/paraguay-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/paraguay-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Gustavo Alfaro (63)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Aclamado en Ecuador, renunció por deudas a su staff tras clasificarlo al Mundial de Catar. No tuvo éxito en Costa Rica, y se ha podido reivindicar con una clasificación tan sólida como ilusionante.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">5</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Omar Alderete (29, Sunderland):</b> El guardián del Getafe de Bordalás, ha conseguido caer de pie en la Premier League gracias a su compostura defensiva y su sorprendente capacidad al atacar. Un auténtico pitbull que sigue fielmente el lema de “o pasa el hombre, o pasa el balón”, sin recibir demasiadas expulsiones a lo largo de la temporada.</li><li><b>Miguel Almirón (31, Atlanta United):</b> Puede ser un mediapunta o extremo creador. Sorprendió a todos en la MLS, y recibió como premio un billete a la Premier de la mano del Newcastle. Después de temporadas en las que tenía mucho empeño y poco más, tuvo un pico de nivel espectacular coincidiendo con la compra del club por Arabia Saudí, antes de volver a EEUU.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Julio Enciso (22, Estrasburgo):</b> Llegó a Brighton como una gran apuesta de futuro, pero la falta de confianza, las lesiones y un paso muy mediocre por el Ipswich forzaron su traspaso al Estrasburgo, club satélite del Chelsea y donde se ha reencontrado con el futbolista que parecía ser en su primera temporada en Europa..</li><li><b>Diego Gómez (23, Brighton):</b> A su temprana edad ya ha demostrado su valía en hasta tres continentes diferentes. Tras una temporada de adaptación en Inglaterra, su versatilidad y capacidad para dominar ambas áreas le han hecho un titular indiscutible de plano derecho tanto en club como selección.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="noruega.html">Noruega</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="jordania.html">Jordania</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="colombia.html">Colombia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="austria.html">Austria</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="jordania.html">Jordania</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="portugal.html">Portugal</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Jordania</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Más que una primera vez</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/jordania-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/jordania-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Jamal Sellami (55)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Gran conocedor del fútbol marroquí, es su primera experiencia como entrenador en su país. Apodado “fuerza tranquila”, es conocido por usar en sus tácticas conocimientos de su formación científica.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Mousa Al-Tamari (28, Rennes):</b> Extremo derecho capaz de jugar por ambas bandas, ha logrado 15 contribuciones de gol en la Ligue 1. Le gusta bastante meterse hacia dentro y hacer jugadas “robbenianas”. Paradójicamente, sus índices de regate son bastante pobres. Además, es importante presionando arriba.</li><li><b>Yazan Al-Arab (30, FC Seoul):</b> Muy importante para su selección actuando como último hombre. Ha dado un salto importante de nivel en Corea cuando parecía que entraba en el declive de su carrera. También destaca por su despeje y pases largos, especialmente importantes para sortear presiones altas.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Ibrahim Sabra (20, NK Lokomotiva):</b> Parte como suplente pero con potencial de tener oportunidades. Después de no jugar en la liga turca, su cesión al Lokomotiva ha sido fundamental para asegurar su puesto en la lista a pesar de su corta edad. Es veloz y utiliza muy bien su cuerpo para el regate.</li><li><b>Ibrahim Saadeh (25, Al Karma):</b> Tuvo un muy buen papel en Al Muharraq, y es un perfil especialmente interesante por su capacidad defensiva, que combina con su inteligencia para convertir goles: está en el momento adecuado en el lugar adecuado.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

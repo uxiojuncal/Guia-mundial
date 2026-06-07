@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="suiza.html">Suiza</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="escocia.html">Escocia</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="turquia.html">Turquía</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="haiti.html">Haití</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="escocia.html">Escocia</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="eeuu.html">EEUU</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Escocia</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">La batalla es innegociable</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/escocia-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/escocia-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Steve Clarke (62)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Ha acabado con los años negros en Escocia y, de la mano de una generación mejor, es ya habitual en torneos internacionales. Sus equipos siempre compiten, con trabajo y sin muchas fantasías.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Scott McTominay (29, Napoli):</b> En el Manchester United era tan solo un pivote salido de la cantera que parecía tener un techo muy limitado. Fue irse traspasado a Nápoles y se convirtió en el MVP de la liga italiana en su primera temporada, clave en la victoria del scudetto. Antes podía jugar como central, ahora brilla como delantero. Lo que es un cambio en la vida.</li><li><b>Andrew Robertson (31, Liverpool):</b> Uno de los mejores laterales de la primera mitad de década, no ha conseguido mantener su nivel debido a las muchas lesiones que ha sufrido. Se ha despedido del Liverpool y continuará en la Premier tras disputar un Mundial como jerarca de la Tartan Army.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Ben Gannon-Doak (20, Bournemouth):</b> Llega al Mundial entre algodones, muy justo tras haberse perdido prácticamente toda la temporada. Es una de las esperanzas tanto de su club como de su selección por su capacidad creadora y verticalidad.</li><li><b>Aaron Hickey (23, Brentford):</b> Buen revulsivo en la Premier y dueño del carril derecho de la selección. Destaca por su capacidad de jugar con ambas piernas, lo que permite usarlo tanto en izquierda como en derecha, además de que aún le queda mucho que mostrar.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

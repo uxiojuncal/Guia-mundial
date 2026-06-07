@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="panama.html">Panamá</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="republica-checa.html">República Checa</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="suiza.html">Suiza</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="corea-del-sur.html">Corea del Sur</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="republica-checa.html">República Checa</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="canada.html">Canadá</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">República Checa</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Por fin de vuelta</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/republica-checa-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/republica-checa-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Miroslav Koubek (74)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Tomó las riendas checas de emergencia después de una buena etapa con el Viktoria Plzen, justo antes de los playoffs. Después de una serie de infarto, consiguió el objetivo tras 20 años de ausencia.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">5</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">5</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Octavos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Patrik Schick (30, Bayer Leverkusen):</b> Garantía absoluta de gol por tierra, mar o aire, su explosión se ha visto truncada por las lesiones, que nos privaron de ese gran traspaso a uno de los grandes de Europa que su calidad merecía. Es un líder y jugador de equipo, diferencial en los momentos claves.</li><li><b>Tomáš Souček  (31, West Ham):</b> Pivote goleador y con gran colocación, llegó a ser de los mejores centrocampistas de la Premier después de que nadie contase con él ni supiese pronunciar su apellido. Después de no poder evitar el descenso de un West Ham indigno, busca redimirse en el Mundial.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Lukas Hornicek (23, Braga):</b> Portero de garantías con un potencial enorme. Se ha hecho con la portería de un equipo en constante crecimiento como el Braga, y es uno de los principales culpables del gran desempeño del club portugués en la Europa League, llegando hasta semifinales.</li><li><b>Martin Vitik (23, Bologna):</b> Considerado por muchos “el futuro de la República Checa”, su 1,93 y gran envergadura le hacen un seguro de vida en los balones aéreos, pero también en los uno contra uno gracias a su sangre fría.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

@@ -30,7 +30,7 @@ header {
 	max-width: 1365px;
 	aspect-ratio: 1365 / 2048;
 	box-sizing: border-box;
-	background-image: url('../assets/img/header-bg.webp');
+	background-image: url('../assets/img/index/header-bg.webp');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center top;

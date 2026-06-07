@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="rd-congo.html">RD Congo</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="croacia.html">Croacia</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="sudafrica.html">Sudáfrica</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="inglaterra.html">Inglaterra</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="croacia.html">Croacia</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="ghana.html">Ghana</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Croacia</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Vamos a hacerlo como antes</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/croacia-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/croacia-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Zlatko Dalić (59)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Su decepcionante Eurocopa vino marcada por las expectativas de su espectacular Mundial, donde lograron el tercer puesto pese a ir muy cortos de talento. Compite siempre, también con poco.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">7</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Cuartos/Semifinal</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Luka Modrić (40, AC Milan):</b> Sigue siendo un virtuoso marcando el ritmo de los partidos y dando sentido a cada balón que pasa por sus botas. Se mantiene en Europa y ha sido titular indiscutible en club y selección, jugando en ambas como el hombre libre en un doble pivote que presumiblemente ocupará con Kovačić, su compañero en la sala de máquinas.</li><li><b>Josko Gvardiol (24, Manchester City):</b> Se ha pasado prácticamente todo el 2026 en el dique seco por una fractura de tibia, pero parece estar listo para el reto de liderar la defensa croata. Contundente en el cuerpo a cuerpo, es exquisito para sacar el balón, un central con el beneplácito de Guardiola que también puede rendir como lateral izquierdo.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Josip Stanišić (26, Bayern Munich):</b> La llegada de Kompany ha supuesto un revulsivo total para su carrera. Lateral con gran pie, fue pieza clave primero en el Leverkusen invicto de Xabi Alonso, y después ha experimentado un crecimiento sostenido como lateral en ambas bandas o incluso defensa central.</li><li><b>Martin Baturina (23, Como):</b> Mediapunta con tendencia a caer en la banda izquierda, salió del Dinamo de Zagreb en 2025 y ya es uno de los nombres propios del equipo revelación en Italia. Tiene un muy buen disparo lejano, y domina el balón parado. Su capacidad de generar juego es mucho mayor de lo que las estadísticas indican.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

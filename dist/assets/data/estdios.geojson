@@ -10,7 +10,7 @@
             "city": "Miami",
             "country": "USA",
             "capacity": 67510,
-            "image_url": "./assets/img/stadium-miami.jpg"
+            "image_url": "./assets/img/stadiums/stadium-miami.jpg"
         }
     },
     {
@@ -22,7 +22,7 @@
             "city": "Atlanta",
             "country": "USA",
             "capacity": 75000,
-            "image_url": "./assets/img/stadium-atlanta.jpg"
+            "image_url": "./assets/img/stadiums/stadium-atlanta.jpg"
         }
     },
     {
@@ -34,7 +34,7 @@
             "city": "Ciudad de México",
             "country": "Mexico",
             "capacity": 87520,
-            "image_url": "./assets/img/stadium-mexico-city.jpg"
+            "image_url": "./assets/img/stadiums/stadium-mexico-city.jpg"
         }
     },
     {
@@ -46,7 +46,7 @@
             "city": "Guadalajara",
             "country": "Mexico",
             "capacity": 48070,
-            "image_url": "./assets/img/stadium-guadalajara.jpg"
+            "image_url": "./assets/img/stadiums/stadium-guadalajara.jpg"
         }
     },
     {
@@ -58,7 +58,7 @@
             "city": "Monterrey",
             "country": "Mexico",
             "capacity": 53500,
-            "image_url": "./assets/img/stadium-monterrey.jpg"
+            "image_url": "./assets/img/stadiums/stadium-monterrey.jpg"
         }
     },
     {
@@ -70,7 +70,7 @@
             "city": "Houston",
             "country": "USA",
             "capacity": 72220,
-            "image_url": "./assets/img/stadium-houston.jpg"
+            "image_url": "./assets/img/stadiums/stadium-houston.jpg"
         }
     },
     {
@@ -82,7 +82,7 @@
             "city": "Philadelphia",
             "country": "USA",
             "capacity": 69320,
-            "image_url": "./assets/img/stadium-philadelphia.jpg"
+            "image_url": "./assets/img/stadiums/stadium-philadelphia.jpg"
         }
     },
     {
@@ -94,7 +94,7 @@
             "city": "New Jersey",
             "country": "USA",
             "capacity": 87150,
-            "image_url": "./assets/img/stadium-new-jersey.jpg"
+            "image_url": "./assets/img/stadiums/stadium-new-jersey.jpg"
         }
     },
     {
@@ -106,7 +106,7 @@
             "city": "Boston",
             "country": "USA",
             "capacity": 70000,
-            "image_url": "./assets/img/stadium-boston.jpg"
+            "image_url": "./assets/img/stadiums/stadium-boston.jpg"
         }
     },
     {
@@ -118,7 +118,7 @@
             "city": "Toronto",
             "country": "Canada",
             "capacity": 45730,
-            "image_url": "./assets/img/stadium-toronto.jpg"
+            "image_url": "./assets/img/stadiums/stadium-toronto.jpg"
         }
     },
     {
@@ -130,7 +130,7 @@
             "city": "Dallas",
             "country": "USA",
             "capacity": 92960,
-            "image_url": "./assets/img/stadium-dallas.jpg"
+            "image_url": "./assets/img/stadiums/stadium-dallas.jpg"
         }
     },
     {
@@ -142,7 +142,7 @@
             "city": "Kansas City",
             "country": "USA",
             "capacity": 76640,
-            "image_url": "./assets/img/stadium-kansas-city.jpg"
+            "image_url": "./assets/img/stadiums/stadium-kansas-city.jpg"
         }
     },
     {
@@ -154,7 +154,7 @@
             "city": "Los Angeles",
             "country": "USA",
             "capacity": 70240,
-            "image_url": "./assets/img/stadium-los-angeles.jpg"
+            "image_url": "./assets/img/stadiums/stadium-los-angeles.jpg"
         }
     },
     {
@@ -166,7 +166,7 @@
             "city": "San Francisco",
             "country": "USA",
             "capacity": 70900,
-            "image_url": "./assets/img/stadium-san-francisco.jpg"
+            "image_url": "./assets/img/stadiums/stadium-san-francisco.jpg"
         }
     },
     {
@@ -178,7 +178,7 @@
             "city": "Seattle",
             "country": "USA",
             "capacity": 72000,
-            "image_url": "./assets/img/stadium-seattle.jpg"
+            "image_url": "./assets/img/stadiums/stadium-seattle.jpg"
         }
     },
     {
@@ -190,7 +190,7 @@
             "city": "Vancouver",
             "country": "Canada",
             "capacity": 54500,
-            "image_url": "./assets/img/stadium-vancouver.jpg"
+            "image_url": "./assets/img/stadiums/stadium-vancouver.jpg"
         }
     }
 ]

@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="tunez.html">Túnez</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="nueva-zelanda.html">Nueva Zelanda</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="uruguay.html">Uruguay</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="iran.html">Irán</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="nueva-zelanda.html">Nueva Zelanda</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="espana.html">España</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Nueva Zelanda</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Somos más de rugby...</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/nueva-zelanda-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/nueva-zelanda-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Darren Bazeley (53)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Curtido en el fútbol inglés, se fue a Nueva Zelanda para acabar su carrera y, como entrenador, ha estado en todas las categorías inferiores de los All Whites hasta llegar al banquillo principal.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">3</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">4</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pelear en fase de grupos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Chris Wood (34, Nottingham Forest):</b> Goleador contrastadísimo en la Premier, ha alcanzado una segunda juventud en el estilo pragmático del Forest. Rematador de élite, es bastante más móvil y rápido de lo que cabría esperar teniendo en cuenta su edad y gran altura.</li><li><b>Tim Payne (32, Wellington Phoenix):</b> Antes de que Internet lo convirtiese en un jugador de culto por sus pocos seguidores en redes, ya era un fijo en el Wellington australiano. Se formó en las categorías inferiores del Blackburn Rovers inglés, y puede jugar tanto de lateral como central o incluso pivote.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Tyler Bindon (22, Sheffield United):</b> En su cesión a la Championship, ha conseguido curtirse como líder defensivo antes de volver al Nottingham Forest. Su concentración y capacidad para cortar balones sin irse al suelo lo hacen un acompañante óptimo para el veterano Boxall.</li><li><b>Marko Stamenić (23, Swansea):</b> Fichado, cómo no, del Nottingham Forest, ha tenido una temporada correcta como pivote. Su estilo es más de un marcador que un generador de juego, y de cara a jugar contra selecciones más potentes deberá mitigar la facilidad con la que le sacan tarjetas amarillas.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

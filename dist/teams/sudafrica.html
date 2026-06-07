@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="croacia.html">Croacia</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="sudafrica.html">Sudáfrica</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="bosnia.html">Bosnia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="mexico.html">México</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="sudafrica.html">Sudáfrica</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="corea-del-sur.html">Corea del Sur</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Sudáfrica</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Espíritu Waka Waka</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/sudafrica-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/sudafrica-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Hugo Bross (73)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Inaugura el Mundial en el Azteca, como en 1986, esta vez desde el banquillo. Todo un trotamundos, consiguió la última Copa África de Camerún en 2017 cuando nadie lo esperaba.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">5</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Teboho Mokoena (29, Mamelodi Sundowns):</b> Mediocentro defensivo incansable y motor del juego de la selección. Destaca, en parte, por su capacidad de aparecer por sorpresa en el área rival y definir cuando nadie le espera..</li><li><b>Ronwen Williams (34, Mamelodi Sundowns):</b> Líder indiscutible y capitán por excelencia, es uno de los mejores porteros del continente africano. Si Sudáfrica consigue dar la campanada y pasar a dieciseisavos, es todo un especialista en las tandas de penaltis.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Lyle Foster (25, Burnley):</b> Delantero luchador donde los haya, quizá su espíritu aguerrido y todos los esfuerzos que realiza durante los partidos son su aspecto más destacable. En Inglaterra le cuesta hacer goles, pero cuando se pone la camiseta de la selección se le caen de los bolsillos.</li><li><b>Mbekezeli Mbokazi (20, Chicago Fire):</b> Su 1,77 no le ha privado de ser un auténtico muro. Hábil y con gran capacidad para blocar disparos rivales, su compostura en defensa le convierte en una de las joyas escondidas del torneo.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

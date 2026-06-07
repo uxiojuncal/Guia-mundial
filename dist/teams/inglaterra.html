@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="portugal.html">Portugal</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="inglaterra.html">Inglaterra</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="mexico.html">México</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="colombia.html">Colombia</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="inglaterra.html">Inglaterra</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="croacia.html">Croacia</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Inglaterra</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Tiene que ser ahora</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/inglaterra-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/inglaterra-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Thomas Tuchel (52)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Arquitecto del último gran Chelsea, sorprendió su mal paso en un Bayern que ahora ilusiona. Es garantía de rendimiento inmediato, razón que llevó a Inglaterra a contratarlo para ganar a la primera.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">8</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">9</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Karry Kane (32, Bayern Munich):</b> Delantero total, además de conquistar la Bota de Oro es alucinante por la cantidad de juego que genera sin salir en las estadísticas. Es capaz de transformarse y ser tanto un rematador letal dentro del área como un creador de juego fantástico a campo abierto. </li><li><b>Jude Bellingham (22, Real Madrid):</b> Todo el mundo es consciente de su calidad, pero lleva tiempo sin demostrarla al completo. Con la llegada de Mbappé perdió ese rol adelantado que tuvo en su primer año en Madrid, necesita un buen papel en este Mundial para recordar su estatus de jugador estrella.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Morgan Rogers (23, Aston Villa):</b> Coronado como mejor jugador de la Europa League que conquistó, es un mediocampista de ida y vuelta, corpulento, rápido y con toque: parece hecho a medida para Tuchel. Su crecimiento de nivel ha sido exponencial, y lo ha llevado a ser un muy sólido candidato a titular después de dos temporadas excelentes.</li><li><b>Anthony Gordon (24, FC Barcelona):</b> Fichaje multimillonario del Barça para reforzar la delantera. Esta temporada ha jugado en punta, y entre sus principales virtudes podemos destacar sus esfuerzos en la presión del equipo y un ritmo vertiginoso. No es tan prolífico a la hora de anotar como otras opciones.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

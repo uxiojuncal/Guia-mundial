@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="uruguay.html">Uruguay</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="noruega.html">Noruega</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="jordania.html">Jordania</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="irak.html">Irak</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="noruega.html">Noruega</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="argentina.html">Argentina</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Noruega</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Oportunidad generacional</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/noruega-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/noruega-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Ståle Solbakken (57)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Su dinastía liguera en sus dos etapas con el Copenhague le valió el título de Mejor entrenador histórico de la liga danesa. Logró una clasificación necesaria para una generación de calidad inédita.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">7</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Octavos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Erling Haaland (25, Manchester City):</b> Una auténtica máquina de marcar, dominante como pocos en el área. Tal es su nivel de exigencia que en sus dos últimos años “más flojos” ha anotado 34 y 38 goles. Como punto negativo, puede sufrir la falta de generadores de juego que le lleven balones al área.</li><li><b>Martin Ødegaard (27, Arsenal):</b> En él recaerá precisamente la generación de oportunidades para los de arriba. No tiene la brillantez de antaño en un Arsenal casi imbatible, pero mucho más feo de ver, quizá porque “necesita menos” la creatividad de Martintxo.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Andreas Schjelderup (21, Benfica):</b> Un puñal por la banda izquierda, ha tenido mucha importancia en el esquema de Mourinho, y algunas informaciones afirman que se lo quiere llevar a Madrid. Su desborde y capacidad de crear ocasiones de gol “por sí mismo” son sus principales activos.</li><li><b>Antonio Nusa (21, RB Leipzig):</b> Presumiblemente, peleará con Schjelderup por un puesto titular en la banda izquierda. Es más regateador, pero le cuesta más tener pegada en el área. Ha despuntado en Alemania después de muy buenos años en el Brujas, con actuaciones destacadas en Champions.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

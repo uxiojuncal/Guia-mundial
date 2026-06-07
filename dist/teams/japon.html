@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="curazao.html">Curazao</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="japon.html">Japón</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="egipto.html">Egipto</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="paises-bajos.html">Países Bajos</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="japon.html">Japón</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="suecia.html">Suecia</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Japón</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Sospechosos Habituales</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/japon-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/japon-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Hajime Moriyasu (57)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Ascendió de la sub-23 y, en su primer Mundial, ganó a España y Alemania. Bajo su tutela, Japón siempre ha sido un equipo competitivo, ordenado y reconocible, con un techo cada vez más alto.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">6</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">8</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Cuartos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Takefusa Kubo (24, Real Sociedad):</b> Se ha estancado en las dos últimas temporadas respecto de lo que parecía que iba a ser. Con todo, su calidad está ahí. Zurda privilegiada, gran capacidad de regate y veloz, busca llevar a Japón al próximo nivel tras varios buenos torneos.</li><li><b>Wataru Endo (32, Liverpool):</b> El líder de la sala de máquinas de Japón. Brilló en Alemania con el Stuttgart, y fue útil en su primer año en Liverpool como parche para el pivote, pero ha tenido muchos altibajos después. Gran pasador y defensor, no tiene mucha llegada al área.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Zion Suzuki (23, Parma):</b> Quizá el mayor proyecto de futuro de todo Japón. Guardameta hábil con buen juego de pies y excelentes reflejos que se ha consolidado como uno de las mayores promesas del fútbol mundial, con varios clubes muy pendientes de su primer gran torneo.</li><li><b>Kento Shiogai (21, Wolfsburgo):</b> Pese a que no ha podido evitar el descenso de su club, sus 7 goles en 12 partidos en el primer tramo de año le hacen un revulsivo perfecto. Es una amenaza ofensiva capaz de ganar la espalda al rival con frecuencia, y tiene un gran olfato goleador.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

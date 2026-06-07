@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="turquia.html">Turquía</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="ecuador.html">Ecuador</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="tunez.html">Túnez</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="costa-de-marfil.html">Costa de Marfil</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="ecuador.html">Ecuador</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="paises-bajos.html">Países Bajos</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Ecuador</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Un futuro muy presente</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/ecuador-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/ecuador-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Sebastián Beccaccece (45)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Ex del Elche, ha progresado en la línea ascendente que dejó Alfaro en un equipo que apunta muy alto. Segundos en la clasificatoria e invictos en casa, superaron a Brasil y sueñan con grandes cosas.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">6</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">5</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Cuartos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Willian Pacho (24, PSG):</b> Probablemente uno de los defensores más en forma de todo el planeta y un talento generacional. Ha tomado las riendas de la defensa del mejor club del mundo, acompañado por un brillante Marquinhos. Se ha convertido en la mayor pesadilla de todos los delanteros del viejo continente gracias a sus marcajes individuales.</li><li><b>Moisés Caicedo (24, Chelsea):</b> El pilar de la generación dorada y líder de la selección. Resistente como ninguno, su capacidad para robar balones y distribuir con facilidad le hacen un organizador de juego excelso. Es igualmente polivalente, tuvo un gran nivel en el Brighton jugando en la posición, a priori extraña, de lateral derecho.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Jeremy Arévalo (20, Stuttgart):</b> Producto de la cantera del Racing de Santander, dio el salto a la Bundesliga este invierno. Apenas ha encontrado continuidad en el Stuttgart, pero su capacidad goleadora nos permite esperar un buen rendimiento en un contexto más favorable. </li><li><b>Joel Ordoñez (21, Brujas):</b> Uno de los mayores talentos “bajo el radar” de todo el Mundial. Se dio a conocer gracias a su excelente desempeño en Champions. Poderoso en el juego aéreo y veloz, destaca también por su gran salida de balón y compostura.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="sudafrica.html">Sudáfrica</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="bosnia.html">Bosnia</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="marruecos.html">Marruecos</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="canada.html">Canadá</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="bosnia.html">Bosnia</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="catar.html">Catar</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Bosnia</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Soñadores y verdugos</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/bosnia-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/bosnia-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Sergej Barbarez (54)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Leyenda del Hamburgo, cambió el rumbo funesto de Bosnia en la Nations League para clasificarla al segundo Mundial en su historia de la forma más agónica posible, con dos tandas de penaltis.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Edin Džeko (40, Schalke 04):</b> El último gran servicio a Bosnia de su mayor leyenda. Da igual Manchester, Wolfsburgo, Milán o el patio de su casa, este veterano sigue garantizando goles. Gracias a su altura y gran capacidad técnica, parece que los años no han pasado por él.</li><li><b>Amar Dedic (23, Benfica):</b> El correcaminos bosnio, se ha convertido en una figura inamovible del Benfica de Mourinho. Es un buen centrador y muestra una gran capacidad para llegar al área, convirtiéndose en el complemento perfecto para Dzeko.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Esmir Bajraktarevic (21, PSV Eindhoven):</b> El héroe de todo un país, empezó en el fútbol internacional defendiendo los colores de Estados Unidos. A los pocos meses cambió de aires, la vida le regaló la oportunidad de tirar el penalti decisivo contra Italia… y el resto es historia. Destaca por su desborde y picardía.</li><li><b>Kerim Alajbegovic (18, RB Salzburgo):</b> Una de las mayores promesas del torneo, media Europa estará pendiente de otra de las perlas que ha sacado la factoría Red Bull. Se ha consolidado en la selección a pesar de su temprana edad gracias a su calidad, talento y creatividad.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

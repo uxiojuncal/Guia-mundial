@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="colombia.html">Colombia</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="panama.html">Panamá</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="republica-checa.html">República Checa</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="ghana.html">Ghana</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="panama.html">Panamá</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="mexico.html">México</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Panamá</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Les abriremos en canal</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/panama-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/panama-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Thomas Christiansen (52)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Internacional español, tuvo una carrera muy extensa en LaLiga y  logró ser pichichi de la Bundesliga en 2003. Como entrenador de Panamá, ha hecho grandes torneos además de lograr su fin último.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pelear en fase de grupos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Amir Murillo (30, Besiktas):</b> Lateral derecho de largo recorrido, capaz también de jugar como central y en banda izquierda. Fue importante en sus tres temporadas en el Olympique de Marsella antes de su paso por Turquía. Es uno de los jugadores más indispensables de la selección panameña.</li><li><b>Adalberto Carrasquilla (27, Pumas):</b> Mediocentro que da claridad y sentido al juego del equipo. Capital para el sistema de juego de Christiansen, es duda por una lesión al final de temporada que va a mermar sus prestaciones físicas si consigue llegar sano.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>José Córdoba (24, Norwich City):</b> Ha completado una temporada solvente en Inglaterra. Participa mucho en el juego del equipo y tiene una salida de balón convincente, promedia más de cinco recuperaciones por partido y no hace demasiadas faltas.</li><li><b>Edgardo Fariña (24, Nizhniy Novgorod):</b> Central diestro, el esquema de tres defensas le permite adelantarse más y asegurar una buena salida de balón con pases precisos. Ha tenido que sobreponerse a una lesión muscular y otra de rodilla en su camino hacia la convocatoria mundialista.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

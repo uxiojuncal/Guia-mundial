@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="eeuu.html">EEUU</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="alemania.html">Alemania</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="paises-bajos.html">Países Bajos</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="turquia.html">Turquía</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="alemania.html">Alemania</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="curazao.html">Curazao</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Alemania</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Grandeza a restaurar</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/alemania-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/alemania-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Julian Nagelsmann (38)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Hizo una muy buena Eurocopa hasta que llegó España. Los últimos meses han traído dudas sobre su futuro a medio plazo pese a tener contrato, con Klopp en el horizonte. Si gana, callará a los críticos.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">8</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">9</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Semifinales</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Manuel Neuer (39, Bayern Munich):</b> Uno de los mejores porteros de la historia, el mejor jugador del triunfo en 2014. Nagelsmann lo ha sacado del retiro para que juegue su último Mundial y lidere a la defensa germana. Aunque suele hacer buenos partidos, en los últimos años ha tenido errores de bulto propios de su edad.</li><li><b>Jamal Musiala (22, Bayern Munich):</b> Extremo habilidoso, creativo y con mucho olfato goleador, está llamado a rivalizar con talentos como Lamine Yamal, Vinícius y compañía en la próxima década. Llega al Mundial con poco rodaje debido a una durísima lesión del ligamento cruzado.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Angelo Stiller (23, Stuttgart):</b> Muchos le nombran el sucesor de Toni Kroos gracias a su creatividad, precisión en el pase e inteligencia con y sin balón. El mediocampista del Stuttgart ha sido relacionado con numerosos clubes punteros de Europa, entre ellos el Real Madrid.</li><li><b>Aleksandar Pavlovic (21, Bayern Munich):</b> Se ha hecho con el puesto de pivote titular en el Bayern en tiempo récord, y pese a su corta experiencia ha dejado grandes actuaciones en Champions, exhibiendo madurez, determinación y actitud, cualidades que le hacen el jugador deseado para cualquier entrenador. Tiene un gran golpeo a balón parado.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

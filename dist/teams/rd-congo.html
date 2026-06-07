@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="argelia.html">Argelia</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="rd-congo.html">RD Congo</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="croacia.html">Croacia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="portugal.html">Portugal</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="rd-congo.html">RD Congo</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="uzbekistan.html">Uzbekistán</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">RD Congo</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">El poder de la diáspora</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/rd-congo-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/rd-congo-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Sébastien Desabre (49)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Logró una histórica final continental con Uganda en 2019. De la mano del talento joven congoleño y varias nacionalizaciones, firmó otras semis de Copa África e hizo realidad el sueño mundialista</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">5</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Aaron Wan-Bissaka (28, West Ham):</b> Nacido en Inglaterra, tiró de antepasados para optar a jugar un Mundial. Está lejos de su mejor nivel, donde fue un complemento importante de un buen Manchester United gracias a su capacidad atlética y defensiva, destacando su predilección por la entrada.</li><li><b>Yoane Wissa (29, Newcastle United):</b> Fichaje récord de las urracas para reemplazar a Isak, ha tenido una temporada muy complicada por lesiones. Es un delantero rápido, móvil y con gran remate de cabeza. Cuando estaba en el Brentford inglés formó una dupla para la historia del club con el camerunés Mbeumo.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Noah Sadiki (21, Sunderland):</b> Gracias a su solvencia como mediocentro defensivo, ha asegurado que un recién ascendido como el Sunderland haya dado el salto a la clasificación europea. Tiene poca presencia ofensiva, en su caso podríamos definirlo como un “ancla” capaz de jugar de central o lateral en casos de urgencia.</li><li><b>Nathaniel Mbuku (23, Montpellier):</b> Ha encontrado estabilidad en Montpellier, después de encadenar cesiones. Es un extremo izquierdo que no juega a pierna cambiada, tiene muy buen pie para los libres directos y es efectivo con los regates: sin ser un “prestidigitador”, usa su cuerpo muy bien en las fintas.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

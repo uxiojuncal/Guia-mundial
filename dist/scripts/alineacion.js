@@ -14,78 +14,6 @@ const placeholderSvg = `
 
 const fallbackImage = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(placeholderSvg)}`;
 
-lineup =  {    
-    "rows": ["attack", "midfield", "defense", "gk"],
-    "players": [
-        {
-            "row": "gk",
-            "name": "A. Tchouameni",
-            "image": "./img/goalie.jpg",
-            "role": "goalkeeper"
-	    },
-	    {
-			"row": "defense",
-			"name": "Goat. Martín",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-	    },
-	    {
-			"row": "defense",
-			"name": "Goat. Martín",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-	    },
-	    {
-			"row": "defense",
-			"name": "Goat. Martín",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-	    },
-	    {
-			"row": "defense",
-			"name": "Goat. Martín",
-			"image": "./img/defender.jpg",
-			"role": "defender"
-	    },
-	    {
-			"row": "midfield",
-			"name": "Ndombele",
-			"image": "./img/midfielder.jpg",
-			"role": "midfielder"
-	    },
-	    {
-		"row": "midfield",
-		"name": "Ndombele",
-		"image": "./img/midfielder.jpg",
-		"role": "midfielder"
-	    },
-	    {
-		"row": "midfield",
-		"name": "Ndombele",
-		"image": "./img/midfielder.jpg",
-		"role": "midfielder"
-	    },
-	    {
-		"row": "attack",
-		"name": "Martinelli",
-		"image": "./img/left-wg.jpg",
-		"role": "attacker"
-	    },
-	    {
-		"row": "attack",
-		"name": "Darwin Núñez",
-		"image": "./img/striker.jpg",
-		"role": "attacker"
-	    },
-	    {
-		"row": "attack",
-		"name": "Mudryk",
-		"image": "./img/right-wg.jpg",
-		"role": "attacker"
-	    }
-    ]
-};
-
 // Example of 4-2-3-1 formation (5 rows + gk)
 const lineup421 = {
 	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
@@ -170,6 +98,43 @@ async function loadLineup(filePath = './lineups/Alemania.json') {
 	}
 }
 
+function getTeamName() {
+	return document.querySelector('.team-title')?.textContent?.trim() || '';
+}
+
+function slugifyFileName(name) {
+	return `${name
+		.toLowerCase()
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-+|-+$/g, '')}.json`;
+}
+
+async function loadTeamLineup() {
+	const teamName = getTeamName();
+	if (!teamName) {
+		console.error('Team title not found; lineup cannot be loaded.');
+		return {};
+	}
+
+	const lineupFileName = slugifyFileName(teamName);
+	const lineupPaths = [
+		`../../build/lineups/${lineupFileName}`,
+		`../lineups/${lineupFileName}`,
+		`./lineups/${lineupFileName}`,
+	];
+
+	for (const filePath of lineupPaths) {
+		const lineupData = await loadLineup(filePath);
+		if (Array.isArray(lineupData.rows) && Array.isArray(lineupData.players)) {
+			return lineupData;
+		}
+	}
+
+	return {};
+}
+
 function buildPlayerCard(player) {
 	const card = document.createElement('article');
 	card.className = `player player--${player.role}`;
@@ -199,6 +164,9 @@ const rows = document.querySelectorAll('[data-row]');
 
 function initializeLineup(lineupData) {
 	const formation = document.querySelector('.formation');
+	if (!formation || !Array.isArray(lineupData?.rows) || !Array.isArray(lineupData?.players)) {
+		return;
+	}
 	
 	// Clear existing rows
 	formation.innerHTML = '';
@@ -226,5 +194,7 @@ function initializeLineup(lineupData) {
 	});
 }
 
-// Initialize with current lineup
-initializeLineup(lineup);
+// Initialize with lineup loaded from the team heading
+void loadTeamLineup().then((lineupData) => {
+	initializeLineup(lineupData);
+});

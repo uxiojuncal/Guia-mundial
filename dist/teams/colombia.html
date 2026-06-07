@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="jordania.html">Jordania</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="colombia.html">Colombia</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="panama.html">Panamá</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="uzbekistan.html">Uzbekistán</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="colombia.html">Colombia</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="inglaterra.html">Inglaterra</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Colombia</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Realismo mágico</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/colombia-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/colombia-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Néstor Lorenzo (57)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Reclutado de la liga peruana, ha crecido en un proyecto de fútbol vistoso a largo plazo, que ha dado frutos como llegar a la final de la Copa América 2024 y una fase de clasificación muy convincente.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">6</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Octavos/Cuartos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Luís Díaz (29, Bayern Munich):</b> Cuando parecía que su nivel se estancaba en Liverpool como un buen regateador, formó junto con Kane y Olise un ataque de récord y ofreció un nivel superlativo en su primer año en el Bayern. Creatividad y desborde a raudales para un jugador que liderará a Colombia por méritos propios.</li><li><b>Luis Suárez (28, Sporting CP):</b> Ni se ha notado en Lisboa la marcha de Gyökeres. El ex del Almería ha ofrecido un rendimiento espectacular, y es el siguiente candidato a un gran traspaso. Es un finalizador excelente, rápido y clínico en el área. Con la falta de Jhon Durán, aumenta su responsabilidad en la punta de ataque.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Richard Ríos (25, Benfica):</b> Un mediocentro muy completo, ha conseguido 9 participaciones de gol sin jugar excesivamente adelantado. Tiene gran calidad para el pase y regate, y puede jugar también en banda derecha. Ha tenido una óptima temporada en el Benfica procedente del fútbol brasileño.</li><li><b>Gustavo Puerta (22, Racing Santander):</b> Fichaje de futuro del Leverkusen, se curtió en Nüremberg y Hull antes de llegar al Sardinero. Es uno de los jugadores más importantes en la plantilla que logró el ascenso, actúa como pivote y pese a ser un bregador, no “le quema el balón” cuando lo tiene, es inteligente para buscar salidas.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

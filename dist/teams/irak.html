@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="arabia-saudi.html">Arabia Saudí</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="irak.html">Irak</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="austria.html">Austria</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="senegal.html">Senegal</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="irak.html">Irak</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="noruega.html">Noruega</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Irak</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Un re-debut americano</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/irak-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/irak-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Graham Arnold (62)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Consiguió meter a Australia en octavos del pasado Mundial, y fue el revulsivo que necesitaba Irak para regresar al torneo 40 años después, con su victoria frente a Bolivia en la repesca internacional.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Pelear en fase de grupos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Zaid Tahseen (25, Paktator Tashkent):</b> Con su metro noventa y tres, ha contribuido a establecer de nuevo al Paktator como un competidor solvente por la Liga. Su preciso desplazamiento en largo puede ser un arma muy valiosa para Irak a la hora de sacar el balón.</li><li><b>Aymen Hussein (29, Al-Karma):</b> Se ha convertido en todo un símbolo para el país: segundo máximo goleador de la historia y autor del goles decisivo para la clasificación a los Juegos Olímpicos 2016 y el Mundial 2026. Su historia de superación es representativa de un país amenazado por el horror de Al-Qaeda primero y el ISIS después, que ve en la selección una fuente de identidad.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Ali Al-Hamadi (23, Luton Town):</b> Emigró con un año a Inglaterra por la guerra, y se formó en las categorías inferiores del Tranmere Rovers. Busca reencontrarse con el gol después de una temporada complicada en Luton, donde estuvo muy lejos de igualar sus 27 goles con el Wimbledon.</li><li><b>Zidane Iqbal (22, FC Utrecht):</b> Nacido en Manchester, se curtió en las inferiores del United antes de salir a Holanda. Después de ser importante en la clasificación a Europa League, esta temporada no ha logrado tener continuidad al arrastrar una lesión de rodilla.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>

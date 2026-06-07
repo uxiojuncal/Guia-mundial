@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/team.css">
+</head>
+<body>
+    <nav>
+        <ul class="group-nav">
+            <li class="left-nav" data-link="prev-group"><a data-slot="prev-group-link" href="cabo-verde.html">Cabo Verde</a></li>
+            <li class="center-nav" data-link="group"><a data-slot="current-group-link" href="senegal.html">Senegal</a></li>
+            <li class="right-nav" data-link="next-group"><a data-slot="next-group-link" href="argelia.html">Argelia</a></li>
+        </ul>
+        <ul class="team-nav">
+            <li class="left-nav" data-link="prev-team"><a data-slot="prev-team-link" href="francia.html">Francia</a></li>
+            <li class="center-nav" data-link="team"><a data-slot="current-team-link" href="senegal.html">Senegal</a></li>
+            <li class="right-nav" data-link="next-team"><a data-slot="next-team-link" href="irak.html">Irak</a></li>
+        </ul>
+    </nav>
+    <header class="team-header">
+        <div class="title-wrapper">
+            <h1 class="team-title" data-slot="name">Senegal</h1>
+            <h2 class="team-subtitle" data-slot="subtitle">Campeón africano en el campo</h2>
+        </div>
+        <div class="badge-wrapper">
+            <img src="../assets/img/senegal-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+        </div>
+    </header>
+    <div class="team-content">
+        <div class="team-coach-ratings-wrapper">
+            <div class="team-coach">
+                <img src="../assets/img/senegal-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
+                <h2 class="coach-title">EL ENTRENADOR</h2>
+                <div class="blue-divisor"></div>
+                <h3 class="coach-name" data-slot="coach-name">Pape Thiaw (44)</h3>
+                <h4 class="coach-desc" data-slot="coach-desc">Después de muchos años como asistente de Aliou Cissé, consiguió ganar la Copa África. Da mucha importancia a defender, ya sea en el terreno de juego o custodiando la propia copa en una base militar.</h4>
+            </div>
+            <div class="team-ratings">
+                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
+                <ul class="ratings-list">
+                    <li>Plantilla: <span data-slot="players-rating">7</span>/10</li>
+                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
+                    <li>Expectativas: <span data-slot="expectations">Cuartos de final</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="team-description">
+            <div class="highlighted-players">
+                <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Sadio Mané (33, Al-Nassr):</b> Leyenda en Liverpool, ha conseguido mantener su estado de forma en Arabia, a la que quizá llegó “demasiado pronto”. Compensa su pérdida de velocidad con un don para la finalización. A nivel emocional, es un líder de altura para lo que Senegal necesita.</li><li><b>Pape Gueye (27, Villarreal):</b> Un pulmón para el mediocampo, suyo fue el histórico gol para ganar la Copa África. Tiene una gran presencia física y llega al Mundial como uno de los candidatos a la próxima gran venta del Villarreal en el mercado de verano.</li></ul>
+            </div>
+            <div class="promising-players">
+                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Nicolas Jackson (24, Bayern Munich):</b> Apenas ha podido jugar debido al excepcional momento de forma de su compañero Harry Kane, bota de oro europea. Sin embargo, en sus años en Villarreal y Chelsea se destapó como un delantero muy apto, quizá dependiente de rachas, pero capaz de brillar en un contexto adecuado para ello.</li><li><b>Lamine Camara (22, Mónaco):</b> Al igual que Pape Gueye, es un jugador sumamente versátil, ideal para contextos cambiantes desde el mediocampo. Es más ordenado y mejor pasador, pero no tiene tanta llegada al área rival. También tiene un gran golpeo de balón para jugadas ensayadas.</li></ul>
+            </div>
+        </div>
+    </div>
+    <h2 class="lineup-title">Alineación Probable</h2>
+    <div class="lineup-container">
+        <div class="line-up" aria-label="Soccer lineup">
+            <section class="formation"></section>
+        </div>
+    </div>
+    <script defer="" src="./scripts/alineacion.js"></script>
+
+</body></html>
