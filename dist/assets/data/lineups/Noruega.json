@@ -1,70 +1,71 @@
-{
-	"rows": ["attack", "midfield", "defense", "gk"],
+{	
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
 	"players": [
 		{
 			"row": "gk",
-			"name": "Martínez",
-			"image": "../assets/img/Argentina/POR-Martinez.jpg",
+			"name": "Nyland",
+			"image": "../assets/img/Noruega/POR-Nyland.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
-			"name": "Molina",
-			"image":  "../assets/img/Argentina/LD-Molina.jpg",
+			"name": "Ryerson",
+			"image":  "../assets/img/Noruega/LD-Ryerson.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Romero",
-			"image": "../assets/img/Argentina/DFC-Romero.jpg",
+			"name": "Heggem",
+			"image": "../assets/img/Noruega/DFC-Heggem.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Lisandro",
-			"image": "../assets/img/Argentina/DFC-Lisandro.jpg",
+			"name": "Ajer",
+			"image": "../assets/img/Noruega/DFC-Ajer.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Tagliafico",
-			"image": "../assets/img/Argentina/LI-Tagliafico.jpg",
+			"name": "Wolfe",
+			"image": "../assets/img/Noruega/LI-Wolfe.jpg",
 			"role": "defender"
 		},
 		{	
-"row": "midfield",
-			"name": "Enzo",
-			"image": "../assets/img/Argentina/MC-Enzo.jpg",
+			"row": "cdm",
+			"name": "Aursnes",
+			"image": "../assets/img/Noruega/CDM-Aursnes.jpg",
 			"role": "midfielder"
 		},
 		{
-			"row": "midfield",
-			"name": "De Paul",
-			"image": "../assets/img/Argentina/MC-DePaul.jpg",
+			"row": "cdm",
+			"name": "Berge",
+			"image": "../assets/img/Noruega/CDM-Berge.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Bobb",
+			"image": "../assets/img/Noruega/MD-Bobb.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Ødegaard",
+			"image": "../assets/img/Noruega/MCO-Odegaard.jpg",
 			"role": "midfielder"
 		},
 		{
-			"row": "midfield",
-			"name": "Mac Allister",
-			"image": "../assets/img/Argentina/MC-MacAllister.jpg",
+
+			"row": "cam_lm_rm",
+			"name": "Nusa",
+			"image": "../assets/img/Noruega/MI-Nusa.jpg",
 			"role": "attacker"
 		},
 		{
-			"row": "attack",
-			"name": "Messi",
-			"image": "../assets/img/Argentina/ED-Messi.jpg",
-			"role": "attacker"
-	},
-		{
-			"row": "attack",
-			"name": "Julián",
-			"image": "../assets/img/Argentina/DC-Julian.jpg",
-			"role": "attacker"
-		},
-		{
-			"row": "attack",
-			"name": "Nico Paz",
-			"image": "../assets/img/Argentina/EI-NicoPaz.jpg",
+			"row": "striker",
+			"name": "Haaland",
+			"image": "../assets/img/Noruega/DC-Haaland.jpg",
 			"role": "attacker"
 		}
     ],

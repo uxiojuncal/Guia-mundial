@@ -4,67 +4,67 @@
 		{
 			"row": "gk",
 			"name": "Unai Simón",
-			"image": "../assets/img/España/POR-UnaiSimon.jpg",
+			"image": "../assets/img/Espana/POR-UnaiSimon.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
 			"name": "Llorente",
-			"image":  "../assets/img/España/LD-Llorente.jpg",
+			"image":  "../assets/img/Espana/LD-Llorente.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Cubarsí",
-			"image": "../assets/img/España/DFC-Cubarsi.jpg",
+			"image": "../assets/img/Espana/DFC-Cubarsi.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Laporte",
-			"image": "../assets/img/España/DFC-Laporte.jpg",
+			"image": "../assets/img/Espana/DFC-Laporte.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Cucurella",
-			"image": "../assets/img/España/LI-Cucurella.jpg",
+			"image": "../assets/img/Espana/LI-Cucurella.jpg",
 			"role": "defender"
 		},
 		{	
-"row": "cdm",
+			"row": "cdm",
 			"name": "Rodri",
-			"image": "../assets/img/España/CDM-Rodri.jpg",
+			"image": "../assets/img/Espana/CDM-Rodri.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Pedri",
-			"image": "../assets/img/España/MC-Pedri.jpg",
+			"image": "../assets/img/Espana/MC-Pedri.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Fabián",
-			"image": "../assets/img/España/MC-Fabian.jpg",
+			"image": "../assets/img/Espana/MC-Fabian.jpg",
 			"role": "attacker"
 		},
 		{
 			"row": "attack",
 			"name": "Lamine Yamal",
-			"image": "../assets/img/España/ED-Yamal.jpg",
+			"image": "../assets/img/Espana/ED-Yamal.jpg",
 			"role": "attacker"
 	},
 		{
 			"row": "attack",
 			"name": "Oyarzabal",
-			"image": "../assets/img/España/DC-Oyarzabal.jpg",
+			"image": "../assets/img/Espana/DC-Oyarzabal.jpg",
 			"role": "attacker"
 		},
 		{
 			"row": "attack",
 			"name": "Nico Williams",
-			"image": "../assets/img/España/EI-Willams.jpg",
+			"image": "../assets/img/Espana/EI-Willams.jpg",
 			"role": "attacker"
 		}
     ],

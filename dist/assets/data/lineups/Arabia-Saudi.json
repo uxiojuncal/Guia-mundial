@@ -4,67 +4,67 @@
 		{
 			"row": "gk",
 			"name": "Al-Owais",
-			"image": "../assets/img/Arabia-Saudi/POR-AlOwais.jpg",
+			"image": "../assets/img/ArabiaSaudi/POR-AlOwais.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
 			"name": "Abdullhamid",
-			"image":  "../assets/img/Arabia-Saudi/LD-Abdullhamid.jpg",
+			"image":  "../assets/img/ArabiaSaudi/LD-Abdullhamid.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Tambatki",
-			"image": "../assets/img/Arabia-Saudi/DFC-Tambatki.jpg",
+			"image": "../assets/img/ArabiaSaudi/DFC-Tambatki.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Al-Amri",
-			"image": "../assets/img/Arabia-Saudi/DFC-AlAmri.jpg",
+			"image": "../assets/img/ArabiaSaudi/DFC-AlAmri.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Boushal",
-			"image": "../assets/img/Arabia-Saudi/LI-Boushal.jpg",
+			"image": "../assets/img/ArabiaSaudi/LI-Boushal.jpg",
 			"role": "defender"
 		},		
 		{
 			"row": "midfield",
 			"name": "Mandashi",
-			"image": "../assets/img/Arabia-Saudi/MD-Mandash.jpg",
+			"image": "../assets/img/ArabiaSaudi/MD-Mandash.jpg",
 			"role": "attacker"
 		},
 		{	
 "row": "midfield",
 			"name": "Al-Khalibari",
-			"image": "../assets/img/Arabia-Saudi/MC-AlKhalibari.jpg",
+			"image": "../assets/img/ArabiaSaudi/MC-AlKhalibari.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Kanno",
-			"image": "../assets/img/Arabia-Saudi/MC-Kanno.jpg",
+			"image": "../assets/img/ArabiaSaudi/MC-Kanno.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Al-Dawsari",
-			"image": "../assets/img/Arabia-Saudi/MI-AlDawsari.jpg",
+			"image": "../assets/img/ArabiaSaudi/MI-AlDawsari.jpg",
 			"role": "attacker"
 		},
 		{
 			"row": "attack",
 			"name": "Al-Juwayr",
-			"image": "../assets/img/Arabia-Saudi/DC-AlJuwayr.jpg",
+			"image": "../assets/img/ArabiaSaudi/DC-AlJuwayr.jpg",
 			"role": "attacker"
 	},
 		{
 			"row": "attack",
 			"name": "Al-Buraikan",
-			"image": "../assets/img/Arabia-Saudi/DC-AlBuraikan.jpg",
+			"image": "../assets/img/ArabiaSaudi/DC-AlBuraikan.jpg",
 			"role": "attacker"
 		}
     ],

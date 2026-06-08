@@ -28,13 +28,13 @@
 		{
 			"row": "defense",
 			"name": "Hajisafi",
-			"image": "../assets/img/Iran/LI-Hajisafi.jpg",
+			"image": "../assets/img/Iran/LI-Hajsafi.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "cdm",
 			"name": "Ghaedi",
-			"image": "../assets/img/Iran/CDM-Ghaedi.jpg",
+			"image": "../assets/img/Iran/CDM-Ghayedi.jpg",
 			"role": "midfielder"
 		},
 		{
@@ -46,7 +46,7 @@
 		{
 			"row": "cam_lm_rm",
 			"name": "Jahanbaksh",
-			"image": "../assets/img/Iran/MD-Jahanbaksh.jpg",
+			"image": "../assets/img/Iran/MD-Jahanbakhsh.jpg",
 			"role": "attacker"
 		},
 		{

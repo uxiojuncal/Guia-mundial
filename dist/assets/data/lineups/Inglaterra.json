@@ -34,13 +34,13 @@
 		{
 			"row": "cdm",
 			"name": "Rice",
-			"image": "../assets/img/Inglaterra/CDM-Rice.jpg",
+			"image": "../assets/img/Inglaterra/MCD-Rice.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "Bellingham",
-			"image": "../assets/img/Inglaterra/CDM-Bellingham.jpg",
+			"image": "../assets/img/Inglaterra/MCD-Bellingham.jpg",
 			"role": "midfielder"
 		},
 		{

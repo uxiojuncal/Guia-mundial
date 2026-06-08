@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="egipto.html">Grupo G</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="egipto.html" aria-label="Grupo anterior">Grupo G</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="cabo-verde.html">Grupo H</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="cabo-verde.html">Grupo H</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="senegal.html">Grupo I</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="senegal.html" aria-label="Siguiente grupo">Grupo I</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="espana.html">España</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="espana.html" aria-label="Selección anterior">España</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="cabo-verde.html">Cabo Verde</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="cabo-verde.html">Cabo Verde</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="arabia-saudi.html">Arabia Saudí</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="arabia-saudi.html" aria-label="Siguiente selección">Arabia Saudí</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Cabo Verde</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Al fin y al cabo, están verdes...</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/CaboVerde/cabo-verde-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/CaboVerde/cabo-verde-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/CaboVerde/cabo-verde-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Bubista (56)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Apodado en honor a la isla de Boa Vista, ha roto todas las expectativas con una hazaña difícil de cuantificar. Es ‘bielsista’ y reivindica el poder del fútbol como signo de identidad caboverdiana.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/CaboVerde/cabo-verde-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Bubista (56)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Apodado en honor a la isla de Boa Vista, ha roto todas las expectativas con una hazaña difícil de cuantificar. Es ‘bielsista’ y reivindica el poder del fútbol como signo de identidad caboverdiana.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">3</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">4</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Pelear en fase de grupos</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">3</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">4</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Pelear en fase de grupos</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Vozinha (40, Chaves):</b> El veteranísimo arquero debuta en un Mundial como capitán y líder del vestuario gracias a su dilatada experiencia en Eslovaquia, Angola, Moldavia o Chipre, entre otros destinos. Ocupa desde 2012 la portería caboverdiana, que se verá amenazada en no pocas ocasiones.</li><li><b>Ryan Mendes (36, Igdir FK):</b> Es de justicia que Cabo Verde vaya a su primer Mundial guiada por el jugador con más partidos y goles en la historia de la selección. Extremo derecho versátil, puede jugar de delantero. Su última gran temporada fue en la 24-25, cuando ayudó a ascender al Kocaelispor a primera con doce goles.</li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Logan Costa (24, Villarreal):</b> Probablemente sea la mayor certeza en su selección si evaluamos su techo de nivel, de titular de un Villarreal clasificado a Champions. Ha vuelto a los terrenos de juego hace poco por una lesión terrible en el ligamento cruzado, que solo le ha permitido sumar 29 minutos en esta Liga.</li><li><b>Sidny Lopes Cabral (23, Benfica):</b> En Lisboa apostaron por él después de una etapa interesante en Estrela da Amadora, y ha conseguido doce participaciones de goles en tan solo 23 partidos de Liga, cifras que serían meritorias en un delantero, pero asombran al tratarse de un lateral.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Vozinha (40, Chaves):</b> El veteranísimo arquero debuta en un Mundial como capitán y líder del vestuario gracias a su dilatada experiencia en Eslovaquia, Angola, Moldavia o Chipre, entre otros destinos. Ocupa desde 2012 la portería caboverdiana, que se verá amenazada en no pocas ocasiones.</li><li><b>Ryan Mendes (36, Igdir FK):</b> Es de justicia que Cabo Verde vaya a su primer Mundial guiada por el jugador con más partidos y goles en la historia de la selección. Extremo derecho versátil, puede jugar de delantero. Su última gran temporada fue en la 24-25, cuando ayudó a ascender al Kocaelispor a primera con doce goles.</li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Logan Costa (24, Villarreal):</b> Probablemente sea la mayor certeza en su selección si evaluamos su techo de nivel, de titular de un Villarreal clasificado a Champions. Ha vuelto a los terrenos de juego hace poco por una lesión terrible en el ligamento cruzado, que solo le ha permitido sumar 29 minutos en esta Liga.</li><li><b>Sidny Lopes Cabral (23, Benfica):</b> En Lisboa apostaron por él después de una etapa interesante en Estrela da Amadora, y ha conseguido doce participaciones de goles en tan solo 23 partidos de Liga, cifras que serían meritorias en un delantero, pero asombran al tratarse de un lateral.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

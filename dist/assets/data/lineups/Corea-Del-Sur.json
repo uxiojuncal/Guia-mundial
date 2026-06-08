@@ -4,67 +4,67 @@
 		{
 			"row": "gk",
 			"name": "Seung-Gyu",
-			"image": "../assets/img/CoreaDelSur/POR-SeungGyu.jpg",
+			"image": "../assets/img/CoreaSur/POR-SeungGyu.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
 			"name": "Han-Beom",
-			"image":  "../assets/img/CoreaDelSur/DFCD-HanBeom.jpg",
+			"image":  "../assets/img/CoreaSur/DFCD-HanBeom.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Min-Jae",
-			"image": "../assets/img/CoreaDelSur/DFC-MinJae.jpg",
+			"image": "../assets/img/CoreaSur/DFC-MinJae.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Tae-Hyeon",
-			"image": "../assets/img/CoreaDelSur/DFCI-TaeHyeon.jpg",
+			"image": "../assets/img/CoreaSur/DFCI-TaeHyeon.jpg",
 			"role": "defender"
 		},
 		{	
 			"row": "cdm",
 			"name": "Young-Woo",
-			"image": "../assets/img/CoreaDelSur/MD-YoungWoo.jpg",
+			"image": "../assets/img/CoreaSur/MD-YoungWoo.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "In-Beom",
-			"image": "../assets/img/CoreaDelSur/MC-InBeom.jpg",
+			"image": "../assets/img/CoreaSur/MC-InBeom.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "Castrop",
-			"image": "../assets/img/CoreaDelSur/MC-Castrop.jpg",
+			"image": "../assets/img/CoreaSur/MC-Castrop.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "`Tae-Seok",
-			"image": "../assets/img/CoreaDelSur/MI-TaeSeok.jpg",
+			"image": "../assets/img/CoreaSur/MI-TaeSeok.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Kang-In Lee",
-			"image": "../assets/img/CoreaDelSur/MCOD-KangInLee.jpg",
+			"image": "../assets/img/CoreaSur/MCOD-KangInLee.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Hee-Chan",
-			"image": "../assets/img/CoreaDelSur/MCOI-HeeChan.jpg",
+			"image": "../assets/img/CoreaSur/MCOI-HeeChan.jpg",
 			"role": "attacker"
 		},
 		{
 			"row": "attack",
 			"name": "Son",
-			"image": "../assets/img/CoreaDelSur/DC-Son.jpg",
+			"image": "../assets/img/CoreaSur/DC-Son.jpg",
 			"role": "attacker"
 		}
 

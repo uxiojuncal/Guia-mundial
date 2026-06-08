@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="argentina.html">Grupo J</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="argentina.html" aria-label="Grupo anterior">Grupo J</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="portugal.html">Grupo K</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="portugal.html">Grupo K</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="inglaterra.html">Grupo L</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="inglaterra.html" aria-label="Siguiente grupo">Grupo L</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="jordania.html">Jordania</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="jordania.html" aria-label="Selección anterior">Jordania</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="portugal.html">Portugal</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="portugal.html">Portugal</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="rd-congo.html">RD Congo</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="rd-congo.html" aria-label="Siguiente selección">RD Congo</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Portugal</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Por un entorchado aún más histórico</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/Portugal/portugal-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/Portugal/portugal-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/Portugal/portugal-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Roberto Martínez (52)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Guió el crecimiento de la generación dorada belga, pero se quedó en un “casi”. Con Portugal, sin embargo, tocó metal en la última Nations League, lo que le afianzó en el cargo frente a las dudas.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/Portugal/portugal-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Roberto Martínez (52)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Guió el crecimiento de la generación dorada belga, pero se quedó en un “casi”. Con Portugal, sin embargo, tocó metal en la última Nations League, lo que le afianzó en el cargo frente a las dudas.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">9</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">8</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Semifinal/Final</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">9</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">8</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Semifinal/Final</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Cristiano Ronaldo (41, Al-Nassr):</b> Sigue teniendo el hambre por ganar que le encumbró como uno de los mejores de la historia. Campeón de liga en Arabia, el líder indiscutible de un vestuario muy joven. Roberto Martínez confía en su condición de rematador de élite, que compensa una falta de velocidad normal a su edad.</li><li><b>Vitinha (25, PSG):</b> Candidato al Balón de Oro y clave en la máquina de ganar que ha construido Luis Enrique, es el jugador capaz de mover los hilos en el mediocampo y dominar al rival a través de una circulación de balón con ritmo endiablado. Pelotero como pocos en el mundo, su calidad técnica es inigualable. </li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>João Neves (21, PSG):</b> Capaz de jugar de lateral, si destaca menos en el PSG es por el compendio de mediocampistas virtuosos que le rodea. Tiene mucho ímpetu y es más defensivo. El mejor ejemplo de que hace bien hasta lo más difícil es el número de veces que consigue rematar de cabeza pese a su corta estatura.</li><li><b>Nuno Mendes (25, PSG):</b> Otro jugador espectacular de un equipo que maravilla al mundo. Muy rápido en ataque, donde destaca Nuno Mendes es en la capacidad de secar a extremos tan desequilibrantes como Lamine Yamal. Parece que tiene cuatro pulmones por la resistencia que exhibe en los tramos finales de los partidos.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Cristiano Ronaldo (41, Al-Nassr):</b> Sigue teniendo el hambre por ganar que le encumbró como uno de los mejores de la historia. Campeón de liga en Arabia, el líder indiscutible de un vestuario muy joven. Roberto Martínez confía en su condición de rematador de élite, que compensa una falta de velocidad normal a su edad.</li><li><b>Vitinha (25, PSG):</b> Candidato al Balón de Oro y clave en la máquina de ganar que ha construido Luis Enrique, es el jugador capaz de mover los hilos en el mediocampo y dominar al rival a través de una circulación de balón con ritmo endiablado. Pelotero como pocos en el mundo, su calidad técnica es inigualable. </li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>João Neves (21, PSG):</b> Capaz de jugar de lateral, si destaca menos en el PSG es por el compendio de mediocampistas virtuosos que le rodea. Tiene mucho ímpetu y es más defensivo. El mejor ejemplo de que hace bien hasta lo más difícil es el número de veces que consigue rematar de cabeza pese a su corta estatura.</li><li><b>Nuno Mendes (25, PSG):</b> Otro jugador espectacular de un equipo que maravilla al mundo. Muy rápido en ataque, donde destaca Nuno Mendes es en la capacidad de secar a extremos tan desequilibrantes como Lamine Yamal. Parece que tiene cuatro pulmones por la resistencia que exhibe en los tramos finales de los partidos.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

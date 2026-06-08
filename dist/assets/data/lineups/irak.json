@@ -1,77 +1,71 @@
-{
-	"rows": ["attack", "midfield", "defense", "gk"],
+{	
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
 	"players": [
 		{
 			"row": "gk",
-			"name": "Martínez",
-			"image": "../assets/img/Argentina/POR-Martinez.jpg",
+			"name": "Talib",
+			"image": "../assets/img/Iraq/POR-Talib.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
-			"name": "Molina",
-			"image":  "../assets/img/Argentina/LD-Molina.jpg",
+			"name": "Hussein Ali",
+			"image":  "../assets/img/Iraq/LD-HusseinAli.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Romero",
-			"image": "../assets/img/Argentina/DFC-Romero.jpg",
+			"name": "Sulaka",
+			"image": "../assets/img/Iraq/DFC-Sulaka.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Lisandro",
-			"image": "../assets/img/Argentina/DFC-Lisandro.jpg",
+			"name": "Tahseen",
+			"image": "../assets/img/Iraq/DFC-Tahseen.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Tagliafico",
-			"image": "../assets/img/Argentina/LI-Tagliafico.jpg",
+			"name": "Doski",
+			"image": "../assets/img/Iraq/LI-Doski.jpg",
 			"role": "defender"
 		},
-		{	
-"row": "midfield",
-			"name": "Enzo",
-			"image": "../assets/img/Argentina/MC-Enzo.jpg",
+		{
+			"row": "cdm",
+			"name": "Al-Ammari",
+			"image": "../assets/img/Iraq/CDM-AlAmmari.jpg",
 			"role": "midfielder"
 		},
 		{
-			"row": "midfield",
-			"name": "De Paul",
-			"image": "../assets/img/Argentina/MC-DePaul.jpg",
+			"row": "cdm",
+			"name": "Yakob",
+			"image": "../assets/img/Iraq/CDM-Yakob.jpg",
 			"role": "midfielder"
 		},
 		{
-			"row": "midfield",
-			"name": "Mac Allister",
-			"image": "../assets/img/Argentina/MC-MacAllister.jpg",
+			"row": "cam_lm_rm",
+			"name": "Ali Jasimr",
+			"image": "../assets/img/Iraq/MD-AliJasim.jpg",
 			"role": "attacker"
 		},
 		{
-			"row": "attack",
-			"name": "Messi",
-			"image": "../assets/img/Argentina/ED-Messi.jpg",
-			"role": "attacker"
-	},
-		{
-			"row": "attack",
-			"name": "Julián",
-			"image": "../assets/img/Argentina/DC-Julian.jpg",
+			"row": "cam_lm_rm",
+			"name": "Iqbal",
+			"image": "../assets/img/Iraq/MCO-Iqbal.jpg",
 			"role": "attacker"
 		},
 		{
-			"row": "attack",
-			"name": "Nico Paz",
-			"image": "../assets/img/Argentina/EI-NicoPaz.jpg",
+			"row": "cam_lm_rm",
+			"name": "Amyn",
+			"image": "../assets/img/Iraq/MI-Amyn.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "A. Hussein",
+			"image": "../assets/img/Iraq/DC-AHussein.jpg",
 			"role": "attacker"
 		}
-    ],
-    "rowCounts": {
-		"gk": 1,
-		"defense": 4,
-		"midfield": 3,
-		"attack": 3
-	}
+	]
 }

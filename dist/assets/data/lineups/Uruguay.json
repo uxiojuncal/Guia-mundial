@@ -1,5 +1,5 @@
 {
-"rows": ["attack", "midfield", "defense", "gk"],
+"rows": ["attack", "cam_lm_rm", "cdm", "defense", "gk"],
 	"players": [
 		{
 			"row": "gk",

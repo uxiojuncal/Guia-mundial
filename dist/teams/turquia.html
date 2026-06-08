@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="escocia.html">Grupo C</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="escocia.html" aria-label="Grupo anterior">Grupo C</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="turquia.html">Grupo D</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="turquia.html">Grupo D</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="ecuador.html">Grupo E</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="ecuador.html" aria-label="Siguiente grupo">Grupo E</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="australia.html">Australia</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="australia.html" aria-label="Selección anterior">Australia</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="turquia.html">Turquía</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="turquia.html">Turquía</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="alemania.html">Alemania</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="alemania.html" aria-label="Siguiente selección">Alemania</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Turquía</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Si estamos, que se note</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/Turquia/turkey-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/Turquia/turkey-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/Turquia/turkey-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Vincenzo Montella (51)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Ha conseguido estabilizar a un equipo rodeado por lo anárquico. Los cuartos de la Euro 2024 son una carta de presentación que ilusiona para este Mundial, con una base de jóvenes aún más curtida.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/Turquia/turkey-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Vincenzo Montella (51)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Ha conseguido estabilizar a un equipo rodeado por lo anárquico. Los cuartos de la Euro 2024 son una carta de presentación que ilusiona para este Mundial, con una base de jóvenes aún más curtida.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">6</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">7</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Octavos de final</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">6</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">7</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Octavos de final</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Hakan Çalhanoglu (31, Inter Milan):</b> Cuando su carrera parecía estancada como un buen mediapunta sin ritmo, Simone Inzaghi lo reconvirtió a un centrocampista total, con gran inteligencia defensiva. Se ha convertido en todo un líder de la reaparición europea del Inter de Milán, con dos finales de Champions a sus espaldas.</li><li><b>Arda Güler (20, Real Madrid):</b> Ha conseguido establecerse como titular en Chamartín, aunque le falte pulirse en la élite ha tenido una temporada muy convincente, y es la estrella indiscutible de su selección pese a su corta edad. Habrá que ver si volverá con ritmo tras dos meses fuera por lesión.</li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Kenan Yildiz (20, Juventus):</b> El chico maravilla de la cantera del Bayern al que se agarra la Juventus en una carrera para volver a ser lo que fue. Vertiginoso, regateador y con gran golpeo, busca dar un paso al frente con la selección que le confirme como un jugador de élite en Europa.</li><li><b>Can Uzun (20, Eintracht Frankfurt):</b> Mediocampista poco conocido que, si tiene oportunidades, dará que hablar. Gran driblador y generador de espacios, no duda en “arriesgar” en sus intentos de pases en contextos de alta presión. Tiene una enorme madurez y personalidad a pesar de su corta edad.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Hakan Çalhanoglu (31, Inter Milan):</b> Cuando su carrera parecía estancada como un buen mediapunta sin ritmo, Simone Inzaghi lo reconvirtió a un centrocampista total, con gran inteligencia defensiva. Se ha convertido en todo un líder de la reaparición europea del Inter de Milán, con dos finales de Champions a sus espaldas.</li><li><b>Arda Güler (20, Real Madrid):</b> Ha conseguido establecerse como titular en Chamartín, aunque le falte pulirse en la élite ha tenido una temporada muy convincente, y es la estrella indiscutible de su selección pese a su corta edad. Habrá que ver si volverá con ritmo tras dos meses fuera por lesión.</li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Kenan Yildiz (20, Juventus):</b> El chico maravilla de la cantera del Bayern al que se agarra la Juventus en una carrera para volver a ser lo que fue. Vertiginoso, regateador y con gran golpeo, busca dar un paso al frente con la selección que le confirme como un jugador de élite en Europa.</li><li><b>Can Uzun (20, Eintracht Frankfurt):</b> Mediocampista poco conocido que, si tiene oportunidades, dará que hablar. Gran driblador y generador de espacios, no duda en “arriesgar” en sus intentos de pases en contextos de alta presión. Tiene una enorme madurez y personalidad a pesar de su corta edad.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

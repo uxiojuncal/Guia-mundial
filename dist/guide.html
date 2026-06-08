@@ -3,293 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de la Guía</title>
+    <title>Sedes y Grupos del Mundial 2026 - La Guía Solidaria</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explora el mapa interactivo de estadios, la composición de los grupos de las selecciones y el formato de clasificación para el Mundial de Fútbol 2026.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://laguiasolidaria.com/guide.html">
+
     <link rel="stylesheet" href="./styles/guide.css">
     <link rel="stylesheet" href="./styles/map.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 </head>
 <body>
-    <h1><img class="guide-title" src="./assets/img/guide/title.png" alt="La Guía"></h1>
-    <section>
-        <h2>Estadios y Sedes</h2>
-        <div class="map-container">
-            <div id="map" class="map"></div>
+
+    <main id="main-content">
+        <h1><img class="guide-title" src="./assets/img/guide/title.png" alt="La Guía Oficial del Mundial"></h1>
+        
+        <section aria-label="Mapa de sedes y estadios">
+            <h2>Estadios y Sedes</h2>
+            <div class="map-container">
+                <!-- role y aria-label para advertir al lector de pantalla sobre el mapa dinámico JS -->
+                <div id="map" class="map" role="application" aria-label="Mapa interactivo de estadios y sedes del mundial"></div>
+            </div>
+        </section>
+        
+        <section aria-label="Grupos y fases de clasificación">
+            <h2>Grupos y Cruces</h2>
+            <p style="text-align: center; color: black; font-weight: bold;" id="instruction-text">Haz click en un país para ver su información</p>
+            
+            <div class="groups" aria-describedby="instruction-text">
+                <!-- Grupo A -->
+                <div class="group green">
+                    <h3>Grupo A</h3>
+                    <div class="group-grid">
+                        <a href="teams/mexico.html" class="group-link" aria-label="Ver información de México">
+                            <img class="country-flag" src="assets/img/flags/a-mexico.webp" alt="" aria-hidden="true">
+                            <p class="country-name">México</p>
+                        </a>
+                        <a href="teams/sudafrica.html" class="group-link" aria-label="Ver información de Sudáfrica">
+                            <img class="country-flag" src="assets/img/flags/a-southafrica.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Sudáfrica</p>
+                        </a>
+                        <a href="teams/corea-del-sur.html" class="group-link" aria-label="Ver información de Corea del Sur">
+                            <img class="country-flag" src="assets/img/flags/a-southkorea.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Corea del Sur</p>
+                        </a>
+                        <a href="teams/republica-checa.html" class="group-link" aria-label="Ver información de República Checa">
+                            <img class="country-flag" src="assets/img/flags/a-czechia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Rep. Checa</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo B -->
+                <div class="group blue">
+                    <h3>Grupo B</h3>
+                    <div class="group-grid">
+                        <a href="teams/canada.html" class="group-link" aria-label="Ver información de Canadá">
+                            <img class="country-flag" src="assets/img/flags/b-canada.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Canadá</p>
+                        </a>
+                        <a href="teams/bosnia.html" class="group-link" aria-label="Ver información de Bosnia">
+                            <img class="country-flag" src="assets/img/flags/b-bosnia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Bosnia</p>
+                        </a>
+                        <a href="teams/catar.html" class="group-link" aria-label="Ver información de Qatar">
+                            <img class="country-flag" src="assets/img/flags/b-qatar.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Qatar</p>
+                        </a>
+                        <a href="teams/suiza.html" class="group-link" aria-label="Ver información de Suiza">
+                            <img class="country-flag" src="assets/img/flags/b-switzerland.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Suiza</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo C -->
+                <div class="group red">
+                    <h3>Grupo C</h3>
+                    <div class="group-grid">
+                        <a href="teams/brasil.html" class="group-link" aria-label="Ver información de Brasil">
+                            <img class="country-flag" src="assets/img/flags/c-brazil.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Brasil</p>
+                        </a>
+                        <a href="teams/marruecos.html" class="group-link" aria-label="Ver información de Marruecos">
+                            <img class="country-flag" src="assets/img/flags/c-morocco.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Marruecos</p>
+                        </a>
+                        <a href="teams/haiti.html" class="group-link" aria-label="Ver información de Haití">
+                            <img class="country-flag" src="assets/img/flags/c-haiti.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Haití</p>
+                        </a>
+                        <a href="teams/escocia.html" class="group-link" aria-label="Ver información de Escocia">
+                            <img class="country-flag" src="assets/img/flags/c-scotland.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Escocia</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo D -->
+                <div class="group red">
+                    <h3>Grupo D</h3>
+                    <div class="group-grid">
+                        <a href="teams/eeuu.html" class="group-link" aria-label="Ver información de Estados Unidos">
+                            <img class="country-flag" src="assets/img/flags/d-usa.webp" alt="" aria-hidden="true">
+                            <p class="country-name">EEUU</p>
+                        </a>
+                        <a href="teams/paraguay.html" class="group-link" aria-label="Ver información de Paraguay">
+                            <img class="country-flag" src="assets/img/flags/d-paraguay.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Paraguay</p>
+                        </a>
+                        <a href="teams/australia.html" class="group-link" aria-label="Ver información de Australia">
+                            <img class="country-flag" src="assets/img/flags/d-australia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Australia</p>
+                        </a>
+                        <a href="teams/turquia.html" class="group-link" aria-label="Ver información de Turquía">
+                            <img class="country-flag" src="assets/img/flags/d-turkey.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Turquía</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo E -->
+                <div class="group green">
+                    <h3>Grupo E</h3>
+                    <div class="group-grid">
+                        <a href="teams/alemania.html" class="group-link" aria-label="Ver información de Alemania">
+                            <img class="country-flag" src="assets/img/flags/e-germany.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Alemania</p>
+                        </a>
+                        <a href="teams/curazao.html" class="group-link" aria-label="Ver información de Curaçao">
+                            <img class="country-flag" src="assets/img/flags/e-curazao.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Curaçao</p>
+                        </a>
+                        <a href="teams/costa-de-marfil.html" class="group-link" aria-label="Ver información de Costa de Marfil">
+                            <img class="country-flag" src="assets/img/flags/e-ivorycoast.webp" alt="" aria-hidden="true">
+                            <p class="country-name">C. de Marfil</p>
+                        </a>
+                        <a href="teams/ecuador.html" class="group-link" aria-label="Ver información de Ecuador">
+                            <img class="country-flag" src="assets/img/flags/e-ecuador.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Ecuador</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo F -->
+                <div class="group blue">
+                    <h3>Grupo F</h3>
+                    <div class="group-grid">
+                        <a href="teams/paises-bajos.html" class="group-link" aria-label="Ver información de Países Bajos">
+                            <img class="country-flag" src="assets/img/flags/f-netherlands.webp" alt="" aria-hidden="true">
+                            <p class="country-name">P. Bajos</p>
+                        </a>
+                        <a href="teams/japon.html" class="group-link" aria-label="Ver información de Japón">
+                            <img class="country-flag" src="assets/img/flags/f-japan.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Japón</p>
+                        </a>
+                        <a href="teams/suecia.html" class="group-link" aria-label="Ver información de Suecia">
+                            <img class="country-flag" src="assets/img/flags/f-sweden.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Suecia</p>
+                        </a>
+                        <a href="teams/tunez.html" class="group-link" aria-label="Ver información de Túnez">
+                            <img class="country-flag" src="assets/img/flags/f-tunisia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Túnez</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo G -->
+                <div class="group blue">
+                    <h3>Grupo G</h3>
+                    <div class="group-grid">
+                        <a href="teams/belgica.html" class="group-link" aria-label="Ver información de Bélgica">
+                            <img class="country-flag" src="assets/img/flags/g-belgium.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Bélgica</p>
+                        </a>
+                        <a href="teams/egipto.html" class="group-link" aria-label="Ver información de Egipto">
+                            <img class="country-flag" src="assets/img/flags/g-egypt.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Egipto</p>
+                        </a>
+                        <a href="teams/iran.html" class="group-link" aria-label="Ver información de Irán">
+                            <img class="country-flag" src="assets/img/flags/g-iran.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Irán</p>
+                        </a>
+                        <a href="teams/nueva-zelanda.html" class="group-link" aria-label="Ver información de Nueva Zelanda">
+                            <img class="country-flag" src="assets/img/flags/g-newzealand.webp" alt="" aria-hidden="true">
+                            <p class="country-name">N. Zelanda</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo H -->
+                <div class="group red">
+                    <h3>Grupo H</h3>
+                    <div class="group-grid">
+                        <a href="teams/espana.html" class="group-link" aria-label="Ver información de España">
+                            <img class="country-flag" src="assets/img/flags/h-spain.webp" alt="" aria-hidden="true">
+                            <p class="country-name">España</p>
+                        </a>
+                        <a href="teams/cabo-verde.html" class="group-link" aria-label="Ver información de Cabo Verde">
+                            <img class="country-flag" src="assets/img/flags/h-capeverde.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Cabo Verde</p>
+                        </a>
+                        <a href="teams/arabia-saudi.html" class="group-link" aria-label="Ver información de Arabia Saudí">
+                            <img class="country-flag" src="assets/img/flags/h-saudiarabia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Arabia Saudí</p>
+                        </a>
+                        <a href="teams/uruguay.html" class="group-link" aria-label="Ver información de Uruguay">
+                            <img class="country-flag" src="assets/img/flags/h-uruguay.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Uruguay</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo I -->
+                <div class="group green">
+                    <h3>Grupo I</h3>
+                    <div class="group-grid">
+                        <a href="teams/francia.html" class="group-link" aria-label="Ver información de Francia">
+                            <img class="country-flag" src="assets/img/flags/i-france.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Francia</p>
+                        </a>
+                        <a href="teams/senegal.html" class="group-link" aria-label="Ver información de Senegal">
+                            <img class="country-flag" src="assets/img/flags/i-senegal.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Senegal</p>
+                        </a>
+                        <a href="teams/irak.html" class="group-link" aria-label="Ver información de Irak">
+                            <img class="country-flag" src="assets/img/flags/i-iraq.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Irak</p>
+                        </a>
+                        <a href="teams/noruega.html" class="group-link" aria-label="Ver información de Noruega">
+                            <img class="country-flag" src="assets/img/flags/i-norway.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Noruega</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo J -->
+                <div class="group green">
+                    <h3>Grupo J</h3>
+                    <div class="group-grid">
+                        <a href="teams/argentina.html" class="group-link" aria-label="Ver información de Argentina">
+                            <img class="country-flag" src="assets/img/flags/j-argentina.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Argentina</p>
+                        </a>
+                        <a href="teams/argelia.html" class="group-link" aria-label="Ver información de Argelia">
+                            <img class="country-flag" src="assets/img/flags/j-algeria.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Argelia</p>
+                        </a>
+                        <a href="teams/austria.html" class="group-link" aria-label="Ver información de Austria">
+                            <img class="country-flag" src="assets/img/flags/j-austria.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Austria</p>
+                        </a>
+                        <a href="teams/jordania.html" class="group-link" aria-label="Ver información de Jordania">
+                            <img class="country-flag" src="assets/img/flags/j-jordan.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Jordania</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo K -->
+                <div class="group blue">
+                    <h3>Grupo K</h3>
+                    <div class="group-grid">
+                        <a href="teams/portugal.html" class="group-link" aria-label="Ver información de Portugal">
+                            <img class="country-flag" src="assets/img/flags/k-portugal.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Portugal</p>
+                        </a>
+                        <a href="teams/rd-congo.html" class="group-link" aria-label="Ver información de República Democrática del Congo">
+                            <img class="country-flag" src="assets/img/flags/k-congo.webp" alt="" aria-hidden="true">
+                            <p class="country-name">RD Congo</p>
+                        </a>
+                        <a href="teams/uzbekistan.html" class="group-link" aria-label="Ver información de Uzbekistán">
+                            <img class="country-flag" src="assets/img/flags/k-uzbekistan.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Uzbekistán</p>
+                        </a>
+                        <a href="teams/colombia.html" class="group-link" aria-label="Ver información de Colombia">
+                            <img class="country-flag" src="assets/img/flags/k-colombia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Colombia</p>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Grupo L -->
+                <div class="group red">
+                    <h3>Grupo L</h3>
+                    <div class="group-grid">
+                        <a href="teams/inglaterra.html" class="group-link" aria-label="Ver información de Inglaterra">
+                            <img class="country-flag" src="assets/img/flags/l-england.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Inglaterra</p>
+                        </a>
+                        <a href="teams/croacia.html" class="group-link" aria-label="Ver información de Croacia">
+                            <img class="country-flag" src="assets/img/flags/l-croatia.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Croacia</p>
+                        </a>
+                        <a href="teams/ghana.html" class="group-link" aria-label="Ver información de Ghana">
+                            <img class="country-flag" src="assets/img/flags/l-ghana.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Ghana</p>
+                        </a>
+                        <a href="teams/panama.html" class="group-link" aria-label="Ver información de Panamá">
+                            <img class="country-flag" src="assets/img/flags/l-panama.webp" alt="" aria-hidden="true">
+                            <p class="country-name">Panamá</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <img class="knock-out" src="assets/img/guide/knock-out.svg" alt="Esquema del cuadro de eliminatorias directas para la fase final">
+            
+            <div class="warning group red">
+                <h3>IMPORTANTE</h3>
+                <p class="warning-text">
+                    DEBIDO AL NUEVO FORMATO, LOS 8 MEJORES TERCEROS (LOS QUE ACABEN CON MÁS PUNTOS EN FASE DE GRUPOS) PASARÁN A LOS DIECISEISAVOS
+                </p>
+            </div>
+        </section>
+        
+        <!-- Mantengo las secciones ocultas por si se activan dinámicamente con JS -->
+        <section style="display: none;" aria-hidden="true">
+            <h2>Calendario de partidos</h2>
+        </section>
+        <section style="display: none;" aria-hidden="true">
+            <h2>Reportajes</h2>
+        </section>
+        
+        <a href="index.html" class="back-btn" role="button">VOLVER AL INICIO</a>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </section>
-    <section>
-        <h2>Grupos y Cruces</h2>
-        <h3 style="text-align: center; color: black;">Haz click en un país para ver su información</h3>
-        <div class="groups">
-            <div class="group green">
-                <h3>Grupo A</h3>
-                <div class="group-grid">
-                    <a href="teams/mexico.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/a-mexico.webp">
-                        <p class="country-name">México</p>
-                    </a>
-                    <a href="teams/sudafrica.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/a-southafrica.webp">
-                        <p class="country-name">Sudáfrica</p>
-                    </a>
-                    <a href="teams/corea-del-sur.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/a-southkorea.webp">
-                        <p class="country-name">Corea del Sur</p>
-                    </a>
-                    <a href="teams/republica-checa.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/a-czechia.webp">
-                        <p class="country-name">Rep. Checa</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group blue">
-                <h3>Grupo B</h3>
-                <div class="group-grid">
-                    <a href="teams/canada.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/b-canada.webp">
-                        <p class="country-name">Canadá</p>
-                    </a>
-                    <a href="teams/bosnia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/b-bosnia.webp">
-                        <p class="country-name">Bosnia</p>
-                    </a>
-                    <a href="teams/catar.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/b-qatar.webp">
-                        <p class="country-name">Qatar</p>
-                    </a>
-                    <a href="teams/suiza.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/b-switzerland.webp">
-                        <p class="country-name">Suiza</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group red">
-                <h3>Grupo C</h3>
-                <div class="group-grid">
-                    <a href="teams/brasil.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/c-brazil.webp">
-                        <p class="country-name">Brasil</p>
-                    </a>
-                    <a href="teams/marruecos.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/c-morocco.webp">
-                        <p class="country-name">Marruecos</p>
-                    </a>
-                    <a href="teams/haiti.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/c-haiti.webp">
-                        <p class="country-name">Haití</p>
-                    </a>
-                    <a href="teams/escocia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/c-scotland.webp">
-                        <p class="country-name">Escocia</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group red">
-                <h3>Grupo D</h3>
-                <div class="group-grid">
-                    <a href="teams/eeuu.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/d-usa.webp">
-                        <p class="country-name">EEUU</p>
-                    </a>
-                    <a href="teams/paraguay.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/d-paraguay.webp">
-                        <p class="country-name">Paraguay</p>
-                    </a>
-                    <a href="teams/australia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/d-australia.webp">
-                        <p class="country-name">Australia</p>
-                    </a>
-                    <a href="teams/turquia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/d-turkey.webp">
-                        <p class="country-name">Turquía</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group green" >
-                <h3>Grupo E</h3>
-                <div class="group-grid">
-                    <a href="teams/alemania.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/e-germany.webp">
-                        <p class="country-name">Alemania</p>
-                    </a>
-                    <a href="teams/curazao.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/e-curazao.webp">
-                        <p class="country-name">Curaçao</p>
-                    </a>
-                    <a href="teams/costa-de-marfil.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/e-ivorycoast.webp">
-                        <p class="country-name">C. de Marfil</p>
-                    </a>
-                    <a href="teams/ecuador.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/e-ecuador.webp">
-                        <p class="country-name">Ecuador</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group blue">
-                <h3>Grupo F</h3>
-                <div class="group-grid">
-                    <a href="teams/paises-bajos.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/f-netherlands.webp">
-                        <p class="country-name">P. Bajos</p>
-                    </a>
-                    <a href="teams/japon.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/f-japan.webp">
-                        <p class="country-name">Japón</p>
-                    </a>
-                    <a href="teams/suecia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/f-sweden.webp">
-                        <p class="country-name">Suecia</p>
-                    </a>
-                    <a href="teams/tunez.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/f-tunisia.webp">
-                        <p class="country-name">Túnez</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group blue">
-                <h3>Grupo G</h3>
-                <div class="group-grid">
-                    <a href="teams/belgica.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/g-belgium.webp">
-                        <p class="country-name">Bélgica</p>
-                    </a>
-                    <a href="teams/egipto.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/g-egypt.webp">
-                        <p class="country-name">Egipto</p>
-                    </a>
-                    <a href="teams/iran.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/g-iran.webp">
-                        <p class="country-name">Irán</p>
-                    </a>
-                    <a href="teams/nueva-zelanda.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/g-newzealand.webp">
-                        <p class="country-name">N. Zelanda</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group red">
-                <h3>Grupo H</h3>
-                <div class="group-grid">
-                    <a href="teams/espana.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/h-spain.webp">
-                        <p class="country-name">España</p>
-                    </a>
-                    <a href="teams/cabo-verde.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/h-capeverde.webp">
-                        <p class="country-name">Cabo Verde</p>
-                    </a>
-                    <a href="teams/arabia-saudi.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/h-saudiarabia.webp">
-                        <p class="country-name">Arabia Saudí</p>
-                    </a>
-                    <a href="teams/uruguay.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/h-uruguay.webp">
-                        <p class="country-name">Uruguay</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group green">
-                <h3>Grupo I</h3>
-                <div class="group-grid">
-                    <a href="teams/francia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/i-france.webp">
-                        <p class="country-name">Francia</p>
-                    </a>
-                    <a href="teams/senegal.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/i-senegal.webp">
-                        <p class="country-name">Senegal</p>
-                    </a>
-                    <a href="teams/irak.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/i-iraq.webp">
-                        <p class="country-name">Irak</p>
-                    </a>
-                    <a href="teams/noruega.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/i-norway.webp">
-                        <p class="country-name">Noruega</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group green">
-                <h3>Grupo J</h3>
-                <div class="group-grid">
-                    <a href="teams/argentina.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/j-argentina.webp">
-                        <p class="country-name">Argentina</p>
-                    </a>
-                    <a href="teams/argelia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/j-algeria.webp">
-                        <p class="country-name">Argelia</p>
-                    </a>
-                    <a href="teams/austria.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/j-austria.webp">
-                        <p class="country-name">Austria</p>
-                    </a>
-                    <a href="teams/jordania.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/j-jordan.webp">
-                        <p class="country-name">Jordania</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group blue">
-                <h3>Grupo K</h3>
-                <div class="group-grid">
-                    <a href="teams/portugal.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/k-portugal.webp">
-                        <p class="country-name">Portugal</p>
-                    </a>
-                    <a href="teams/rd-congo.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/k-congo.webp">
-                        <p class="country-name">RD Congo</p>
-                    </a>
-                    <a href="teams/uzbekistan.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/k-uzbekistan.webp">
-                        <p class="country-name">Uzbekistán</p>
-                    </a>
-                    <a href="teams/colombia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/k-colombia.webp">
-                        <p class="country-name">Colombia</p>
-                    </a>
-                </div>
-            </div>
-            <div class="group red">
-                <h3>Grupo L</h3>
-                <div class="group-grid">
-                    <a href="teams/inglaterra.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/l-england.webp">
-                        <p class="country-name">Inglaterra</p>
-                    </a>
-                    <a href="teams/croacia.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/l-croatia.webp">
-                        <p class="country-name">Croacia</p>
-                    </a>
-                    <a href="teams/ghana.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/l-ghana.webp">
-                        <p class="country-name">Ghana</p>
-                    </a>
-                    <a href="teams/panama.html" class="group-link">
-                        <img class=country-flag src ="assets/img/flags/l-panama.webp">
-                        <p class="country-name">Panamá</p>
-                    </a>
-                </div>
-            </div>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-        <img class="knock-out" src="assets/img/guide/knock-out.svg" alt="Knock-out">
-        <div class="warning group red">
-            <h3>IMPORTANTE</h3>
-            <p class="warning-text">
-                DEBIDO AL NUEVO FORMATO, 
-                LOS 8 MEJORES TERCEROS (LOS QUE ACABEN CON MÁS PUNTOS EN FASE DE GRUPOS) 
-                PASARÁN A LOS DIECISEISAVOS
-            </p>
-        </div>
-    </section>
-    <section style="display: none;">
-        <h2>Calendario de partidos</h2>
-    </section>
-    <section style="display: none;">
-        <h2>Reportajes</h2>
-    </section>
-    <button class="back-btn"><a href="index.html">VOLVER AL INICIO</a></button>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="./scripts/mapa.js"></script>
 </body>

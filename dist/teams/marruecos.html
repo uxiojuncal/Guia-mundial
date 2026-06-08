@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="bosnia.html">Grupo B</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="bosnia.html" aria-label="Grupo anterior">Grupo B</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="marruecos.html">Grupo C</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="marruecos.html">Grupo C</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="paraguay.html">Grupo D</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="paraguay.html" aria-label="Siguiente grupo">Grupo D</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="brasil.html">Brasil</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="brasil.html" aria-label="Selección anterior">Brasil</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="marruecos.html">Marruecos</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="marruecos.html">Marruecos</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="haiti.html">Haití</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="haiti.html" aria-label="Siguiente selección">Haití</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Marruecos</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Agenda 2030</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/Marruecos/morocco-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/Marruecos/morocco-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/Marruecos/morocco-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Mohamed Ouahbi (49)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Ascendido de la sub-21 después de la derrota en la Copa África, estará obligado a hacer un papel parecido al del pasado Mundial. La exigencia marroquí es total: competir ya para ser favoritos en 2030.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/Marruecos/morocco-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Mohamed Ouahbi (49)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Ascendido de la sub-21 después de la derrota en la Copa África, estará obligado a hacer un papel parecido al del pasado Mundial. La exigencia marroquí es total: competir ya para ser favoritos en 2030.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">7</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">6</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Cuartos/Semifinales</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">7</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Cuartos/Semifinales</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Yassine Bounou (35, Al-Hilal):</b> Canterano en el Atleti, maduró en Zaragoza y Girona antes de su explosión en el último gran Sevilla. Su último Mundial lo elevó como uno de los mejores porteros del mundo, y a sus 35 años sigue siendo un gato bajo los palos, seguro de vida en cualquier situación.</li><li><b>Achraf Hakimi (27, PSG):</b> Si no es el mejor lateral derecho del mundo, cerca está. Rápido y defensivamente excelso, tiene gran toque y llega a jugar de delantero en momentos del partido en el esquema de “posiciones fluctuantes” de Luis Enrique. Líder de la selección, es uno de los muchos pilares en los éxitos recientes del PSG.</li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Abde Ezzalzouli (24, Real Betis):</b> Regateador nato, aunque parece que pasa desapercibido es capaz de irse de hasta de su propia sombra en un parpadeo. Se ha vuelto la estrella de un Betis de Champions tras mejorar sus registros goleadores, es uno de los últimos jugadores “callejeros” que quedan en un fútbol cada vez más robotizado.</li><li><b>Ayyoub Bouaddi (18, Lille):</b> Ha estado esperando a Francia, pero al quedarse fuera de la convocatoria decide representar al país de sus padres, que compite a un nivel parecido a día de hoy. Es una de las perlas de la Ligue 1, los grandes del planeta se van a pelear por él gracias a su inconmensurable talento.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Yassine Bounou (35, Al-Hilal):</b> Canterano en el Atleti, maduró en Zaragoza y Girona antes de su explosión en el último gran Sevilla. Su último Mundial lo elevó como uno de los mejores porteros del mundo, y a sus 35 años sigue siendo un gato bajo los palos, seguro de vida en cualquier situación.</li><li><b>Achraf Hakimi (27, PSG):</b> Si no es el mejor lateral derecho del mundo, cerca está. Rápido y defensivamente excelso, tiene gran toque y llega a jugar de delantero en momentos del partido en el esquema de “posiciones fluctuantes” de Luis Enrique. Líder de la selección, es uno de los muchos pilares en los éxitos recientes del PSG.</li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Abde Ezzalzouli (24, Real Betis):</b> Regateador nato, aunque parece que pasa desapercibido es capaz de irse de hasta de su propia sombra en un parpadeo. Se ha vuelto la estrella de un Betis de Champions tras mejorar sus registros goleadores, es uno de los últimos jugadores “callejeros” que quedan en un fútbol cada vez más robotizado.</li><li><b>Ayyoub Bouaddi (18, Lille):</b> Ha estado esperando a Francia, pero al quedarse fuera de la convocatoria decide representar al país de sus padres, que compite a un nivel parecido a día de hoy. Es una de las perlas de la Ligue 1, los grandes del planeta se van a pelear por él gracias a su inconmensurable talento.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="portugal.html">Grupo K</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="portugal.html" aria-label="Grupo anterior">Grupo K</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="inglaterra.html">Grupo L</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="inglaterra.html">Grupo L</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="mexico.html">Grupo A</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="mexico.html" aria-label="Siguiente grupo">Grupo A</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="colombia.html">Colombia</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="colombia.html" aria-label="Selección anterior">Colombia</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="inglaterra.html">Inglaterra</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="inglaterra.html">Inglaterra</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="croacia.html">Croacia</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="croacia.html" aria-label="Siguiente selección">Croacia</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Inglaterra</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Tiene que ser ahora</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/Inglaterra/england-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/Inglaterra/england-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/Inglaterra/england-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Thomas Tuchel (52)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Arquitecto del último gran Chelsea, sorprendió su mal paso en un Bayern que ahora ilusiona. Es garantía de rendimiento inmediato, razón que llevó a Inglaterra a contratarlo para ganar a la primera.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/Inglaterra/england-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Thomas Tuchel (52)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Arquitecto del último gran Chelsea, sorprendió su mal paso en un Bayern que ahora ilusiona. Es garantía de rendimiento inmediato, razón que llevó a Inglaterra a contratarlo para ganar a la primera.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">8</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">9</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Final</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">8</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">9</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Final</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Karry Kane (32, Bayern Munich):</b> Delantero total, además de conquistar la Bota de Oro es alucinante por la cantidad de juego que genera sin salir en las estadísticas. Es capaz de transformarse y ser tanto un rematador letal dentro del área como un creador de juego fantástico a campo abierto. </li><li><b>Jude Bellingham (22, Real Madrid):</b> Todo el mundo es consciente de su calidad, pero lleva tiempo sin demostrarla al completo. Con la llegada de Mbappé perdió ese rol adelantado que tuvo en su primer año en Madrid, necesita un buen papel en este Mundial para recordar su estatus de jugador estrella.</li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Morgan Rogers (23, Aston Villa):</b> Coronado como mejor jugador de la Europa League que conquistó, es un mediocampista de ida y vuelta, corpulento, rápido y con toque: parece hecho a medida para Tuchel. Su crecimiento de nivel ha sido exponencial, y lo ha llevado a ser un muy sólido candidato a titular después de dos temporadas excelentes.</li><li><b>Anthony Gordon (24, FC Barcelona):</b> Fichaje multimillonario del Barça para reforzar la delantera. Esta temporada ha jugado en punta, y entre sus principales virtudes podemos destacar sus esfuerzos en la presión del equipo y un ritmo vertiginoso. No es tan prolífico a la hora de anotar como otras opciones.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Karry Kane (32, Bayern Munich):</b> Delantero total, además de conquistar la Bota de Oro es alucinante por la cantidad de juego que genera sin salir en las estadísticas. Es capaz de transformarse y ser tanto un rematador letal dentro del área como un creador de juego fantástico a campo abierto. </li><li><b>Jude Bellingham (22, Real Madrid):</b> Todo el mundo es consciente de su calidad, pero lleva tiempo sin demostrarla al completo. Con la llegada de Mbappé perdió ese rol adelantado que tuvo en su primer año en Madrid, necesita un buen papel en este Mundial para recordar su estatus de jugador estrella.</li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Morgan Rogers (23, Aston Villa):</b> Coronado como mejor jugador de la Europa League que conquistó, es un mediocampista de ida y vuelta, corpulento, rápido y con toque: parece hecho a medida para Tuchel. Su crecimiento de nivel ha sido exponencial, y lo ha llevado a ser un muy sólido candidato a titular después de dos temporadas excelentes.</li><li><b>Anthony Gordon (24, FC Barcelona):</b> Fichaje multimillonario del Barça para reforzar la delantera. Esta temporada ha jugado en punta, y entre sus principales virtudes podemos destacar sus esfuerzos en la presión del equipo y un ritmo vertiginoso. No es tan prolífico a la hora de anotar como otras opciones.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

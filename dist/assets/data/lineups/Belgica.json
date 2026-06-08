@@ -35,13 +35,13 @@
 		{
 			"row": "cdm",
 			"name": "Onana",
-			"image": "../assets/img/Belgica/MCD-Onana.jpg",
+			"image": "../assets/img/Belgica/CDM-Onana.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "Tielemans",
-			"image": "../assets/img/Belgica/MCD-Tielemans.jpg",
+			"image": "../assets/img/Belgica/CDM-Tielemans.jpg",
 			"role": "midfielder"
 		},
 		{

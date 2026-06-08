@@ -1,92 +1,121 @@
 <!DOCTYPE html><html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title data-slot="meta-title">Selección - La Guía Solidaria</title>
     <link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-    <nav>
+
+    <nav aria-label="Navegación de la guía y selecciones">
         <a href="../guide.html" class="home-link">
             <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <h4 class="home-text">VOLVER AL ÍNDICE</h4>
+            <span class="home-text">VOLVER AL ÍNDICE</span>
         </a>
-        <ul class="group-nav">
+        
+        <ul class="group-nav" aria-label="Navegación por Grupos">
             <li class="left-nav nav-item" data-link="prev-group">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-group-link" href="noruega.html">Grupo I</a>
+                <a data-slot="prev-group-link" data-slot-aria="prev-group-aria" href="noruega.html" aria-label="Grupo anterior">Grupo I</a>
             </li>
-            <li class="center-nav nav-item" data-link="group"><a data-slot="current-group-link" href="jordania.html">Grupo J</a></li>
+            <li class="center-nav nav-item" data-link="group">
+                <a data-slot="current-group-link" href="jordania.html">Grupo J</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-group">
-                <a data-slot="next-group-link" href="colombia.html">Grupo K</a>
+                <a data-slot="next-group-link" data-slot-aria="next-group-aria" href="colombia.html" aria-label="Siguiente grupo">Grupo K</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
-        <ul class="team-nav">
+        
+        <ul class="team-nav" aria-label="Navegación por Selecciones">
             <li class="left-nav nav-item" data-link="prev-team">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
-                <a data-slot="prev-team-link" href="austria.html">Austria</a>
+                <a data-slot="prev-team-link" data-slot-aria="prev-team-aria" href="austria.html" aria-label="Selección anterior">Austria</a>
             </li>
-            <li class="center-nav nav-item" data-link="team"><a data-slot="current-team-link" href="jordania.html">Jordania</a></li>
+            <li class="center-nav nav-item" data-link="team">
+                <a data-slot="current-team-link" href="jordania.html">Jordania</a>
+            </li>
             <li class="right-nav nav-item" data-link="next-team">
-                <a data-slot="next-team-link" href="portugal.html">Portugal</a>
+                <a data-slot="next-team-link" data-slot-aria="next-team-aria" href="portugal.html" aria-label="Siguiente selección">Portugal</a>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </li>
         </ul>
     </nav>
+
     <header class="team-header">
         <div class="title-wrapper">
             <h1 class="team-title" data-slot="name">Jordania</h1>
             <h2 class="team-subtitle" data-slot="subtitle">Más que una primera vez</h2>
         </div>
         <div class="badge-wrapper">
-            <img src="../assets/img/Jordania/jordan-badge.webp" alt="Escudo de México" class="badge-img" data-slot="badge">
+            <img src="../assets/img/Jordania/jordan-badge.webp" alt="" class="badge-img" data-slot="badge" data-slot-alt="badge-alt">
         </div>
     </header>
-    <div class="team-content">
-        <div class="team-coach-ratings-wrapper">
-            <div class="team-coach">
-                <img src="../assets/img/Jordania/jordan-coach.webp" alt="imagen del entrenador" class="coach-img" data-slot="coach-image">
-                <h2 class="coach-title">EL ENTRENADOR</h2>
-                <div class="blue-divisor"></div>
-                <h3 class="coach-name" data-slot="coach-name">Jamal Sellami (55)</h3>
-                <h4 class="coach-desc" data-slot="coach-desc">Gran conocedor del fútbol marroquí, es su primera experiencia como entrenador en su país. Apodado “fuerza tranquila”, es conocido por usar en sus tácticas conocimientos de su formación científica.</h4>
+
+    <main id="main-content">
+        <div class="team-content">
+            <div class="team-coach-ratings-wrapper">
+                <section class="team-coach" aria-label="Información del entrenador">
+                    <img src="../assets/img/Jordania/jordan-coach.webp" alt="Fotografía del entrenador" class="coach-img" data-slot="coach-image">
+                    <h3 class="coach-title">EL ENTRENADOR</h3>
+                    <div class="blue-divisor" aria-hidden="true"></div>
+                    <h4 class="coach-name" data-slot="coach-name">Jamal Sellami (55)</h4>
+                    <p class="coach-desc" data-slot="coach-desc">Gran conocedor del fútbol marroquí, es su primera experiencia como entrenador en su país. Apodado “fuerza tranquila”, es conocido por usar en sus tácticas conocimientos de su formación científica.</p>
+                </section>
+                
+                <section class="team-ratings" aria-label="Análisis y notas">
+                    <h3 class="ratings-title">NOTAS DEL EQUIPO</h3>
+                    <ul class="ratings-list">
+                        <li><strong>Plantilla:</strong> <span data-slot="players-rating">4</span>/10</li>
+                        <li><strong>Entrenador:</strong> <span data-slot="coach-rating">6</span>/10</li>
+                        <li><strong>Expectativas:</strong> <span data-slot="expectations">Pasar de ronda</span></li>
+                    </ul>
+                </section>
             </div>
-            <div class="team-ratings">
-                <h3 class="ratings-title"><b>NOTAS DEL EQUIPO</b></h3>
-                <ul class="ratings-list">
-                    <li>Plantilla: <span data-slot="players-rating">4</span>/10</li>
-                    <li>Entrenador: <span data-slot="coach-rating">6</span>/10</li>
-                    <li>Expectativas: <span data-slot="expectations">Pasar de ronda</span></li>
-                </ul>
+            
+            <div class="team-description">
+                <section class="highlighted-players">
+                    <h3 class="section-title">JUGADORES A DESTACAR</h3>
+                    <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Mousa Al-Tamari (28, Rennes):</b> Extremo derecho capaz de jugar por ambas bandas, ha logrado 15 contribuciones de gol en la Ligue 1. Le gusta bastante meterse hacia dentro y hacer jugadas “robbenianas”. Paradójicamente, sus índices de regate son bastante pobres. Además, es importante presionando arriba.</li><li><b>Yazan Al-Arab (30, FC Seoul):</b> Muy importante para su selección actuando como último hombre. Ha dado un salto importante de nivel en Corea cuando parecía que entraba en el declive de su carrera. También destaca por su despeje y pases largos, especialmente importantes para sortear presiones altas.</li></ul>
+                </section>
+                <section class="promising-players">
+                    <h3 class="section-title">JÓVENES REVELACIÓN</h3>
+                    <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Ibrahim Sabra (20, NK Lokomotiva):</b> Parte como suplente pero con potencial de tener oportunidades. Después de no jugar en la liga turca, su cesión al Lokomotiva ha sido fundamental para asegurar su puesto en la lista a pesar de su corta edad. Es veloz y utiliza muy bien su cuerpo para el regate.</li><li><b>Ibrahim Saadeh (25, Al Karma):</b> Tuvo un muy buen papel en Al Muharraq, y es un perfil especialmente interesante por su capacidad defensiva, que combina con su inteligencia para convertir goles: está en el momento adecuado en el lugar adecuado.</li></ul>
+                </section>
             </div>
         </div>
-        <div class="team-description">
-            <div class="highlighted-players">
-                <h3 class="section-title">JUGADORES A DESTACAR</h3>
-                <ul class="players-list" data-slot="hl-players" data-type="list"><li><b>Mousa Al-Tamari (28, Rennes):</b> Extremo derecho capaz de jugar por ambas bandas, ha logrado 15 contribuciones de gol en la Ligue 1. Le gusta bastante meterse hacia dentro y hacer jugadas “robbenianas”. Paradójicamente, sus índices de regate son bastante pobres. Además, es importante presionando arriba.</li><li><b>Yazan Al-Arab (30, FC Seoul):</b> Muy importante para su selección actuando como último hombre. Ha dado un salto importante de nivel en Corea cuando parecía que entraba en el declive de su carrera. También destaca por su despeje y pases largos, especialmente importantes para sortear presiones altas.</li></ul>
+        
+        <section aria-label="Táctica y alineación">
+            <h2 class="lineup-title">Alineación Probable</h2>
+            <div class="lineup-container">
+                <div class="line-up" aria-label="Esquema del terreno de juego y posiciones">
+                    <div class="formation"></div>
+                </div>
             </div>
-            <div class="promising-players">
-                <h3 class="section-title">JÓVENES REVELACIÓN</h3>
-                <ul class="players-list" data-slot="prom-players" data-type="list"><li><b>Ibrahim Sabra (20, NK Lokomotiva):</b> Parte como suplente pero con potencial de tener oportunidades. Después de no jugar en la liga turca, su cesión al Lokomotiva ha sido fundamental para asegurar su puesto en la lista a pesar de su corta edad. Es veloz y utiliza muy bien su cuerpo para el regate.</li><li><b>Ibrahim Saadeh (25, Al Karma):</b> Tuvo un muy buen papel en Al Muharraq, y es un perfil especialmente interesante por su capacidad defensiva, que combina con su inteligencia para convertir goles: está en el momento adecuado en el lugar adecuado.</li></ul>
-            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <p class="small">Diseñado y desarrollado por Uxío Juncal.</p>
+            <p class="small">uxiojuncalcotilla@gmail.com</p>
+            <a class="small" href="https://github.com/uxiojuncal" target="_blank" rel="noopener">https://github.com/uxiojuncal</a>
         </div>
-    </div>
-    <h2 class="lineup-title">Alineación Probable</h2>
-    <div class="lineup-container">
-        <div class="line-up" aria-label="Soccer lineup">
-            <section class="formation"></section>
+        <div class="legals">
+            <p class="small">© 2026 Uxío Juncal Cotilla. Todos los derechos reservados.</p>
+            <a class="small" href="legal-notice.html">Aviso Legal</a>
         </div>
-    </div>
+    </footer>
+
     <script defer="" src="../scripts/alineacion.js"></script>
     <script defer="" src="../scripts/navigation.js"></script>
 

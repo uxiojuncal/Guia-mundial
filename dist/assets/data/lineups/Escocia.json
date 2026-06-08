@@ -8,14 +8,14 @@
 			"role": "goalkeeper"
 		},
 		{
-			"row": "Hickey",
-			"name": "NombreOnce",
+			"row": "defense",
+			"name": "Hickey",
 			"image":  "../assets/img/Escocia/LD-Hickey.jpg",
 			"role": "defender"
 		},
 		{
-			"row": "Hendry",
-			"name": "NombreOnce",
+			"row": "defense",
+			"name": "Hendry",
 			"image": "../assets/img/Escocia/DFC-Hendry.jpg",
 			"role": "defender"
 		},

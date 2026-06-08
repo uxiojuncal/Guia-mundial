@@ -4,67 +4,67 @@
 		{
 			"row": "gk",
 			"name": "Turner",
-			"image": "../assets/img/EEUU/POR-Turner.jpg",
+			"image": "../assets/img/EstadosUnidos/POR-Turner.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
 			"name": "Freeman",
-			"image":  "../assets/img/EEUU/DFCD-Freeman.jpg",
+			"image":  "../assets/img/EstadosUnidos/DFCD-Freeman.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Ream",
-			"image": "../assets/img/EEUU/DFC-Ream.jpg",
+			"image": "../assets/img/EstadosUnidos/DFC-Ream.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
 			"name": "Richards",
-			"image": "../assets/img/EEUU/DFCI-Richards.jpg",
+			"image": "../assets/img/EstadosUnidos/DFCI-Richards.jpg",
 			"role": "defender"
 		},
 		{	
 "row": "cdm",
 			"name": "Dest",
-			"image": "../assets/img/EEUU/MD-Dest.jpg",
+			"image": "../assets/img/EstadosUnidos/MD-Dest.jpg",
 			"role": "midfielder"
 				},
 		{
 			"row": "cdm",
 			"name": "McKennie",
-			"image": "../assets/img/EEUU/MC-McKennie.jpg",
+			"image": "../assets/img/EstadosUnidos/MC-McKennie.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "Adams",
-			"image": "../assets/img/EEUU/MC-Adams.jpg",
+			"image": "../assets/img/EstadosUnidos/MC-Adams.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
 			"name": "Robinson",
-			"image": "../assets/img/EEUU/MI-Robinson.jpg",
+			"image": "../assets/img/EstadosUnidos/MI-Robinson.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "midfield",
 			"name": "Reyna",
-			"image": "../assets/img/EEUU/MCOD-Reyna.jpg",
+			"image": "../assets/img/EstadosUnidos/MCOD-Reyna.jpg",
 			"role": "midfielder"
 	},
 		{
 			"row": "midfield",
 			"name": "Pulisic",
-			"image": "../assets/img/EEUU/MCOI-Pulisic.jpg",
+			"image": "../assets/img/EstadosUnidos/MCOI-Pulisic.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "attack",
 			"name": "Balogun",
-			"image": "../assets/img/EEUU/DC-Balogun.jpg",
+			"image": "../assets/img/EstadosUnidos/DC-Balogun.jpg",
 			"role": "attacker"
 		}
 	]

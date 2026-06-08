@@ -28,7 +28,7 @@
 		{
 			"row": "defense",
 			"name": "Lopes Cabral",
-			"image": "../assets/img/Cabo Verde/LI-LopesCabral.jpg",
+			"image": "../assets/img/CaboVerde/LI-LopesCabral.jpg",
 			"role": "defender"
 		},
 		{
@@ -40,7 +40,7 @@
 		{
 			"row": "cdm",
 			"name": "Monteiro",
-			"image": "../assets/img/Cabo Verde/CDM-Monteiro.jpg",
+			"image": "../assets/img/CaboVerde/CDM-Monteiro.jpg",
 			"role": "midfielder"
 		},
 		{
