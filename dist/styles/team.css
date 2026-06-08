@@ -523,7 +523,7 @@ nav {
 .right-nav {
     display: flex;
     justify-content: center;
-    border: solid;
+    border: solid 3px black;
     width: 25%;
     padding: 2%;
     flex-wrap: wrap;
@@ -794,4 +794,12 @@ section {
 
 section.promising-players, section.highlighted-players {
     align-items: flex-start;
+}
+
+.donate-btn {
+	border-radius: 50px;
+	padding: 20px 5% 15px 5%;
+	color: white;
+    background-image: linear-gradient(315deg, #c70f0f, #ff2d9b, #ff66c4);
+
 }
