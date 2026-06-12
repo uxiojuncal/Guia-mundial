@@ -10,10 +10,22 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://laguiasolidaria.com/guide.html">
 
+    <!-- Favicon básico -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.svg">
+
     <link rel="stylesheet" href="./styles/guide.css">
     <link rel="stylesheet" href="./styles/map.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPJZRPF5P3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QPJZRPF5P3');
+</script>
 <body>
 
     <main id="main-content">
@@ -320,14 +332,23 @@
         </section>
         
         <!-- Mantengo las secciones ocultas por si se activan dinámicamente con JS -->
-        <section style="display: none;" aria-hidden="true">
+        <section class="calendar-section" aria-label="Calendario de partidos">
             <h2>Calendario de partidos</h2>
+            <a href="assets/dowloadable/calendario-mundial-2026.ics" class="calendar-btn" aria-label="Descargar calendario de partidos" download>
+                <img class="download-icon" src="assets/img/download-icon.svg" alt="Icono de Descargar" aria-hidden="true">
+                DESCARGAR CALENDARIO
+            </a>
         </section>
         <section style="display: none;" aria-hidden="true">
             <h2>Reportajes</h2>
         </section>
         
-        <a href="index.html" class="back-btn" role="button">VOLVER AL INICIO</a>
+        <a href="index.html" class="back-btn" role="button">
+            <svg class="home-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M15 6L9 12L15 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            VOLVER AL INICIO
+        </a>
     </main>
 
     <footer>

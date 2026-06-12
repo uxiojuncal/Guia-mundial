@@ -1,71 +1,78 @@
 {
-	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
+	"rows": ["attack", "cam_lm_rm", "cdm", "defense", "gk"],
 	"players": [
 		{
 			"row": "gk",
-			"name": "Schlager",
-			"image": "../assets/img/Austria/POR-Schlager.jpg",
+			"name": "Zidane",
+			"image": "../assets/img/Argelia/POR-Zidane.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
-			"name": "Posch",
-			"image": "../assets/img/Austria/LD-Posch.jpg",
+			"name": "Mandi",
+			"image":  "../assets/img/Argelia/DFCD-Mandi.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Lienhart",
-			"image": "../assets/img/Austria/DFC-Lienhart.jpg",
+			"name": "Belaid",
+			"image": "../assets/img/Argelia/DFC-Belaid.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Danso",
-			"image": "../assets/img/Austria/DFC-Danso.jpg",
+			"name": "Bensebaini",
+			"image": "../assets/img/Argelia/DFCI-Bensebaini.jpg",
 			"role": "defender"
 		},
-		{
-			"row": "defense",
-			"name": "Alaba",
-			"image": "../assets/img/Austria/LI-Alaba.jpg",
-			"role": "defender"
-		},
-		{
-			"row": "cdm",
-			"name": "Seiwald",
-			"image": "../assets/img/Austria/CDM-Seiwald.jpg",
+		{	
+"row": "cdm",
+			"name": "Mahrez",
+			"image": "../assets/img/Argelia/MD-Mahrez.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
-			"name": "Laimer",
-			"image": "../assets/img/Austria/CDM-Laimer.jpg",
+			"name": "Zerrouki",
+			"image": "../assets/img/Argelia/MC-Zerrouki.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Bentaleb",
+			"image": "../assets/img/Argelia/MC-Bentaleb.jpg",
+			"role": "midfielder"
+		},
+		{
+			"row": "cdm",
+			"name": "Ait-Nouri",
+			"image": "../assets/img/Argelia/MI-AitNouri.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cam_lm_rm",
-			"name": "Schmid",
-			"image": "../assets/img/Austria/MD-Schmid.jpg",
+			"name": "Aouar",
+			"image": "../assets/img/Argelia/MCOD-Aouar.jpg",
 			"role": "attacker"
 		},
 		{
 			"row": "cam_lm_rm",
-			"name": "Sabitzer",
-			"image": "../assets/img/Austria/MCO-Sabitzer.jpg",
+			"name": "Amoura",
+			"image": "../assets/img/Argelia/MCOI-Amoura.jpg",
 			"role": "attacker"
 		},
 		{
-			"row": "cam_lm_rm",
-			"name": "Gregoritsch",
-			"image": "../assets/img/Austria/MI-Gregoritsch.jpg",
+			"row": "attack",
+			"name": "Gouiri",
+			"image": "../assets/img/Argelia/DC-Gouiri.jpg",
 			"role": "attacker"
-		},
-		{
-			"row": "striker",
-			"name": "Arnautovic",
-			"image": "../assets/img/Austria/DC-Arnautovic.jpg",
-			"role": "attacker"
-}
-	]
+		}
+    ],
+    "rowCounts": {
+		"gk": 1,
+		"defense": 3,
+		"midfield": 4,
+		"cam_lm_rm": 2,
+		"attack": 1
+	}
 }

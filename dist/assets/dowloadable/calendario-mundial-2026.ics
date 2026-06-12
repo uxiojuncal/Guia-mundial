@@ -1,0 +1,1068 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Guia Solidaria//Mundial 2026//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mundial FIFA 2026
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFS
+ ETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3
+ ;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+010
+ 0
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1
+ SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mundial2026-p1@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260611T210000
+DTEND;TZID=Europe/Madrid:20260611T230000
+SUMMARY:🇲🇽 México vs. 🇿🇦 Sudáfrica
+LOCATION:Estadio Azteca (CDMX)
+DESCRIPTION:Grupo A\nEstadio: Estadio Azteca (CDMX)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p2@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260612T040000
+DTEND;TZID=Europe/Madrid:20260612T060000
+SUMMARY:🇰🇷 Corea del Sur vs. 🇨🇿 República Checa
+LOCATION:Estadio Akron (Guadalajara)
+DESCRIPTION:Grupo A\nEstadio: Estadio Akron (Guadalajara)\nHora: 04:00 (mad
+ rugada 11-12)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p3@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260612T210000
+DTEND;TZID=Europe/Madrid:20260612T230000
+SUMMARY:🇨🇦 Canadá vs. 🇧🇦 Bosnia y Herzegovina
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Grupo B\nEstadio: BMO Field (Toronto)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p4@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260613T030000
+DTEND;TZID=Europe/Madrid:20260613T050000
+SUMMARY:🇺🇸 Estados Unidos vs. 🇵🇾 Paraguay
+LOCATION:SoFi Stadium (Los Ángeles)
+DESCRIPTION:Grupo D\nEstadio: SoFi Stadium (Los Ángeles)\nHora: 03:00 (mad
+ rugada 12-13)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p5@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260613T210000
+DTEND;TZID=Europe/Madrid:20260613T230000
+SUMMARY:🇶🇦 Catar vs. 🇨🇭 Suiza
+LOCATION:Levi's Stadium (Santa Clara)
+DESCRIPTION:Grupo B\nEstadio: Levi's Stadium (Santa Clara)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p6@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260614T000000
+DTEND;TZID=Europe/Madrid:20260614T020000
+SUMMARY:🇧🇷 Brasil vs. 🇲🇦 Marruecos
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Grupo C\nEstadio: MetLife Stadium (New Jersey)\nHora: 00:00 (ma
+ drugada 13-14)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p7@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260614T030000
+DTEND;TZID=Europe/Madrid:20260614T050000
+SUMMARY:🇭🇹 Haití vs. 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Grupo C\nEstadio: Gillette Stadium (Boston)\nHora: 03:00 (madru
+ gada 13-14)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p8@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260614T190000
+DTEND;TZID=Europe/Madrid:20260614T210000
+SUMMARY:🇩🇪 Alemania vs. 🇨🇼 Curazao
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Grupo E\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p9@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260614T220000
+DTEND;TZID=Europe/Madrid:20260615T000000
+SUMMARY:🇳🇱 Países Bajos vs. 🇯🇵 Japón
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Grupo F\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p10@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260615T010000
+DTEND;TZID=Europe/Madrid:20260615T030000
+SUMMARY:🇨🇮 Costa de Marfil vs. 🇪🇨 Ecuador
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Grupo E\nEstadio: Lincoln Financial Field (Philadelphia)\nHora:
+  01:00 (madrugada 14-15)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p11@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260615T040000
+DTEND;TZID=Europe/Madrid:20260615T060000
+SUMMARY:🇸🇪 Suecia vs. 🇹🇳 Túnez
+LOCATION:Estadio BBVA (Monterrey)
+DESCRIPTION:Grupo F\nEstadio: Estadio BBVA (Monterrey)\nHora: 04:00 (madrug
+ ada 14-15)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p12@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260615T180000
+DTEND;TZID=Europe/Madrid:20260615T200000
+SUMMARY:🇪🇸 España vs. 🇨🇻 Cabo Verde
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Grupo H\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p13@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260615T210000
+DTEND;TZID=Europe/Madrid:20260615T230000
+SUMMARY:🇧🇪 Bélgica vs. 🇪🇬 Egipto
+LOCATION:Lumen Field (Seattle)
+DESCRIPTION:Grupo G\nEstadio: Lumen Field (Seattle)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p14@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260616T000000
+DTEND;TZID=Europe/Madrid:20260616T020000
+SUMMARY:🇸🇦 Arabia Saudí vs. 🇺🇾 Uruguay
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Grupo H\nEstadio: Hard Rock Stadium (Miami)\nHora: 00:00 (madru
+ gada 15-16)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p15@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260616T030000
+DTEND;TZID=Europe/Madrid:20260616T050000
+SUMMARY:🇮🇷 Irán vs. 🇳🇿 Nueva Zelanda
+LOCATION:SoFi Stadium (Los Ángeles)
+DESCRIPTION:Grupo G\nEstadio: SoFi Stadium (Los Ángeles)\nHora: 03:00 (mad
+ rugada 15-16)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p16@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260616T210000
+DTEND;TZID=Europe/Madrid:20260616T230000
+SUMMARY:🇫🇷 Francia vs. 🇸🇳 Senegal
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Grupo I\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p17@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260617T000000
+DTEND;TZID=Europe/Madrid:20260617T020000
+SUMMARY:🇮🇶 Irak vs. 🇳🇴 Noruega
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Grupo I\nEstadio: Gillette Stadium (Boston)\nHora: 00:00 (madru
+ gada 16-17)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p18@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260617T030000
+DTEND;TZID=Europe/Madrid:20260617T050000
+SUMMARY:🇦🇷 Argentina vs. 🇩🇿 Argelia
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Grupo J\nEstadio: Arrowhead Stadium (Kansas City)\nHora: 03:00 
+ (madrugada 16-17)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p19@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260617T190000
+DTEND;TZID=Europe/Madrid:20260617T210000
+SUMMARY:🇵🇹 Portugal vs. 🇨🇩 RD Congo
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Grupo K\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p20@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260617T220000
+DTEND;TZID=Europe/Madrid:20260618T000000
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs. 🇭🇷 Croacia
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Grupo L\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p21@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260618T010000
+DTEND;TZID=Europe/Madrid:20260618T030000
+SUMMARY:🇬🇭 Ghana vs. 🇵🇦 Panamá
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Grupo L\nEstadio: BMO Field (Toronto)\nHora: 01:00 (madrugada 1
+ 7-18)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p22@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260618T040000
+DTEND;TZID=Europe/Madrid:20260618T060000
+SUMMARY:🇺🇿 Uzbekistán vs. 🇨🇴 Colombia
+LOCATION:Estadio Azteca (CDMX)
+DESCRIPTION:Grupo K\nEstadio: Estadio Azteca (CDMX)\nHora: 04:00 (madrugada
+  17-18)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p23@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260618T180000
+DTEND;TZID=Europe/Madrid:20260618T200000
+SUMMARY:🇨🇿 República Checa vs. 🇿🇦 Sudáfrica
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Grupo A\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p24@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260618T210000
+DTEND;TZID=Europe/Madrid:20260618T230000
+SUMMARY:🇨🇭 Suiza vs. 🇧🇦 Bosnia y Herzegovina
+LOCATION:SoFi Stadium (Los Ángeles)
+DESCRIPTION:Grupo B\nEstadio: SoFi Stadium (Los Ángeles)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p25@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260619T000000
+DTEND;TZID=Europe/Madrid:20260619T020000
+SUMMARY:🇨🇦 Canadá vs. 🇶🇦 Catar
+LOCATION:BC Place (Vancouver)
+DESCRIPTION:Grupo B\nEstadio: BC Place (Vancouver)\nHora: 00:00 (madrugada 
+ 18-19)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p26@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260619T030000
+DTEND;TZID=Europe/Madrid:20260619T050000
+SUMMARY:🇲🇽 México vs. 🇰🇷 Corea del Sur
+LOCATION:Estadio Akron (Guadalajara)
+DESCRIPTION:Grupo A\nEstadio: Estadio Akron (Guadalajara)\nHora: 03:00 (mad
+ rugada 18-19)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p27@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260619T210000
+DTEND;TZID=Europe/Madrid:20260619T230000
+SUMMARY:🇺🇸 Estados Unidos vs. 🇦🇺 Australia
+LOCATION:Lumen Field (Seattle)
+DESCRIPTION:Grupo D\nEstadio: Lumen Field (Seattle)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p28@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260620T000000
+DTEND;TZID=Europe/Madrid:20260620T020000
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs. 🇲🇦 Marruecos
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Grupo C\nEstadio: Gillette Stadium (Boston)\nHora: 00:00 (madru
+ gada 19-20)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p29@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260620T030000
+DTEND;TZID=Europe/Madrid:20260620T050000
+SUMMARY:🇧🇷 Brasil vs. 🇭🇹 Haití
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Grupo C\nEstadio: Lincoln Financial Field (Philadelphia)\nHora:
+  03:00 (madrugada 19-20)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p30@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260620T190000
+DTEND;TZID=Europe/Madrid:20260620T210000
+SUMMARY:🇳🇱 Países Bajos vs. 🇸🇪 Suecia
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Grupo F\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p31@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260620T220000
+DTEND;TZID=Europe/Madrid:20260621T000000
+SUMMARY:🇩🇪 Alemania vs. 🇨🇮 Costa de Marfil
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Grupo E\nEstadio: BMO Field (Toronto)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p32@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260621T060000
+DTEND;TZID=Europe/Madrid:20260621T080000
+SUMMARY:🇹🇳 Túnez vs. 🇯🇵 Japón
+LOCATION:Estadio BBVA (Monterrey)
+DESCRIPTION:Grupo F\nEstadio: Estadio BBVA (Monterrey)\nHora: 06:00 (madrug
+ ada 20-21)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p33@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260621T180000
+DTEND;TZID=Europe/Madrid:20260621T200000
+SUMMARY:🇪🇸 España vs. 🇸🇦 Arabia Saudí
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Grupo H\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p34@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260621T210000
+DTEND;TZID=Europe/Madrid:20260621T230000
+SUMMARY:🇧🇪 Bélgica vs. 🇮🇷 Irán
+LOCATION:SoFi Stadium (Los Ángeles)
+DESCRIPTION:Grupo G\nEstadio: SoFi Stadium (Los Ángeles)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p35@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260622T000000
+DTEND;TZID=Europe/Madrid:20260622T020000
+SUMMARY:🇺🇾 Uruguay vs. 🇨🇻 Cabo Verde
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Grupo H\nEstadio: Hard Rock Stadium (Miami)\nHora: 00:00 (madru
+ gada 21-22)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p36@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260622T020000
+DTEND;TZID=Europe/Madrid:20260622T040000
+SUMMARY:🇪🇨 Ecuador vs. 🇨🇼 Curazao
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Grupo E\nEstadio: Arrowhead Stadium (Kansas City)\nHora: 02:00 
+ (madrugada 21-22)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p37@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260622T190000
+DTEND;TZID=Europe/Madrid:20260622T210000
+SUMMARY:🇦🇷 Argentina vs. 🇦🇹 Austria
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Grupo J\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p38@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260622T230000
+DTEND;TZID=Europe/Madrid:20260623T010000
+SUMMARY:🇫🇷 Francia vs. 🇮🇶 Irak
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Grupo I\nEstadio: Lincoln Financial Field (Philadelphia)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p39@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260623T030000
+DTEND;TZID=Europe/Madrid:20260623T050000
+SUMMARY:🇳🇿 Nueva Zelanda vs. 🇪🇬 Egipto
+LOCATION:BC Place (Vancouver)
+DESCRIPTION:Grupo G\nEstadio: BC Place (Vancouver)\nHora: 03:00 (madrugada 
+ 22-23)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p40@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260623T050000
+DTEND;TZID=Europe/Madrid:20260623T070000
+SUMMARY:🇯🇴 Jordania vs. 🇩🇿 Argelia
+LOCATION:Levi's Stadium (Santa Clara)
+DESCRIPTION:Grupo J\nEstadio: Levi's Stadium (Santa Clara)\nHora: 05:00 (ma
+ drugada 22-23)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p41@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260623T190000
+DTEND;TZID=Europe/Madrid:20260623T210000
+SUMMARY:🇵🇹 Portugal vs. 🇺🇿 Uzbekistán
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Grupo K\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p42@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260623T220000
+DTEND;TZID=Europe/Madrid:20260624T000000
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra vs. 🇬🇭 Ghana
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Grupo L\nEstadio: Gillette Stadium (Boston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p43@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260624T010000
+DTEND;TZID=Europe/Madrid:20260624T030000
+SUMMARY:🇵🇦 Panamá vs. 🇭🇷 Croacia
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Grupo L\nEstadio: BMO Field (Toronto)\nHora: 01:00 (madrugada 2
+ 3-24)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p44@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260624T020000
+DTEND;TZID=Europe/Madrid:20260624T040000
+SUMMARY:🇳🇴 Noruega vs. 🇸🇳 Senegal
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Grupo I\nEstadio: MetLife Stadium (New Jersey)\nHora: 02:00 (ma
+ drugada 23-24)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p45@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260624T040000
+DTEND;TZID=Europe/Madrid:20260624T060000
+SUMMARY:🇨🇴 Colombia vs. 🇨🇩 RD Congo
+LOCATION:Estadio Akron (Guadalajara)
+DESCRIPTION:Grupo K\nEstadio: Estadio Akron (Guadalajara)\nHora: 04:00 (mad
+ rugada 23-24)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p46@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260624T210000
+DTEND;TZID=Europe/Madrid:20260624T230000
+SUMMARY:🇨🇦 Canadá vs. 🇨🇭 Suiza
+LOCATION:BC Place (Vancouver)
+DESCRIPTION:Grupo B\nEstadio: BC Place (Vancouver)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p47@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260624T210000
+DTEND;TZID=Europe/Madrid:20260624T230000
+SUMMARY:🇧🇦 Bosnia y Herzegovina vs. 🇶🇦 Catar
+LOCATION:Lumen Field (Seattle)
+DESCRIPTION:Grupo B\nEstadio: Lumen Field (Seattle)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p48@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T000000
+DTEND;TZID=Europe/Madrid:20260625T020000
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia vs. 🇧🇷 Brasil
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Grupo C\nEstadio: Hard Rock Stadium (Miami)\nHora: 00:00 (madru
+ gada 24-25)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p49@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T000000
+DTEND;TZID=Europe/Madrid:20260625T020000
+SUMMARY:🇲🇦 Marruecos vs. 🇭🇹 Haití
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Grupo C\nEstadio: Mercedes-Benz Stadium (Atlanta)\nHora: 00:00 
+ (madrugada 24-25)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p50@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T030000
+DTEND;TZID=Europe/Madrid:20260625T050000
+SUMMARY:🇲🇽 México vs. 🇨🇿 República Checa
+LOCATION:Estadio Azteca (CDMX)
+DESCRIPTION:Grupo A\nEstadio: Estadio Azteca (CDMX)\nHora: 03:00 (madrugada
+  24-25)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p51@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T030000
+DTEND;TZID=Europe/Madrid:20260625T050000
+SUMMARY:🇿🇦 Sudáfrica vs. 🇰🇷 Corea del Sur
+LOCATION:Estadio BBVA (Monterrey)
+DESCRIPTION:Grupo A\nEstadio: Estadio BBVA (Monterrey)\nHora: 03:00 (madrug
+ ada 24-25)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p52@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T220000
+DTEND;TZID=Europe/Madrid:20260626T000000
+SUMMARY:🇪🇨 Ecuador vs. 🇩🇪 Alemania
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Grupo E\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p53@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260625T220000
+DTEND;TZID=Europe/Madrid:20260626T000000
+SUMMARY:🇨🇼 Curazao vs. 🇨🇮 Costa de Marfil
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Grupo E\nEstadio: Lincoln Financial Field (Philadelphia)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p54@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T010000
+DTEND;TZID=Europe/Madrid:20260626T030000
+SUMMARY:🇹🇳 Túnez vs. 🇳🇱 Países Bajos
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Grupo F\nEstadio: Arrowhead Stadium (Kansas City)\nHora: 01:00 
+ (madrugada 25-26)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p55@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T010000
+DTEND;TZID=Europe/Madrid:20260626T030000
+SUMMARY:🇯🇵 Japón vs. 🇸🇪 Suecia
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Grupo F\nEstadio: AT&T Stadium (Arlington)\nHora: 01:00 (madrug
+ ada 25-26)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p56@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T040000
+DTEND;TZID=Europe/Madrid:20260626T060000
+SUMMARY:🇺🇸 Estados Unidos vs. 🇹🇷 Turquía
+LOCATION:SoFi Stadium (Los Ángeles)
+DESCRIPTION:Grupo D\nEstadio: SoFi Stadium (Los Ángeles)\nHora: 04:00 (mad
+ rugada 25-26)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p57@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T040000
+DTEND;TZID=Europe/Madrid:20260626T060000
+SUMMARY:🇵🇾 Paraguay vs. 🇦🇺 Australia
+LOCATION:Levi's Stadium (Santa Clara)
+DESCRIPTION:Grupo D\nEstadio: Levi's Stadium (Santa Clara)\nHora: 04:00 (ma
+ drugada 25-26)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p58@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T210000
+DTEND;TZID=Europe/Madrid:20260626T230000
+SUMMARY:🇳🇴 Noruega vs. 🇫🇷 Francia
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Grupo I\nEstadio: Gillette Stadium (Boston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p59@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260626T210000
+DTEND;TZID=Europe/Madrid:20260626T230000
+SUMMARY:🇸🇳 Senegal vs. 🇮🇶 Irak
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Grupo I\nEstadio: BMO Field (Toronto)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p60@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260627T020000
+DTEND;TZID=Europe/Madrid:20260627T040000
+SUMMARY:🇺🇾 Uruguay vs. 🇪🇸 España
+LOCATION:Estadio Akron (Guadalajara)
+DESCRIPTION:Grupo H\nEstadio: Estadio Akron (Guadalajara)\nHora: 02:00 (mad
+ rugada 26-27)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p61@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260627T020000
+DTEND;TZID=Europe/Madrid:20260627T040000
+SUMMARY:🇨🇻 Cabo Verde vs. 🇸🇦 Arabia Saudí
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Grupo H\nEstadio: NRG Stadium (Houston)\nHora: 02:00 (madrugada
+  26-27)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p62@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260627T230000
+DTEND;TZID=Europe/Madrid:20260628T010000
+SUMMARY:🇵🇦 Panamá vs. 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Grupo L\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p63@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260627T230000
+DTEND;TZID=Europe/Madrid:20260628T010000
+SUMMARY:🇭🇷 Croacia vs. 🇬🇭 Ghana
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Grupo L\nEstadio: Lincoln Financial Field (Philadelphia)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p64@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260628T013000
+DTEND;TZID=Europe/Madrid:20260628T033000
+SUMMARY:🇨🇴 Colombia vs. 🇵🇹 Portugal
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Grupo K\nEstadio: Hard Rock Stadium (Miami)\nHora: 01:30 (madru
+ gada 27-28)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p65@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260628T013000
+DTEND;TZID=Europe/Madrid:20260628T033000
+SUMMARY:🇨🇩 RD Congo vs. 🇺🇿 Uzbekistán
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Grupo K\nEstadio: Mercedes-Benz Stadium (Atlanta)\nHora: 01:30 
+ (madrugada 27-28)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p66@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260628T040000
+DTEND;TZID=Europe/Madrid:20260628T060000
+SUMMARY:🇯🇴 Jordania vs. 🇦🇷 Argentina
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Grupo J\nEstadio: AT&T Stadium (Arlington)\nHora: 04:00 (madrug
+ ada 27-28)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p67@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260628T040000
+DTEND;TZID=Europe/Madrid:20260628T060000
+SUMMARY:🇩🇿 Argelia vs. 🇦🇹 Austria
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Grupo J\nEstadio: Arrowhead Stadium (Kansas City)\nHora: 04:00 
+ (madrugada 27-28)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p68@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260628T210000
+DTEND;TZID=Europe/Madrid:20260628T230000
+SUMMARY:2º Grupo A vs. 2º Grupo B
+LOCATION:SoFi Stadium (Los Angeles)
+DESCRIPTION:Dieciseisavos\nEstadio: SoFi Stadium (Los Angeles)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p69@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260629T190000
+DTEND;TZID=Europe/Madrid:20260629T210000
+SUMMARY:1º Grupo C vs. 2º Grupo F
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Dieciseisavos\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p70@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260629T223000
+DTEND;TZID=Europe/Madrid:20260630T003000
+SUMMARY:1º Grupo E vs. 3º Grupo A/B/C/D/F
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Dieciseisavos\nEstadio: Gillette Stadium (Boston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p71@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260630T030000
+DTEND;TZID=Europe/Madrid:20260630T050000
+SUMMARY:1º Grupo F vs. 2º Grupo C
+LOCATION:Estadio BBVA (Monterrey)
+DESCRIPTION:Dieciseisavos\nEstadio: Estadio BBVA (Monterrey)\nHora: 03:00 (
+ madrugada 29-30)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p72@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260630T190000
+DTEND;TZID=Europe/Madrid:20260630T210000
+SUMMARY:2º Grupo E vs. 2º Grupo I
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Dieciseisavos\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p73@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260630T230000
+DTEND;TZID=Europe/Madrid:20260701T010000
+SUMMARY:1º Grupo I vs. 3º Grupo C/D/F/G/H
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Dieciseisavos\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p74@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260701T030000
+DTEND;TZID=Europe/Madrid:20260701T050000
+SUMMARY:1º Grupo A vs. 3º Grupo C/E/F/H/I
+LOCATION:Estadio Azteca (CDMX)
+DESCRIPTION:Dieciseisavos\nEstadio: Estadio Azteca (CDMX)\nHora: 03:00 (mad
+ rugada 30-1)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p75@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260701T180000
+DTEND;TZID=Europe/Madrid:20260701T200000
+SUMMARY:1º Grupo L vs. 3º Grupo E/H/I/J/K
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Dieciseisavos\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p76@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260701T220000
+DTEND;TZID=Europe/Madrid:20260702T000000
+SUMMARY:1º Grupo G vs. 3º Grupo A/E/H/I/J
+LOCATION:Lumen Field (Seattle)
+DESCRIPTION:Dieciseisavos\nEstadio: Lumen Field (Seattle)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p77@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260702T010000
+DTEND;TZID=Europe/Madrid:20260702T030000
+SUMMARY:2º Grupo K vs. 2º Grupo L
+LOCATION:BMO Field (Toronto)
+DESCRIPTION:Dieciseisavos\nEstadio: BMO Field (Toronto)\nHora: 01:00 (madru
+ gada 1-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p78@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260702T020000
+DTEND;TZID=Europe/Madrid:20260702T040000
+SUMMARY:1º Grupo D vs. 3º Grupo B/E/F/I/J
+LOCATION:Levi's Stadium (Santa Clara)
+DESCRIPTION:Dieciseisavos\nEstadio: Levi's Stadium (Santa Clara)\nHora: 02:
+ 00 (madrugada 1-2)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p79@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260703T050000
+DTEND;TZID=Europe/Madrid:20260703T070000
+SUMMARY:1º Grupo B vs. 3º Grupo E/F/G/I/J
+LOCATION:BC Place (Vancouver)
+DESCRIPTION:Dieciseisavos\nEstadio: BC Place (Vancouver)\nHora: 05:00 (madr
+ ugada 2-3)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p80@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260702T210000
+DTEND;TZID=Europe/Madrid:20260702T230000
+SUMMARY:1º Grupo H vs. 2º Grupo J
+LOCATION:SoFi Stadium (Los Angeles)
+DESCRIPTION:Dieciseisavos\nEstadio: SoFi Stadium (Los Angeles)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p81@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260704T000000
+DTEND;TZID=Europe/Madrid:20260704T020000
+SUMMARY:1º Grupo J vs. 2º Grupo H
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Dieciseisavos\nEstadio: Hard Rock Stadium (Miami)\nHora: 00:00 
+ (madrugada 3-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p82@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260704T033000
+DTEND;TZID=Europe/Madrid:20260704T053000
+SUMMARY:1º Grupo K vs. 3º Grupo D/E/I/J/L
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Dieciseisavos\nEstadio: Arrowhead Stadium (Kansas City)\nHora: 
+ 03:30 (madrugada 3-4)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p83@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260703T200000
+DTEND;TZID=Europe/Madrid:20260703T220000
+SUMMARY:2º Grupo D vs. 2º Grupo G
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Dieciseisavos\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p84@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260704T190000
+DTEND;TZID=Europe/Madrid:20260704T210000
+SUMMARY:Ganador P73 vs. Ganador P75
+LOCATION:NRG Stadium (Houston)
+DESCRIPTION:Octavos de final\nEstadio: NRG Stadium (Houston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p85@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260704T230000
+DTEND;TZID=Europe/Madrid:20260705T010000
+SUMMARY:Ganador P74 vs. Ganador P77
+LOCATION:Lincoln Financial Field (Philadelphia)
+DESCRIPTION:Octavos de final\nEstadio: Lincoln Financial Field (Philadelphi
+ a)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p86@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260705T220000
+DTEND;TZID=Europe/Madrid:20260706T000000
+SUMMARY:Ganador P76 vs. Ganador P78
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Octavos de final\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p87@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260706T020000
+DTEND;TZID=Europe/Madrid:20260706T040000
+SUMMARY:Ganador P79 vs. Ganador P80
+LOCATION:Estadio Azteca (CDMX)
+DESCRIPTION:Octavos de final\nEstadio: Estadio Azteca (CDMX)\nHora: 02:00 (
+ madrugada 5-6)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p88@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260706T210000
+DTEND;TZID=Europe/Madrid:20260706T230000
+SUMMARY:Ganador P83 vs. Ganador P84
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Octavos de final\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p89@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260707T020000
+DTEND;TZID=Europe/Madrid:20260707T040000
+SUMMARY:Ganador P81 vs. Ganador P82
+LOCATION:Lumen Field (Seattle)
+DESCRIPTION:Octavos de final\nEstadio: Lumen Field (Seattle)\nHora: 02:00 (
+ madrugada 6-7)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p90@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260707T180000
+DTEND;TZID=Europe/Madrid:20260707T200000
+SUMMARY:Ganador P86 vs. Ganador P88
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Octavos de final\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p91@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260707T220000
+DTEND;TZID=Europe/Madrid:20260708T000000
+SUMMARY:Ganador P85 vs. Ganador P87
+LOCATION:BC Place (Vancouver)
+DESCRIPTION:Octavos de final\nEstadio: BC Place (Vancouver)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p92@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260709T220000
+DTEND;TZID=Europe/Madrid:20260710T000000
+SUMMARY:Ganador P89 vs. Ganador P90
+LOCATION:Gillette Stadium (Boston)
+DESCRIPTION:Cuartos de final\nEstadio: Gillette Stadium (Boston)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p93@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260710T210000
+DTEND;TZID=Europe/Madrid:20260710T230000
+SUMMARY:Ganador P93 vs. Ganador P94
+LOCATION:SoFi Stadium (Los Angeles)
+DESCRIPTION:Cuartos de final\nEstadio: SoFi Stadium (Los Angeles)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p94@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260711T230000
+DTEND;TZID=Europe/Madrid:20260712T010000
+SUMMARY:Ganador P91 vs. Ganador P92
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:Cuartos de final\nEstadio: Hard Rock Stadium (Miami)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p95@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260712T030000
+DTEND;TZID=Europe/Madrid:20260712T050000
+SUMMARY:Ganador P95 vs. Ganador P96
+LOCATION:Arrowhead Stadium (Kansas City)
+DESCRIPTION:Cuartos de final\nEstadio: Arrowhead Stadium (Kansas City)\nHor
+ a: 03:00 (madrugada 11-12)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p96@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260714T210000
+DTEND;TZID=Europe/Madrid:20260714T230000
+SUMMARY:Ganador P97 vs. Ganador P98
+LOCATION:AT&T Stadium (Arlington)
+DESCRIPTION:Semifinal\nEstadio: AT&T Stadium (Arlington)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p97@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260715T210000
+DTEND;TZID=Europe/Madrid:20260715T230000
+SUMMARY:Ganador P99 vs. Ganador P100
+LOCATION:Mercedes-Benz Stadium (Atlanta)
+DESCRIPTION:Semifinal\nEstadio: Mercedes-Benz Stadium (Atlanta)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p98@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260718T230000
+DTEND;TZID=Europe/Madrid:20260719T010000
+SUMMARY:Perdedor S1 vs. Perdedor S2
+LOCATION:Hard Rock Stadium (Miami)
+DESCRIPTION:3º puesto\nEstadio: Hard Rock Stadium (Miami)
+END:VEVENT
+BEGIN:VEVENT
+UID:mundial2026-p99@guiasolidaria
+DTSTAMP:20260601T105538Z
+SEQUENCE:1780311338
+DTSTART;TZID=Europe/Madrid:20260719T210000
+DTEND;TZID=Europe/Madrid:20260719T230000
+SUMMARY:Ganador S1 vs. Ganador S2
+LOCATION:MetLife Stadium (New Jersey)
+DESCRIPTION:Final\nEstadio: MetLife Stadium (New Jersey)
+END:VEVENT
+END:VCALENDAR

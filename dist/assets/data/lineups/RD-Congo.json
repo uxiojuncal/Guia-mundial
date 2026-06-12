@@ -1,70 +1,70 @@
 {
-	"rows": ["attack", "midfield", "cdm", "defense", "gk"],
+	"rows": ["striker", "cam_lm_rm", "cdm", "defense", "gk"],
 	"players": [
 		{
 			"row": "gk",
-			"name": "Nematov",
-			"image": "../assets/img/Uzbekistan/POR-Nematov.jpg",
+			"name": "Mpasi-Nzau",
+			"image": "../assets/img/RDCongo/POR-MpasiNzau.jpg",
 			"role": "goalkeeper"
 		},
 		{
 			"row": "defense",
-			"name": "Khusanov",
-			"image":  "../assets/img/Uzbekistan/DFCD-Khusanov.jpg",
+			"name": "Wan-Bissaka",
+			"image": "../assets/img/RDCongo/LD-WanBissaka.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Ashurmatov",
-			"image": "../assets/img/Uzbekistan/DFC-Ashurmatov.jpg",
+			"name": "Tuanzebe",
+			"image": "../assets/img/RDCongo/DFC-Tuanzebe.jpg",
 			"role": "defender"
 		},
 		{
 			"row": "defense",
-			"name": "Abdullaev",
-			"image": "../assets/img/Uzbekistan/DFCI-Abdullaev.jpg",
+			"name": "Mbemba",
+			"image": "../assets/img/RDCongo/DFC-Mbemba.jpg",
 			"role": "defender"
 		},
-		{	
-"row": "cdm",
-			"name": "Alizhonov",
-			"image": "../assets/img/Uzbekistan/MD-Alizhonov.jpg",
-			"role": "midfielder"
-				},
 		{
-			"row": "cdm",
-			"name": "Khamrobekov",
-			"image": "../assets/img/Uzbekistan/MC-Khamrobekov.jpg",
-			"role": "midfielder"
+			"row": "defense",
+			"name": "Masuaku",
+			"image": "../assets/img/RDCongo/LI-Masuaku.jpg",
+			"role": "defender"
 		},
 		{
 			"row": "cdm",
-			"name": "Shukurov",
-			"image": "../assets/img/Uzbekistan/MC-Shukurov.jpg",
+			"name": "Moutoussamy",
+			"image": "../assets/img/RDCongo/CDM-Moutoussamy.jpg",
 			"role": "midfielder"
 		},
 		{
 			"row": "cdm",
-			"name": "Sayfiev",
-			"image": "../assets/img/Uzbekistan/MI-Sayfiev.jpg",
+			"name": "Sadiki",
+			"image": "../assets/img/RDCongo/CDM-Sadiki.jpg",
 			"role": "midfielder"
 		},
 		{
-			"row": "midfield",
-			"name": "Fayzullaev",
-			"image": "../assets/img/Uzbekistan/MCOD-Fayzullaev.jpg",
-			"role": "midfielder"
-	},
-		{
-			"row": "midfield",
-			"name": "Urunov",
-			"image": "../assets/img/Uzbekistan/MCOI-Urunov.jpg",
-			"role": "midfielder"
+			"row": "cam_lm_rm",
+			"name": "Elia",
+			"image": "../assets/img/RDCongo/MD-Elia.jpg",
+			"role": "attacker"
 		},
 		{
-			"row": "attack",
-			"name": "Shomurodov",
-			"image": "../assets/img/Uzbekistan/DC-Shomurodov.jpg",
+			"row": "cam_lm_rm",
+			"name": "Wissa",
+			"image": "../assets/img/RDCongo/MCO-Wissa.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "cam_lm_rm",
+			"name": "Bongonda",
+			"image": "../assets/img/RDCongo/MI-Bongonda.jpg",
+			"role": "attacker"
+		},
+		{
+			"row": "striker",
+			"name": "Bakambu",
+			"image": "../assets/img/RDCongo/DC-Bakambu.jpg",
 			"role": "attacker"
 		}
 	]

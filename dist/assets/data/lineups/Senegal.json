@@ -50,7 +50,7 @@
 			"role": "midfielder"
 		},
 		{
-			"row": "cam_lm_rm",
+			"row": "striker",
 			"name": "I. Sarr",
 			"image": "../assets/img/Senegal/ED-ISarr.jpg",
 			"role": "attacker"
@@ -62,7 +62,7 @@
 			"role": "attacker"
     },
 		{
-			"row": "cam_lm_rm",
+			"row": "striker",
 			"name": "Mané",
 			"image": "../assets/img/Senegal/EI-Mane.jpg",
 			"role": "attacker"
