@@ -250,6 +250,10 @@ img.download-icon {
     img.guide-title {
         width: 100%;
     }
+
+    .group{
+        margin: 5%;
+    }
 }
 
 @media (max-width: 600px) {

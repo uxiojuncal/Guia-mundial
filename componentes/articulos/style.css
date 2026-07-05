@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* Local self-hosted font: TAN Buster (placed in ./fonts/TAN-Buster-Font/) */
+@font-face {
+    font-family: 'TAN Buster';
+	src: url('../../dist/assets/fonts/TAN-Buster-Font/TAN-BUSTER-Regular.woff2') format('woff2'),
+			 url('../../dist/assets/fonts/TAN-Buster-Font/TAN-BUSTER-Regular.ttf') format('truetype'),
+			 url('../../dist/assets/fonts/TAN-Buster-Font/TAN-BUSTER-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root {
+    --border-radius: 25px;
+    --corner-top-outlayer: -5px;
+    --corner-bottom-outlayer: 5px;
+    --red: #c70f0f;
+    --blue: #2c3a7a;
+    --green: #13a15d;
+    --dark-green: #27600a;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "TAN Buster", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-family: "TAN Buster", sans-serif;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: "TAN Buster", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+section {
+    max-width: 800px;
+    padding: 0 16px;
+    margin-bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+img.ts {
+    padding: 0;
+    border: none;
+}
+
+img {
+    border: 2px solid var(--blue);
+    padding: 10%;
+    border-radius: var(--border-radius);
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: var(--blue);
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+p.small {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img.stc-logo {
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color:hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(10px);
+    border-top: solid 1px grey;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    color: black;
+    margin: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socials, .legals {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.socials {
+    text-align: left;
+    width: 50%;
+}
+
+.legals {
+    text-align: right;
+    width: 50%;
+}
+
+.legals > * {
+    align-self: flex-end;
+}
+
+a.footer, p.footer {
+    width: auto;
+    padding: 1%;
+    margin: 1%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section {
+	margin-top: 50px;
+}
+
+h2 {
+	margin-top: 100px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+}
